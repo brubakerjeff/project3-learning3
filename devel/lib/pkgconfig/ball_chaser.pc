@@ -1,0 +1,8 @@
+prefix=/home/robond/project3-learning/devel
+
+Name: ball_chaser
+Description: Description of ball_chaser
+Version: 0.0.0
+Cflags: -I/home/robond/project3-learning/devel/include
+Libs: -L/home/robond/project3-learning/devel/lib 
+Requires: 

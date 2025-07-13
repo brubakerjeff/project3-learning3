@@ -1,0 +1,25 @@
+[rospy.client][INFO] 2017-07-03 14:24:01,446: init_node, name[/sensor_stick/spawner], pid[4584]
+[xmlrpc][INFO] 2017-07-03 14:24:01,446: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-07-03 14:24:01,447: Started XML-RPC server [http://udacity:44825/]
+[rospy.impl.masterslave][INFO] 2017-07-03 14:24:01,447: _ready: http://udacity:44825/
+[rospy.init][INFO] 2017-07-03 14:24:01,448: ROS Slave URI: [http://udacity:44825/]
+[rospy.registration][INFO] 2017-07-03 14:24:01,449: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2017-07-03 14:24:01,450: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2017-07-03 14:24:01,548: registered with master
+[rospy.rosout][INFO] 2017-07-03 14:24:01,549: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-07-03 14:24:01,551: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-07-03 14:24:01,553: initializing /clock core topic
+[rospy.simtime][INFO] 2017-07-03 14:24:01,556: connected to core topic /clock
+[rosout][INFO] 2017-07-03 14:24:01,559: Controller Spawner: Waiting for service controller_manager/load_controller
+[rospy.internal][INFO] 2017-07-03 14:24:01,804: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2017-07-03 14:24:03,931: topic[/clock] adding connection to [http://udacity:37601/], count 0
+[rosout][WARNING] 2017-07-03 14:24:31,774: Controller Spawner couldn't find the expected controller_manager ROS interface.
+[rospy.core][INFO] 2017-07-03 14:24:31,775: signal_shutdown [atexit]
+[rospy.internal][INFO] 2017-07-03 14:24:31,780: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2017-07-03 14:24:31,781: topic[/clock] removing connection to http://udacity:37601/
+[rospy.impl.masterslave][INFO] 2017-07-03 14:24:31,781: atexit
+[rospy.internal][WARNING] 2017-07-03 14:24:31,784: Unknown error initiating TCP/IP socket to udacity:56221 (http://udacity:37601/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+

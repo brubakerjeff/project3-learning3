@@ -1,0 +1,74 @@
+[rospy.client][INFO] 2017-07-05 11:46:32,154: init_node, name[/sensor_stick/spawner], pid[5959]
+[xmlrpc][INFO] 2017-07-05 11:46:32,155: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-07-05 11:46:32,155: Started XML-RPC server [http://udacity:36437/]
+[rospy.impl.masterslave][INFO] 2017-07-05 11:46:32,155: _ready: http://udacity:36437/
+[rospy.init][INFO] 2017-07-05 11:46:32,156: ROS Slave URI: [http://udacity:36437/]
+[xmlrpc][INFO] 2017-07-05 11:46:32,156: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2017-07-05 11:46:32,157: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2017-07-05 11:46:32,256: registered with master
+[rospy.rosout][INFO] 2017-07-05 11:46:32,256: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-07-05 11:46:32,259: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-07-05 11:46:32,260: initializing /clock core topic
+[rospy.simtime][INFO] 2017-07-05 11:46:32,263: connected to core topic /clock
+[rosout][INFO] 2017-07-05 11:46:32,268: Controller Spawner: Waiting for service controller_manager/load_controller
+[rospy.internal][INFO] 2017-07-05 11:46:32,524: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2017-07-05 11:46:34,544: topic[/clock] adding connection to [http://udacity:46393/], count 0
+[rosout][INFO] 2017-07-05 11:46:37,110: Controller Spawner: Waiting for service controller_manager/switch_controller
+[rosout][INFO] 2017-07-05 11:46:37,113: Controller Spawner: Waiting for service controller_manager/unload_controller
+[rosout][INFO] 2017-07-05 11:46:37,116: Loading controller: joint_state_controller
+[rosout][INFO] 2017-07-05 11:46:37,296: Loading controller: pan_position_controller
+[rosout][INFO] 2017-07-05 11:46:37,502: Loading controller: tilt_position_controller
+[rosout][INFO] 2017-07-05 11:46:37,515: Controller Spawner: Loaded controllers: joint_state_controller, pan_position_controller, tilt_position_controller
+[rosout][INFO] 2017-07-05 11:46:37,519: Started controllers: joint_state_controller, pan_position_controller, tilt_position_controller
+[rospy.core][INFO] 2017-07-05 11:48:11,849: signal_shutdown [signal-2]
+[rosout][INFO] 2017-07-05 11:48:11,849: Shutting down spawner. Stopping and unloading controllers...
+[rospy.internal][ERROR] 2017-07-05 11:48:12,212: Unable to initiate TCP/IP socket to udacity:58433 (http://udacity:46393/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/clock] from [TCPROS connection on port 58433 to [127.0.0.1:42998 on socket 16]] [/sensor_stick/spawner].
+
+[rosout][INFO] 2017-07-05 11:48:12,853: Stopping all controllers...
+[rospy.internal][ERROR] 2017-07-05 11:48:13,214: Unable to initiate TCP/IP socket to udacity:58433 (http://udacity:46393/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/clock] from [TCPROS connection on port 58433 to [127.0.0.1:43084 on socket 16]] [/sensor_stick/spawner].
+
+[rospy.internal][ERROR] 2017-07-05 11:48:15,215: Unable to initiate TCP/IP socket to udacity:58433 (http://udacity:46393/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/clock] from [TCPROS connection on port 58433 to [127.0.0.1:43086 on socket 16]] [/sensor_stick/spawner].
+
+[rospy.internal][ERROR] 2017-07-05 11:48:19,217: Unable to initiate TCP/IP socket to udacity:58433 (http://udacity:46393/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/clock] from [TCPROS connection on port 58433 to [127.0.0.1:43088 on socket 16]] [/sensor_stick/spawner].
+
+[rospy.core][INFO] 2017-07-05 11:48:26,904: signal_shutdown [signal-15]
+[rospy.internal][ERROR] 2017-07-05 11:48:26,904: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 729, in receive_once
+    self.stat_bytes += recv_buff(sock, b, p.buff_size)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 103, in recv_buff
+    d = sock.recv(buff_size)
+error: [Errno 4] Interrupted system call
+
+[rosout][WARNING] 2017-07-05 11:48:26,905: Controller Spawner couldn't reach controller_manager to take down controllers. Waited for 30 second(s).
+[rospy.internal][INFO] 2017-07-05 11:48:26,910: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2017-07-05 11:48:26,910: topic[/clock] removing connection to http://udacity:46393/
+[rospy.impl.masterslave][INFO] 2017-07-05 11:48:26,910: signal-2
+[rospy.core][INFO] 2017-07-05 11:48:27,043: signal_shutdown [atexit]

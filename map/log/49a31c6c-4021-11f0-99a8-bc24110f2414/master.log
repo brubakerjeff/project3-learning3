@@ -1,0 +1,136 @@
+[rosmaster.main][INFO] 2025-06-02 19:20:16,434: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2025-06-02 19:20:16,434: Starting ROS Master Node
+[xmlrpc][INFO] 2025-06-02 19:20:16,435: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2025-06-02 19:20:16,435: Started XML-RPC server [http://192.168.1.124:11311/]
+[rosmaster.master][INFO] 2025-06-02 19:20:16,435: Master initialized: port[11311], uri[http://192.168.1.124:11311/]
+[xmlrpc][INFO] 2025-06-02 19:20:16,435: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2025-06-02 19:20:16,535: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2025-06-02 19:20:16,536: +PARAM [/roslaunch/uris/host_192_168_1_124__43919] by /roslaunch
+[rosmaster.master][INFO] 2025-06-02 19:20:16,563: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2025-06-02 19:20:16,564: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2025-06-02 19:20:16,567: +SERVICE [/rosout/get_loggers] /rosout http://192.168.1.124:41395/
+[rosmaster.master][INFO] 2025-06-02 19:20:16,567: +SERVICE [/rosout/set_logger_level] /rosout http://192.168.1.124:41395/
+[rosmaster.master][INFO] 2025-06-02 19:20:16,579: +PUB [/rosout_agg] /rosout http://192.168.1.124:41395/
+[rosmaster.master][INFO] 2025-06-02 19:20:16,582: +SUB [/rosout] /rosout http://192.168.1.124:41395/
+[rosmaster.master][INFO] 2025-06-02 19:21:24,689: +PARAM [/roslaunch/uris/host_192_168_1_124__43839] by /roslaunch
+[rosmaster.master][INFO] 2025-06-02 19:21:24,692: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2025-06-02 19:21:24,692: +PARAM [/joint_state_publisher/use_gui] by /roslaunch
+[rosmaster.master][INFO] 2025-06-02 19:21:24,693: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2025-06-02 19:21:24,693: +PARAM [/robot_description] by /roslaunch
+[rosmaster.master][INFO] 2025-06-02 19:21:24,693: +PARAM [/use_sim_time] by /roslaunch
+[rosmaster.master][INFO] 2025-06-02 19:21:24,733: +PUB [/rosout] /robot_state_publisher http://192.168.1.124:42609/
+[rosmaster.master][INFO] 2025-06-02 19:21:24,734: +SERVICE [/robot_state_publisher/get_loggers] /robot_state_publisher http://192.168.1.124:42609/
+[rosmaster.master][INFO] 2025-06-02 19:21:24,734: +SERVICE [/robot_state_publisher/set_logger_level] /robot_state_publisher http://192.168.1.124:42609/
+[rosmaster.master][INFO] 2025-06-02 19:21:24,760: +SUB [/clock] /robot_state_publisher http://192.168.1.124:42609/
+[rosmaster.master][INFO] 2025-06-02 19:21:24,762: +PUB [/tf] /robot_state_publisher http://192.168.1.124:42609/
+[rosmaster.master][INFO] 2025-06-02 19:21:24,767: +PUB [/tf_static] /robot_state_publisher http://192.168.1.124:42609/
+[rosmaster.master][INFO] 2025-06-02 19:21:24,771: publisherUpdate[/rosout] -> http://192.168.1.124:41395/ ['http://192.168.1.124:42609/']
+[rosmaster.master][INFO] 2025-06-02 19:21:24,773: publisherUpdate[/rosout] -> http://192.168.1.124:41395/ ['http://192.168.1.124:42609/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-06-02 19:21:24,788: +SUB [/joint_states] /robot_state_publisher http://192.168.1.124:42609/
+[rosmaster.master][INFO] 2025-06-02 19:21:24,803: +PUB [/rosout] /rviz http://192.168.1.124:39655/
+[rosmaster.master][INFO] 2025-06-02 19:21:24,806: +SERVICE [/rviz/get_loggers] /rviz http://192.168.1.124:39655/
+[rosmaster.master][INFO] 2025-06-02 19:21:24,814: +SERVICE [/rviz/set_logger_level] /rviz http://192.168.1.124:39655/
+[rosmaster.master][INFO] 2025-06-02 19:21:24,842: +SUB [/clock] /rviz http://192.168.1.124:39655/
+[rosmaster.master][INFO] 2025-06-02 19:21:24,871: publisherUpdate[/rosout] -> http://192.168.1.124:41395/ ['http://192.168.1.124:42609/', 'http://192.168.1.124:39655/']
+[rosmaster.master][INFO] 2025-06-02 19:21:24,872: publisherUpdate[/rosout] -> http://192.168.1.124:41395/ ['http://192.168.1.124:42609/', 'http://192.168.1.124:39655/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-06-02 19:21:24,886: +PUB [/rosout] /joint_state_publisher http://192.168.1.124:39723/
+[rosmaster.master][INFO] 2025-06-02 19:21:24,894: +SUB [/clock] /joint_state_publisher http://192.168.1.124:39723/
+[rosmaster.master][INFO] 2025-06-02 19:21:24,903: +SERVICE [/joint_state_publisher/get_loggers] /joint_state_publisher http://192.168.1.124:39723/
+[rosmaster.master][INFO] 2025-06-02 19:21:24,903: +SERVICE [/joint_state_publisher/set_logger_level] /joint_state_publisher http://192.168.1.124:39723/
+[rosmaster.master][INFO] 2025-06-02 19:21:24,931: +PUB [/joint_states] /joint_state_publisher http://192.168.1.124:39723/
+[rosmaster.master][INFO] 2025-06-02 19:21:24,945: +SUB [/tf] /rviz http://192.168.1.124:39655/
+[rosmaster.master][INFO] 2025-06-02 19:21:24,948: +SUB [/tf_static] /rviz http://192.168.1.124:39655/
+[rosmaster.master][INFO] 2025-06-02 19:21:24,972: publisherUpdate[/rosout] -> http://192.168.1.124:41395/ ['http://192.168.1.124:42609/', 'http://192.168.1.124:39655/', 'http://192.168.1.124:39723/']
+[rosmaster.master][INFO] 2025-06-02 19:21:24,973: publisherUpdate[/rosout] -> http://192.168.1.124:41395/ ['http://192.168.1.124:42609/', 'http://192.168.1.124:39655/', 'http://192.168.1.124:39723/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-06-02 19:21:24,973: publisherUpdate[/joint_states] -> http://192.168.1.124:42609/ ['http://192.168.1.124:39723/']
+[rosmaster.master][INFO] 2025-06-02 19:21:24,973: publisherUpdate[/joint_states] -> http://192.168.1.124:42609/ ['http://192.168.1.124:39723/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-06-02 19:21:25,016: +PUB [/initialpose] /rviz http://192.168.1.124:39655/
+[rosmaster.master][INFO] 2025-06-02 19:21:25,017: +PUB [/goal] /rviz http://192.168.1.124:39655/
+[rosmaster.master][INFO] 2025-06-02 19:21:25,042: -PUB [/goal] /rviz http://192.168.1.124:39655/
+[rosmaster.master][INFO] 2025-06-02 19:21:25,043: -PUB [/initialpose] /rviz http://192.168.1.124:39655/
+[rosmaster.master][INFO] 2025-06-02 19:21:25,045: +PUB [/initialpose] /rviz http://192.168.1.124:39655/
+[rosmaster.master][INFO] 2025-06-02 19:21:25,046: +PUB [/goal] /rviz http://192.168.1.124:39655/
+[rosmaster.master][INFO] 2025-06-02 19:21:25,047: +PUB [/move_base_simple/goal] /rviz http://192.168.1.124:39655/
+[rosmaster.master][INFO] 2025-06-02 19:21:25,047: -PUB [/goal] /rviz http://192.168.1.124:39655/
+[rosmaster.master][INFO] 2025-06-02 19:21:25,048: +PUB [/clicked_point] /rviz http://192.168.1.124:39655/
+[rosmaster.master][INFO] 2025-06-02 19:21:25,048: +PUB [/rosout] /urdf_spawner http://192.168.1.124:32883/
+[rosmaster.master][INFO] 2025-06-02 19:21:25,051: +SUB [/clock] /urdf_spawner http://192.168.1.124:32883/
+[rosmaster.master][INFO] 2025-06-02 19:21:25,053: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://192.168.1.124:32883/
+[rosmaster.master][INFO] 2025-06-02 19:21:25,054: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://192.168.1.124:32883/
+[rosmaster.master][INFO] 2025-06-02 19:21:25,071: +SERVICE [/rviz/reload_shaders] /rviz http://192.168.1.124:39655/
+[rosmaster.master][INFO] 2025-06-02 19:21:25,073: publisherUpdate[/rosout] -> http://192.168.1.124:41395/ ['http://192.168.1.124:42609/', 'http://192.168.1.124:39655/', 'http://192.168.1.124:39723/', 'http://192.168.1.124:32883/']
+[rosmaster.master][INFO] 2025-06-02 19:21:25,074: publisherUpdate[/rosout] -> http://192.168.1.124:41395/ ['http://192.168.1.124:42609/', 'http://192.168.1.124:39655/', 'http://192.168.1.124:39723/', 'http://192.168.1.124:32883/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-06-02 19:21:38,605: -SUB [/clock] /urdf_spawner http://192.168.1.124:32883/
+[rosmaster.master][INFO] 2025-06-02 19:21:38,605: -PUB [/rosout] /urdf_spawner http://192.168.1.124:32883/
+[rosmaster.master][INFO] 2025-06-02 19:21:38,605: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://192.168.1.124:33729
+[rosmaster.master][INFO] 2025-06-02 19:21:38,605: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://192.168.1.124:33729
+[rosmaster.master][INFO] 2025-06-02 19:21:38,607: -SUB [/clock] /joint_state_publisher http://192.168.1.124:39723/
+[rosmaster.master][INFO] 2025-06-02 19:21:38,607: -PUB [/joint_states] /joint_state_publisher http://192.168.1.124:39723/
+[rosmaster.master][INFO] 2025-06-02 19:21:38,607: -PUB [/rosout] /joint_state_publisher http://192.168.1.124:39723/
+[rosmaster.master][INFO] 2025-06-02 19:21:38,607: -SERVICE [/joint_state_publisher/get_loggers] /joint_state_publisher rosrpc://192.168.1.124:46635
+[rosmaster.master][INFO] 2025-06-02 19:21:38,607: -SERVICE [/joint_state_publisher/set_logger_level] /joint_state_publisher rosrpc://192.168.1.124:46635
+[rosmaster.master][INFO] 2025-06-02 19:21:38,692: publisherUpdate[/rosout] -> http://192.168.1.124:41395/ ['http://192.168.1.124:42609/', 'http://192.168.1.124:39655/', 'http://192.168.1.124:39723/']
+[rosmaster.master][INFO] 2025-06-02 19:21:38,693: publisherUpdate[/joint_states] -> http://192.168.1.124:42609/ []
+[rosmaster.master][INFO] 2025-06-02 19:21:38,693: publisherUpdate[/rosout] -> http://192.168.1.124:41395/ ['http://192.168.1.124:42609/', 'http://192.168.1.124:39655/', 'http://192.168.1.124:39723/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-06-02 19:21:38,693: publisherUpdate[/rosout] -> http://192.168.1.124:41395/ ['http://192.168.1.124:42609/', 'http://192.168.1.124:39655/']
+[rosmaster.master][INFO] 2025-06-02 19:21:38,694: -PUB [/rosout] /robot_state_publisher http://192.168.1.124:42609/
+[rosmaster.master][INFO] 2025-06-02 19:21:38,694: publisherUpdate[/rosout] -> http://192.168.1.124:41395/ ['http://192.168.1.124:42609/', 'http://192.168.1.124:39655/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-06-02 19:21:38,694: publisherUpdate[/rosout] -> http://192.168.1.124:41395/ ['http://192.168.1.124:39655/']
+[rosmaster.master][INFO] 2025-06-02 19:21:38,695: publisherUpdate[/rosout] -> http://192.168.1.124:41395/ ['http://192.168.1.124:39655/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-06-02 19:21:38,695: -PUB [/tf] /robot_state_publisher http://192.168.1.124:42609/
+[rosmaster.master][INFO] 2025-06-02 19:21:38,695: publisherUpdate[/tf] -> http://192.168.1.124:39655/ []
+[rosmaster.master][INFO] 2025-06-02 19:21:38,696: -PUB [/tf_static] /robot_state_publisher http://192.168.1.124:42609/
+[rosmaster.master][INFO] 2025-06-02 19:21:38,696: publisherUpdate[/tf] -> http://192.168.1.124:39655/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-06-02 19:21:38,696: -SUB [/clock] /robot_state_publisher http://192.168.1.124:42609/
+[rosmaster.master][INFO] 2025-06-02 19:21:38,696: publisherUpdate[/tf_static] -> http://192.168.1.124:39655/ []
+[rosmaster.master][INFO] 2025-06-02 19:21:38,697: publisherUpdate[/tf_static] -> http://192.168.1.124:39655/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-06-02 19:21:38,697: -SUB [/joint_states] /robot_state_publisher http://192.168.1.124:42609/
+[rosmaster.master][INFO] 2025-06-02 19:21:38,698: -SERVICE [/robot_state_publisher/get_loggers] /robot_state_publisher rosrpc://192.168.1.124:43229
+[rosmaster.master][INFO] 2025-06-02 19:21:38,698: -SERVICE [/robot_state_publisher/set_logger_level] /robot_state_publisher rosrpc://192.168.1.124:43229
+[rosmaster.master][INFO] 2025-06-02 19:21:38,703: publisherUpdate[/joint_states] -> http://192.168.1.124:42609/ []: sec=0.01, exception=[Errno 111] Connection refused
+[rosmaster.threadpool][ERROR] 2025-06-02 19:21:38,704: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1099, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 913, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 875, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 852, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+
+[rosmaster.master][INFO] 2025-06-02 19:21:38,798: -PUB [/rosout] /rviz http://192.168.1.124:39655/
+[rosmaster.master][INFO] 2025-06-02 19:21:38,798: -PUB [/initialpose] /rviz http://192.168.1.124:39655/
+[rosmaster.master][INFO] 2025-06-02 19:21:38,799: -PUB [/move_base_simple/goal] /rviz http://192.168.1.124:39655/
+[rosmaster.master][INFO] 2025-06-02 19:21:38,799: -PUB [/clicked_point] /rviz http://192.168.1.124:39655/
+[rosmaster.master][INFO] 2025-06-02 19:21:38,800: -SUB [/clock] /rviz http://192.168.1.124:39655/
+[rosmaster.master][INFO] 2025-06-02 19:21:38,800: -SUB [/tf] /rviz http://192.168.1.124:39655/
+[rosmaster.master][INFO] 2025-06-02 19:21:38,801: -SUB [/tf_static] /rviz http://192.168.1.124:39655/
+[rosmaster.master][INFO] 2025-06-02 19:21:38,801: -SERVICE [/rviz/get_loggers] /rviz rosrpc://192.168.1.124:47063
+[rosmaster.master][INFO] 2025-06-02 19:21:38,802: -SERVICE [/rviz/set_logger_level] /rviz rosrpc://192.168.1.124:47063
+[rosmaster.master][INFO] 2025-06-02 19:21:38,802: -SERVICE [/rviz/reload_shaders] /rviz rosrpc://192.168.1.124:47063
+[rosmaster.master][INFO] 2025-06-02 19:21:38,804: publisherUpdate[/rosout] -> http://192.168.1.124:41395/ []
+[rosmaster.master][INFO] 2025-06-02 19:21:38,804: publisherUpdate[/rosout] -> http://192.168.1.124:41395/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-06-02 19:21:41,610: -PUB [/rosout_agg] /rosout http://192.168.1.124:41395/
+[rosmaster.master][INFO] 2025-06-02 19:21:41,610: -SUB [/rosout] /rosout http://192.168.1.124:41395/
+[rosmaster.master][INFO] 2025-06-02 19:21:41,611: -SERVICE [/rosout/get_loggers] /rosout rosrpc://192.168.1.124:36545
+[rosmaster.master][INFO] 2025-06-02 19:21:41,611: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://192.168.1.124:36545
+[rosmaster.main][INFO] 2025-06-02 19:21:41,698: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2025-06-02 19:21:41,698: stopping master...
+[rospy.core][INFO] 2025-06-02 19:21:41,698: signal_shutdown [atexit]

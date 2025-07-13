@@ -1,0 +1,6 @@
+
+
+0.000000000  Node Startup
+0.000000000 INFO [/tmp/binarydeb/ros-kinetic-rviz-1.12.17/src/rviz/ogre_helpers/render_system.cpp:222(RenderSystem::detectGlVersion) [topics: /rosout] OpenGl version: 3 (GLSL 1.3).
+0.000000000 INFO [/tmp/binarydeb/ros-kinetic-roscpp-1.12.17/src/libros/service.cpp:80(service::exists) [topics: /rosout] waitForService: Service [/gazebo/set_physics_properties] has not been advertised, waiting...
+0.000000000 INFO [gazebo_interface.py:27(spawn_urdf_model_client) [topics: /clock, /rosout] Waiting for service /gazebo/spawn_urdf_model

@@ -1,0 +1,15 @@
+[rospy.client][INFO] 2025-06-11 18:52:02,883: init_node, name[/joint_state_publisher], pid[3814]
+[xmlrpc][INFO] 2025-06-11 18:52:02,884: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2025-06-11 18:52:02,884: Started XML-RPC server [http://192.168.1.124:44751/]
+[rospy.impl.masterslave][INFO] 2025-06-11 18:52:02,884: _ready: http://192.168.1.124:44751/
+[xmlrpc][INFO] 2025-06-11 18:52:02,886: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-06-11 18:52:02,886: ROS Slave URI: [http://192.168.1.124:44751/]
+[rospy.registration][INFO] 2025-06-11 18:52:02,886: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2025-06-11 18:52:02,987: registered with master
+[rospy.rosout][INFO] 2025-06-11 18:52:02,987: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-06-11 18:52:02,988: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-06-11 18:52:02,989: initializing /clock core topic
+[rospy.simtime][INFO] 2025-06-11 18:52:02,991: connected to core topic /clock
+[rospy.internal][INFO] 2025-06-11 18:52:03,007: topic[/clock] adding connection to [http://192.168.1.124:36593/], count 0
+[rospy.internal][INFO] 2025-06-11 18:52:03,269: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2025-06-11 18:52:03,270: topic[/joint_states] adding connection to [/robot_state_publisher], count 0

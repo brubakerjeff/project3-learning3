@@ -1,0 +1,11 @@
+[0m[ INFO] [1499648146.734886809]: Loading robot model 'kuka_arm'...[0m
+[0m[ INFO] [1499648147.103815106]: Loading robot model 'kuka_arm'...[0m
+[0m[ INFO] [1499648149.363419567, 1081.296000000]: Ready to take commands for planning group arm_group.[0m
+[0m[ INFO] [1499648149.743233365, 1081.618000000]: Ready to take commands for planning group gripper_group.[0m
+[0m[ INFO] [1499648149.750264684, 1081.623000000]: Loading robot model 'kuka_arm'...[0m
+[0m[ INFO] [1499648149.928659940, 1081.765000000]: Loading robot model 'kuka_arm'...[0m
+[0m[ INFO] [1499648150.169514907, 1081.989000000]: Added object list to the world[0m
+[0m[ INFO] [1499648151.627596164, 1083.194000000]: RemoteControl Ready.[0m
+[33m[ WARN] [1499648152.199334770, 1083.699000000]: Topic '/rviz_visual_tools' unable to connect to any subscribers within 0.5 sec. It is possible initially published visual messages will be lost.[0m
+
+[96mWaiting to continue: next step[0m

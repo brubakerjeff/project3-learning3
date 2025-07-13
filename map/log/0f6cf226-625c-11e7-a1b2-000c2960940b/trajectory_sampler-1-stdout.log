@@ -1,0 +1,77 @@
+[0m[ INFO] [1499353324.549298971]: Loading robot model 'kuka_arm'...[0m
+[0m[ INFO] [1499353324.722161128]: Loading robot model 'kuka_arm'...[0m
+[0m[ INFO] [1499353327.337940423, 1081.980000000]: Ready to take commands for planning group arm_group.[0m
+[0m[ INFO] [1499353327.672406591, 1082.229000000]: Ready to take commands for planning group gripper_group.[0m
+[0m[ INFO] [1499353327.676962337, 1082.232000000]: Loading robot model 'kuka_arm'...[0m
+[0m[ INFO] [1499353327.903488363, 1082.404000000]: Loading robot model 'kuka_arm'...[0m
+[0m[ INFO] [1499353328.164192499, 1082.597000000]: Added object list to the world[0m
+[0m[ INFO] [1499353329.361355429, 1083.602000000]: RemoteControl Ready.[0m
+
+[96mWaiting to continue: next step[0m[96m... continuing[0m
+[0m[ INFO] [1499353337.225635602, 1090.087000000]: Visualizing plan to target: SUCCEEDED[0m
+[0m[ INFO] [1499353337.225751729, 1090.087000000]: No planning scene passed into moveit_visual_tools, creating one.[0m
+[0m[ INFO] [1499353337.230730362, 1090.088000000]: Loading robot model 'kuka_arm'...[0m
+[0m[ INFO] [1499353337.408827814, 1090.176000000]: Loading robot model 'kuka_arm'...[0m
+[0m[ INFO] [1499353337.649687989, 1090.353000000]: Publishing maintained planning scene on ''[0m
+
+[96mWaiting to continue: next step[0m[96m... continuing[0m
+[0m[ INFO] [1499353370.864190439, 1110.937000000]: Moving to pick location: SUCCEEDED[0m
+
+[96mWaiting to continue: next step[0m[96m... continuing[0m
+[0m[ INFO] [1499353374.453035634, 1112.953000000]: Target reach: SUCCEEDED[0m
+
+[96mWaiting to continue: next step[0m[96m... continuing[0m
+[0m[ INFO] [1499353409.051230319, 1138.338000000]: Gripper actuation: Closing SUCCEEDED[0m
+
+[96mWaiting to continue: next step[0m[96m... continuing[0m
+[0m[ INFO] [1499353413.083514500, 1140.365000000]: Target retrieval: SUCCEEDED[0m
+
+[96mWaiting to continue: next step[0m[96m... continuing[0m
+[0m[ INFO] [1499353416.019870477, 1141.973000000]: Visualizing plan to drop location: SUCCEEDED[0m
+
+[96mWaiting to continue: next step[0m[96m... continuing[0m
+[0m[ INFO] [1499353430.627441538, 1150.917000000]: Moving to drop location: SUCCEEDED[0m
+[0m[ INFO] [1499353430.627467500, 1150.917000000]: Moving to drop location: SUCCEEDED[0m
+
+[96mWaiting to continue: next step[0m[96m... continuing[0m
+[0m[ INFO] [1499353439.478733758, 1158.124000000]: Gripper actuation: Opening SUCCEEDED[0m
+
+[96mWaiting to continue: next step[0m[96m... continuing[0m
+Random Target Spawn point selected
+Target will spawn at location# 8: 2.600000 0.000000 2.445000
+SpawnModel script started
+[INFO] [1499353551.080334, 0.000000]: Loading model XML from ros parameter
+[INFO] [1499353551.083978, 0.000000]: Waiting for service /gazebo/spawn_urdf_model
+[INFO] [1499353551.087260, 0.000000]: Calling service /gazebo/spawn_urdf_model
+[INFO] [1499353551.241326, 1241.584000]: Spawn status: SpawnModel: Successfully spawned entity
+[0m[ INFO] [1499353547.509417493, 1239.609000000]: Robot motion to Idle state: SUCCEEDED[0m
+[0m[ INFO] [1499353551.430958789, 1241.682000000]: Stopped publishing maintained planning scene.[0m
+[0m[ INFO] [1499353551.450349062, 1241.686000000]: RemoteControl Ready.[0m
+
+[96mWaiting to continue: next step[0m[96m... continuing[0m
+[0m[ INFO] [1499353552.291795907, 1242.113000000]: Visualizing plan to target: SUCCEEDED[0m
+[0m[ INFO] [1499353552.291883956, 1242.113000000]: No planning scene passed into moveit_visual_tools, creating one.[0m
+[0m[ INFO] [1499353552.298236185, 1242.115000000]: Loading robot model 'kuka_arm'...[0m
+[0m[ INFO] [1499353552.587811956, 1242.234000000]: Loading robot model 'kuka_arm'...[0m
+[0m[ INFO] [1499353552.873757070, 1242.367000000]: Publishing maintained planning scene on ''[0m
+
+[96mWaiting to continue: next step[0m[96m... continuing[0m
+[0m[ INFO] [1499353594.319281221, 1273.377000000]: Moving to pick location: SUCCEEDED[0m
+
+[96mWaiting to continue: next step[0m[96m... continuing[0m
+[0m[ INFO] [1499353596.252693339, 1274.886000000]: Target reach: SUCCEEDED[0m
+
+[96mWaiting to continue: next step[0m[96m... continuing[0m
+[0m[ INFO] [1499353601.155107969, 1278.631000000]: Gripper actuation: Closing SUCCEEDED[0m
+
+[96mWaiting to continue: next step[0m[96m... continuing[0m
+[0m[ INFO] [1499353603.574690990, 1280.402000000]: Target retrieval: SUCCEEDED[0m
+
+[96mWaiting to continue: next step[0m[96m... continuing[0m
+[0m[ INFO] [1499353607.403054412, 1282.874000000]: Visualizing plan to drop location: SUCCEEDED[0m
+
+[96mWaiting to continue: next step[0m[96m... continuing[0m
+[0m[ INFO] [1499353617.602445967, 1290.517000000]: Moving to drop location: SUCCEEDED[0m
+[0m[ INFO] [1499353617.602471080, 1290.517000000]: Moving to drop location: SUCCEEDED[0m
+
+[96mWaiting to continue: next step[0m

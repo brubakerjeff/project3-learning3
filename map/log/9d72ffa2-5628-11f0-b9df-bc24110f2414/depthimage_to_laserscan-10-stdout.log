@@ -1,0 +1,4 @@
+[0m[ INFO] [1751339290.269679750]: Loading nodelet /depthimage_to_laserscan of type depthimage_to_laserscan/DepthImageToLaserScanNodelet to manager laserscan_nodelet_manager with the following remappings:[0m
+[0m[ INFO] [1751339290.269919262]: /image -> /camera/depth/image_raw[0m
+[0m[ INFO] [1751339290.270100380]: /scan -> /scan[0m
+[0m[ INFO] [1751339709.285933743, 28.161000000]: Unloading nodelet /depthimage_to_laserscan from manager laserscan_nodelet_manager[0m

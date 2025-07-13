@@ -1,0 +1,29 @@
+[rospy.client][INFO] 2017-05-22 12:15:44,341: init_node, name[/urdf_spawner], pid[9181]
+[xmlrpc][INFO] 2017-05-22 12:15:44,346: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-05-22 12:15:44,346: Started XML-RPC server [http://udacity:37651/]
+[rospy.impl.masterslave][INFO] 2017-05-22 12:15:44,346: _ready: http://udacity:37651/
+[rospy.registration][INFO] 2017-05-22 12:15:44,347: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2017-05-22 12:15:44,347: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2017-05-22 12:15:44,350: ROS Slave URI: [http://udacity:37651/]
+[rospy.init][INFO] 2017-05-22 12:15:44,350: registered with master
+[rospy.rosout][INFO] 2017-05-22 12:15:44,350: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-05-22 12:15:44,355: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-05-22 12:15:44,362: initializing /clock core topic
+[rospy.simtime][INFO] 2017-05-22 12:15:44,374: connected to core topic /clock
+[rosout][INFO] 2017-05-22 12:15:44,382: Loading model XML from ros parameter
+[rosout][INFO] 2017-05-22 12:15:44,397: Waiting for service /gazebo/spawn_urdf_model
+[rospy.internal][INFO] 2017-05-22 12:15:44,581: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2017-05-22 12:15:44,798: topic[/clock] adding connection to [http://udacity:45299/], count 0
+[rosout][INFO] 2017-05-22 12:15:45,008: Calling service /gazebo/spawn_urdf_model
+[rospy.core][INFO] 2017-05-22 12:16:22,544: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2017-05-22 12:16:22,554: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2017-05-22 12:16:22,554: topic[/clock] removing connection to http://udacity:45299/
+[rospy.impl.masterslave][INFO] 2017-05-22 12:16:22,555: signal-2
+[rospy.internal][ERROR] 2017-05-22 12:16:22,722: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 729, in receive_once
+    self.stat_bytes += recv_buff(sock, b, p.buff_size)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 103, in recv_buff
+    d = sock.recv(buff_size)
+error: [Errno 4] Interrupted system call
+
+[rospy.core][INFO] 2017-05-22 12:16:22,722: signal_shutdown [atexit]

@@ -1,0 +1,446 @@
+[rosmaster.main][INFO] 2017-07-05 09:30:18,292: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2017-07-05 09:30:18,292: Starting ROS Master Node
+[xmlrpc][INFO] 2017-07-05 09:30:18,294: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2017-07-05 09:30:18,294: Started XML-RPC server [http://udacity:11311/]
+[xmlrpc][INFO] 2017-07-05 09:30:18,295: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2017-07-05 09:30:18,295: Master initialized: port[11311], uri[http://udacity:11311/]
+[rosmaster.master][INFO] 2017-07-05 09:30:18,324: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2017-07-05 09:30:18,325: +PARAM [/roslaunch/uris/host_udacity__44287] by /roslaunch
+[rosmaster.master][INFO] 2017-07-05 09:30:18,383: +PARAM [/robot_state_publisher/use_tf_static] by /roslaunch
+[rosmaster.master][INFO] 2017-07-05 09:30:18,383: +PARAM [/use_sim_time] by /roslaunch
+[rosmaster.master][INFO] 2017-07-05 09:30:18,383: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2017-07-05 09:30:18,383: +PARAM [/robot_description] by /roslaunch
+[rosmaster.master][INFO] 2017-07-05 09:30:18,383: +PARAM [/sensor_stick/joint_state_controller/publish_rate] by /roslaunch
+[rosmaster.master][INFO] 2017-07-05 09:30:18,384: +PARAM [/sensor_stick/pan_position_controller/joint] by /roslaunch
+[rosmaster.master][INFO] 2017-07-05 09:30:18,384: +PARAM [/sensor_stick/pan_position_controller/type] by /roslaunch
+[rosmaster.master][INFO] 2017-07-05 09:30:18,384: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2017-07-05 09:30:18,384: +PARAM [/sensor_stick/joint_state_controller/type] by /roslaunch
+[rosmaster.master][INFO] 2017-07-05 09:30:18,384: +PARAM [/joint_state_publisher/use_gui] by /roslaunch
+[rosmaster.master][INFO] 2017-07-05 09:30:18,384: +PARAM [/sensor_stick/tilt_position_controller/type] by /roslaunch
+[rosmaster.master][INFO] 2017-07-05 09:30:18,384: +PARAM [/sensor_stick/tilt_position_controller/joint] by /roslaunch
+[rosmaster.master][INFO] 2017-07-05 09:30:18,531: +SERVICE [/rosout/get_loggers] /rosout http://udacity:44773/
+[rosmaster.master][INFO] 2017-07-05 09:30:18,532: +SERVICE [/rosout/set_logger_level] /rosout http://udacity:44773/
+[rosmaster.master][INFO] 2017-07-05 09:30:18,566: +SUB [/clock] /rosout http://udacity:44773/
+[rosmaster.master][INFO] 2017-07-05 09:30:18,568: +PUB [/rosout_agg] /rosout http://udacity:44773/
+[rosmaster.master][INFO] 2017-07-05 09:30:18,583: +SUB [/rosout] /rosout http://udacity:44773/
+[rosmaster.master][INFO] 2017-07-05 09:30:18,603: +PUB [/rosout] /cloud_transformer http://udacity:36333/
+[rosmaster.master][INFO] 2017-07-05 09:30:18,605: +SERVICE [/cloud_transformer/get_loggers] /cloud_transformer http://udacity:36333/
+[rosmaster.master][INFO] 2017-07-05 09:30:18,611: +SERVICE [/cloud_transformer/set_logger_level] /cloud_transformer http://udacity:36333/
+[rosmaster.master][INFO] 2017-07-05 09:30:18,634: +PUB [/rosout] /robot_state_publisher http://udacity:44851/
+[rosmaster.master][INFO] 2017-07-05 09:30:18,646: +SERVICE [/robot_state_publisher/get_loggers] /robot_state_publisher http://udacity:44851/
+[rosmaster.master][INFO] 2017-07-05 09:30:18,650: +SERVICE [/robot_state_publisher/set_logger_level] /robot_state_publisher http://udacity:44851/
+[rosmaster.master][INFO] 2017-07-05 09:30:18,670: +SUB [/clock] /cloud_transformer http://udacity:36333/
+[rosmaster.master][INFO] 2017-07-05 09:30:18,674: +SUB [/clock] /robot_state_publisher http://udacity:44851/
+[rosmaster.master][INFO] 2017-07-05 09:30:18,693: publisherUpdate[/rosout] -> http://udacity:44773/ ['http://udacity:36333/']
+[rosmaster.master][INFO] 2017-07-05 09:30:18,695: publisherUpdate[/rosout] -> http://udacity:44773/ ['http://udacity:36333/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-05 09:30:18,695: publisherUpdate[/rosout] -> http://udacity:44773/ ['http://udacity:36333/', 'http://udacity:44851/']
+[rosmaster.master][INFO] 2017-07-05 09:30:18,696: publisherUpdate[/rosout] -> http://udacity:44773/ ['http://udacity:36333/', 'http://udacity:44851/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-05 09:30:18,702: +SUB [/tf] /cloud_transformer http://udacity:36333/
+[rosmaster.master][INFO] 2017-07-05 09:30:18,710: +PUB [/tf] /robot_state_publisher http://udacity:44851/
+[rosmaster.master][INFO] 2017-07-05 09:30:18,713: +PUB [/tf_static] /robot_state_publisher http://udacity:44851/
+[rosmaster.master][INFO] 2017-07-05 09:30:18,736: +SUB [/tf_static] /cloud_transformer http://udacity:36333/
+[rosmaster.master][INFO] 2017-07-05 09:30:18,752: +SUB [/camera/depth_registered/points] /cloud_transformer http://udacity:36333/
+[rosmaster.master][INFO] 2017-07-05 09:30:18,761: +PUB [/sensor_stick/point_cloud] /cloud_transformer http://udacity:36333/
+[rosmaster.master][INFO] 2017-07-05 09:30:18,767: +SUB [/sensor_stick/joint_states] /robot_state_publisher http://udacity:44851/
+[rosmaster.master][INFO] 2017-07-05 09:30:18,796: publisherUpdate[/tf] -> http://udacity:36333/ ['http://udacity:44851/']
+[rosmaster.master][INFO] 2017-07-05 09:30:18,797: publisherUpdate[/tf] -> http://udacity:36333/ ['http://udacity:44851/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-05 09:30:19,265: +PUB [/rosout] /sensor_stick/spawner http://udacity:36435/
+[rosmaster.master][INFO] 2017-07-05 09:30:19,270: +SUB [/clock] /sensor_stick/spawner http://udacity:36435/
+[rosmaster.master][INFO] 2017-07-05 09:30:19,272: +SERVICE [/sensor_stick/spawner/get_loggers] /sensor_stick/spawner http://udacity:36435/
+[rosmaster.master][INFO] 2017-07-05 09:30:19,273: +SERVICE [/sensor_stick/spawner/set_logger_level] /sensor_stick/spawner http://udacity:36435/
+[rosmaster.master][INFO] 2017-07-05 09:30:19,299: publisherUpdate[/rosout] -> http://udacity:44773/ ['http://udacity:36333/', 'http://udacity:44851/', 'http://udacity:36435/']
+[rosmaster.master][INFO] 2017-07-05 09:30:19,300: publisherUpdate[/rosout] -> http://udacity:44773/ ['http://udacity:36333/', 'http://udacity:44851/', 'http://udacity:36435/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-05 09:30:20,570: +PUB [/rosout] /urdf_spawner http://udacity:34611/
+[rosmaster.master][INFO] 2017-07-05 09:30:20,583: +SUB [/clock] /urdf_spawner http://udacity:34611/
+[rosmaster.master][INFO] 2017-07-05 09:30:20,588: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://udacity:34611/
+[rosmaster.master][INFO] 2017-07-05 09:30:20,592: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://udacity:34611/
+[rosmaster.master][INFO] 2017-07-05 09:30:20,603: publisherUpdate[/rosout] -> http://udacity:44773/ ['http://udacity:36333/', 'http://udacity:44851/', 'http://udacity:36435/', 'http://udacity:34611/']
+[rosmaster.master][INFO] 2017-07-05 09:30:20,606: publisherUpdate[/rosout] -> http://udacity:44773/ ['http://udacity:36333/', 'http://udacity:44851/', 'http://udacity:36435/', 'http://udacity:34611/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-05 09:30:21,046: +PUB [/rosout] /rviz_udacity_4480_2985660011798174837 http://udacity:40047/
+[rosmaster.master][INFO] 2017-07-05 09:30:21,048: +SERVICE [/rviz_udacity_4480_2985660011798174837/get_loggers] /rviz_udacity_4480_2985660011798174837 http://udacity:40047/
+[rosmaster.master][INFO] 2017-07-05 09:30:21,050: +SERVICE [/rviz_udacity_4480_2985660011798174837/set_logger_level] /rviz_udacity_4480_2985660011798174837 http://udacity:40047/
+[rosmaster.master][INFO] 2017-07-05 09:30:21,059: +PUB [/rosout] /joint_state_publisher http://udacity:34011/
+[rosmaster.master][INFO] 2017-07-05 09:30:21,063: +SUB [/clock] /rviz_udacity_4480_2985660011798174837 http://udacity:40047/
+[rosmaster.master][INFO] 2017-07-05 09:30:21,065: +SUB [/clock] /joint_state_publisher http://udacity:34011/
+[rosmaster.master][INFO] 2017-07-05 09:30:21,078: +SERVICE [/joint_state_publisher/get_loggers] /joint_state_publisher http://udacity:34011/
+[rosmaster.master][INFO] 2017-07-05 09:30:21,080: +SERVICE [/joint_state_publisher/set_logger_level] /joint_state_publisher http://udacity:34011/
+[rosmaster.master][INFO] 2017-07-05 09:30:21,108: publisherUpdate[/rosout] -> http://udacity:44773/ ['http://udacity:36333/', 'http://udacity:44851/', 'http://udacity:36435/', 'http://udacity:34611/', 'http://udacity:40047/']
+[rosmaster.master][INFO] 2017-07-05 09:30:21,109: publisherUpdate[/rosout] -> http://udacity:44773/ ['http://udacity:36333/', 'http://udacity:44851/', 'http://udacity:36435/', 'http://udacity:34611/', 'http://udacity:40047/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-05 09:30:21,109: publisherUpdate[/rosout] -> http://udacity:44773/ ['http://udacity:36333/', 'http://udacity:44851/', 'http://udacity:36435/', 'http://udacity:34611/', 'http://udacity:40047/', 'http://udacity:34011/']
+[rosmaster.master][INFO] 2017-07-05 09:30:21,110: publisherUpdate[/rosout] -> http://udacity:44773/ ['http://udacity:36333/', 'http://udacity:44851/', 'http://udacity:36435/', 'http://udacity:34611/', 'http://udacity:40047/', 'http://udacity:34011/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-05 09:30:21,129: +PUB [/joint_states] /joint_state_publisher http://udacity:34011/
+[rosmaster.master][INFO] 2017-07-05 09:30:21,947: +PUB [/rosout] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:30:21,948: +SERVICE [/gazebo/get_loggers] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:30:21,949: +SERVICE [/gazebo/set_logger_level] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:30:21,957: +SUB [/clock] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:30:22,011: publisherUpdate[/rosout] -> http://udacity:44773/ ['http://udacity:36333/', 'http://udacity:44851/', 'http://udacity:36435/', 'http://udacity:34611/', 'http://udacity:40047/', 'http://udacity:34011/', 'http://udacity:37075/']
+[rosmaster.master][INFO] 2017-07-05 09:30:22,012: publisherUpdate[/rosout] -> http://udacity:44773/ ['http://udacity:36333/', 'http://udacity:44851/', 'http://udacity:36435/', 'http://udacity:34611/', 'http://udacity:40047/', 'http://udacity:34011/', 'http://udacity:37075/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-05 09:30:22,399: +SUB [/tf] /rviz_udacity_4480_2985660011798174837 http://udacity:40047/
+[rosmaster.master][INFO] 2017-07-05 09:30:22,405: +SUB [/tf_static] /rviz_udacity_4480_2985660011798174837 http://udacity:40047/
+[rosmaster.master][INFO] 2017-07-05 09:30:22,659: +PUB [/initialpose] /rviz_udacity_4480_2985660011798174837 http://udacity:40047/
+[rosmaster.master][INFO] 2017-07-05 09:30:22,662: +PUB [/goal] /rviz_udacity_4480_2985660011798174837 http://udacity:40047/
+[rosmaster.master][INFO] 2017-07-05 09:30:22,736: +PUB [/clock] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:30:22,737: +SERVICE [/gazebo/spawn_sdf_model] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:30:22,738: +SERVICE [/gazebo/spawn_urdf_model] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:30:22,739: +SERVICE [/gazebo/delete_model] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:30:22,741: +SERVICE [/gazebo/delete_light] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:30:22,742: +SERVICE [/gazebo/get_model_properties] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:30:22,743: +SERVICE [/gazebo/get_model_state] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:30:22,744: +SERVICE [/gazebo/get_world_properties] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:30:22,744: publisherUpdate[/clock] -> http://udacity:44773/ ['http://udacity:37075/']
+[rosmaster.master][INFO] 2017-07-05 09:30:22,745: publisherUpdate[/clock] -> http://udacity:44773/ ['http://udacity:37075/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-05 09:30:22,745: publisherUpdate[/clock] -> http://udacity:36333/ ['http://udacity:37075/']
+[rosmaster.master][INFO] 2017-07-05 09:30:22,746: publisherUpdate[/clock] -> http://udacity:36333/ ['http://udacity:37075/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-05 09:30:22,746: publisherUpdate[/clock] -> http://udacity:44851/ ['http://udacity:37075/']
+[rosmaster.master][INFO] 2017-07-05 09:30:22,747: +SERVICE [/gazebo/get_joint_properties] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:30:22,747: publisherUpdate[/clock] -> http://udacity:44851/ ['http://udacity:37075/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-05 09:30:22,748: publisherUpdate[/clock] -> http://udacity:36435/ ['http://udacity:37075/']
+[rosmaster.master][INFO] 2017-07-05 09:30:22,749: +SERVICE [/gazebo/get_link_properties] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:30:22,750: publisherUpdate[/clock] -> http://udacity:36435/ ['http://udacity:37075/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-05 09:30:22,750: publisherUpdate[/clock] -> http://udacity:34611/ ['http://udacity:37075/']
+[rosmaster.master][INFO] 2017-07-05 09:30:22,751: +SERVICE [/gazebo/get_link_state] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:30:22,752: +SERVICE [/gazebo/get_light_properties] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:30:22,752: publisherUpdate[/clock] -> http://udacity:34611/ ['http://udacity:37075/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-05 09:30:22,753: publisherUpdate[/clock] -> http://udacity:40047/ ['http://udacity:37075/']
+[rosmaster.master][INFO] 2017-07-05 09:30:22,754: +SERVICE [/gazebo/set_light_properties] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:30:22,755: publisherUpdate[/clock] -> http://udacity:40047/ ['http://udacity:37075/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-05 09:30:22,755: publisherUpdate[/clock] -> http://udacity:34011/ ['http://udacity:37075/']
+[rosmaster.master][INFO] 2017-07-05 09:30:22,756: +SERVICE [/gazebo/get_physics_properties] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:30:22,760: publisherUpdate[/clock] -> http://udacity:34011/ ['http://udacity:37075/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-05 09:30:22,762: publisherUpdate[/clock] -> http://udacity:37075/ ['http://udacity:37075/']
+[rosmaster.master][INFO] 2017-07-05 09:30:22,762: +PUB [/gazebo/link_states] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:30:22,764: +PUB [/gazebo/model_states] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:30:22,764: publisherUpdate[/clock] -> http://udacity:37075/ ['http://udacity:37075/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-05 09:30:22,765: +SERVICE [/gazebo/set_link_properties] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:30:22,766: +SERVICE [/gazebo/set_physics_properties] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:30:22,767: +SERVICE [/gazebo/set_model_state] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:30:22,768: +SERVICE [/gazebo/set_model_configuration] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:30:22,769: +SERVICE [/gazebo/set_joint_properties] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:30:22,770: +SERVICE [/gazebo/set_link_state] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:30:22,779: +SUB [/gazebo/set_link_state] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:30:22,780: +SUB [/camera/depth_registered/points] /rviz_udacity_4480_2985660011798174837 http://udacity:40047/
+[rosmaster.master][INFO] 2017-07-05 09:30:22,786: +SUB [/gazebo/set_model_state] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:30:22,787: +SERVICE [/gazebo/pause_physics] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:30:22,788: +SERVICE [/gazebo/unpause_physics] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:30:22,791: +SERVICE [/gazebo/apply_body_wrench] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:30:22,792: +SERVICE [/gazebo/apply_joint_effort] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:30:22,793: +SERVICE [/gazebo/clear_joint_forces] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:30:22,794: +SERVICE [/gazebo/clear_body_wrenches] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:30:22,795: +SERVICE [/gazebo/reset_simulation] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:30:22,796: +SERVICE [/gazebo/reset_world] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:30:22,798: +PARAM [/use_sim_time] by /gazebo
+[rosmaster.master][INFO] 2017-07-05 09:30:23,381: +SUB [/camera/rgb/image_raw] /rviz_udacity_4480_2985660011798174837 http://udacity:40047/
+[rosmaster.master][INFO] 2017-07-05 09:30:23,386: +SUB [/camera/rgb/camera_info] /rviz_udacity_4480_2985660011798174837 http://udacity:40047/
+[rosmaster.master][INFO] 2017-07-05 09:30:23,462: -PUB [/goal] /rviz_udacity_4480_2985660011798174837 http://udacity:40047/
+[rosmaster.master][INFO] 2017-07-05 09:30:23,463: -PUB [/initialpose] /rviz_udacity_4480_2985660011798174837 http://udacity:40047/
+[rosmaster.master][INFO] 2017-07-05 09:30:23,470: +PUB [/initialpose] /rviz_udacity_4480_2985660011798174837 http://udacity:40047/
+[rosmaster.master][INFO] 2017-07-05 09:30:23,472: +PUB [/goal] /rviz_udacity_4480_2985660011798174837 http://udacity:40047/
+[rosmaster.master][INFO] 2017-07-05 09:30:23,473: +PUB [/move_base_simple/goal] /rviz_udacity_4480_2985660011798174837 http://udacity:40047/
+[rosmaster.master][INFO] 2017-07-05 09:30:23,474: -PUB [/goal] /rviz_udacity_4480_2985660011798174837 http://udacity:40047/
+[rosmaster.master][INFO] 2017-07-05 09:30:23,476: +PUB [/clicked_point] /rviz_udacity_4480_2985660011798174837 http://udacity:40047/
+[rosmaster.master][INFO] 2017-07-05 09:30:23,579: +PUB [/rviz_visual_tools_gui] /rviz_udacity_4480_2985660011798174837 http://udacity:40047/
+[rosmaster.master][INFO] 2017-07-05 09:30:25,312: +SERVICE [/rviz_udacity_4480_2985660011798174837/reload_shaders] /rviz_udacity_4480_2985660011798174837 http://udacity:40047/
+[rosmaster.master][INFO] 2017-07-05 09:30:49,483: -SUB [/clock] /sensor_stick/spawner http://udacity:36435/
+[rosmaster.master][INFO] 2017-07-05 09:30:49,483: -PUB [/rosout] /sensor_stick/spawner http://udacity:36435/
+[rosmaster.master][INFO] 2017-07-05 09:30:49,483: -SERVICE [/sensor_stick/spawner/set_logger_level] /sensor_stick/spawner rosrpc://udacity:46517
+[rosmaster.master][INFO] 2017-07-05 09:30:49,483: -SERVICE [/sensor_stick/spawner/get_loggers] /sensor_stick/spawner rosrpc://udacity:46517
+[rosmaster.master][INFO] 2017-07-05 09:30:49,495: publisherUpdate[/rosout] -> http://udacity:44773/ ['http://udacity:36333/', 'http://udacity:44851/', 'http://udacity:34611/', 'http://udacity:40047/', 'http://udacity:34011/', 'http://udacity:37075/']
+[rosmaster.master][INFO] 2017-07-05 09:30:49,496: publisherUpdate[/rosout] -> http://udacity:44773/ ['http://udacity:36333/', 'http://udacity:44851/', 'http://udacity:34611/', 'http://udacity:40047/', 'http://udacity:34011/', 'http://udacity:37075/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-05 09:30:56,872: -SUB [/clock] /urdf_spawner http://udacity:34611/
+[rosmaster.master][INFO] 2017-07-05 09:30:56,872: -PUB [/rosout] /urdf_spawner http://udacity:34611/
+[rosmaster.master][INFO] 2017-07-05 09:30:56,873: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://udacity:42663
+[rosmaster.master][INFO] 2017-07-05 09:30:56,873: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://udacity:42663
+[rosmaster.master][INFO] 2017-07-05 09:30:56,911: publisherUpdate[/rosout] -> http://udacity:44773/ ['http://udacity:36333/', 'http://udacity:44851/', 'http://udacity:40047/', 'http://udacity:34011/', 'http://udacity:37075/']
+[rosmaster.master][INFO] 2017-07-05 09:30:56,912: publisherUpdate[/rosout] -> http://udacity:44773/ ['http://udacity:36333/', 'http://udacity:44851/', 'http://udacity:40047/', 'http://udacity:34011/', 'http://udacity:37075/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-05 09:30:57,260: +SERVICE [/camera/set_camera_info] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:30:57,266: +SERVICE [/camera/set_parameters] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:30:57,267: +PUB [/camera/parameter_descriptions] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:30:57,269: +PUB [/camera/parameter_updates] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:30:57,271: +PARAM [/camera/imager_rate] by /gazebo
+[rosmaster.master][INFO] 2017-07-05 09:30:57,273: +PARAM [/camera/imager_rate] by /gazebo
+[rosmaster.master][INFO] 2017-07-05 09:30:57,399: +PUB [/camera/rgb/image_raw/compressedDepth] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:30:57,400: +SERVICE [/camera/rgb/image_raw/compressedDepth/set_parameters] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:30:57,401: +PUB [/camera/rgb/image_raw/compressedDepth/parameter_descriptions] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:30:57,403: +PUB [/camera/rgb/image_raw/compressedDepth/parameter_updates] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:30:57,406: +PARAM [/camera/rgb/image_raw/compressedDepth/depth_max] by /gazebo
+[rosmaster.master][INFO] 2017-07-05 09:30:57,407: +PARAM [/camera/rgb/image_raw/compressedDepth/depth_quantization] by /gazebo
+[rosmaster.master][INFO] 2017-07-05 09:30:57,408: +PARAM [/camera/rgb/image_raw/compressedDepth/png_level] by /gazebo
+[rosmaster.master][INFO] 2017-07-05 09:30:57,409: +PARAM [/camera/rgb/image_raw/compressedDepth/depth_max] by /gazebo
+[rosmaster.master][INFO] 2017-07-05 09:30:57,410: +PARAM [/camera/rgb/image_raw/compressedDepth/depth_quantization] by /gazebo
+[rosmaster.master][INFO] 2017-07-05 09:30:57,418: +PARAM [/camera/rgb/image_raw/compressedDepth/png_level] by /gazebo
+[rosmaster.master][INFO] 2017-07-05 09:30:57,466: +PUB [/camera/rgb/image_raw/compressed] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:30:57,467: +SERVICE [/camera/rgb/image_raw/compressed/set_parameters] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:30:57,468: +PUB [/camera/rgb/image_raw/compressed/parameter_descriptions] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:30:57,469: +PUB [/camera/rgb/image_raw/compressed/parameter_updates] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:30:57,472: +PARAM [/camera/rgb/image_raw/compressed/format] by /gazebo
+[rosmaster.master][INFO] 2017-07-05 09:30:57,473: +PARAM [/camera/rgb/image_raw/compressed/jpeg_quality] by /gazebo
+[rosmaster.master][INFO] 2017-07-05 09:30:57,474: +PARAM [/camera/rgb/image_raw/compressed/png_level] by /gazebo
+[rosmaster.master][INFO] 2017-07-05 09:30:57,475: +PARAM [/camera/rgb/image_raw/compressed/format] by /gazebo
+[rosmaster.master][INFO] 2017-07-05 09:30:57,476: +PARAM [/camera/rgb/image_raw/compressed/jpeg_quality] by /gazebo
+[rosmaster.master][INFO] 2017-07-05 09:30:57,477: +PARAM [/camera/rgb/image_raw/compressed/png_level] by /gazebo
+[rosmaster.master][INFO] 2017-07-05 09:30:57,534: +PUB [/camera/rgb/image_raw] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:30:57,544: publisherUpdate[/camera/rgb/image_raw] -> http://udacity:40047/ ['http://udacity:37075/']
+[rosmaster.master][INFO] 2017-07-05 09:30:57,545: publisherUpdate[/camera/rgb/image_raw] -> http://udacity:40047/ ['http://udacity:37075/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-05 09:30:57,588: +PUB [/camera/rgb/image_raw/theora] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:30:57,589: +SERVICE [/camera/rgb/image_raw/theora/set_parameters] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:30:57,590: +PUB [/camera/rgb/image_raw/theora/parameter_descriptions] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:30:57,591: +PUB [/camera/rgb/image_raw/theora/parameter_updates] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:30:57,595: +PARAM [/camera/rgb/image_raw/theora/optimize_for] by /gazebo
+[rosmaster.master][INFO] 2017-07-05 09:30:57,596: +PARAM [/camera/rgb/image_raw/theora/target_bitrate] by /gazebo
+[rosmaster.master][INFO] 2017-07-05 09:30:57,597: +PARAM [/camera/rgb/image_raw/theora/quality] by /gazebo
+[rosmaster.master][INFO] 2017-07-05 09:30:57,598: +PARAM [/camera/rgb/image_raw/theora/keyframe_frequency] by /gazebo
+[rosmaster.master][INFO] 2017-07-05 09:30:57,599: +PARAM [/camera/rgb/image_raw/theora/optimize_for] by /gazebo
+[rosmaster.master][INFO] 2017-07-05 09:30:57,599: +PARAM [/camera/rgb/image_raw/theora/target_bitrate] by /gazebo
+[rosmaster.master][INFO] 2017-07-05 09:30:57,600: +PARAM [/camera/rgb/image_raw/theora/quality] by /gazebo
+[rosmaster.master][INFO] 2017-07-05 09:30:57,601: +PARAM [/camera/rgb/image_raw/theora/keyframe_frequency] by /gazebo
+[rosmaster.master][INFO] 2017-07-05 09:30:57,602: +PUB [/camera/rgb/camera_info] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:30:57,603: +PUB [/camera/depth_registered/points] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:30:57,604: +PUB [/camera/depth_registered/image_raw] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:30:57,605: +PUB [/camera/depth_registered/camera_info] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:30:57,613: publisherUpdate[/camera/rgb/camera_info] -> http://udacity:40047/ ['http://udacity:37075/']
+[rosmaster.master][INFO] 2017-07-05 09:30:57,613: publisherUpdate[/camera/depth_registered/points] -> http://udacity:36333/ ['http://udacity:37075/']
+[rosmaster.master][INFO] 2017-07-05 09:30:57,614: publisherUpdate[/camera/rgb/camera_info] -> http://udacity:40047/ ['http://udacity:37075/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-05 09:30:57,614: publisherUpdate[/camera/depth_registered/points] -> http://udacity:40047/ ['http://udacity:37075/']
+[rosmaster.master][INFO] 2017-07-05 09:30:57,614: publisherUpdate[/camera/depth_registered/points] -> http://udacity:36333/ ['http://udacity:37075/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-05 09:30:57,615: publisherUpdate[/camera/depth_registered/points] -> http://udacity:40047/ ['http://udacity:37075/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-05 09:30:57,650: +SERVICE [/sensor_stick/controller_manager/list_controllers] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:30:57,651: +SERVICE [/sensor_stick/controller_manager/list_controller_types] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:30:57,652: +SERVICE [/sensor_stick/controller_manager/load_controller] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:30:57,653: +SERVICE [/sensor_stick/controller_manager/unload_controller] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:30:57,654: +SERVICE [/sensor_stick/controller_manager/switch_controller] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:30:57,655: +SERVICE [/sensor_stick/controller_manager/reload_controller_libraries] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:30:57,689: +SERVICE [/gazebo/set_parameters] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:30:57,691: +PUB [/gazebo/parameter_descriptions] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:30:57,692: +PUB [/gazebo/parameter_updates] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:30:57,728: +PARAM [/gazebo/time_step] by /gazebo
+[rosmaster.master][INFO] 2017-07-05 09:30:57,729: +PARAM [/gazebo/max_update_rate] by /gazebo
+[rosmaster.master][INFO] 2017-07-05 09:30:57,731: +PARAM [/gazebo/gravity_x] by /gazebo
+[rosmaster.master][INFO] 2017-07-05 09:30:57,733: +PARAM [/gazebo/gravity_y] by /gazebo
+[rosmaster.master][INFO] 2017-07-05 09:30:57,734: +PARAM [/gazebo/gravity_z] by /gazebo
+[rosmaster.master][INFO] 2017-07-05 09:30:57,735: +PARAM [/gazebo/auto_disable_bodies] by /gazebo
+[rosmaster.master][INFO] 2017-07-05 09:30:57,736: +PARAM [/gazebo/sor_pgs_precon_iters] by /gazebo
+[rosmaster.master][INFO] 2017-07-05 09:30:57,737: +PARAM [/gazebo/sor_pgs_iters] by /gazebo
+[rosmaster.master][INFO] 2017-07-05 09:30:57,738: +PARAM [/gazebo/sor_pgs_w] by /gazebo
+[rosmaster.master][INFO] 2017-07-05 09:30:57,739: +PARAM [/gazebo/sor_pgs_rms_error_tol] by /gazebo
+[rosmaster.master][INFO] 2017-07-05 09:30:57,741: +PARAM [/gazebo/cfm] by /gazebo
+[rosmaster.master][INFO] 2017-07-05 09:30:57,742: +PARAM [/gazebo/erp] by /gazebo
+[rosmaster.master][INFO] 2017-07-05 09:30:57,744: +PARAM [/gazebo/contact_surface_layer] by /gazebo
+[rosmaster.master][INFO] 2017-07-05 09:30:57,745: +PARAM [/gazebo/contact_max_correcting_vel] by /gazebo
+[rosmaster.master][INFO] 2017-07-05 09:30:57,746: +PARAM [/gazebo/max_contacts] by /gazebo
+[rosmaster.master][INFO] 2017-07-05 09:30:57,753: +PARAM [/gazebo/time_step] by /gazebo
+[rosmaster.master][INFO] 2017-07-05 09:30:57,755: +PARAM [/gazebo/max_update_rate] by /gazebo
+[rosmaster.master][INFO] 2017-07-05 09:30:57,756: +PARAM [/gazebo/gravity_x] by /gazebo
+[rosmaster.master][INFO] 2017-07-05 09:30:57,759: +PARAM [/gazebo/gravity_y] by /gazebo
+[rosmaster.master][INFO] 2017-07-05 09:30:57,760: +PARAM [/gazebo/gravity_z] by /gazebo
+[rosmaster.master][INFO] 2017-07-05 09:30:57,762: +PARAM [/gazebo/auto_disable_bodies] by /gazebo
+[rosmaster.master][INFO] 2017-07-05 09:30:57,763: +PARAM [/gazebo/sor_pgs_precon_iters] by /gazebo
+[rosmaster.master][INFO] 2017-07-05 09:30:57,765: +PARAM [/gazebo/sor_pgs_iters] by /gazebo
+[rosmaster.master][INFO] 2017-07-05 09:30:57,768: +PARAM [/gazebo/sor_pgs_w] by /gazebo
+[rosmaster.master][INFO] 2017-07-05 09:30:57,770: +PARAM [/gazebo/sor_pgs_rms_error_tol] by /gazebo
+[rosmaster.master][INFO] 2017-07-05 09:30:57,772: +PARAM [/gazebo/cfm] by /gazebo
+[rosmaster.master][INFO] 2017-07-05 09:30:57,773: +PARAM [/gazebo/erp] by /gazebo
+[rosmaster.master][INFO] 2017-07-05 09:30:57,775: +PARAM [/gazebo/contact_surface_layer] by /gazebo
+[rosmaster.master][INFO] 2017-07-05 09:30:57,776: +PARAM [/gazebo/contact_max_correcting_vel] by /gazebo
+[rosmaster.master][INFO] 2017-07-05 09:30:57,777: +PARAM [/gazebo/max_contacts] by /gazebo
+[rosmaster.master][INFO] 2017-07-05 09:32:16,819: +PUB [/rosout] /clustering_5708_1499272336660 http://udacity:44159/
+[rosmaster.master][INFO] 2017-07-05 09:32:16,823: +SUB [/clock] /clustering_5708_1499272336660 http://udacity:44159/
+[rosmaster.master][INFO] 2017-07-05 09:32:16,825: +SERVICE [/clustering_5708_1499272336660/get_loggers] /clustering_5708_1499272336660 http://udacity:44159/
+[rosmaster.master][INFO] 2017-07-05 09:32:16,826: +SERVICE [/clustering_5708_1499272336660/set_logger_level] /clustering_5708_1499272336660 http://udacity:44159/
+[rosmaster.master][INFO] 2017-07-05 09:32:16,826: publisherUpdate[/rosout] -> http://udacity:44773/ ['http://udacity:36333/', 'http://udacity:44851/', 'http://udacity:40047/', 'http://udacity:34011/', 'http://udacity:37075/', 'http://udacity:44159/']
+[rosmaster.master][INFO] 2017-07-05 09:32:16,827: publisherUpdate[/rosout] -> http://udacity:44773/ ['http://udacity:36333/', 'http://udacity:44851/', 'http://udacity:40047/', 'http://udacity:34011/', 'http://udacity:37075/', 'http://udacity:44159/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-05 09:32:16,831: +SUB [/sensor_stick/point_cloud] /clustering_5708_1499272336660 http://udacity:44159/
+[rosmaster.master][INFO] 2017-07-05 09:32:16,834: +PUB [/pcl_objects] /clustering_5708_1499272336660 http://udacity:44159/
+[rosmaster.master][INFO] 2017-07-05 09:32:16,841: +PUB [/pcl_table] /clustering_5708_1499272336660 http://udacity:44159/
+[rosmaster.master][INFO] 2017-07-05 09:33:43,786: -SUB [/sensor_stick/point_cloud] /clustering_5708_1499272336660 http://udacity:44159/
+[rosmaster.master][INFO] 2017-07-05 09:33:43,786: -SUB [/clock] /clustering_5708_1499272336660 http://udacity:44159/
+[rosmaster.master][INFO] 2017-07-05 09:33:43,787: -PUB [/rosout] /clustering_5708_1499272336660 http://udacity:44159/
+[rosmaster.master][INFO] 2017-07-05 09:33:43,787: -PUB [/pcl_objects] /clustering_5708_1499272336660 http://udacity:44159/
+[rosmaster.master][INFO] 2017-07-05 09:33:43,787: -PUB [/pcl_table] /clustering_5708_1499272336660 http://udacity:44159/
+[rosmaster.master][INFO] 2017-07-05 09:33:43,787: -SERVICE [/clustering_5708_1499272336660/set_logger_level] /clustering_5708_1499272336660 rosrpc://udacity:34453
+[rosmaster.master][INFO] 2017-07-05 09:33:43,787: -SERVICE [/clustering_5708_1499272336660/get_loggers] /clustering_5708_1499272336660 rosrpc://udacity:34453
+[rosmaster.master][INFO] 2017-07-05 09:33:43,815: publisherUpdate[/rosout] -> http://udacity:44773/ ['http://udacity:36333/', 'http://udacity:44851/', 'http://udacity:40047/', 'http://udacity:34011/', 'http://udacity:37075/']
+[rosmaster.master][INFO] 2017-07-05 09:33:43,816: publisherUpdate[/rosout] -> http://udacity:44773/ ['http://udacity:36333/', 'http://udacity:44851/', 'http://udacity:40047/', 'http://udacity:34011/', 'http://udacity:37075/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-05 09:34:04,966: +PUB [/rosout] /clustering_5805_1499272444818 http://udacity:37383/
+[rosmaster.master][INFO] 2017-07-05 09:34:04,970: publisherUpdate[/rosout] -> http://udacity:44773/ ['http://udacity:36333/', 'http://udacity:44851/', 'http://udacity:40047/', 'http://udacity:34011/', 'http://udacity:37075/', 'http://udacity:37383/']
+[rosmaster.master][INFO] 2017-07-05 09:34:04,971: publisherUpdate[/rosout] -> http://udacity:44773/ ['http://udacity:36333/', 'http://udacity:44851/', 'http://udacity:40047/', 'http://udacity:34011/', 'http://udacity:37075/', 'http://udacity:37383/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-05 09:34:04,975: +SUB [/clock] /clustering_5805_1499272444818 http://udacity:37383/
+[rosmaster.master][INFO] 2017-07-05 09:34:04,982: +SERVICE [/clustering_5805_1499272444818/get_loggers] /clustering_5805_1499272444818 http://udacity:37383/
+[rosmaster.master][INFO] 2017-07-05 09:34:04,985: +SERVICE [/clustering_5805_1499272444818/set_logger_level] /clustering_5805_1499272444818 http://udacity:37383/
+[rosmaster.master][INFO] 2017-07-05 09:34:04,988: +SUB [/sensor_stick/point_cloud] /clustering_5805_1499272444818 http://udacity:37383/
+[rosmaster.master][INFO] 2017-07-05 09:34:04,990: +PUB [/pcl_objects] /clustering_5805_1499272444818 http://udacity:37383/
+[rosmaster.master][INFO] 2017-07-05 09:34:04,992: +PUB [/pcl_table] /clustering_5805_1499272444818 http://udacity:37383/
+[rosmaster.master][INFO] 2017-07-05 09:34:20,458: -SUB [/sensor_stick/point_cloud] /clustering_5805_1499272444818 http://udacity:37383/
+[rosmaster.master][INFO] 2017-07-05 09:34:20,458: -SUB [/clock] /clustering_5805_1499272444818 http://udacity:37383/
+[rosmaster.master][INFO] 2017-07-05 09:34:20,458: -PUB [/rosout] /clustering_5805_1499272444818 http://udacity:37383/
+[rosmaster.master][INFO] 2017-07-05 09:34:20,458: -PUB [/pcl_objects] /clustering_5805_1499272444818 http://udacity:37383/
+[rosmaster.master][INFO] 2017-07-05 09:34:20,458: -PUB [/pcl_table] /clustering_5805_1499272444818 http://udacity:37383/
+[rosmaster.master][INFO] 2017-07-05 09:34:20,458: -SERVICE [/clustering_5805_1499272444818/get_loggers] /clustering_5805_1499272444818 rosrpc://udacity:39259
+[rosmaster.master][INFO] 2017-07-05 09:34:20,458: -SERVICE [/clustering_5805_1499272444818/set_logger_level] /clustering_5805_1499272444818 rosrpc://udacity:39259
+[rosmaster.master][INFO] 2017-07-05 09:34:20,502: publisherUpdate[/rosout] -> http://udacity:44773/ ['http://udacity:36333/', 'http://udacity:44851/', 'http://udacity:40047/', 'http://udacity:34011/', 'http://udacity:37075/']
+[rosmaster.master][INFO] 2017-07-05 09:34:20,503: publisherUpdate[/rosout] -> http://udacity:44773/ ['http://udacity:36333/', 'http://udacity:44851/', 'http://udacity:40047/', 'http://udacity:34011/', 'http://udacity:37075/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-05 09:34:21,689: -SUB [/clock] /joint_state_publisher http://udacity:34011/
+[rosmaster.master][INFO] 2017-07-05 09:34:21,689: -PUB [/joint_states] /joint_state_publisher http://udacity:34011/
+[rosmaster.master][INFO] 2017-07-05 09:34:21,689: -PUB [/rosout] /joint_state_publisher http://udacity:34011/
+[rosmaster.master][INFO] 2017-07-05 09:34:21,689: -SERVICE [/joint_state_publisher/get_loggers] /joint_state_publisher rosrpc://udacity:38375
+[rosmaster.master][INFO] 2017-07-05 09:34:21,689: -SERVICE [/joint_state_publisher/set_logger_level] /joint_state_publisher rosrpc://udacity:38375
+[rosmaster.master][INFO] 2017-07-05 09:34:21,705: publisherUpdate[/rosout] -> http://udacity:44773/ ['http://udacity:36333/', 'http://udacity:44851/', 'http://udacity:40047/', 'http://udacity:37075/']
+[rosmaster.master][INFO] 2017-07-05 09:34:21,706: publisherUpdate[/rosout] -> http://udacity:44773/ ['http://udacity:36333/', 'http://udacity:44851/', 'http://udacity:40047/', 'http://udacity:37075/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-05 09:34:21,733: -PUB [/rosout] /rviz_udacity_4480_2985660011798174837 http://udacity:40047/
+[rosmaster.master][INFO] 2017-07-05 09:34:21,734: -PUB [/initialpose] /rviz_udacity_4480_2985660011798174837 http://udacity:40047/
+[rosmaster.master][INFO] 2017-07-05 09:34:21,735: -PUB [/move_base_simple/goal] /rviz_udacity_4480_2985660011798174837 http://udacity:40047/
+[rosmaster.master][INFO] 2017-07-05 09:34:21,737: -PUB [/clicked_point] /rviz_udacity_4480_2985660011798174837 http://udacity:40047/
+[rosmaster.master][INFO] 2017-07-05 09:34:21,738: -PUB [/rviz_visual_tools_gui] /rviz_udacity_4480_2985660011798174837 http://udacity:40047/
+[rosmaster.master][INFO] 2017-07-05 09:34:21,739: -SUB [/clock] /rviz_udacity_4480_2985660011798174837 http://udacity:40047/
+[rosmaster.master][INFO] 2017-07-05 09:34:21,740: -SUB [/tf] /rviz_udacity_4480_2985660011798174837 http://udacity:40047/
+[rosmaster.master][INFO] 2017-07-05 09:34:21,743: -SUB [/tf_static] /rviz_udacity_4480_2985660011798174837 http://udacity:40047/
+[rosmaster.master][INFO] 2017-07-05 09:34:21,744: -SUB [/camera/depth_registered/points] /rviz_udacity_4480_2985660011798174837 http://udacity:40047/
+[rosmaster.master][INFO] 2017-07-05 09:34:21,746: -SUB [/camera/rgb/image_raw] /rviz_udacity_4480_2985660011798174837 http://udacity:40047/
+[rosmaster.master][INFO] 2017-07-05 09:34:21,747: -SUB [/camera/rgb/camera_info] /rviz_udacity_4480_2985660011798174837 http://udacity:40047/
+[rosmaster.master][INFO] 2017-07-05 09:34:21,749: -SERVICE [/rviz_udacity_4480_2985660011798174837/get_loggers] /rviz_udacity_4480_2985660011798174837 rosrpc://udacity:34663
+[rosmaster.master][INFO] 2017-07-05 09:34:21,750: -SERVICE [/rviz_udacity_4480_2985660011798174837/set_logger_level] /rviz_udacity_4480_2985660011798174837 rosrpc://udacity:34663
+[rosmaster.master][INFO] 2017-07-05 09:34:21,752: -SERVICE [/rviz_udacity_4480_2985660011798174837/reload_shaders] /rviz_udacity_4480_2985660011798174837 rosrpc://udacity:34663
+[rosmaster.master][INFO] 2017-07-05 09:34:21,795: -PUB [/rosout] /robot_state_publisher http://udacity:44851/
+[rosmaster.master][INFO] 2017-07-05 09:34:21,797: -PUB [/tf] /robot_state_publisher http://udacity:44851/
+[rosmaster.master][INFO] 2017-07-05 09:34:21,799: -PUB [/tf_static] /robot_state_publisher http://udacity:44851/
+[rosmaster.master][INFO] 2017-07-05 09:34:21,801: -SUB [/clock] /robot_state_publisher http://udacity:44851/
+[rosmaster.master][INFO] 2017-07-05 09:34:21,803: -SUB [/sensor_stick/joint_states] /robot_state_publisher http://udacity:44851/
+[rosmaster.master][INFO] 2017-07-05 09:34:21,804: -SERVICE [/robot_state_publisher/get_loggers] /robot_state_publisher rosrpc://udacity:42027
+[rosmaster.master][INFO] 2017-07-05 09:34:21,805: -SERVICE [/robot_state_publisher/set_logger_level] /robot_state_publisher rosrpc://udacity:42027
+[rosmaster.master][INFO] 2017-07-05 09:34:21,807: publisherUpdate[/rosout] -> http://udacity:44773/ ['http://udacity:36333/', 'http://udacity:44851/', 'http://udacity:37075/']
+[rosmaster.master][INFO] 2017-07-05 09:34:21,809: publisherUpdate[/rosout] -> http://udacity:44773/ ['http://udacity:36333/', 'http://udacity:44851/', 'http://udacity:37075/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-05 09:34:21,809: publisherUpdate[/rosout] -> http://udacity:44773/ ['http://udacity:36333/', 'http://udacity:37075/']
+[rosmaster.master][INFO] 2017-07-05 09:34:21,810: publisherUpdate[/rosout] -> http://udacity:44773/ ['http://udacity:36333/', 'http://udacity:37075/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-05 09:34:21,811: publisherUpdate[/tf] -> http://udacity:36333/ []
+[rosmaster.master][INFO] 2017-07-05 09:34:21,811: publisherUpdate[/tf] -> http://udacity:36333/ []: sec=0.00, exception=[Errno 111] Connection refused
+[rosmaster.master][INFO] 2017-07-05 09:34:21,818: publisherUpdate[/tf_static] -> http://udacity:36333/ []
+[rosmaster.master][INFO] 2017-07-05 09:34:21,818: publisherUpdate[/tf_static] -> http://udacity:36333/ []: sec=0.00, exception=[Errno 111] Connection refused
+[rosmaster.threadpool][ERROR] 2017-07-05 09:34:21,842: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1053, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 897, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 859, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 836, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+
+[rosmaster.threadpool][ERROR] 2017-07-05 09:34:21,842: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1053, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 897, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 859, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 836, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+
+[rosmaster.master][INFO] 2017-07-05 09:34:21,844: -SUB [/gazebo/set_link_state] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:34:21,845: -SUB [/gazebo/set_model_state] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:34:21,847: -PUB [/clock] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:34:21,849: -PUB [/gazebo/link_states] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:34:21,851: -PUB [/gazebo/model_states] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:34:21,852: -SERVICE [/gazebo/spawn_sdf_model] /gazebo rosrpc://udacity:49771
+[rosmaster.master][INFO] 2017-07-05 09:34:21,853: -SERVICE [/gazebo/spawn_urdf_model] /gazebo rosrpc://udacity:49771
+[rosmaster.master][INFO] 2017-07-05 09:34:21,855: -SERVICE [/gazebo/delete_model] /gazebo rosrpc://udacity:49771
+[rosmaster.master][INFO] 2017-07-05 09:34:21,856: -SERVICE [/gazebo/delete_light] /gazebo rosrpc://udacity:49771
+[rosmaster.master][INFO] 2017-07-05 09:34:21,857: -SERVICE [/gazebo/get_model_properties] /gazebo rosrpc://udacity:49771
+[rosmaster.master][INFO] 2017-07-05 09:34:21,858: -SERVICE [/gazebo/get_model_state] /gazebo rosrpc://udacity:49771
+[rosmaster.master][INFO] 2017-07-05 09:34:21,859: -SERVICE [/gazebo/get_world_properties] /gazebo rosrpc://udacity:49771
+[rosmaster.master][INFO] 2017-07-05 09:34:21,861: -SERVICE [/gazebo/get_joint_properties] /gazebo rosrpc://udacity:49771
+[rosmaster.master][INFO] 2017-07-05 09:34:21,862: -SERVICE [/gazebo/get_link_properties] /gazebo rosrpc://udacity:49771
+[rosmaster.master][INFO] 2017-07-05 09:34:21,866: -SERVICE [/gazebo/get_link_state] /gazebo rosrpc://udacity:49771
+[rosmaster.master][INFO] 2017-07-05 09:34:21,868: -SERVICE [/gazebo/get_light_properties] /gazebo rosrpc://udacity:49771
+[rosmaster.master][INFO] 2017-07-05 09:34:21,869: -SERVICE [/gazebo/set_light_properties] /gazebo rosrpc://udacity:49771
+[rosmaster.master][INFO] 2017-07-05 09:34:21,874: -SERVICE [/gazebo/get_physics_properties] /gazebo rosrpc://udacity:49771
+[rosmaster.master][INFO] 2017-07-05 09:34:21,876: -SERVICE [/gazebo/set_link_properties] /gazebo rosrpc://udacity:49771
+[rosmaster.master][INFO] 2017-07-05 09:34:21,877: -SERVICE [/gazebo/set_physics_properties] /gazebo rosrpc://udacity:49771
+[rosmaster.master][INFO] 2017-07-05 09:34:21,879: -SERVICE [/gazebo/set_model_state] /gazebo rosrpc://udacity:49771
+[rosmaster.master][INFO] 2017-07-05 09:34:21,880: -SERVICE [/gazebo/set_model_configuration] /gazebo rosrpc://udacity:49771
+[rosmaster.master][INFO] 2017-07-05 09:34:21,882: -SERVICE [/gazebo/set_joint_properties] /gazebo rosrpc://udacity:49771
+[rosmaster.master][INFO] 2017-07-05 09:34:21,883: -SERVICE [/gazebo/set_link_state] /gazebo rosrpc://udacity:49771
+[rosmaster.master][INFO] 2017-07-05 09:34:21,884: -SERVICE [/gazebo/pause_physics] /gazebo rosrpc://udacity:49771
+[rosmaster.master][INFO] 2017-07-05 09:34:21,885: -SERVICE [/gazebo/unpause_physics] /gazebo rosrpc://udacity:49771
+[rosmaster.master][INFO] 2017-07-05 09:34:21,887: -SERVICE [/gazebo/apply_body_wrench] /gazebo rosrpc://udacity:49771
+[rosmaster.master][INFO] 2017-07-05 09:34:21,888: -SERVICE [/gazebo/apply_joint_effort] /gazebo rosrpc://udacity:49771
+[rosmaster.master][INFO] 2017-07-05 09:34:21,889: -SERVICE [/gazebo/clear_joint_forces] /gazebo rosrpc://udacity:49771
+[rosmaster.master][INFO] 2017-07-05 09:34:21,890: -SERVICE [/gazebo/clear_body_wrenches] /gazebo rosrpc://udacity:49771
+[rosmaster.master][INFO] 2017-07-05 09:34:21,891: -SERVICE [/gazebo/reset_simulation] /gazebo rosrpc://udacity:49771
+[rosmaster.master][INFO] 2017-07-05 09:34:21,892: -SERVICE [/gazebo/reset_world] /gazebo rosrpc://udacity:49771
+[rosmaster.master][INFO] 2017-07-05 09:34:21,895: -PUB [/gazebo/parameter_descriptions] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:34:21,899: -PUB [/gazebo/parameter_updates] /gazebo http://udacity:37075/
+[rosmaster.master][INFO] 2017-07-05 09:34:21,900: -SERVICE [/gazebo/set_parameters] /gazebo rosrpc://udacity:49771
+[rosmaster.master][INFO] 2017-07-05 09:34:21,940: publisherUpdate[/clock] -> http://udacity:44773/ []
+[rosmaster.master][INFO] 2017-07-05 09:34:21,941: publisherUpdate[/clock] -> http://udacity:44773/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-05 09:34:21,942: publisherUpdate[/clock] -> http://udacity:36333/ []
+[rosmaster.master][INFO] 2017-07-05 09:34:21,942: publisherUpdate[/clock] -> http://udacity:36333/ []: sec=0.00, exception=[Errno 111] Connection refused
+[rosmaster.threadpool][ERROR] 2017-07-05 09:34:21,942: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1053, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 897, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 859, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 836, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+
+[rosmaster.master][INFO] 2017-07-05 09:34:21,943: publisherUpdate[/clock] -> http://udacity:37075/ []
+[rosmaster.master][INFO] 2017-07-05 09:34:21,944: publisherUpdate[/clock] -> http://udacity:37075/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-05 09:34:37,002: -PUB [/rosout_agg] /rosout http://udacity:44773/
+[rosmaster.master][INFO] 2017-07-05 09:34:37,003: -SUB [/clock] /rosout http://udacity:44773/
+[rosmaster.master][INFO] 2017-07-05 09:34:37,004: -SUB [/rosout] /rosout http://udacity:44773/
+[rosmaster.master][INFO] 2017-07-05 09:34:37,005: -SERVICE [/rosout/get_loggers] /rosout rosrpc://udacity:58813
+[rosmaster.master][INFO] 2017-07-05 09:34:37,006: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://udacity:58813
+[rosmaster.main][INFO] 2017-07-05 09:34:37,056: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2017-07-05 09:34:37,056: stopping master...
+[rospy.core][INFO] 2017-07-05 09:34:37,056: signal_shutdown [atexit]

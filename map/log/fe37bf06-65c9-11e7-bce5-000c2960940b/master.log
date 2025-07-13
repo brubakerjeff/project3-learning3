@@ -1,0 +1,27 @@
+[rosmaster.main][INFO] 2017-07-10 16:46:28,968: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2017-07-10 16:46:28,968: Starting ROS Master Node
+[xmlrpc][INFO] 2017-07-10 16:46:28,970: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2017-07-10 16:46:28,970: Started XML-RPC server [http://172.16.244.111:11311/]
+[xmlrpc][INFO] 2017-07-10 16:46:28,970: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2017-07-10 16:46:28,971: Master initialized: port[11311], uri[http://172.16.244.111:11311/]
+[rosmaster.master][INFO] 2017-07-10 16:46:29,002: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2017-07-10 16:46:29,003: +PARAM [/roslaunch/uris/host_172_16_244_111__34043] by /roslaunch
+[rosmaster.master][INFO] 2017-07-10 16:46:29,055: +SERVICE [/rosout/get_loggers] /rosout http://172.16.244.111:46463/
+[rosmaster.master][INFO] 2017-07-10 16:46:29,056: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2017-07-10 16:46:29,057: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2017-07-10 16:46:29,057: +SERVICE [/rosout/set_logger_level] /rosout http://172.16.244.111:46463/
+[rosmaster.master][INFO] 2017-07-10 16:46:29,061: +PUB [/rosout_agg] /rosout http://172.16.244.111:46463/
+[rosmaster.master][INFO] 2017-07-10 16:46:29,066: +SUB [/rosout] /rosout http://172.16.244.111:46463/
+[rosmaster.master][INFO] 2017-07-10 16:46:38,059: +PUB [/rosout] /rostopic_7673_1499730397921 http://172.16.244.111:43979/
+[rosmaster.master][INFO] 2017-07-10 16:46:38,062: +SERVICE [/rostopic_7673_1499730397921/get_loggers] /rostopic_7673_1499730397921 http://172.16.244.111:43979/
+[rosmaster.master][INFO] 2017-07-10 16:46:38,064: +SERVICE [/rostopic_7673_1499730397921/set_logger_level] /rostopic_7673_1499730397921 http://172.16.244.111:43979/
+[rosmaster.master][INFO] 2017-07-10 16:46:38,127: publisherUpdate[/rosout] -> http://172.16.244.111:46463/ ['http://172.16.244.111:43979/']
+[rosmaster.master][INFO] 2017-07-10 16:46:38,129: publisherUpdate[/rosout] -> http://172.16.244.111:46463/ ['http://172.16.244.111:43979/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-10 16:46:50,073: -PUB [/rosout] / http://Kyles-MacBook-Pro.local:52346/
+[rosmaster.master][INFO] 2017-07-10 16:46:52,421: -PUB [/rosout_agg] /rosout http://172.16.244.111:46463/
+[rosmaster.master][INFO] 2017-07-10 16:46:52,422: -SUB [/rosout] /rosout http://172.16.244.111:46463/
+[rosmaster.master][INFO] 2017-07-10 16:46:52,423: -SERVICE [/rosout/get_loggers] /rosout rosrpc://172.16.244.111:43617
+[rosmaster.master][INFO] 2017-07-10 16:46:52,425: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://172.16.244.111:43617
+[rosmaster.main][INFO] 2017-07-10 16:46:52,513: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2017-07-10 16:46:52,513: stopping master...
+[rospy.core][INFO] 2017-07-10 16:46:52,514: signal_shutdown [atexit]

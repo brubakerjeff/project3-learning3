@@ -1,0 +1,27 @@
+[0m[ INFO] [1749676928.727705865]: rviz version 1.12.17[0m
+[0m[ INFO] [1749676928.727736693]: compiled against Qt version 5.5.1[0m
+[0m[ INFO] [1749676928.727742689]: compiled against OGRE version 1.9.0 (Ghadamon)[0m
+[0m[ INFO] [1749676928.926976187]: Stereo is NOT SUPPORTED[0m
+[0m[ INFO] [1749676928.927210021]: OpenGl version: 3 (GLSL 1.3).[0m
+[0m[ INFO] [1749676947.125526600, 84892.740000000]: Creating 1 swatches[0m
+[0m[ INFO] [1749676976.528992565, 84922.044000000]: Setting goal: Frame:odom, Position(6.311, -1.690, 0.000), Orientation(0.000, 0.000, 0.000, 1.000) = Angle: 0.000
+[0m
+[0m[ INFO] [1749676979.520505939, 84924.986000000]: Setting goal: Frame:odom, Position(4.769, -1.462, 0.000), Orientation(0.000, 0.000, 0.000, 1.000) = Angle: 0.000
+[0m
+[0m[ INFO] [1749676985.285507721, 84930.679000000]: Setting goal: Frame:odom, Position(2.097, -1.986, 0.000), Orientation(0.000, 0.000, 0.000, 1.000) = Angle: 0.000
+[0m
+[0m[ INFO] [1749677005.849516321, 84951.047000000]: Setting goal: Frame:odom, Position(-4.196, -6.893, 0.000), Orientation(0.000, 0.000, 0.000, 1.000) = Angle: 0.000
+[0m
+[0m[ INFO] [1749677080.167699892, 85025.182000000]: Setting goal: Frame:odom, Position(-0.916, -4.189, 0.000), Orientation(0.000, 0.000, 0.000, 1.000) = Angle: 0.000
+[0m
+[0m[ INFO] [1749677178.534451532, 85123.283000000]: Setting pose: -3.384 -0.575 0.000 [frame=odom][0m
+[0m[ INFO] [1749677786.834798241, 85729.966000000]: Setting goal: Frame:odom, Position(-1.284, -2.552, 0.000), Orientation(0.000, 0.000, 0.000, 1.000) = Angle: 0.000
+[0m
+[0m[ INFO] [1749686213.182656020, 94136.122000000]: Setting goal: Frame:odom, Position(-1.367, -8.613, 0.000), Orientation(0.000, 0.000, 0.000, 1.000) = Angle: 0.000
+[0m
+[0m[ INFO] [1749686235.030182536, 94157.934000000]: Setting goal: Frame:odom, Position(-3.855, -9.815, 0.000), Orientation(0.000, 0.000, 0.000, 1.000) = Angle: 0.000
+[0m
+[0m[ INFO] [1749686238.721171347, 94161.593000000]: Setting goal: Frame:odom, Position(-0.570, -6.760, 0.000), Orientation(0.000, 0.000, 0.994, -0.112) = Angle: -2.917
+[0m
+[33m[ WARN] [1749686294.051323064, 94216.511000000]: Shutdown request received.[0m
+[33m[ WARN] [1749686294.051339521, 94216.511000000]: Reason given for shutdown: [new node registered with same name][0m

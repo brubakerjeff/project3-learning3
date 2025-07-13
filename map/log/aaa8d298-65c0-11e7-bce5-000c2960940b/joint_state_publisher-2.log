@@ -1,0 +1,20 @@
+[rospy.client][INFO] 2017-07-10 15:39:49,631: init_node, name[/joint_state_publisher], pid[3580]
+[xmlrpc][INFO] 2017-07-10 15:39:49,644: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-07-10 15:39:49,645: Started XML-RPC server [http://udacity:37967/]
+[rospy.init][INFO] 2017-07-10 15:39:49,645: ROS Slave URI: [http://udacity:37967/]
+[rospy.impl.masterslave][INFO] 2017-07-10 15:39:49,645: _ready: http://udacity:37967/
+[xmlrpc][INFO] 2017-07-10 15:39:49,647: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2017-07-10 15:39:49,647: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2017-07-10 15:39:49,746: registered with master
+[rospy.rosout][INFO] 2017-07-10 15:39:49,746: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-07-10 15:39:49,751: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-07-10 15:39:49,755: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2017-07-10 15:39:50,041: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2017-07-10 15:39:50,210: topic[/joint_states] adding connection to [/robot_state_publisher], count 0
+[rospy.internal][INFO] 2017-07-10 15:39:50,314: topic[/move_group/fake_controller_joint_states] adding connection to [http://udacity:41035/], count 0
+[rospy.core][INFO] 2017-07-10 15:46:45,318: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2017-07-10 15:46:45,322: topic[/joint_states] removing connection to /robot_state_publisher
+[rospy.internal][INFO] 2017-07-10 15:46:45,322: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2017-07-10 15:46:45,323: topic[/move_group/fake_controller_joint_states] removing connection to http://udacity:41035/
+[rospy.impl.masterslave][INFO] 2017-07-10 15:46:45,323: signal-2
+[rospy.core][INFO] 2017-07-10 15:46:45,440: signal_shutdown [atexit]

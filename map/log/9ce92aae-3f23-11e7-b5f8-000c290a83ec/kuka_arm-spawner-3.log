@@ -1,0 +1,20 @@
+[rospy.client][INFO] 2017-05-22 12:19:49,825: init_node, name[/kuka_arm/spawner], pid[2323]
+[xmlrpc][INFO] 2017-05-22 12:19:49,829: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2017-05-22 12:19:49,829: ROS Slave URI: [http://udacity:45883/]
+[xmlrpc][INFO] 2017-05-22 12:19:49,829: Started XML-RPC server [http://udacity:45883/]
+[rospy.impl.masterslave][INFO] 2017-05-22 12:19:49,829: _ready: http://udacity:45883/
+[rospy.registration][INFO] 2017-05-22 12:19:49,830: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2017-05-22 12:19:49,831: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2017-05-22 12:19:49,929: registered with master
+[rospy.rosout][INFO] 2017-05-22 12:19:49,930: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-05-22 12:19:49,931: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-05-22 12:19:49,932: initializing /clock core topic
+[rospy.simtime][INFO] 2017-05-22 12:19:49,934: connected to core topic /clock
+[rosout][INFO] 2017-05-22 12:19:49,937: Controller Spawner: Waiting for service controller_manager/load_controller
+[rospy.internal][INFO] 2017-05-22 12:19:50,217: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2017-05-22 12:19:50,359: topic[/clock] adding connection to [http://udacity:45133/], count 0
+[rosout][WARNING] 2017-05-22 12:20:19,991: Controller Spawner couldn't find the expected controller_manager ROS interface.
+[rospy.core][INFO] 2017-05-22 12:20:19,993: signal_shutdown [atexit]
+[rospy.internal][INFO] 2017-05-22 12:20:20,006: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2017-05-22 12:20:20,008: topic[/clock] removing connection to http://udacity:45133/
+[rospy.impl.masterslave][INFO] 2017-05-22 12:20:20,008: atexit

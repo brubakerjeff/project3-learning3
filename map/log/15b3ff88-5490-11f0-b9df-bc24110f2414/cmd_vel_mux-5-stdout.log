@@ -1,0 +1,5 @@
+[0m[ INFO] [1751248292.762041906]: Loading nodelet /cmd_vel_mux of type yocs_cmd_vel_mux/CmdVelMuxNodelet to manager mobile_base_nodelet_manager with the following remappings:[0m
+[0m[ INFO] [1751248292.762095933]: /cmd_vel_mux/output -> /mobile_base/commands/velocity[0m
+[0m[ INFO] [1751248292.763678711]: waitForService: Service [/mobile_base_nodelet_manager/load_nodelet] has not been advertised, waiting...[0m
+[0m[ INFO] [1751248292.911642690]: waitForService: Service [/mobile_base_nodelet_manager/load_nodelet] is now available.[0m
+[0m[ INFO] [1751248304.722151928, 168855.135000000]: Unloading nodelet /cmd_vel_mux from manager mobile_base_nodelet_manager[0m

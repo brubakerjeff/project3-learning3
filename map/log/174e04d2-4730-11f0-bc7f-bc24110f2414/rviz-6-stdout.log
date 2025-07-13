@@ -1,0 +1,9 @@
+[0m[ INFO] [1749693233.707706548]: rviz version 1.12.17[0m
+[0m[ INFO] [1749693233.707740611]: compiled against Qt version 5.5.1[0m
+[0m[ INFO] [1749693233.707746481]: compiled against OGRE version 1.9.0 (Ghadamon)[0m
+[0m[ INFO] [1749693233.911845977]: Stereo is NOT SUPPORTED[0m
+[0m[ INFO] [1749693233.912061377]: OpenGl version: 3 (GLSL 1.3).[0m
+[0m[ INFO] [1749693240.492537518, 84881.135000000]: Creating 1 swatches[0m
+[0m[ INFO] [1749693348.849057788, 84988.776000000]: Setting pose: -3.213 -0.116 1.772 [frame=odom][0m
+[0m[ INFO] [1749693357.263574942, 84997.123000000]: Setting pose: -3.182 -0.312 -2.650 [frame=odom][0m
+[33m[ WARN] [1749771798.432093860, 163035.352000000]: Detected jump back in time of 1.986s. Clearing TF buffer.[0m

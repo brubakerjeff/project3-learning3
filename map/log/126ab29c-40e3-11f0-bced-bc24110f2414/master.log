@@ -1,0 +1,318 @@
+[rosmaster.main][INFO] 2025-06-03 18:27:26,401: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2025-06-03 18:27:26,401: Starting ROS Master Node
+[xmlrpc][INFO] 2025-06-03 18:27:26,401: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2025-06-03 18:27:26,402: Started XML-RPC server [http://192.168.1.124:11311/]
+[rosmaster.master][INFO] 2025-06-03 18:27:26,402: Master initialized: port[11311], uri[http://192.168.1.124:11311/]
+[xmlrpc][INFO] 2025-06-03 18:27:26,402: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2025-06-03 18:27:26,405: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2025-06-03 18:27:26,406: +PARAM [/roslaunch/uris/host_192_168_1_124__35493] by /roslaunch
+[rosmaster.master][INFO] 2025-06-03 18:27:26,435: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2025-06-03 18:27:26,435: +PARAM [/joint_state_publisher/use_gui] by /roslaunch
+[rosmaster.master][INFO] 2025-06-03 18:27:26,435: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2025-06-03 18:27:26,435: +PARAM [/robot_description] by /roslaunch
+[rosmaster.master][INFO] 2025-06-03 18:27:26,435: +PARAM [/use_sim_time] by /roslaunch
+[rosmaster.master][INFO] 2025-06-03 18:27:26,437: +SERVICE [/rosout/get_loggers] /rosout http://192.168.1.124:35279/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,438: +SERVICE [/rosout/set_logger_level] /rosout http://192.168.1.124:35279/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,446: +SUB [/clock] /rosout http://192.168.1.124:35279/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,448: +PUB [/rosout_agg] /rosout http://192.168.1.124:35279/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,451: +SUB [/rosout] /rosout http://192.168.1.124:35279/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,454: +PUB [/rosout] /robot_state_publisher http://192.168.1.124:40235/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,456: +SERVICE [/robot_state_publisher/get_loggers] /robot_state_publisher http://192.168.1.124:40235/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,457: +SERVICE [/robot_state_publisher/set_logger_level] /robot_state_publisher http://192.168.1.124:40235/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,481: +SUB [/clock] /robot_state_publisher http://192.168.1.124:40235/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,488: +PUB [/tf] /robot_state_publisher http://192.168.1.124:40235/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,490: +PUB [/tf_static] /robot_state_publisher http://192.168.1.124:40235/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,498: +SUB [/joint_states] /robot_state_publisher http://192.168.1.124:40235/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,501: publisherUpdate[/rosout] -> http://192.168.1.124:35279/ ['http://192.168.1.124:40235/']
+[rosmaster.master][INFO] 2025-06-03 18:27:26,502: publisherUpdate[/rosout] -> http://192.168.1.124:35279/ ['http://192.168.1.124:40235/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-06-03 18:27:26,545: +PUB [/rosout] /rviz http://192.168.1.124:46581/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,547: +SERVICE [/rviz/get_loggers] /rviz http://192.168.1.124:46581/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,549: +SERVICE [/rviz/set_logger_level] /rviz http://192.168.1.124:46581/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,552: +SUB [/clock] /rviz http://192.168.1.124:46581/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,602: publisherUpdate[/rosout] -> http://192.168.1.124:35279/ ['http://192.168.1.124:40235/', 'http://192.168.1.124:46581/']
+[rosmaster.master][INFO] 2025-06-03 18:27:26,603: publisherUpdate[/rosout] -> http://192.168.1.124:35279/ ['http://192.168.1.124:40235/', 'http://192.168.1.124:46581/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-06-03 18:27:26,610: +PUB [/rosout] /joint_state_publisher http://192.168.1.124:38509/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,616: +SUB [/clock] /joint_state_publisher http://192.168.1.124:38509/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,619: +SERVICE [/joint_state_publisher/get_loggers] /joint_state_publisher http://192.168.1.124:38509/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,620: +SERVICE [/joint_state_publisher/set_logger_level] /joint_state_publisher http://192.168.1.124:38509/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,639: +SUB [/tf] /rviz http://192.168.1.124:46581/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,641: +PUB [/joint_states] /joint_state_publisher http://192.168.1.124:38509/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,645: +SUB [/tf_static] /rviz http://192.168.1.124:46581/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,702: publisherUpdate[/rosout] -> http://192.168.1.124:35279/ ['http://192.168.1.124:40235/', 'http://192.168.1.124:46581/', 'http://192.168.1.124:38509/']
+[rosmaster.master][INFO] 2025-06-03 18:27:26,703: publisherUpdate[/joint_states] -> http://192.168.1.124:40235/ ['http://192.168.1.124:38509/']
+[rosmaster.master][INFO] 2025-06-03 18:27:26,703: publisherUpdate[/rosout] -> http://192.168.1.124:35279/ ['http://192.168.1.124:40235/', 'http://192.168.1.124:46581/', 'http://192.168.1.124:38509/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-06-03 18:27:26,703: publisherUpdate[/joint_states] -> http://192.168.1.124:40235/ ['http://192.168.1.124:38509/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-06-03 18:27:26,710: +PUB [/rosout] /gazebo http://192.168.1.124:34731/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,711: +SERVICE [/gazebo/get_loggers] /gazebo http://192.168.1.124:34731/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,711: +SERVICE [/gazebo/set_logger_level] /gazebo http://192.168.1.124:34731/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,713: +PUB [/initialpose] /rviz http://192.168.1.124:46581/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,714: +PUB [/goal] /rviz http://192.168.1.124:46581/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,716: +SUB [/clock] /gazebo http://192.168.1.124:34731/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,724: +PUB [/rosout] /urdf_spawner http://192.168.1.124:39605/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,726: +SUB [/clock] /urdf_spawner http://192.168.1.124:39605/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,728: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://192.168.1.124:39605/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,729: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://192.168.1.124:39605/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,737: -PUB [/goal] /rviz http://192.168.1.124:46581/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,738: -PUB [/initialpose] /rviz http://192.168.1.124:46581/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,741: +PUB [/initialpose] /rviz http://192.168.1.124:46581/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,741: +PUB [/goal] /rviz http://192.168.1.124:46581/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,742: +PUB [/move_base_simple/goal] /rviz http://192.168.1.124:46581/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,742: -PUB [/goal] /rviz http://192.168.1.124:46581/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,743: +PUB [/clicked_point] /rviz http://192.168.1.124:46581/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,765: +SERVICE [/rviz/reload_shaders] /rviz http://192.168.1.124:46581/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,803: publisherUpdate[/rosout] -> http://192.168.1.124:35279/ ['http://192.168.1.124:40235/', 'http://192.168.1.124:46581/', 'http://192.168.1.124:38509/', 'http://192.168.1.124:34731/']
+[rosmaster.master][INFO] 2025-06-03 18:27:26,804: publisherUpdate[/rosout] -> http://192.168.1.124:35279/ ['http://192.168.1.124:40235/', 'http://192.168.1.124:46581/', 'http://192.168.1.124:38509/', 'http://192.168.1.124:34731/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-06-03 18:27:26,804: publisherUpdate[/rosout] -> http://192.168.1.124:35279/ ['http://192.168.1.124:40235/', 'http://192.168.1.124:46581/', 'http://192.168.1.124:38509/', 'http://192.168.1.124:34731/', 'http://192.168.1.124:39605/']
+[rosmaster.master][INFO] 2025-06-03 18:27:26,805: publisherUpdate[/rosout] -> http://192.168.1.124:35279/ ['http://192.168.1.124:40235/', 'http://192.168.1.124:46581/', 'http://192.168.1.124:38509/', 'http://192.168.1.124:34731/', 'http://192.168.1.124:39605/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-06-03 18:27:26,919: +PUB [/clock] /gazebo http://192.168.1.124:34731/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,919: +SERVICE [/gazebo/spawn_sdf_model] /gazebo http://192.168.1.124:34731/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,920: +SERVICE [/gazebo/spawn_urdf_model] /gazebo http://192.168.1.124:34731/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,920: +SERVICE [/gazebo/delete_model] /gazebo http://192.168.1.124:34731/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,921: +SERVICE [/gazebo/delete_light] /gazebo http://192.168.1.124:34731/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,921: +SERVICE [/gazebo/get_model_properties] /gazebo http://192.168.1.124:34731/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,922: +SERVICE [/gazebo/get_model_state] /gazebo http://192.168.1.124:34731/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,923: +SERVICE [/gazebo/get_world_properties] /gazebo http://192.168.1.124:34731/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,923: +SERVICE [/gazebo/get_joint_properties] /gazebo http://192.168.1.124:34731/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,924: +SERVICE [/gazebo/get_link_properties] /gazebo http://192.168.1.124:34731/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,924: +SERVICE [/gazebo/get_link_state] /gazebo http://192.168.1.124:34731/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,925: +SERVICE [/gazebo/get_light_properties] /gazebo http://192.168.1.124:34731/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,926: +SERVICE [/gazebo/set_light_properties] /gazebo http://192.168.1.124:34731/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,926: +SERVICE [/gazebo/get_physics_properties] /gazebo http://192.168.1.124:34731/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,927: +PUB [/gazebo/link_states] /gazebo http://192.168.1.124:34731/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,927: +PUB [/gazebo/model_states] /gazebo http://192.168.1.124:34731/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,928: +SERVICE [/gazebo/set_link_properties] /gazebo http://192.168.1.124:34731/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,928: +SERVICE [/gazebo/set_physics_properties] /gazebo http://192.168.1.124:34731/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,929: +SERVICE [/gazebo/set_model_state] /gazebo http://192.168.1.124:34731/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,929: +SERVICE [/gazebo/set_model_configuration] /gazebo http://192.168.1.124:34731/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,930: +SERVICE [/gazebo/set_joint_properties] /gazebo http://192.168.1.124:34731/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,930: +SERVICE [/gazebo/set_link_state] /gazebo http://192.168.1.124:34731/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,933: +SUB [/gazebo/set_link_state] /gazebo http://192.168.1.124:34731/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,935: +SUB [/gazebo/set_model_state] /gazebo http://192.168.1.124:34731/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,936: +SERVICE [/gazebo/pause_physics] /gazebo http://192.168.1.124:34731/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,937: +SERVICE [/gazebo/unpause_physics] /gazebo http://192.168.1.124:34731/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,937: +SERVICE [/gazebo/apply_body_wrench] /gazebo http://192.168.1.124:34731/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,938: +SERVICE [/gazebo/apply_joint_effort] /gazebo http://192.168.1.124:34731/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,938: +SERVICE [/gazebo/clear_joint_forces] /gazebo http://192.168.1.124:34731/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,939: +SERVICE [/gazebo/clear_body_wrenches] /gazebo http://192.168.1.124:34731/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,939: +SERVICE [/gazebo/reset_simulation] /gazebo http://192.168.1.124:34731/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,940: +SERVICE [/gazebo/reset_world] /gazebo http://192.168.1.124:34731/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,940: +PARAM [/use_sim_time] by /gazebo
+[rosmaster.master][INFO] 2025-06-03 18:27:26,972: +SERVICE [/gazebo/set_parameters] /gazebo http://192.168.1.124:34731/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,973: +PUB [/gazebo/parameter_descriptions] /gazebo http://192.168.1.124:34731/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,973: +PUB [/gazebo/parameter_updates] /gazebo http://192.168.1.124:34731/
+[rosmaster.master][INFO] 2025-06-03 18:27:26,981: +PARAM [/gazebo/time_step] by /gazebo
+[rosmaster.master][INFO] 2025-06-03 18:27:26,981: +PARAM [/gazebo/max_update_rate] by /gazebo
+[rosmaster.master][INFO] 2025-06-03 18:27:26,981: +PARAM [/gazebo/gravity_x] by /gazebo
+[rosmaster.master][INFO] 2025-06-03 18:27:26,982: +PARAM [/gazebo/gravity_y] by /gazebo
+[rosmaster.master][INFO] 2025-06-03 18:27:26,982: +PARAM [/gazebo/gravity_z] by /gazebo
+[rosmaster.master][INFO] 2025-06-03 18:27:26,983: +PARAM [/gazebo/auto_disable_bodies] by /gazebo
+[rosmaster.master][INFO] 2025-06-03 18:27:26,983: +PARAM [/gazebo/sor_pgs_precon_iters] by /gazebo
+[rosmaster.master][INFO] 2025-06-03 18:27:26,984: +PARAM [/gazebo/sor_pgs_iters] by /gazebo
+[rosmaster.master][INFO] 2025-06-03 18:27:26,984: +PARAM [/gazebo/sor_pgs_w] by /gazebo
+[rosmaster.master][INFO] 2025-06-03 18:27:26,985: +PARAM [/gazebo/sor_pgs_rms_error_tol] by /gazebo
+[rosmaster.master][INFO] 2025-06-03 18:27:26,985: +PARAM [/gazebo/cfm] by /gazebo
+[rosmaster.master][INFO] 2025-06-03 18:27:26,986: +PARAM [/gazebo/erp] by /gazebo
+[rosmaster.master][INFO] 2025-06-03 18:27:26,986: +PARAM [/gazebo/contact_surface_layer] by /gazebo
+[rosmaster.master][INFO] 2025-06-03 18:27:26,987: +PARAM [/gazebo/contact_max_correcting_vel] by /gazebo
+[rosmaster.master][INFO] 2025-06-03 18:27:26,987: +PARAM [/gazebo/max_contacts] by /gazebo
+[rosmaster.master][INFO] 2025-06-03 18:27:26,989: +PARAM [/gazebo/time_step] by /gazebo
+[rosmaster.master][INFO] 2025-06-03 18:27:26,990: +PARAM [/gazebo/max_update_rate] by /gazebo
+[rosmaster.master][INFO] 2025-06-03 18:27:26,990: +PARAM [/gazebo/gravity_x] by /gazebo
+[rosmaster.master][INFO] 2025-06-03 18:27:26,991: +PARAM [/gazebo/gravity_y] by /gazebo
+[rosmaster.master][INFO] 2025-06-03 18:27:26,991: +PARAM [/gazebo/gravity_z] by /gazebo
+[rosmaster.master][INFO] 2025-06-03 18:27:26,992: +PARAM [/gazebo/auto_disable_bodies] by /gazebo
+[rosmaster.master][INFO] 2025-06-03 18:27:26,992: +PARAM [/gazebo/sor_pgs_precon_iters] by /gazebo
+[rosmaster.master][INFO] 2025-06-03 18:27:26,993: +PARAM [/gazebo/sor_pgs_iters] by /gazebo
+[rosmaster.master][INFO] 2025-06-03 18:27:26,993: +PARAM [/gazebo/sor_pgs_w] by /gazebo
+[rosmaster.master][INFO] 2025-06-03 18:27:26,994: +PARAM [/gazebo/sor_pgs_rms_error_tol] by /gazebo
+[rosmaster.master][INFO] 2025-06-03 18:27:26,994: +PARAM [/gazebo/cfm] by /gazebo
+[rosmaster.master][INFO] 2025-06-03 18:27:26,994: +PARAM [/gazebo/erp] by /gazebo
+[rosmaster.master][INFO] 2025-06-03 18:27:26,995: +PARAM [/gazebo/contact_surface_layer] by /gazebo
+[rosmaster.master][INFO] 2025-06-03 18:27:26,995: +PARAM [/gazebo/contact_max_correcting_vel] by /gazebo
+[rosmaster.master][INFO] 2025-06-03 18:27:26,996: +PARAM [/gazebo/max_contacts] by /gazebo
+[rosmaster.master][INFO] 2025-06-03 18:27:27,004: publisherUpdate[/clock] -> http://192.168.1.124:35279/ ['http://192.168.1.124:34731/']
+[rosmaster.master][INFO] 2025-06-03 18:27:27,004: publisherUpdate[/clock] -> http://192.168.1.124:40235/ ['http://192.168.1.124:34731/']
+[rosmaster.master][INFO] 2025-06-03 18:27:27,005: publisherUpdate[/clock] -> http://192.168.1.124:35279/ ['http://192.168.1.124:34731/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-06-03 18:27:27,005: publisherUpdate[/clock] -> http://192.168.1.124:40235/ ['http://192.168.1.124:34731/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-06-03 18:27:27,005: publisherUpdate[/clock] -> http://192.168.1.124:46581/ ['http://192.168.1.124:34731/']
+[rosmaster.master][INFO] 2025-06-03 18:27:27,005: publisherUpdate[/clock] -> http://192.168.1.124:38509/ ['http://192.168.1.124:34731/']
+[rosmaster.master][INFO] 2025-06-03 18:27:27,005: publisherUpdate[/clock] -> http://192.168.1.124:34731/ ['http://192.168.1.124:34731/']
+[rosmaster.master][INFO] 2025-06-03 18:27:27,006: publisherUpdate[/clock] -> http://192.168.1.124:46581/ ['http://192.168.1.124:34731/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-06-03 18:27:27,006: publisherUpdate[/clock] -> http://192.168.1.124:39605/ ['http://192.168.1.124:34731/']
+[rosmaster.master][INFO] 2025-06-03 18:27:27,006: publisherUpdate[/clock] -> http://192.168.1.124:38509/ ['http://192.168.1.124:34731/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-06-03 18:27:27,006: publisherUpdate[/clock] -> http://192.168.1.124:34731/ ['http://192.168.1.124:34731/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-06-03 18:27:27,007: publisherUpdate[/clock] -> http://192.168.1.124:39605/ ['http://192.168.1.124:34731/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-06-03 18:27:27,470: +SERVICE [/camera/set_camera_info] /gazebo http://192.168.1.124:34731/
+[rosmaster.master][INFO] 2025-06-03 18:27:27,472: +SERVICE [/camera/set_parameters] /gazebo http://192.168.1.124:34731/
+[rosmaster.master][INFO] 2025-06-03 18:27:27,473: +PUB [/camera/parameter_descriptions] /gazebo http://192.168.1.124:34731/
+[rosmaster.master][INFO] 2025-06-03 18:27:27,473: +PUB [/camera/parameter_updates] /gazebo http://192.168.1.124:34731/
+[rosmaster.master][INFO] 2025-06-03 18:27:27,474: -SUB [/clock] /urdf_spawner http://192.168.1.124:39605/
+[rosmaster.master][INFO] 2025-06-03 18:27:27,475: -PUB [/rosout] /urdf_spawner http://192.168.1.124:39605/
+[rosmaster.master][INFO] 2025-06-03 18:27:27,475: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://192.168.1.124:42613
+[rosmaster.master][INFO] 2025-06-03 18:27:27,475: +PARAM [/camera/imager_rate] by /gazebo
+[rosmaster.master][INFO] 2025-06-03 18:27:27,475: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://192.168.1.124:42613
+[rosmaster.master][ERROR] 2025-06-03 18:27:27,476: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 177, in validated_f
+    code, msg, val = f(*newArgs, **kwds)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 435, in searchParam
+    search_key = self.param_server.search_param(caller_id, key)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/paramserver.py", line 116, in search_param
+    raise ValueError("namespace must be global")
+ValueError: namespace must be global
+
+[rosmaster.master][INFO] 2025-06-03 18:27:27,477: +PUB [/scan] /gazebo http://192.168.1.124:34731/
+[rosmaster.master][INFO] 2025-06-03 18:27:27,477: +PARAM [/camera/imager_rate] by /gazebo
+[rosmaster.master][INFO] 2025-06-03 18:27:27,507: publisherUpdate[/rosout] -> http://192.168.1.124:35279/ ['http://192.168.1.124:40235/', 'http://192.168.1.124:46581/', 'http://192.168.1.124:38509/', 'http://192.168.1.124:34731/']
+[rosmaster.master][INFO] 2025-06-03 18:27:27,508: publisherUpdate[/rosout] -> http://192.168.1.124:35279/ ['http://192.168.1.124:40235/', 'http://192.168.1.124:46581/', 'http://192.168.1.124:38509/', 'http://192.168.1.124:34731/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-06-03 18:27:27,522: +PUB [/camera/rgb/image_raw/compressedDepth] /gazebo http://192.168.1.124:34731/
+[rosmaster.master][INFO] 2025-06-03 18:27:27,523: +SERVICE [/camera/rgb/image_raw/compressedDepth/set_parameters] /gazebo http://192.168.1.124:34731/
+[rosmaster.master][INFO] 2025-06-03 18:27:27,524: +PUB [/camera/rgb/image_raw/compressedDepth/parameter_descriptions] /gazebo http://192.168.1.124:34731/
+[rosmaster.master][INFO] 2025-06-03 18:27:27,524: +PUB [/camera/rgb/image_raw/compressedDepth/parameter_updates] /gazebo http://192.168.1.124:34731/
+[rosmaster.master][INFO] 2025-06-03 18:27:27,526: +PARAM [/camera/rgb/image_raw/compressedDepth/depth_max] by /gazebo
+[rosmaster.master][INFO] 2025-06-03 18:27:27,527: +PARAM [/camera/rgb/image_raw/compressedDepth/depth_quantization] by /gazebo
+[rosmaster.master][INFO] 2025-06-03 18:27:27,527: +PARAM [/camera/rgb/image_raw/compressedDepth/png_level] by /gazebo
+[rosmaster.master][INFO] 2025-06-03 18:27:27,528: +PARAM [/camera/rgb/image_raw/compressedDepth/depth_max] by /gazebo
+[rosmaster.master][INFO] 2025-06-03 18:27:27,528: +PARAM [/camera/rgb/image_raw/compressedDepth/depth_quantization] by /gazebo
+[rosmaster.master][INFO] 2025-06-03 18:27:27,529: +PARAM [/camera/rgb/image_raw/compressedDepth/png_level] by /gazebo
+[rosmaster.master][INFO] 2025-06-03 18:27:27,553: +PUB [/camera/rgb/image_raw/compressed] /gazebo http://192.168.1.124:34731/
+[rosmaster.master][INFO] 2025-06-03 18:27:27,553: +SERVICE [/camera/rgb/image_raw/compressed/set_parameters] /gazebo http://192.168.1.124:34731/
+[rosmaster.master][INFO] 2025-06-03 18:27:27,554: +PUB [/camera/rgb/image_raw/compressed/parameter_descriptions] /gazebo http://192.168.1.124:34731/
+[rosmaster.master][INFO] 2025-06-03 18:27:27,554: +PUB [/camera/rgb/image_raw/compressed/parameter_updates] /gazebo http://192.168.1.124:34731/
+[rosmaster.master][INFO] 2025-06-03 18:27:27,556: +PARAM [/camera/rgb/image_raw/compressed/format] by /gazebo
+[rosmaster.master][INFO] 2025-06-03 18:27:27,557: +PARAM [/camera/rgb/image_raw/compressed/jpeg_quality] by /gazebo
+[rosmaster.master][INFO] 2025-06-03 18:27:27,557: +PARAM [/camera/rgb/image_raw/compressed/png_level] by /gazebo
+[rosmaster.master][INFO] 2025-06-03 18:27:27,558: +PARAM [/camera/rgb/image_raw/compressed/format] by /gazebo
+[rosmaster.master][INFO] 2025-06-03 18:27:27,559: +PARAM [/camera/rgb/image_raw/compressed/jpeg_quality] by /gazebo
+[rosmaster.master][INFO] 2025-06-03 18:27:27,559: +PARAM [/camera/rgb/image_raw/compressed/png_level] by /gazebo
+[rosmaster.master][ERROR] 2025-06-03 18:27:27,577: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 177, in validated_f
+    code, msg, val = f(*newArgs, **kwds)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 435, in searchParam
+    search_key = self.param_server.search_param(caller_id, key)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/paramserver.py", line 116, in search_param
+    raise ValueError("namespace must be global")
+ValueError: namespace must be global
+
+[rosmaster.master][INFO] 2025-06-03 18:27:27,578: +PUB [/tf] /gazebo http://192.168.1.124:34731/
+[rosmaster.master][INFO] 2025-06-03 18:27:27,581: +SUB [/cmd_vel] /gazebo http://192.168.1.124:34731/
+[rosmaster.master][INFO] 2025-06-03 18:27:27,581: +PUB [/odom] /gazebo http://192.168.1.124:34731/
+[rosmaster.master][INFO] 2025-06-03 18:27:27,584: +PUB [/camera/rgb/image_raw] /gazebo http://192.168.1.124:34731/
+[rosmaster.master][INFO] 2025-06-03 18:27:27,608: publisherUpdate[/tf] -> http://192.168.1.124:46581/ ['http://192.168.1.124:40235/', 'http://192.168.1.124:34731/']
+[rosmaster.master][INFO] 2025-06-03 18:27:27,608: publisherUpdate[/tf] -> http://192.168.1.124:46581/ ['http://192.168.1.124:40235/', 'http://192.168.1.124:34731/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-06-03 18:27:27,610: +PUB [/camera/rgb/image_raw/theora] /gazebo http://192.168.1.124:34731/
+[rosmaster.master][INFO] 2025-06-03 18:27:27,611: +SERVICE [/camera/rgb/image_raw/theora/set_parameters] /gazebo http://192.168.1.124:34731/
+[rosmaster.master][INFO] 2025-06-03 18:27:27,611: +PUB [/camera/rgb/image_raw/theora/parameter_descriptions] /gazebo http://192.168.1.124:34731/
+[rosmaster.master][INFO] 2025-06-03 18:27:27,612: +PUB [/camera/rgb/image_raw/theora/parameter_updates] /gazebo http://192.168.1.124:34731/
+[rosmaster.master][INFO] 2025-06-03 18:27:27,614: +PARAM [/camera/rgb/image_raw/theora/optimize_for] by /gazebo
+[rosmaster.master][INFO] 2025-06-03 18:27:27,615: +PARAM [/camera/rgb/image_raw/theora/target_bitrate] by /gazebo
+[rosmaster.master][INFO] 2025-06-03 18:27:27,615: +PARAM [/camera/rgb/image_raw/theora/quality] by /gazebo
+[rosmaster.master][INFO] 2025-06-03 18:27:27,616: +PARAM [/camera/rgb/image_raw/theora/keyframe_frequency] by /gazebo
+[rosmaster.master][INFO] 2025-06-03 18:27:27,616: +PARAM [/camera/rgb/image_raw/theora/optimize_for] by /gazebo
+[rosmaster.master][INFO] 2025-06-03 18:27:27,617: +PARAM [/camera/rgb/image_raw/theora/target_bitrate] by /gazebo
+[rosmaster.master][INFO] 2025-06-03 18:27:27,618: +PARAM [/camera/rgb/image_raw/theora/quality] by /gazebo
+[rosmaster.master][INFO] 2025-06-03 18:27:27,618: +PARAM [/camera/rgb/image_raw/theora/keyframe_frequency] by /gazebo
+[rosmaster.master][INFO] 2025-06-03 18:27:27,619: +PUB [/camera/rgb/camera_info] /gazebo http://192.168.1.124:34731/
+[rosmaster.master][INFO] 2025-06-03 18:32:31,030: -SUB [/clock] /joint_state_publisher http://192.168.1.124:38509/
+[rosmaster.master][INFO] 2025-06-03 18:32:31,030: -PUB [/joint_states] /joint_state_publisher http://192.168.1.124:38509/
+[rosmaster.master][INFO] 2025-06-03 18:32:31,030: -PUB [/rosout] /joint_state_publisher http://192.168.1.124:38509/
+[rosmaster.master][INFO] 2025-06-03 18:32:31,031: -SERVICE [/joint_state_publisher/get_loggers] /joint_state_publisher rosrpc://192.168.1.124:43601
+[rosmaster.master][INFO] 2025-06-03 18:32:31,031: -SERVICE [/joint_state_publisher/set_logger_level] /joint_state_publisher rosrpc://192.168.1.124:43601
+[rosmaster.master][INFO] 2025-06-03 18:32:31,090: -PUB [/rosout] /rviz http://192.168.1.124:46581/
+[rosmaster.master][INFO] 2025-06-03 18:32:31,090: -PUB [/initialpose] /rviz http://192.168.1.124:46581/
+[rosmaster.master][INFO] 2025-06-03 18:32:31,091: -PUB [/move_base_simple/goal] /rviz http://192.168.1.124:46581/
+[rosmaster.master][INFO] 2025-06-03 18:32:31,092: -PUB [/clicked_point] /rviz http://192.168.1.124:46581/
+[rosmaster.master][INFO] 2025-06-03 18:32:31,092: -SUB [/clock] /rviz http://192.168.1.124:46581/
+[rosmaster.master][INFO] 2025-06-03 18:32:31,093: -SUB [/tf] /rviz http://192.168.1.124:46581/
+[rosmaster.master][INFO] 2025-06-03 18:32:31,093: -PUB [/rosout] /robot_state_publisher http://192.168.1.124:40235/
+[rosmaster.master][INFO] 2025-06-03 18:32:31,094: -SUB [/tf_static] /rviz http://192.168.1.124:46581/
+[rosmaster.master][INFO] 2025-06-03 18:32:31,094: -PUB [/tf] /robot_state_publisher http://192.168.1.124:40235/
+[rosmaster.master][INFO] 2025-06-03 18:32:31,095: -SERVICE [/rviz/get_loggers] /rviz rosrpc://192.168.1.124:51063
+[rosmaster.master][INFO] 2025-06-03 18:32:31,095: -PUB [/tf_static] /robot_state_publisher http://192.168.1.124:40235/
+[rosmaster.master][INFO] 2025-06-03 18:32:31,096: -SERVICE [/rviz/set_logger_level] /rviz rosrpc://192.168.1.124:51063
+[rosmaster.master][INFO] 2025-06-03 18:32:31,096: -SUB [/clock] /robot_state_publisher http://192.168.1.124:40235/
+[rosmaster.master][INFO] 2025-06-03 18:32:31,097: -SERVICE [/rviz/reload_shaders] /rviz rosrpc://192.168.1.124:51063
+[rosmaster.master][INFO] 2025-06-03 18:32:31,097: -SUB [/joint_states] /robot_state_publisher http://192.168.1.124:40235/
+[rosmaster.master][INFO] 2025-06-03 18:32:31,098: -SERVICE [/robot_state_publisher/get_loggers] /robot_state_publisher rosrpc://192.168.1.124:46401
+[rosmaster.master][INFO] 2025-06-03 18:32:31,098: -SERVICE [/robot_state_publisher/set_logger_level] /robot_state_publisher rosrpc://192.168.1.124:46401
+[rosmaster.master][INFO] 2025-06-03 18:32:31,115: publisherUpdate[/joint_states] -> http://192.168.1.124:40235/ []
+[rosmaster.master][INFO] 2025-06-03 18:32:31,115: publisherUpdate[/rosout] -> http://192.168.1.124:35279/ ['http://192.168.1.124:40235/', 'http://192.168.1.124:46581/', 'http://192.168.1.124:34731/']
+[rosmaster.master][INFO] 2025-06-03 18:32:31,115: publisherUpdate[/joint_states] -> http://192.168.1.124:40235/ []: sec=0.00, exception=[Errno 111] Connection refused
+[rosmaster.master][INFO] 2025-06-03 18:32:31,115: publisherUpdate[/rosout] -> http://192.168.1.124:35279/ ['http://192.168.1.124:40235/', 'http://192.168.1.124:46581/', 'http://192.168.1.124:34731/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-06-03 18:32:31,115: publisherUpdate[/rosout] -> http://192.168.1.124:35279/ ['http://192.168.1.124:40235/', 'http://192.168.1.124:34731/']
+[rosmaster.master][INFO] 2025-06-03 18:32:31,116: publisherUpdate[/rosout] -> http://192.168.1.124:35279/ ['http://192.168.1.124:40235/', 'http://192.168.1.124:34731/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-06-03 18:32:31,116: publisherUpdate[/rosout] -> http://192.168.1.124:35279/ ['http://192.168.1.124:34731/']
+[rosmaster.master][INFO] 2025-06-03 18:32:31,117: publisherUpdate[/rosout] -> http://192.168.1.124:35279/ ['http://192.168.1.124:34731/']: sec=0.00, result=[1, '', 0]
+[rosmaster.threadpool][ERROR] 2025-06-03 18:32:31,117: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1099, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 913, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 875, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 852, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+
+[rosmaster.master][INFO] 2025-06-03 18:32:31,162: -SUB [/gazebo/set_link_state] /gazebo http://192.168.1.124:34731/
+[rosmaster.master][INFO] 2025-06-03 18:32:31,163: -SUB [/gazebo/set_model_state] /gazebo http://192.168.1.124:34731/
+[rosmaster.master][INFO] 2025-06-03 18:32:31,164: -PUB [/clock] /gazebo http://192.168.1.124:34731/
+[rosmaster.master][INFO] 2025-06-03 18:32:31,165: -PUB [/gazebo/link_states] /gazebo http://192.168.1.124:34731/
+[rosmaster.master][INFO] 2025-06-03 18:32:31,165: -PUB [/gazebo/model_states] /gazebo http://192.168.1.124:34731/
+[rosmaster.master][INFO] 2025-06-03 18:32:31,166: -SERVICE [/gazebo/spawn_sdf_model] /gazebo rosrpc://192.168.1.124:56853
+[rosmaster.master][INFO] 2025-06-03 18:32:31,166: -SERVICE [/gazebo/spawn_urdf_model] /gazebo rosrpc://192.168.1.124:56853
+[rosmaster.master][INFO] 2025-06-03 18:32:31,167: -SERVICE [/gazebo/delete_model] /gazebo rosrpc://192.168.1.124:56853
+[rosmaster.master][INFO] 2025-06-03 18:32:31,168: -SERVICE [/gazebo/delete_light] /gazebo rosrpc://192.168.1.124:56853
+[rosmaster.master][INFO] 2025-06-03 18:32:31,168: -SERVICE [/gazebo/get_model_properties] /gazebo rosrpc://192.168.1.124:56853
+[rosmaster.master][INFO] 2025-06-03 18:32:31,169: -SERVICE [/gazebo/get_model_state] /gazebo rosrpc://192.168.1.124:56853
+[rosmaster.master][INFO] 2025-06-03 18:32:31,169: -SERVICE [/gazebo/get_world_properties] /gazebo rosrpc://192.168.1.124:56853
+[rosmaster.master][INFO] 2025-06-03 18:32:31,170: -SERVICE [/gazebo/get_joint_properties] /gazebo rosrpc://192.168.1.124:56853
+[rosmaster.master][INFO] 2025-06-03 18:32:31,170: -SERVICE [/gazebo/get_link_properties] /gazebo rosrpc://192.168.1.124:56853
+[rosmaster.master][INFO] 2025-06-03 18:32:31,170: -SERVICE [/gazebo/get_link_state] /gazebo rosrpc://192.168.1.124:56853
+[rosmaster.master][INFO] 2025-06-03 18:32:31,171: -SERVICE [/gazebo/get_light_properties] /gazebo rosrpc://192.168.1.124:56853
+[rosmaster.master][INFO] 2025-06-03 18:32:31,171: -SERVICE [/gazebo/set_light_properties] /gazebo rosrpc://192.168.1.124:56853
+[rosmaster.master][INFO] 2025-06-03 18:32:31,172: -SERVICE [/gazebo/get_physics_properties] /gazebo rosrpc://192.168.1.124:56853
+[rosmaster.master][INFO] 2025-06-03 18:32:31,173: -SERVICE [/gazebo/set_link_properties] /gazebo rosrpc://192.168.1.124:56853
+[rosmaster.master][INFO] 2025-06-03 18:32:31,173: -SERVICE [/gazebo/set_physics_properties] /gazebo rosrpc://192.168.1.124:56853
+[rosmaster.master][INFO] 2025-06-03 18:32:31,174: -SERVICE [/gazebo/set_model_state] /gazebo rosrpc://192.168.1.124:56853
+[rosmaster.master][INFO] 2025-06-03 18:32:31,174: -SERVICE [/gazebo/set_model_configuration] /gazebo rosrpc://192.168.1.124:56853
+[rosmaster.master][INFO] 2025-06-03 18:32:31,175: -SERVICE [/gazebo/set_joint_properties] /gazebo rosrpc://192.168.1.124:56853
+[rosmaster.master][INFO] 2025-06-03 18:32:31,175: -SERVICE [/gazebo/set_link_state] /gazebo rosrpc://192.168.1.124:56853
+[rosmaster.master][INFO] 2025-06-03 18:32:31,176: -SERVICE [/gazebo/pause_physics] /gazebo rosrpc://192.168.1.124:56853
+[rosmaster.master][INFO] 2025-06-03 18:32:31,176: -SERVICE [/gazebo/unpause_physics] /gazebo rosrpc://192.168.1.124:56853
+[rosmaster.master][INFO] 2025-06-03 18:32:31,177: -SERVICE [/gazebo/apply_body_wrench] /gazebo rosrpc://192.168.1.124:56853
+[rosmaster.master][INFO] 2025-06-03 18:32:31,177: -SERVICE [/gazebo/apply_joint_effort] /gazebo rosrpc://192.168.1.124:56853
+[rosmaster.master][INFO] 2025-06-03 18:32:31,178: -SERVICE [/gazebo/clear_joint_forces] /gazebo rosrpc://192.168.1.124:56853
+[rosmaster.master][INFO] 2025-06-03 18:32:31,178: -SERVICE [/gazebo/clear_body_wrenches] /gazebo rosrpc://192.168.1.124:56853
+[rosmaster.master][INFO] 2025-06-03 18:32:31,179: -SERVICE [/gazebo/reset_simulation] /gazebo rosrpc://192.168.1.124:56853
+[rosmaster.master][INFO] 2025-06-03 18:32:31,179: -SERVICE [/gazebo/reset_world] /gazebo rosrpc://192.168.1.124:56853
+[rosmaster.master][INFO] 2025-06-03 18:32:31,180: -PUB [/gazebo/parameter_descriptions] /gazebo http://192.168.1.124:34731/
+[rosmaster.master][INFO] 2025-06-03 18:32:31,181: -PUB [/gazebo/parameter_updates] /gazebo http://192.168.1.124:34731/
+[rosmaster.master][INFO] 2025-06-03 18:32:31,181: -SERVICE [/gazebo/set_parameters] /gazebo rosrpc://192.168.1.124:56853
+[rosmaster.master][INFO] 2025-06-03 18:32:31,217: publisherUpdate[/clock] -> http://192.168.1.124:35279/ []
+[rosmaster.master][INFO] 2025-06-03 18:32:31,218: publisherUpdate[/clock] -> http://192.168.1.124:34731/ []
+[rosmaster.master][INFO] 2025-06-03 18:32:31,218: publisherUpdate[/clock] -> http://192.168.1.124:35279/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-06-03 18:32:31,218: publisherUpdate[/clock] -> http://192.168.1.124:34731/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-06-03 18:32:46,447: -PUB [/rosout_agg] /rosout http://192.168.1.124:35279/
+[rosmaster.master][INFO] 2025-06-03 18:32:46,447: -SUB [/clock] /rosout http://192.168.1.124:35279/
+[rosmaster.master][INFO] 2025-06-03 18:32:46,448: -SUB [/rosout] /rosout http://192.168.1.124:35279/
+[rosmaster.master][INFO] 2025-06-03 18:32:46,448: -SERVICE [/rosout/get_loggers] /rosout rosrpc://192.168.1.124:40085
+[rosmaster.master][INFO] 2025-06-03 18:32:46,449: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://192.168.1.124:40085
+[rosmaster.main][INFO] 2025-06-03 18:32:46,460: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2025-06-03 18:32:46,460: stopping master...
+[rospy.core][INFO] 2025-06-03 18:32:46,460: signal_shutdown [atexit]

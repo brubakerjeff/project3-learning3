@@ -1,0 +1,24 @@
+[rospy.client][INFO] 2017-07-05 09:30:20,951: init_node, name[/joint_state_publisher], pid[4511]
+[xmlrpc][INFO] 2017-07-05 09:30:20,952: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-07-05 09:30:20,953: Started XML-RPC server [http://udacity:34011/]
+[rospy.impl.masterslave][INFO] 2017-07-05 09:30:20,953: _ready: http://udacity:34011/
+[rospy.init][INFO] 2017-07-05 09:30:20,955: ROS Slave URI: [http://udacity:34011/]
+[rospy.registration][INFO] 2017-07-05 09:30:20,956: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2017-07-05 09:30:20,960: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2017-07-05 09:30:21,055: registered with master
+[rospy.rosout][INFO] 2017-07-05 09:30:21,055: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-07-05 09:30:21,059: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-07-05 09:30:21,061: initializing /clock core topic
+[rospy.simtime][INFO] 2017-07-05 09:30:21,066: connected to core topic /clock
+[rospy.internal][INFO] 2017-07-05 09:30:21,313: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2017-07-05 09:30:22,759: topic[/clock] adding connection to [http://udacity:37075/], count 0
+[rospy.core][INFO] 2017-07-05 09:34:21,687: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2017-07-05 09:34:21,691: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2017-07-05 09:34:21,692: topic[/clock] removing connection to http://udacity:37075/
+[rospy.impl.masterslave][INFO] 2017-07-05 09:34:21,692: signal-2
+[rospy.internal][WARNING] 2017-07-05 09:34:21,698: Unknown error initiating TCP/IP socket to udacity:49771 (http://udacity:37075/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.core][INFO] 2017-07-05 09:34:22,186: signal_shutdown [atexit]

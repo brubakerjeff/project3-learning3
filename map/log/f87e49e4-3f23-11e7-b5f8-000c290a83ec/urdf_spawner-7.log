@@ -1,0 +1,38 @@
+[rospy.client][INFO] 2017-05-22 12:22:22,726: init_node, name[/urdf_spawner], pid[5026]
+[xmlrpc][INFO] 2017-05-22 12:22:22,726: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-05-22 12:22:22,727: Started XML-RPC server [http://udacity:33955/]
+[rospy.impl.masterslave][INFO] 2017-05-22 12:22:22,727: _ready: http://udacity:33955/
+[rospy.init][INFO] 2017-05-22 12:22:22,727: ROS Slave URI: [http://udacity:33955/]
+[rospy.registration][INFO] 2017-05-22 12:22:22,728: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2017-05-22 12:22:22,729: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2017-05-22 12:22:22,828: registered with master
+[rospy.rosout][INFO] 2017-05-22 12:22:22,828: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-05-22 12:22:22,831: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-05-22 12:22:22,835: initializing /clock core topic
+[rospy.simtime][INFO] 2017-05-22 12:22:22,840: connected to core topic /clock
+[rosout][INFO] 2017-05-22 12:22:22,846: Loading model XML from ros parameter
+[rosout][INFO] 2017-05-22 12:22:22,850: Waiting for service /gazebo/spawn_urdf_model
+[rospy.internal][INFO] 2017-05-22 12:22:22,934: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2017-05-22 12:22:23,344: topic[/clock] adding connection to [http://udacity:33881/], count 0
+[rosout][INFO] 2017-05-22 12:22:23,456: Calling service /gazebo/spawn_urdf_model
+[rospy.core][INFO] 2017-05-22 12:22:55,672: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2017-05-22 12:22:55,678: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2017-05-22 12:22:55,683: topic[/clock] removing connection to http://udacity:33881/
+[rospy.impl.masterslave][INFO] 2017-05-22 12:22:55,684: signal-2
+[rospy.internal][WARNING] 2017-05-22 12:22:55,693: Unknown error initiating TCP/IP socket to udacity:58415 (http://udacity:33881/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 362, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][ERROR] 2017-05-22 12:22:55,785: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 729, in receive_once
+    self.stat_bytes += recv_buff(sock, b, p.buff_size)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 103, in recv_buff
+    d = sock.recv(buff_size)
+error: [Errno 4] Interrupted system call
+
+[rospy.core][INFO] 2017-05-22 12:22:55,786: signal_shutdown [atexit]

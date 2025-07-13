@@ -1,0 +1,9 @@
+
+
+0.000000000  Node Startup
+0.000000000 INFO [/tmp/binarydeb/ros-kinetic-rviz-1.12.17/src/rviz/ogre_helpers/render_system.cpp:222(RenderSystem::detectGlVersion) [topics: /rosout] OpenGl version: 3 (GLSL 1.3).
+0.000000000 INFO [gazebo_interface.py:27(spawn_urdf_model_client) [topics: /clock, /rosout] Waiting for service /gazebo/spawn_urdf_model
+0.000000000 INFO [/tmp/binarydeb/ros-kinetic-rviz-1.12.17/src/rviz/ogre_helpers/render_system.cpp:222(RenderSystem::detectGlVersion) [topics: /rosout] OpenGl version: 3 (GLSL 1.3).
+0.000000000 INFO [gazebo_interface.py:27(spawn_urdf_model_client) [topics: /clock, /rosout] Waiting for service /gazebo/spawn_urdf_model
+0.000000000 INFO [/tmp/binarydeb/ros-kinetic-map-server-1.14.9/src/main.cpp:167(MapServer) [topics: /rosout] Loading map from image "/home/robond/project3-learning/src/my_robot/maps/map.pgm"
+0.000000000 WARN [/tmp/binarydeb/ros-kinetic-amcl-1.14.9/src/amcl_node.cpp:805(requestMap) [topics: /rosout, /tf, /amcl_pose, /particlecloud] Request for map failed; trying again...

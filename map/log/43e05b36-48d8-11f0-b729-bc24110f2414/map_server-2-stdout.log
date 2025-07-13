@@ -1,0 +1,3 @@
+[0m[ INFO] [1749875414.313330189]: Loading map from image "/home/robond/project3-learning/src/my_robot/maps/map.pgm"[0m
+[0m[ INFO] [1749875414.345935036]: Read a 3000 X 3000 map @ 0.010 m/cell[0m
+[0m[ INFO] [1749875414.375415972]: Sending map[0m

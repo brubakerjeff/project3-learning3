@@ -1,0 +1,6 @@
+[0m[ INFO] [1751339728.995591035]: Loading nodelet /bumper2pointcloud of type kobuki_bumper2pc/Bumper2PcNodelet to manager mobile_base_nodelet_manager with the following remappings:[0m
+[0m[ INFO] [1751339728.995634112]: /bumper2pointcloud/core_sensors -> /mobile_base/sensors/core[0m
+[0m[ INFO] [1751339728.995642003]: /bumper2pointcloud/pointcloud -> /mobile_base/sensors/bumper_pointcloud[0m
+[0m[ INFO] [1751339728.997238333]: waitForService: Service [/mobile_base_nodelet_manager/load_nodelet] has not been advertised, waiting...[0m
+[0m[ INFO] [1751339729.074236093]: waitForService: Service [/mobile_base_nodelet_manager/load_nodelet] is now available.[0m
+[0m[ INFO] [1751339830.176733418, 97.682000000]: Unloading nodelet /bumper2pointcloud from manager mobile_base_nodelet_manager[0m

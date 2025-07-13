@@ -1,0 +1,22 @@
+
+
+1499629469.993109029  Node Startup
+1499629470.456986904 INFO [joint_state_publisher:374(center) [topics: /rosout] Centering
+1499629470.668856079 INFO [/tmp/binarydeb/ros-kinetic-rviz-1.12.10/src/rviz/ogre_helpers/render_system.cpp:430(RenderWindow* rviz::RenderSystem::makeRenderWindow) [topics: /rosout] Stereo is NOT SUPPORTED
+1499629470.669098380 INFO [/tmp/binarydeb/ros-kinetic-rviz-1.12.10/src/rviz/ogre_helpers/render_system.cpp:211(RenderSystem::detectGlVersion) [topics: /rosout] OpenGl version: 2.1 (GLSL 1.2).
+1499629656.156716108 INFO [joint_state_publisher:408(randomize) [topics: /joint_states, /rosout] Randomizing
+1499629657.060230016 INFO [joint_state_publisher:408(randomize) [topics: /joint_states, /rosout] Randomizing
+1499629664.732211112 INFO [joint_state_publisher:408(randomize) [topics: /joint_states, /rosout] Randomizing
+1499629665.404047012 INFO [joint_state_publisher:408(randomize) [topics: /joint_states, /rosout] Randomizing
+1499629666.012120008 INFO [joint_state_publisher:408(randomize) [topics: /joint_states, /rosout] Randomizing
+1499629666.566900014 INFO [joint_state_publisher:408(randomize) [topics: /joint_states, /rosout] Randomizing
+1499629667.070663928 INFO [joint_state_publisher:408(randomize) [topics: /joint_states, /rosout] Randomizing
+1499629667.502103090 INFO [joint_state_publisher:408(randomize) [topics: /joint_states, /rosout] Randomizing
+1499629667.662075996 INFO [joint_state_publisher:408(randomize) [topics: /joint_states, /rosout] Randomizing
+1499629667.838022947 INFO [joint_state_publisher:408(randomize) [topics: /joint_states, /rosout] Randomizing
+1499629668.030452013 INFO [joint_state_publisher:408(randomize) [topics: /joint_states, /rosout] Randomizing
+1499629668.214091062 INFO [joint_state_publisher:408(randomize) [topics: /joint_states, /rosout] Randomizing
+1499629668.438055992 INFO [joint_state_publisher:408(randomize) [topics: /joint_states, /rosout] Randomizing
+1499629668.669981956 INFO [joint_state_publisher:408(randomize) [topics: /joint_states, /rosout] Randomizing
+1499629668.950604915 INFO [joint_state_publisher:408(randomize) [topics: /joint_states, /rosout] Randomizing
+1499629669.797873020 INFO [joint_state_publisher:374(center) [topics: /joint_states, /rosout] Centering

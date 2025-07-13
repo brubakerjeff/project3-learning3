@@ -1,0 +1,32 @@
+[rospy.client][INFO] 2017-05-22 12:15:43,458: init_node, name[/target_spawner], pid[9091]
+[xmlrpc][INFO] 2017-05-22 12:15:43,459: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-05-22 12:15:43,459: Started XML-RPC server [http://udacity:39585/]
+[rospy.impl.masterslave][INFO] 2017-05-22 12:15:43,459: _ready: http://udacity:39585/
+[rospy.registration][INFO] 2017-05-22 12:15:43,460: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2017-05-22 12:15:43,460: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2017-05-22 12:15:43,461: ROS Slave URI: [http://udacity:39585/]
+[rospy.init][INFO] 2017-05-22 12:15:43,461: registered with master
+[rospy.rosout][INFO] 2017-05-22 12:15:43,461: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-05-22 12:15:43,470: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-05-22 12:15:43,478: initializing /clock core topic
+[rospy.simtime][INFO] 2017-05-22 12:15:43,481: connected to core topic /clock
+[rosout][INFO] 2017-05-22 12:15:43,488: Loading model XML from ros parameter
+[rosout][INFO] 2017-05-22 12:15:43,495: Waiting for service /gazebo/spawn_urdf_model
+[rospy.internal][INFO] 2017-05-22 12:15:43,676: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2017-05-22 12:15:44,807: topic[/clock] adding connection to [http://udacity:45299/], count 0
+[rosout][INFO] 2017-05-22 12:15:45,010: Calling service /gazebo/spawn_urdf_model
+[rospy.core][INFO] 2017-05-22 12:16:22,561: signal_shutdown [atexit]
+[rospy.internal][INFO] 2017-05-22 12:16:22,567: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2017-05-22 12:16:22,567: topic[/clock] removing connection to http://udacity:45299/
+[rospy.impl.masterslave][INFO] 2017-05-22 12:16:22,568: atexit
+[rospy.internal][WARNING] 2017-05-22 12:16:22,568: Unknown error initiating TCP/IP socket to udacity:51907 (http://udacity:45299/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 556, in connect
+    self.write_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 635, in write_header
+    self.stat_bytes += write_ros_handshake_header(sock, protocol.get_header_fields())
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 422, in write_ros_handshake_header
+    sock.sendall(s)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 104] Connection reset by peer
+

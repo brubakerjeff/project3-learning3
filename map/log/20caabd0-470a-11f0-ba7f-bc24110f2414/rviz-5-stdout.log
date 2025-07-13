@@ -1,0 +1,12 @@
+[0m[ INFO] [1749686293.987499601]: rviz version 1.12.17[0m
+[0m[ INFO] [1749686293.987529029]: compiled against Qt version 5.5.1[0m
+[0m[ INFO] [1749686293.987534978]: compiled against OGRE version 1.9.0 (Ghadamon)[0m
+[0m[ INFO] [1749686294.129960190]: Stereo is NOT SUPPORTED[0m
+[0m[ INFO] [1749686294.130069859]: OpenGl version: 3 (GLSL 1.3).[0m
+[0m[ INFO] [1749686294.439243859, 94216.889000000]: Creating 1 swatches[0m
+[33m[ WARN] [1749686868.664717110, 94789.062000000]: MessageFilter [target=odom ]: Dropped 100.00% of messages so far. Please turn the [ros.rviz.message_notifier] rosconsole logger to DEBUG for more information.[0m
+[33m[ WARN] [1749686868.664746078, 94789.063000000]: MessageFilter [target=odom ]:   The majority of dropped messages were due to messages growing older than the TF cache time.  The last message's timestamp was: 94189.094000, and the last frame_id was: map[0m
+[33m[ WARN] [1749686928.889076239, 94849.067000000]: MessageFilter [target=odom ]: Dropped 100.00% of messages so far. Please turn the [ros.rviz.message_notifier] rosconsole logger to DEBUG for more information.[0m
+[33m[ WARN] [1749686928.889097012, 94849.067000000]: MessageFilter [target=odom ]:   The majority of dropped messages were due to messages growing older than the TF cache time.  The last message's timestamp was: 94189.094000, and the last frame_id was: map[0m
+[33m[ WARN] [1749686989.112657500, 94909.094000000]: MessageFilter [target=odom ]: Dropped 100.00% of messages so far. Please turn the [ros.rviz.message_notifier] rosconsole logger to DEBUG for more information.[0m
+[33m[ WARN] [1749686989.112679733, 94909.094000000]: MessageFilter [target=odom ]:   The majority of dropped messages were due to messages growing older than the TF cache time.  The last message's timestamp was: 94189.094000, and the last frame_id was: map[0m

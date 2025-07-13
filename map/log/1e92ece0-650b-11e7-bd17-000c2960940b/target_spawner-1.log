@@ -1,0 +1,22 @@
+[rospy.client][INFO] 2017-07-09 18:00:12,608: init_node, name[/target_spawner], pid[24267]
+[xmlrpc][INFO] 2017-07-09 18:00:12,609: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-07-09 18:00:12,609: Started XML-RPC server [http://udacity:34615/]
+[rospy.impl.masterslave][INFO] 2017-07-09 18:00:12,610: _ready: http://udacity:34615/
+[rospy.init][INFO] 2017-07-09 18:00:12,610: ROS Slave URI: [http://udacity:34615/]
+[xmlrpc][INFO] 2017-07-09 18:00:12,611: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2017-07-09 18:00:12,611: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2017-07-09 18:00:12,711: registered with master
+[rospy.rosout][INFO] 2017-07-09 18:00:12,711: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-07-09 18:00:12,713: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-07-09 18:00:12,715: initializing /clock core topic
+[rospy.simtime][INFO] 2017-07-09 18:00:12,719: connected to core topic /clock
+[rosout][INFO] 2017-07-09 18:00:12,728: Loading model XML from ros parameter
+[rosout][INFO] 2017-07-09 18:00:12,743: Waiting for service /gazebo/spawn_urdf_model
+[rospy.internal][INFO] 2017-07-09 18:00:12,977: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2017-07-09 18:00:13,991: topic[/clock] adding connection to [http://udacity:34653/], count 0
+[rosout][INFO] 2017-07-09 18:00:14,260: Calling service /gazebo/spawn_urdf_model
+[rosout][INFO] 2017-07-09 18:00:14,838: Spawn status: SpawnModel: Successfully spawned entity
+[rospy.core][INFO] 2017-07-09 18:00:14,839: signal_shutdown [atexit]
+[rospy.internal][INFO] 2017-07-09 18:00:14,844: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2017-07-09 18:00:14,844: topic[/clock] removing connection to http://udacity:34653/
+[rospy.impl.masterslave][INFO] 2017-07-09 18:00:14,844: atexit

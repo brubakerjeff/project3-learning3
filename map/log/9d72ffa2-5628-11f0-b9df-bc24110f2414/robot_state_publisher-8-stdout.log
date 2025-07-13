@@ -1,0 +1,3 @@
+[33m[ WARN] [1751339672.061807183, 211.527000000]: Moved backwards in time (probably because ROS clock was reset), re-publishing joint transforms![0m
+[33m[ WARN] [1751339673.536949044, 207.862000000]: Moved backwards in time (probably because ROS clock was reset), re-publishing joint transforms![0m
+[33m[ WARN] [1751339679.872080450, 0.001000000]: Moved backwards in time (probably because ROS clock was reset), re-publishing joint transforms![0m

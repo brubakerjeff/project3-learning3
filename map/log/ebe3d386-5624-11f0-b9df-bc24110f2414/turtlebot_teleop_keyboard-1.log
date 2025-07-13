@@ -1,0 +1,47 @@
+[rospy.client][INFO] 2025-06-30 19:48:03,371: init_node, name[/turtlebot_teleop_keyboard], pid[20196]
+[xmlrpc][INFO] 2025-06-30 19:48:03,371: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2025-06-30 19:48:03,371: Started XML-RPC server [http://192.168.1.124:33331/]
+[rospy.impl.masterslave][INFO] 2025-06-30 19:48:03,372: _ready: http://192.168.1.124:33331/
+[rospy.registration][INFO] 2025-06-30 19:48:03,372: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2025-06-30 19:48:03,372: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-06-30 19:48:03,372: ROS Slave URI: [http://192.168.1.124:33331/]
+[rospy.init][INFO] 2025-06-30 19:48:03,373: registered with master
+[rospy.rosout][INFO] 2025-06-30 19:48:03,373: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-06-30 19:48:03,375: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-06-30 19:48:03,380: initializing /clock core topic
+[rospy.simtime][INFO] 2025-06-30 19:48:03,383: connected to core topic /clock
+[rospy.internal][INFO] 2025-06-30 19:48:03,393: topic[/clock] adding connection to [http://192.168.1.124:38219/], count 0
+[rospy.internal][INFO] 2025-06-30 19:48:03,593: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2025-06-30 19:48:03,610: topic[/cmd_vel_mux/input/teleop] adding connection to [/mobile_base_nodelet_manager], count 0
+[rospy.internal][INFO] 2025-06-30 19:56:36,035: topic[/cmd_vel_mux/input/teleop] removing connection to /mobile_base_nodelet_manager
+[rospy.internal][ERROR] 2025-06-30 19:56:36,157: Unable to initiate TCP/IP socket to 192.168.1.124:50319 (http://192.168.1.124:38219/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 651, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 594, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/clock] from [TCPROS connection on port 50319 to [192.168.1.124:36942 on socket 17]] [/turtlebot_teleop_keyboard].
+
+[rospy.internal][ERROR] 2025-06-30 19:56:37,158: Unable to initiate TCP/IP socket to 192.168.1.124:50319 (http://192.168.1.124:38219/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 651, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 594, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/clock] from [TCPROS connection on port 50319 to [192.168.1.124:37048 on socket 15]] [/turtlebot_teleop_keyboard].
+
+[rospy.internal][ERROR] 2025-06-30 19:56:39,161: Unable to initiate TCP/IP socket to 192.168.1.124:50319 (http://192.168.1.124:38219/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 651, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 594, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/clock] from [TCPROS connection on port 50319 to [192.168.1.124:37050 on socket 15]] [/turtlebot_teleop_keyboard].
+
+[rospy.core][INFO] 2025-06-30 19:56:41,724: signal_shutdown [atexit]
+[rospy.internal][INFO] 2025-06-30 19:56:41,730: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2025-06-30 19:56:41,730: topic[/clock] removing connection to http://192.168.1.124:38219/
+[rospy.impl.masterslave][INFO] 2025-06-30 19:56:41,730: atexit

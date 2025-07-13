@@ -1,0 +1,33 @@
+[rosmaster.main][INFO] 2017-07-07 17:33:12,195: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2017-07-07 17:33:12,195: Starting ROS Master Node
+[xmlrpc][INFO] 2017-07-07 17:33:12,210: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2017-07-07 17:33:12,211: Started XML-RPC server [http://udacity:11311/]
+[rosmaster.master][INFO] 2017-07-07 17:33:12,211: Master initialized: port[11311], uri[http://udacity:11311/]
+[xmlrpc][INFO] 2017-07-07 17:33:12,211: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2017-07-07 17:33:12,273: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2017-07-07 17:33:12,275: +PARAM [/roslaunch/uris/host_udacity__33587] by /roslaunch
+[rosmaster.master][INFO] 2017-07-07 17:33:12,330: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2017-07-07 17:33:12,330: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2017-07-07 17:33:12,459: +SERVICE [/rosout/get_loggers] /rosout http://udacity:37023/
+[rosmaster.master][INFO] 2017-07-07 17:33:12,460: +SERVICE [/rosout/set_logger_level] /rosout http://udacity:37023/
+[rosmaster.master][INFO] 2017-07-07 17:33:12,462: +PUB [/rosout_agg] /rosout http://udacity:37023/
+[rosmaster.master][INFO] 2017-07-07 17:33:12,469: +SUB [/rosout] /rosout http://udacity:37023/
+[rosmaster.master][INFO] 2017-07-07 17:33:21,028: +PUB [/rosout] / http://Kyles-MacBook-Pro.local:62258/
+[rosmaster.master][INFO] 2017-07-07 17:33:21,058: +SUB [/clock] / http://Kyles-MacBook-Pro.local:62258/
+[rosmaster.master][INFO] 2017-07-07 17:33:21,072: publisherUpdate[/rosout] -> http://udacity:37023/ ['http://Kyles-MacBook-Pro.local:62258/']
+[rosmaster.master][INFO] 2017-07-07 17:33:21,313: publisherUpdate[/rosout] -> http://udacity:37023/ ['http://Kyles-MacBook-Pro.local:62258/']: sec=0.24, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-07 17:33:31,897: -PUB [/rosout] / http://Kyles-MacBook-Pro.local:62258/
+[rosmaster.master][INFO] 2017-07-07 17:33:31,906: -SUB [/clock] / http://Kyles-MacBook-Pro.local:62258/
+[rosmaster.master][INFO] 2017-07-07 17:33:31,985: publisherUpdate[/rosout] -> http://udacity:37023/ []
+[rosmaster.master][INFO] 2017-07-07 17:33:31,986: publisherUpdate[/rosout] -> http://udacity:37023/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-07 17:33:37,950: +PUB [/rosout] / http://Kyles-MacBook-Pro.local:62291/
+[rosmaster.master][INFO] 2017-07-07 17:33:37,979: +SUB [/clock] / http://Kyles-MacBook-Pro.local:62291/
+[rosmaster.master][INFO] 2017-07-07 17:33:38,025: publisherUpdate[/rosout] -> http://udacity:37023/ ['http://Kyles-MacBook-Pro.local:62291/']
+[rosmaster.master][INFO] 2017-07-07 17:33:38,048: publisherUpdate[/rosout] -> http://udacity:37023/ ['http://Kyles-MacBook-Pro.local:62291/']: sec=0.02, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-07 17:33:44,634: -PUB [/rosout_agg] /rosout http://udacity:37023/
+[rosmaster.master][INFO] 2017-07-07 17:33:44,636: -SUB [/rosout] /rosout http://udacity:37023/
+[rosmaster.master][INFO] 2017-07-07 17:33:44,637: -SERVICE [/rosout/get_loggers] /rosout rosrpc://udacity:43673
+[rosmaster.master][INFO] 2017-07-07 17:33:44,639: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://udacity:43673
+[rosmaster.main][INFO] 2017-07-07 17:33:44,669: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2017-07-07 17:33:44,669: stopping master...
+[rospy.core][INFO] 2017-07-07 17:33:44,669: signal_shutdown [atexit]

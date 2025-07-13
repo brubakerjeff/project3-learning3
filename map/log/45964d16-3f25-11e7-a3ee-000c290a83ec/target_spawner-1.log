@@ -1,0 +1,29 @@
+[rospy.client][INFO] 2017-05-22 12:31:40,659: init_node, name[/target_spawner], pid[2175]
+[xmlrpc][INFO] 2017-05-22 12:31:40,660: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-05-22 12:31:40,660: Started XML-RPC server [http://udacity:39929/]
+[rospy.impl.masterslave][INFO] 2017-05-22 12:31:40,660: _ready: http://udacity:39929/
+[rospy.init][INFO] 2017-05-22 12:31:40,662: ROS Slave URI: [http://udacity:39929/]
+[rospy.registration][INFO] 2017-05-22 12:31:40,662: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2017-05-22 12:31:40,662: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2017-05-22 12:31:40,762: registered with master
+[rospy.rosout][INFO] 2017-05-22 12:31:40,762: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-05-22 12:31:40,775: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-05-22 12:31:40,789: initializing /clock core topic
+[rospy.simtime][INFO] 2017-05-22 12:31:40,799: connected to core topic /clock
+[rosout][INFO] 2017-05-22 12:31:40,810: Loading model XML from ros parameter
+[rosout][INFO] 2017-05-22 12:31:40,814: Waiting for service /gazebo/spawn_urdf_model
+[rospy.internal][INFO] 2017-05-22 12:31:40,967: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2017-05-22 12:31:42,298: topic[/clock] adding connection to [http://udacity:37425/], count 0
+[rosout][INFO] 2017-05-22 12:31:42,329: Calling service /gazebo/spawn_urdf_model
+[rosout][INFO] 2017-05-22 12:31:42,463: Spawn status: SpawnModel: Successfully spawned entity
+[rospy.core][INFO] 2017-05-22 12:31:42,464: signal_shutdown [atexit]
+[rospy.internal][INFO] 2017-05-22 12:31:42,466: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2017-05-22 12:31:42,466: topic[/clock] removing connection to http://udacity:37425/
+[rospy.impl.masterslave][INFO] 2017-05-22 12:31:42,467: atexit
+[rospy.internal][WARNING] 2017-05-22 12:31:42,467: Unknown error initiating TCP/IP socket to udacity:53931 (http://udacity:37425/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+

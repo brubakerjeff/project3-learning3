@@ -1,0 +1,34 @@
+[rosmaster.main][INFO] 2025-06-09 21:12:06,043: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2025-06-09 21:12:06,043: Starting ROS Master Node
+[xmlrpc][INFO] 2025-06-09 21:12:06,044: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2025-06-09 21:12:06,044: Started XML-RPC server [http://192.168.1.124:11311/]
+[xmlrpc][INFO] 2025-06-09 21:12:06,044: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2025-06-09 21:12:06,044: Master initialized: port[11311], uri[http://192.168.1.124:11311/]
+[rosmaster.master][INFO] 2025-06-09 21:12:06,133: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2025-06-09 21:12:06,134: +PARAM [/roslaunch/uris/host_192_168_1_124__46833] by /roslaunch
+[rosmaster.master][INFO] 2025-06-09 21:12:06,173: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2025-06-09 21:12:06,173: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2025-06-09 21:12:06,173: +PARAM [/move_base/debug] by /roslaunch
+[rosmaster.master][INFO] 2025-06-09 21:12:06,174: +SERVICE [/rosout/get_loggers] /rosout http://192.168.1.124:39727/
+[rosmaster.master][INFO] 2025-06-09 21:12:06,175: +SERVICE [/rosout/set_logger_level] /rosout http://192.168.1.124:39727/
+[rosmaster.master][INFO] 2025-06-09 21:12:06,177: +PUB [/rosout_agg] /rosout http://192.168.1.124:39727/
+[rosmaster.master][INFO] 2025-06-09 21:12:06,180: +SUB [/rosout] /rosout http://192.168.1.124:39727/
+[rosmaster.master][INFO] 2025-06-09 21:12:06,190: +PUB [/rosout] /move_base http://192.168.1.124:41149/
+[rosmaster.master][INFO] 2025-06-09 21:12:06,191: +SERVICE [/move_base/get_loggers] /move_base http://192.168.1.124:41149/
+[rosmaster.master][INFO] 2025-06-09 21:12:06,191: +SERVICE [/move_base/set_logger_level] /move_base http://192.168.1.124:41149/
+[rosmaster.master][INFO] 2025-06-09 21:12:06,196: +SUB [/tf] /move_base http://192.168.1.124:41149/
+[rosmaster.master][INFO] 2025-06-09 21:12:06,198: +SUB [/tf_static] /move_base http://192.168.1.124:41149/
+[rosmaster.master][INFO] 2025-06-09 21:12:06,222: +PUB [/cmd_vel] /move_base http://192.168.1.124:41149/
+[rosmaster.master][INFO] 2025-06-09 21:12:06,222: +PUB [/move_base/current_goal] /move_base http://192.168.1.124:41149/
+[rosmaster.master][INFO] 2025-06-09 21:12:06,223: +PUB [/move_base/goal] /move_base http://192.168.1.124:41149/
+[rosmaster.master][INFO] 2025-06-09 21:12:06,223: +PUB [/move_base/recovery_status] /move_base http://192.168.1.124:41149/
+[rosmaster.master][INFO] 2025-06-09 21:12:06,226: +SUB [/move_base_simple/goal] /move_base http://192.168.1.124:41149/
+[rosmaster.master][INFO] 2025-06-09 21:12:06,244: publisherUpdate[/rosout] -> http://192.168.1.124:39727/ ['http://192.168.1.124:41149/']
+[rosmaster.master][INFO] 2025-06-09 21:12:06,245: publisherUpdate[/rosout] -> http://192.168.1.124:39727/ ['http://192.168.1.124:41149/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-06-10 08:39:32,162: -PUB [/rosout_agg] /rosout http://192.168.1.124:39727/
+[rosmaster.master][INFO] 2025-06-10 08:39:32,162: -SUB [/rosout] /rosout http://192.168.1.124:39727/
+[rosmaster.master][INFO] 2025-06-10 08:39:32,163: -SERVICE [/rosout/get_loggers] /rosout rosrpc://192.168.1.124:59217
+[rosmaster.master][INFO] 2025-06-10 08:39:32,164: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://192.168.1.124:59217
+[rosmaster.main][INFO] 2025-06-10 08:39:32,246: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2025-06-10 08:39:32,246: stopping master...
+[rospy.core][INFO] 2025-06-10 08:39:32,247: signal_shutdown [atexit]

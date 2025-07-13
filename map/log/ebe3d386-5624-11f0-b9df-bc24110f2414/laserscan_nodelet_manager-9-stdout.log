@@ -1,0 +1,113 @@
+[0m[ INFO] [1751337703.689414057]: Initializing nodelet with 4 worker threads.[0m
+[33m[ WARN] [1751338323.221950632, 491.524000000]: [image_transport] Topics '/camera/depth/image_raw' and '/camera/depth/camera_info' do not appear to be synchronized. In the last 10s:
+	Image messages received:      147
+	CameraInfo messages received: 37
+	Synchronized pairs:           37[0m
+[33m[ WARN] [1751338333.212594892, 75.872000000]: [image_transport] Topics '/camera/depth/image_raw' and '/camera/depth/camera_info' do not appear to be synchronized. In the last 10s:
+	Image messages received:      146
+	CameraInfo messages received: 0
+	Synchronized pairs:           0[0m
+[33m[ WARN] [1751338343.212600572, 84.063000000]: [image_transport] Topics '/camera/depth/image_raw' and '/camera/depth/camera_info' do not appear to be synchronized. In the last 10s:
+	Image messages received:      138
+	CameraInfo messages received: 0
+	Synchronized pairs:           0[0m
+[33m[ WARN] [1751338353.212607684, 92.272000000]: [image_transport] Topics '/camera/depth/image_raw' and '/camera/depth/camera_info' do not appear to be synchronized. In the last 10s:
+	Image messages received:      132
+	CameraInfo messages received: 0
+	Synchronized pairs:           0[0m
+[33m[ WARN] [1751338363.212663561, 100.532000000]: [image_transport] Topics '/camera/depth/image_raw' and '/camera/depth/camera_info' do not appear to be synchronized. In the last 10s:
+	Image messages received:      134
+	CameraInfo messages received: 0
+	Synchronized pairs:           0[0m
+[33m[ WARN] [1751338373.212615462, 108.609000000]: [image_transport] Topics '/camera/depth/image_raw' and '/camera/depth/camera_info' do not appear to be synchronized. In the last 10s:
+	Image messages received:      134
+	CameraInfo messages received: 0
+	Synchronized pairs:           0[0m
+[33m[ WARN] [1751338383.212580856, 117.116000000]: [image_transport] Topics '/camera/depth/image_raw' and '/camera/depth/camera_info' do not appear to be synchronized. In the last 10s:
+	Image messages received:      151
+	CameraInfo messages received: 0
+	Synchronized pairs:           0[0m
+[33m[ WARN] [1751338393.212596246, 125.200000000]: [image_transport] Topics '/camera/depth/image_raw' and '/camera/depth/camera_info' do not appear to be synchronized. In the last 10s:
+	Image messages received:      146
+	CameraInfo messages received: 0
+	Synchronized pairs:           0[0m
+[33m[ WARN] [1751338403.212580206, 133.232000000]: [image_transport] Topics '/camera/depth/image_raw' and '/camera/depth/camera_info' do not appear to be synchronized. In the last 10s:
+	Image messages received:      146
+	CameraInfo messages received: 0
+	Synchronized pairs:           0[0m
+[33m[ WARN] [1751338413.212591790, 141.325000000]: [image_transport] Topics '/camera/depth/image_raw' and '/camera/depth/camera_info' do not appear to be synchronized. In the last 10s:
+	Image messages received:      144
+	CameraInfo messages received: 0
+	Synchronized pairs:           0[0m
+[33m[ WARN] [1751338423.212666562, 149.453000000]: [image_transport] Topics '/camera/depth/image_raw' and '/camera/depth/camera_info' do not appear to be synchronized. In the last 10s:
+	Image messages received:      142
+	CameraInfo messages received: 0
+	Synchronized pairs:           0[0m
+[33m[ WARN] [1751338433.212578132, 157.345000000]: [image_transport] Topics '/camera/depth/image_raw' and '/camera/depth/camera_info' do not appear to be synchronized. In the last 10s:
+	Image messages received:      143
+	CameraInfo messages received: 0
+	Synchronized pairs:           0[0m
+[33m[ WARN] [1751338443.212647220, 165.492000000]: [image_transport] Topics '/camera/depth/image_raw' and '/camera/depth/camera_info' do not appear to be synchronized. In the last 10s:
+	Image messages received:      143
+	CameraInfo messages received: 0
+	Synchronized pairs:           0[0m
+[33m[ WARN] [1751338453.212607098, 173.768000000]: [image_transport] Topics '/camera/depth/image_raw' and '/camera/depth/camera_info' do not appear to be synchronized. In the last 10s:
+	Image messages received:      146
+	CameraInfo messages received: 0
+	Synchronized pairs:           0[0m
+[33m[ WARN] [1751338463.212613826, 181.966000000]: [image_transport] Topics '/camera/depth/image_raw' and '/camera/depth/camera_info' do not appear to be synchronized. In the last 10s:
+	Image messages received:      142
+	CameraInfo messages received: 0
+	Synchronized pairs:           0[0m
+[33m[ WARN] [1751338473.212611793, 190.067000000]: [image_transport] Topics '/camera/depth/image_raw' and '/camera/depth/camera_info' do not appear to be synchronized. In the last 10s:
+	Image messages received:      143
+	CameraInfo messages received: 0
+	Synchronized pairs:           0[0m
+[33m[ WARN] [1751338483.212599765, 197.911000000]: [image_transport] Topics '/camera/depth/image_raw' and '/camera/depth/camera_info' do not appear to be synchronized. In the last 10s:
+	Image messages received:      139
+	CameraInfo messages received: 0
+	Synchronized pairs:           0[0m
+[33m[ WARN] [1751338493.212602745, 205.966000000]: [image_transport] Topics '/camera/depth/image_raw' and '/camera/depth/camera_info' do not appear to be synchronized. In the last 10s:
+	Image messages received:      141
+	CameraInfo messages received: 0
+	Synchronized pairs:           0[0m
+[33m[ WARN] [1751338503.212611417, 213.974000000]: [image_transport] Topics '/camera/depth/image_raw' and '/camera/depth/camera_info' do not appear to be synchronized. In the last 10s:
+	Image messages received:      145
+	CameraInfo messages received: 0
+	Synchronized pairs:           0[0m
+[33m[ WARN] [1751338513.212587703, 222.069000000]: [image_transport] Topics '/camera/depth/image_raw' and '/camera/depth/camera_info' do not appear to be synchronized. In the last 10s:
+	Image messages received:      141
+	CameraInfo messages received: 0
+	Synchronized pairs:           0[0m
+[33m[ WARN] [1751338523.212587925, 230.083000000]: [image_transport] Topics '/camera/depth/image_raw' and '/camera/depth/camera_info' do not appear to be synchronized. In the last 10s:
+	Image messages received:      139
+	CameraInfo messages received: 0
+	Synchronized pairs:           0[0m
+[33m[ WARN] [1751338533.212595873, 238.010000000]: [image_transport] Topics '/camera/depth/image_raw' and '/camera/depth/camera_info' do not appear to be synchronized. In the last 10s:
+	Image messages received:      140
+	CameraInfo messages received: 0
+	Synchronized pairs:           0[0m
+[33m[ WARN] [1751338543.212595702, 245.929000000]: [image_transport] Topics '/camera/depth/image_raw' and '/camera/depth/camera_info' do not appear to be synchronized. In the last 10s:
+	Image messages received:      139
+	CameraInfo messages received: 0
+	Synchronized pairs:           0[0m
+[33m[ WARN] [1751338553.212605642, 254.058000000]: [image_transport] Topics '/camera/depth/image_raw' and '/camera/depth/camera_info' do not appear to be synchronized. In the last 10s:
+	Image messages received:      140
+	CameraInfo messages received: 0
+	Synchronized pairs:           0[0m
+[33m[ WARN] [1751338563.212581746, 262.188000000]: [image_transport] Topics '/camera/depth/image_raw' and '/camera/depth/camera_info' do not appear to be synchronized. In the last 10s:
+	Image messages received:      140
+	CameraInfo messages received: 0
+	Synchronized pairs:           0[0m
+[33m[ WARN] [1751338573.214145043, 270.269000000]: [image_transport] Topics '/camera/depth/image_raw' and '/camera/depth/camera_info' do not appear to be synchronized. In the last 10s:
+	Image messages received:      144
+	CameraInfo messages received: 0
+	Synchronized pairs:           0[0m
+[33m[ WARN] [1751338583.212607017, 278.218000000]: [image_transport] Topics '/camera/depth/image_raw' and '/camera/depth/camera_info' do not appear to be synchronized. In the last 10s:
+	Image messages received:      138
+	CameraInfo messages received: 0
+	Synchronized pairs:           0[0m
+[33m[ WARN] [1751338593.212633544, 286.401000000]: [image_transport] Topics '/camera/depth/image_raw' and '/camera/depth/camera_info' do not appear to be synchronized. In the last 10s:
+	Image messages received:      139
+	CameraInfo messages received: 0
+	Synchronized pairs:           0[0m

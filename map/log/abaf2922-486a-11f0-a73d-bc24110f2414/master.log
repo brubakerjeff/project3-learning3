@@ -1,0 +1,608 @@
+[rosmaster.main][INFO] 2025-06-13 08:25:43,712: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2025-06-13 08:25:43,712: Starting ROS Master Node
+[xmlrpc][INFO] 2025-06-13 08:25:43,713: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2025-06-13 08:25:43,713: Started XML-RPC server [http://192.168.1.124:11311/]
+[rosmaster.master][INFO] 2025-06-13 08:25:43,713: Master initialized: port[11311], uri[http://192.168.1.124:11311/]
+[xmlrpc][INFO] 2025-06-13 08:25:43,713: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2025-06-13 08:25:43,804: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,805: +PARAM [/roslaunch/uris/host_192_168_1_124__43939] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,840: +SERVICE [/rosout/get_loggers] /rosout http://192.168.1.124:37711/
+[rosmaster.master][INFO] 2025-06-13 08:25:43,840: +SERVICE [/rosout/set_logger_level] /rosout http://192.168.1.124:37711/
+[rosmaster.master][INFO] 2025-06-13 08:25:43,843: +PUB [/rosout_agg] /rosout http://192.168.1.124:37711/
+[rosmaster.master][INFO] 2025-06-13 08:25:43,845: +SUB [/rosout] /rosout http://192.168.1.124:37711/
+[rosmaster.master][INFO] 2025-06-13 08:25:43,850: +PARAM [/move_base/TrajectoryPlannerROS/acc_lim_x] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,850: +PARAM [/move_base/local_costmap/laser_scan_sensor/sensor_frame] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,850: +PARAM [/move_base/TrajectoryPlannerROS/occdist_scale] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,850: +PARAM [/move_base/global_costmap/laser_scan_sensor/sensor_frame] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,850: +PARAM [/move_base/TrajectoryPlannerROS/max_vel_theta] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,850: +PARAM [/move_base/global_costmap/robot_radius] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,850: +PARAM [/move_base/TrajectoryPlannerROS/vx_samples] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,850: +PARAM [/amcl/odom_model_type] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,850: +PARAM [/move_base/global_costmap/height] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,850: +PARAM [/move_base/global_costmap/robot_base_frame] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,851: +PARAM [/move_base/local_costmap/publish_frequency] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,851: +PARAM [/move_base/local_costmap/height] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,851: +PARAM [/move_base/global_costmap/cost_scaling_factor] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,851: +PARAM [/move_base/global_costmap/laser_scan_sensor/marking] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,851: +PARAM [/move_base/TrajectoryPlannerROS/acc_lim_y] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,851: +PARAM [/amcl/global_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,851: +PARAM [/move_base/local_costmap/cost_scaling_factor] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,851: +PARAM [/move_base/global_costmap/transform_tolerance] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,851: +PARAM [/move_base/TrajectoryPlannerROS/pdist_scale] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,851: +PARAM [/move_base/global_costmap/update_frequency] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,851: +PARAM [/move_base/TrajectoryPlannerROS/sim_time] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,851: +PARAM [/move_base/local_costmap/transform_tolerance] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,851: +PARAM [/move_base/global_costmap/raytrace_range] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,851: +PARAM [/move_base/local_costmap/obstacle_range] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,851: +PARAM [/move_base/local_costmap/update_frequency] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,851: +PARAM [/move_base/base_global_planner] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,851: +PARAM [/move_base/global_costmap/inflation_radius] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,851: +PARAM [/move_base/local_costmap/laser_scan_sensor/topic] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,851: +PARAM [/move_base/TrajectoryPlannerROS/min_vel_x] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,851: +PARAM [/move_base/TrajectoryPlannerROS/vtheta_samples] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,852: +PARAM [/move_base/global_costmap/obstacle_range] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,852: +PARAM [/move_base/local_costmap/inflation_radius] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,852: +PARAM [/move_base/global_costmap/observation_sources] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,852: +PARAM [/move_base/local_costmap/laser_scan_sensor/clearing] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,852: +PARAM [/move_base/TrajectoryPlannerROS/acc_lim_theta] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,852: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,852: +PARAM [/move_base/global_costmap/map_type] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,852: +PARAM [/move_base/TrajectoryPlannerROS/gdist_scale] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,852: +PARAM [/move_base/local_costmap/laser_scan_sensor/marking] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,852: +PARAM [/move_base/global_costmap/global_frame] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,852: +PARAM [/move_base/TrajectoryPlannerROS/max_vel_x] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,852: +PARAM [/move_base/global_costmap/laser_scan_sensor/topic] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,852: +PARAM [/amcl/base_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,852: +PARAM [/move_base/global_costmap/rolling_window] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,852: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,852: +PARAM [/amcl/odom_alpha5] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,852: +PARAM [/move_base/local_costmap/global_frame] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,852: +PARAM [/move_base/global_costmap/width] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,852: +PARAM [/amcl/odom_alpha1] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,853: +PARAM [/amcl/odom_alpha2] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,853: +PARAM [/amcl/odom_alpha3] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,853: +PARAM [/move_base/debug] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,853: +PARAM [/move_base/local_costmap/static_map] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,853: +PARAM [/move_base/local_costmap/resolution] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,853: +PARAM [/move_base/local_costmap/laser_scan_sensor/data_type] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,853: +PARAM [/amcl/odom_alpha4] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,853: +PARAM [/move_base/global_costmap/laser_scan_sensor/data_type] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,853: +PARAM [/amcl/odom_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,853: +PARAM [/move_base/TrajectoryPlannerROS/holonomic_robot] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,853: +PARAM [/move_base/local_costmap/robot_radius] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,853: +PARAM [/move_base/global_costmap/publish_frequency] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,853: +PARAM [/move_base/local_costmap/raytrace_range] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,853: +PARAM [/move_base/TrajectoryPlannerROS/min_in_place_vel_theta] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,853: +PARAM [/move_base/local_costmap/observation_sources] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,853: +PARAM [/move_base/local_costmap/robot_base_frame] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,853: +PARAM [/move_base/base_local_planner] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,853: +PARAM [/amcl/initial_pose_x] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,853: +PARAM [/amcl/initial_pose_y] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,853: +PARAM [/move_base/local_costmap/width] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,854: +PARAM [/move_base/local_costmap/map_type] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,854: +PARAM [/move_base/local_costmap/rolling_window] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,854: +PARAM [/move_base/global_costmap/resolution] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,854: +PARAM [/move_base/global_costmap/static_map] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,854: +PARAM [/move_base/global_costmap/laser_scan_sensor/clearing] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,854: +PARAM [/move_base/controller_frequency] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:43,868: +PUB [/rosout] /map_server http://192.168.1.124:45171/
+[rosmaster.master][INFO] 2025-06-13 08:25:43,868: +SERVICE [/map_server/get_loggers] /map_server http://192.168.1.124:45171/
+[rosmaster.master][INFO] 2025-06-13 08:25:43,869: +SERVICE [/map_server/set_logger_level] /map_server http://192.168.1.124:45171/
+[rosmaster.master][INFO] 2025-06-13 08:25:43,879: +PUB [/rosout] /amcl http://192.168.1.124:40895/
+[rosmaster.master][INFO] 2025-06-13 08:25:43,887: +SERVICE [/amcl/get_loggers] /amcl http://192.168.1.124:40895/
+[rosmaster.master][INFO] 2025-06-13 08:25:43,890: +SERVICE [/amcl/set_logger_level] /amcl http://192.168.1.124:40895/
+[rosmaster.master][INFO] 2025-06-13 08:25:43,891: +PUB [/rosout] /move_base http://192.168.1.124:46645/
+[rosmaster.master][INFO] 2025-06-13 08:25:43,903: +SERVICE [/move_base/get_loggers] /move_base http://192.168.1.124:46645/
+[rosmaster.master][INFO] 2025-06-13 08:25:43,913: publisherUpdate[/rosout] -> http://192.168.1.124:37711/ ['http://192.168.1.124:45171/']
+[rosmaster.master][INFO] 2025-06-13 08:25:43,913: +SERVICE [/move_base/set_logger_level] /move_base http://192.168.1.124:46645/
+[rosmaster.master][INFO] 2025-06-13 08:25:43,914: +SERVICE [/static_map] /map_server http://192.168.1.124:45171/
+[rosmaster.master][INFO] 2025-06-13 08:25:43,915: publisherUpdate[/rosout] -> http://192.168.1.124:37711/ ['http://192.168.1.124:45171/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-06-13 08:25:43,915: publisherUpdate[/rosout] -> http://192.168.1.124:37711/ ['http://192.168.1.124:45171/', 'http://192.168.1.124:40895/']
+[rosmaster.master][INFO] 2025-06-13 08:25:43,916: publisherUpdate[/rosout] -> http://192.168.1.124:37711/ ['http://192.168.1.124:45171/', 'http://192.168.1.124:40895/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-06-13 08:25:43,916: publisherUpdate[/rosout] -> http://192.168.1.124:37711/ ['http://192.168.1.124:45171/', 'http://192.168.1.124:40895/', 'http://192.168.1.124:46645/']
+[rosmaster.master][INFO] 2025-06-13 08:25:43,917: publisherUpdate[/rosout] -> http://192.168.1.124:37711/ ['http://192.168.1.124:45171/', 'http://192.168.1.124:40895/', 'http://192.168.1.124:46645/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-06-13 08:25:43,917: +PUB [/map_metadata] /map_server http://192.168.1.124:45171/
+[rosmaster.master][INFO] 2025-06-13 08:25:43,919: +PUB [/map] /map_server http://192.168.1.124:45171/
+[rosmaster.master][INFO] 2025-06-13 08:25:43,922: +SUB [/tf] /move_base http://192.168.1.124:46645/
+[rosmaster.master][INFO] 2025-06-13 08:25:43,927: +SUB [/tf_static] /move_base http://192.168.1.124:46645/
+[rosmaster.master][INFO] 2025-06-13 08:25:43,978: +PUB [/cmd_vel] /move_base http://192.168.1.124:46645/
+[rosmaster.master][INFO] 2025-06-13 08:25:43,979: +PUB [/move_base/current_goal] /move_base http://192.168.1.124:46645/
+[rosmaster.master][INFO] 2025-06-13 08:25:43,980: +PUB [/tf] /amcl http://192.168.1.124:40895/
+[rosmaster.master][INFO] 2025-06-13 08:25:43,980: +PUB [/move_base/goal] /move_base http://192.168.1.124:46645/
+[rosmaster.master][INFO] 2025-06-13 08:25:43,981: +PUB [/move_base/recovery_status] /move_base http://192.168.1.124:46645/
+[rosmaster.master][INFO] 2025-06-13 08:25:43,985: +SUB [/tf] /amcl http://192.168.1.124:40895/
+[rosmaster.master][INFO] 2025-06-13 08:25:43,985: +SUB [/move_base_simple/goal] /move_base http://192.168.1.124:46645/
+[rosmaster.master][INFO] 2025-06-13 08:25:44,000: +SUB [/tf_static] /amcl http://192.168.1.124:40895/
+[rosmaster.master][INFO] 2025-06-13 08:25:44,000: +PUB [/amcl_pose] /amcl http://192.168.1.124:40895/
+[rosmaster.master][INFO] 2025-06-13 08:25:44,004: +PUB [/particlecloud] /amcl http://192.168.1.124:40895/
+[rosmaster.master][INFO] 2025-06-13 08:25:44,007: +SERVICE [/global_localization] /amcl http://192.168.1.124:40895/
+[rosmaster.master][INFO] 2025-06-13 08:25:44,012: +SERVICE [/request_nomotion_update] /amcl http://192.168.1.124:40895/
+[rosmaster.master][INFO] 2025-06-13 08:25:44,012: +SERVICE [/set_map] /amcl http://192.168.1.124:40895/
+[rosmaster.master][INFO] 2025-06-13 08:25:44,014: +SUB [/scan] /amcl http://192.168.1.124:40895/
+[rosmaster.master][INFO] 2025-06-13 08:25:44,017: +SUB [/initialpose] /amcl http://192.168.1.124:40895/
+[rosmaster.master][INFO] 2025-06-13 08:25:44,017: publisherUpdate[/tf] -> http://192.168.1.124:46645/ ['http://192.168.1.124:40895/']
+[rosmaster.master][INFO] 2025-06-13 08:25:44,018: publisherUpdate[/tf] -> http://192.168.1.124:46645/ ['http://192.168.1.124:40895/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-06-13 08:25:44,625: +SERVICE [/amcl/set_parameters] /amcl http://192.168.1.124:40895/
+[rosmaster.master][INFO] 2025-06-13 08:25:44,625: +PUB [/amcl/parameter_descriptions] /amcl http://192.168.1.124:40895/
+[rosmaster.master][INFO] 2025-06-13 08:25:44,626: +PUB [/amcl/parameter_updates] /amcl http://192.168.1.124:40895/
+[rosmaster.master][INFO] 2025-06-13 08:25:44,647: +PARAM [/amcl/min_particles] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,648: +PARAM [/amcl/max_particles] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,648: +PARAM [/amcl/kld_err] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,649: +PARAM [/amcl/kld_z] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,651: +PARAM [/amcl/update_min_d] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,651: +PARAM [/amcl/update_min_a] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,652: +PARAM [/amcl/resample_interval] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,652: +PARAM [/amcl/transform_tolerance] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,653: +PARAM [/amcl/recovery_alpha_slow] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,653: +PARAM [/amcl/recovery_alpha_fast] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,654: +PARAM [/amcl/do_beamskip] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,654: +PARAM [/amcl/beam_skip_distance] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,655: +PARAM [/amcl/beam_skip_threshold] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,655: +PARAM [/amcl/tf_broadcast] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,656: +PARAM [/amcl/gui_publish_rate] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,656: +PARAM [/amcl/save_pose_rate] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,656: +PARAM [/amcl/use_map_topic] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,657: +PARAM [/amcl/first_map_only] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,657: +PARAM [/amcl/laser_min_range] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,658: +PARAM [/amcl/laser_max_range] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,658: +PARAM [/amcl/laser_max_beams] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,659: +PARAM [/amcl/laser_z_hit] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,659: +PARAM [/amcl/laser_z_short] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,660: +PARAM [/amcl/laser_z_max] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,660: +PARAM [/amcl/laser_z_rand] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,661: +PARAM [/amcl/laser_sigma_hit] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,661: +PARAM [/amcl/laser_lambda_short] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,661: +PARAM [/amcl/laser_likelihood_max_dist] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,662: +PARAM [/amcl/laser_model_type] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,662: +PARAM [/amcl/odom_model_type] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,663: +PARAM [/amcl/odom_alpha1] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,663: +PARAM [/amcl/odom_alpha2] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,664: +PARAM [/amcl/odom_alpha3] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,664: +PARAM [/amcl/odom_alpha4] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,665: +PARAM [/amcl/odom_alpha5] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,665: +PARAM [/amcl/odom_frame_id] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,668: +PARAM [/amcl/base_frame_id] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,668: +PARAM [/amcl/global_frame_id] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,669: +PARAM [/amcl/restore_defaults] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,669: +PARAM [/amcl/min_particles] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,670: +PARAM [/amcl/max_particles] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,670: +PARAM [/amcl/kld_err] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,670: +PARAM [/amcl/kld_z] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,671: +PARAM [/amcl/update_min_d] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,671: +PARAM [/amcl/update_min_a] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,672: +PARAM [/amcl/resample_interval] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,673: +PARAM [/amcl/transform_tolerance] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,673: +PARAM [/amcl/recovery_alpha_slow] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,674: +PARAM [/amcl/recovery_alpha_fast] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,674: +PARAM [/amcl/do_beamskip] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,674: +PARAM [/amcl/beam_skip_distance] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,675: +PARAM [/amcl/beam_skip_threshold] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,675: +PARAM [/amcl/tf_broadcast] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,676: +PARAM [/amcl/gui_publish_rate] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,676: +PARAM [/amcl/save_pose_rate] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,677: +PARAM [/amcl/use_map_topic] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,677: +PARAM [/amcl/first_map_only] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,678: +PARAM [/amcl/laser_min_range] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,678: +PARAM [/amcl/laser_max_range] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,679: +PARAM [/amcl/laser_max_beams] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,679: +PARAM [/amcl/laser_z_hit] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,680: +PARAM [/amcl/laser_z_short] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,680: +PARAM [/amcl/laser_z_max] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,681: +PARAM [/amcl/laser_z_rand] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,681: +PARAM [/amcl/laser_sigma_hit] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,682: +PARAM [/amcl/laser_lambda_short] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,682: +PARAM [/amcl/laser_likelihood_max_dist] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,683: +PARAM [/amcl/laser_model_type] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,683: +PARAM [/amcl/odom_model_type] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,684: +PARAM [/amcl/odom_alpha1] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,684: +PARAM [/amcl/odom_alpha2] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,685: +PARAM [/amcl/odom_alpha3] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,685: +PARAM [/amcl/odom_alpha4] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,685: +PARAM [/amcl/odom_alpha5] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,686: +PARAM [/amcl/odom_frame_id] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,686: +PARAM [/amcl/base_frame_id] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,687: +PARAM [/amcl/global_frame_id] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:44,687: +PARAM [/amcl/restore_defaults] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:25:52,033: +PARAM [/roslaunch/uris/host_192_168_1_124__39785] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:52,035: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:52,036: +PARAM [/joint_state_publisher/use_gui] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:52,036: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:52,036: +PARAM [/robot_description] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:52,036: +PARAM [/use_sim_time] by /roslaunch
+[rosmaster.master][INFO] 2025-06-13 08:25:52,083: +PUB [/rosout] /robot_state_publisher http://192.168.1.124:40249/
+[rosmaster.master][INFO] 2025-06-13 08:25:52,084: +SERVICE [/robot_state_publisher/get_loggers] /robot_state_publisher http://192.168.1.124:40249/
+[rosmaster.master][INFO] 2025-06-13 08:25:52,085: +SERVICE [/robot_state_publisher/set_logger_level] /robot_state_publisher http://192.168.1.124:40249/
+[rosmaster.master][INFO] 2025-06-13 08:25:52,095: +SUB [/clock] /robot_state_publisher http://192.168.1.124:40249/
+[rosmaster.master][INFO] 2025-06-13 08:25:52,106: +PUB [/tf] /robot_state_publisher http://192.168.1.124:40249/
+[rosmaster.master][INFO] 2025-06-13 08:25:52,108: +PUB [/tf_static] /robot_state_publisher http://192.168.1.124:40249/
+[rosmaster.master][INFO] 2025-06-13 08:25:52,112: +SUB [/joint_states] /robot_state_publisher http://192.168.1.124:40249/
+[rosmaster.master][INFO] 2025-06-13 08:25:52,131: publisherUpdate[/rosout] -> http://192.168.1.124:37711/ ['http://192.168.1.124:45171/', 'http://192.168.1.124:40895/', 'http://192.168.1.124:46645/', 'http://192.168.1.124:40249/']
+[rosmaster.master][INFO] 2025-06-13 08:25:52,132: publisherUpdate[/tf] -> http://192.168.1.124:46645/ ['http://192.168.1.124:40895/', 'http://192.168.1.124:40249/']
+[rosmaster.master][INFO] 2025-06-13 08:25:52,132: publisherUpdate[/rosout] -> http://192.168.1.124:37711/ ['http://192.168.1.124:45171/', 'http://192.168.1.124:40895/', 'http://192.168.1.124:46645/', 'http://192.168.1.124:40249/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-06-13 08:25:52,132: publisherUpdate[/tf] -> http://192.168.1.124:40895/ ['http://192.168.1.124:40895/', 'http://192.168.1.124:40249/']
+[rosmaster.master][INFO] 2025-06-13 08:25:52,132: publisherUpdate[/tf] -> http://192.168.1.124:46645/ ['http://192.168.1.124:40895/', 'http://192.168.1.124:40249/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-06-13 08:25:52,133: publisherUpdate[/tf_static] -> http://192.168.1.124:46645/ ['http://192.168.1.124:40249/']
+[rosmaster.master][INFO] 2025-06-13 08:25:52,133: publisherUpdate[/tf_static] -> http://192.168.1.124:46645/ ['http://192.168.1.124:40249/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-06-13 08:25:52,133: publisherUpdate[/tf] -> http://192.168.1.124:40895/ ['http://192.168.1.124:40895/', 'http://192.168.1.124:40249/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-06-13 08:25:52,133: publisherUpdate[/tf_static] -> http://192.168.1.124:40895/ ['http://192.168.1.124:40249/']
+[rosmaster.master][INFO] 2025-06-13 08:25:52,134: publisherUpdate[/tf_static] -> http://192.168.1.124:40895/ ['http://192.168.1.124:40249/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-06-13 08:25:52,178: +PUB [/rosout] /rviz http://192.168.1.124:41829/
+[rosmaster.master][INFO] 2025-06-13 08:25:52,179: +SERVICE [/rviz/get_loggers] /rviz http://192.168.1.124:41829/
+[rosmaster.master][INFO] 2025-06-13 08:25:52,179: +SERVICE [/rviz/set_logger_level] /rviz http://192.168.1.124:41829/
+[rosmaster.master][INFO] 2025-06-13 08:25:52,183: +SUB [/clock] /rviz http://192.168.1.124:41829/
+[rosmaster.master][INFO] 2025-06-13 08:25:52,233: publisherUpdate[/rosout] -> http://192.168.1.124:37711/ ['http://192.168.1.124:45171/', 'http://192.168.1.124:40895/', 'http://192.168.1.124:46645/', 'http://192.168.1.124:40249/', 'http://192.168.1.124:41829/']
+[rosmaster.master][INFO] 2025-06-13 08:25:52,233: publisherUpdate[/rosout] -> http://192.168.1.124:37711/ ['http://192.168.1.124:45171/', 'http://192.168.1.124:40895/', 'http://192.168.1.124:46645/', 'http://192.168.1.124:40249/', 'http://192.168.1.124:41829/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-06-13 08:25:52,272: +SUB [/tf] /rviz http://192.168.1.124:41829/
+[rosmaster.master][INFO] 2025-06-13 08:25:52,275: +SUB [/tf_static] /rviz http://192.168.1.124:41829/
+[rosmaster.master][INFO] 2025-06-13 08:25:52,305: +PUB [/rosout] /joint_state_publisher http://192.168.1.124:43087/
+[rosmaster.master][INFO] 2025-06-13 08:25:52,308: +SUB [/clock] /joint_state_publisher http://192.168.1.124:43087/
+[rosmaster.master][INFO] 2025-06-13 08:25:52,309: +PUB [/initialpose] /rviz http://192.168.1.124:41829/
+[rosmaster.master][INFO] 2025-06-13 08:25:52,309: +SERVICE [/joint_state_publisher/get_loggers] /joint_state_publisher http://192.168.1.124:43087/
+[rosmaster.master][INFO] 2025-06-13 08:25:52,311: +SERVICE [/joint_state_publisher/set_logger_level] /joint_state_publisher http://192.168.1.124:43087/
+[rosmaster.master][INFO] 2025-06-13 08:25:52,316: +PUB [/goal] /rviz http://192.168.1.124:41829/
+[rosmaster.master][INFO] 2025-06-13 08:25:52,334: publisherUpdate[/rosout] -> http://192.168.1.124:37711/ ['http://192.168.1.124:45171/', 'http://192.168.1.124:40895/', 'http://192.168.1.124:46645/', 'http://192.168.1.124:40249/', 'http://192.168.1.124:41829/', 'http://192.168.1.124:43087/']
+[rosmaster.master][INFO] 2025-06-13 08:25:52,334: publisherUpdate[/initialpose] -> http://192.168.1.124:40895/ ['http://192.168.1.124:41829/']
+[rosmaster.master][INFO] 2025-06-13 08:25:52,336: publisherUpdate[/initialpose] -> http://192.168.1.124:40895/ ['http://192.168.1.124:41829/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-06-13 08:25:52,336: publisherUpdate[/rosout] -> http://192.168.1.124:37711/ ['http://192.168.1.124:45171/', 'http://192.168.1.124:40895/', 'http://192.168.1.124:46645/', 'http://192.168.1.124:40249/', 'http://192.168.1.124:41829/', 'http://192.168.1.124:43087/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-06-13 08:25:52,338: +SUB [/map] /rviz http://192.168.1.124:41829/
+[rosmaster.master][INFO] 2025-06-13 08:25:52,347: +SUB [/map_updates] /rviz http://192.168.1.124:41829/
+[rosmaster.master][INFO] 2025-06-13 08:25:52,351: +SUB [/particlecloud] /rviz http://192.168.1.124:41829/
+[rosmaster.master][INFO] 2025-06-13 08:25:52,357: +PUB [/joint_states] /joint_state_publisher http://192.168.1.124:43087/
+[rosmaster.master][INFO] 2025-06-13 08:25:52,358: -PUB [/goal] /rviz http://192.168.1.124:41829/
+[rosmaster.master][INFO] 2025-06-13 08:25:52,360: -PUB [/initialpose] /rviz http://192.168.1.124:41829/
+[rosmaster.master][INFO] 2025-06-13 08:25:52,363: +PUB [/initialpose] /rviz http://192.168.1.124:41829/
+[rosmaster.master][INFO] 2025-06-13 08:25:52,364: +PUB [/goal] /rviz http://192.168.1.124:41829/
+[rosmaster.master][INFO] 2025-06-13 08:25:52,370: +PUB [/move_base_simple/goal] /rviz http://192.168.1.124:41829/
+[rosmaster.master][INFO] 2025-06-13 08:25:52,371: -PUB [/goal] /rviz http://192.168.1.124:41829/
+[rosmaster.master][INFO] 2025-06-13 08:25:52,372: +PUB [/clicked_point] /rviz http://192.168.1.124:41829/
+[rosmaster.master][INFO] 2025-06-13 08:25:52,395: +SERVICE [/rviz/reload_shaders] /rviz http://192.168.1.124:41829/
+[rosmaster.master][INFO] 2025-06-13 08:25:52,434: publisherUpdate[/joint_states] -> http://192.168.1.124:40249/ ['http://192.168.1.124:43087/']
+[rosmaster.master][INFO] 2025-06-13 08:25:52,435: publisherUpdate[/joint_states] -> http://192.168.1.124:40249/ ['http://192.168.1.124:43087/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-06-13 08:25:52,435: publisherUpdate[/initialpose] -> http://192.168.1.124:40895/ []
+[rosmaster.master][INFO] 2025-06-13 08:25:52,435: publisherUpdate[/initialpose] -> http://192.168.1.124:40895/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-06-13 08:25:52,436: publisherUpdate[/initialpose] -> http://192.168.1.124:40895/ ['http://192.168.1.124:41829/']
+[rosmaster.master][INFO] 2025-06-13 08:25:52,436: publisherUpdate[/initialpose] -> http://192.168.1.124:40895/ ['http://192.168.1.124:41829/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-06-13 08:25:52,436: publisherUpdate[/move_base_simple/goal] -> http://192.168.1.124:46645/ ['http://192.168.1.124:41829/']
+[rosmaster.master][INFO] 2025-06-13 08:25:52,436: publisherUpdate[/move_base_simple/goal] -> http://192.168.1.124:46645/ ['http://192.168.1.124:41829/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-06-13 08:25:52,525: +PUB [/rosout] /urdf_spawner http://192.168.1.124:44671/
+[rosmaster.master][INFO] 2025-06-13 08:25:52,528: +SUB [/clock] /urdf_spawner http://192.168.1.124:44671/
+[rosmaster.master][INFO] 2025-06-13 08:25:52,529: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://192.168.1.124:44671/
+[rosmaster.master][INFO] 2025-06-13 08:25:52,529: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://192.168.1.124:44671/
+[rosmaster.master][INFO] 2025-06-13 08:25:52,537: publisherUpdate[/rosout] -> http://192.168.1.124:37711/ ['http://192.168.1.124:45171/', 'http://192.168.1.124:40895/', 'http://192.168.1.124:46645/', 'http://192.168.1.124:40249/', 'http://192.168.1.124:41829/', 'http://192.168.1.124:43087/', 'http://192.168.1.124:44671/']
+[rosmaster.master][INFO] 2025-06-13 08:25:52,537: publisherUpdate[/rosout] -> http://192.168.1.124:37711/ ['http://192.168.1.124:45171/', 'http://192.168.1.124:40895/', 'http://192.168.1.124:46645/', 'http://192.168.1.124:40249/', 'http://192.168.1.124:41829/', 'http://192.168.1.124:43087/', 'http://192.168.1.124:44671/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-06-13 08:27:06,056: -SUB [/clock] /urdf_spawner http://192.168.1.124:44671/
+[rosmaster.master][INFO] 2025-06-13 08:27:06,056: -PUB [/rosout] /urdf_spawner http://192.168.1.124:44671/
+[rosmaster.master][INFO] 2025-06-13 08:27:06,056: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://192.168.1.124:34023
+[rosmaster.master][INFO] 2025-06-13 08:27:06,056: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://192.168.1.124:34023
+[rosmaster.master][INFO] 2025-06-13 08:27:06,057: -SUB [/clock] /joint_state_publisher http://192.168.1.124:43087/
+[rosmaster.master][INFO] 2025-06-13 08:27:06,057: -PUB [/joint_states] /joint_state_publisher http://192.168.1.124:43087/
+[rosmaster.master][INFO] 2025-06-13 08:27:06,057: -PUB [/rosout] /joint_state_publisher http://192.168.1.124:43087/
+[rosmaster.master][INFO] 2025-06-13 08:27:06,057: -SERVICE [/joint_state_publisher/get_loggers] /joint_state_publisher rosrpc://192.168.1.124:35781
+[rosmaster.master][INFO] 2025-06-13 08:27:06,057: -SERVICE [/joint_state_publisher/set_logger_level] /joint_state_publisher rosrpc://192.168.1.124:35781
+[rosmaster.master][INFO] 2025-06-13 08:27:06,144: publisherUpdate[/rosout] -> http://192.168.1.124:37711/ ['http://192.168.1.124:45171/', 'http://192.168.1.124:40895/', 'http://192.168.1.124:46645/', 'http://192.168.1.124:40249/', 'http://192.168.1.124:41829/', 'http://192.168.1.124:43087/']
+[rosmaster.master][INFO] 2025-06-13 08:27:06,145: publisherUpdate[/joint_states] -> http://192.168.1.124:40249/ []
+[rosmaster.master][INFO] 2025-06-13 08:27:06,145: publisherUpdate[/joint_states] -> http://192.168.1.124:40249/ []: sec=0.00, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2025-06-13 08:27:06,146: publisherUpdate[/rosout] -> http://192.168.1.124:37711/ ['http://192.168.1.124:45171/', 'http://192.168.1.124:40895/', 'http://192.168.1.124:46645/', 'http://192.168.1.124:40249/', 'http://192.168.1.124:41829/', 'http://192.168.1.124:43087/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-06-13 08:27:06,146: publisherUpdate[/rosout] -> http://192.168.1.124:37711/ ['http://192.168.1.124:45171/', 'http://192.168.1.124:40895/', 'http://192.168.1.124:46645/', 'http://192.168.1.124:40249/', 'http://192.168.1.124:41829/']
+[rosmaster.master][INFO] 2025-06-13 08:27:06,146: publisherUpdate[/rosout] -> http://192.168.1.124:37711/ ['http://192.168.1.124:45171/', 'http://192.168.1.124:40895/', 'http://192.168.1.124:46645/', 'http://192.168.1.124:40249/', 'http://192.168.1.124:41829/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-06-13 08:27:06,238: -PUB [/rosout] /rviz http://192.168.1.124:41829/
+[rosmaster.master][INFO] 2025-06-13 08:27:06,239: -PUB [/initialpose] /rviz http://192.168.1.124:41829/
+[rosmaster.master][INFO] 2025-06-13 08:27:06,239: -PUB [/move_base_simple/goal] /rviz http://192.168.1.124:41829/
+[rosmaster.master][INFO] 2025-06-13 08:27:06,240: -PUB [/clicked_point] /rviz http://192.168.1.124:41829/
+[rosmaster.master][INFO] 2025-06-13 08:27:06,241: -SUB [/clock] /rviz http://192.168.1.124:41829/
+[rosmaster.master][INFO] 2025-06-13 08:27:06,241: -SUB [/tf] /rviz http://192.168.1.124:41829/
+[rosmaster.master][INFO] 2025-06-13 08:27:06,241: -SUB [/tf_static] /rviz http://192.168.1.124:41829/
+[rosmaster.master][INFO] 2025-06-13 08:27:06,242: -SUB [/map] /rviz http://192.168.1.124:41829/
+[rosmaster.master][INFO] 2025-06-13 08:27:06,243: -SUB [/map_updates] /rviz http://192.168.1.124:41829/
+[rosmaster.master][INFO] 2025-06-13 08:27:06,244: -SUB [/particlecloud] /rviz http://192.168.1.124:41829/
+[rosmaster.master][INFO] 2025-06-13 08:27:06,245: -SERVICE [/rviz/get_loggers] /rviz rosrpc://192.168.1.124:48747
+[rosmaster.master][INFO] 2025-06-13 08:27:06,245: -SERVICE [/rviz/set_logger_level] /rviz rosrpc://192.168.1.124:48747
+[rosmaster.master][INFO] 2025-06-13 08:27:06,246: publisherUpdate[/rosout] -> http://192.168.1.124:37711/ ['http://192.168.1.124:45171/', 'http://192.168.1.124:40895/', 'http://192.168.1.124:46645/', 'http://192.168.1.124:40249/']
+[rosmaster.master][INFO] 2025-06-13 08:27:06,246: publisherUpdate[/rosout] -> http://192.168.1.124:37711/ ['http://192.168.1.124:45171/', 'http://192.168.1.124:40895/', 'http://192.168.1.124:46645/', 'http://192.168.1.124:40249/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-06-13 08:27:06,246: publisherUpdate[/initialpose] -> http://192.168.1.124:40895/ []
+[rosmaster.master][INFO] 2025-06-13 08:27:06,246: publisherUpdate[/initialpose] -> http://192.168.1.124:40895/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-06-13 08:27:06,246: publisherUpdate[/move_base_simple/goal] -> http://192.168.1.124:46645/ []
+[rosmaster.master][INFO] 2025-06-13 08:27:06,247: -PUB [/rosout] /robot_state_publisher http://192.168.1.124:40249/
+[rosmaster.master][INFO] 2025-06-13 08:27:06,247: publisherUpdate[/move_base_simple/goal] -> http://192.168.1.124:46645/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-06-13 08:27:06,247: publisherUpdate[/rosout] -> http://192.168.1.124:37711/ ['http://192.168.1.124:45171/', 'http://192.168.1.124:40895/', 'http://192.168.1.124:46645/']
+[rosmaster.master][INFO] 2025-06-13 08:27:06,248: publisherUpdate[/rosout] -> http://192.168.1.124:37711/ ['http://192.168.1.124:45171/', 'http://192.168.1.124:40895/', 'http://192.168.1.124:46645/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-06-13 08:27:06,248: -PUB [/tf] /robot_state_publisher http://192.168.1.124:40249/
+[rosmaster.master][INFO] 2025-06-13 08:27:06,248: -PUB [/tf_static] /robot_state_publisher http://192.168.1.124:40249/
+[rosmaster.master][INFO] 2025-06-13 08:27:06,249: -SUB [/clock] /robot_state_publisher http://192.168.1.124:40249/
+[rosmaster.master][INFO] 2025-06-13 08:27:06,249: -SUB [/joint_states] /robot_state_publisher http://192.168.1.124:40249/
+[rosmaster.master][INFO] 2025-06-13 08:27:06,250: -SERVICE [/robot_state_publisher/get_loggers] /robot_state_publisher rosrpc://192.168.1.124:38507
+[rosmaster.master][INFO] 2025-06-13 08:27:06,250: -SERVICE [/robot_state_publisher/set_logger_level] /robot_state_publisher rosrpc://192.168.1.124:38507
+[rosmaster.master][INFO] 2025-06-13 08:27:06,250: -SERVICE [/rviz/reload_shaders] /rviz rosrpc://192.168.1.124:48747
+[rosmaster.master][INFO] 2025-06-13 08:27:06,255: publisherUpdate[/tf] -> http://192.168.1.124:46645/ ['http://192.168.1.124:40895/']
+[rosmaster.master][INFO] 2025-06-13 08:27:06,256: publisherUpdate[/tf] -> http://192.168.1.124:46645/ ['http://192.168.1.124:40895/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-06-13 08:27:06,256: publisherUpdate[/tf] -> http://192.168.1.124:40895/ ['http://192.168.1.124:40895/']
+[rosmaster.master][INFO] 2025-06-13 08:27:06,256: publisherUpdate[/tf] -> http://192.168.1.124:40895/ ['http://192.168.1.124:40895/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-06-13 08:27:06,256: publisherUpdate[/tf_static] -> http://192.168.1.124:46645/ []
+[rosmaster.master][INFO] 2025-06-13 08:27:06,256: publisherUpdate[/tf_static] -> http://192.168.1.124:46645/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-06-13 08:27:06,257: publisherUpdate[/tf_static] -> http://192.168.1.124:40895/ []
+[rosmaster.master][INFO] 2025-06-13 08:27:06,257: publisherUpdate[/tf_static] -> http://192.168.1.124:40895/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-06-13 08:27:08,048: +PARAM [/amcl/initial_pose_x] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:27:08,049: +PARAM [/amcl/initial_pose_y] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:27:08,050: +PARAM [/amcl/initial_pose_a] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:27:08,051: +PARAM [/amcl/initial_cov_xx] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:27:08,051: +PARAM [/amcl/initial_cov_yy] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:27:08,052: +PARAM [/amcl/initial_cov_aa] by /amcl
+[rosmaster.master][INFO] 2025-06-13 08:27:08,159: -PUB [/rosout] /move_base http://192.168.1.124:46645/
+[rosmaster.master][INFO] 2025-06-13 08:27:08,160: publisherUpdate[/rosout] -> http://192.168.1.124:37711/ ['http://192.168.1.124:45171/', 'http://192.168.1.124:40895/']
+[rosmaster.master][INFO] 2025-06-13 08:27:08,160: publisherUpdate[/rosout] -> http://192.168.1.124:37711/ ['http://192.168.1.124:45171/', 'http://192.168.1.124:40895/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-06-13 08:27:08,160: -PUB [/rosout] /amcl http://192.168.1.124:40895/
+[rosmaster.master][INFO] 2025-06-13 08:27:08,161: -PUB [/cmd_vel] /move_base http://192.168.1.124:46645/
+[rosmaster.master][INFO] 2025-06-13 08:27:08,162: -PUB [/tf] /amcl http://192.168.1.124:40895/
+[rosmaster.master][INFO] 2025-06-13 08:27:08,162: -PUB [/amcl_pose] /amcl http://192.168.1.124:40895/
+[rosmaster.master][INFO] 2025-06-13 08:27:08,163: -PUB [/move_base/current_goal] /move_base http://192.168.1.124:46645/
+[rosmaster.master][INFO] 2025-06-13 08:27:08,164: -PUB [/particlecloud] /amcl http://192.168.1.124:40895/
+[rosmaster.master][INFO] 2025-06-13 08:27:08,164: -PUB [/amcl/parameter_descriptions] /amcl http://192.168.1.124:40895/
+[rosmaster.master][INFO] 2025-06-13 08:27:08,165: -PUB [/move_base/goal] /move_base http://192.168.1.124:46645/
+[rosmaster.master][INFO] 2025-06-13 08:27:08,165: -PUB [/amcl/parameter_updates] /amcl http://192.168.1.124:40895/
+[rosmaster.master][INFO] 2025-06-13 08:27:08,165: -PUB [/move_base/recovery_status] /move_base http://192.168.1.124:46645/
+[rosmaster.master][INFO] 2025-06-13 08:27:08,166: -SUB [/tf] /amcl http://192.168.1.124:40895/
+[rosmaster.master][INFO] 2025-06-13 08:27:08,166: -SUB [/tf] /move_base http://192.168.1.124:46645/
+[rosmaster.master][INFO] 2025-06-13 08:27:08,167: -SUB [/tf_static] /amcl http://192.168.1.124:40895/
+[rosmaster.master][INFO] 2025-06-13 08:27:08,167: -SUB [/tf_static] /move_base http://192.168.1.124:46645/
+[rosmaster.master][INFO] 2025-06-13 08:27:08,167: -SUB [/scan] /amcl http://192.168.1.124:40895/
+[rosmaster.master][INFO] 2025-06-13 08:27:08,168: -SUB [/move_base_simple/goal] /move_base http://192.168.1.124:46645/
+[rosmaster.master][INFO] 2025-06-13 08:27:08,168: -SUB [/initialpose] /amcl http://192.168.1.124:40895/
+[rosmaster.master][INFO] 2025-06-13 08:27:08,169: -SERVICE [/move_base/get_loggers] /move_base rosrpc://192.168.1.124:40123
+[rosmaster.master][INFO] 2025-06-13 08:27:08,169: -SERVICE [/amcl/get_loggers] /amcl rosrpc://192.168.1.124:40475
+[rosmaster.master][INFO] 2025-06-13 08:27:08,169: -SERVICE [/move_base/set_logger_level] /move_base rosrpc://192.168.1.124:40123
+[rosmaster.master][INFO] 2025-06-13 08:27:08,171: -SERVICE [/amcl/set_logger_level] /amcl rosrpc://192.168.1.124:40475
+[rosmaster.master][INFO] 2025-06-13 08:27:08,172: -SERVICE [/global_localization] /amcl rosrpc://192.168.1.124:40475
+[rosmaster.master][INFO] 2025-06-13 08:27:08,173: -SERVICE [/request_nomotion_update] /amcl rosrpc://192.168.1.124:40475
+[rosmaster.master][INFO] 2025-06-13 08:27:08,174: -SERVICE [/set_map] /amcl rosrpc://192.168.1.124:40475
+[rosmaster.master][INFO] 2025-06-13 08:27:08,175: -SERVICE [/amcl/set_parameters] /amcl rosrpc://192.168.1.124:40475
+[rosmaster.master][INFO] 2025-06-13 08:27:08,249: publisherUpdate[/rosout] -> http://192.168.1.124:37711/ ['http://192.168.1.124:45171/']
+[rosmaster.master][INFO] 2025-06-13 08:27:08,250: publisherUpdate[/rosout] -> http://192.168.1.124:37711/ ['http://192.168.1.124:45171/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-06-13 08:27:08,250: publisherUpdate[/tf] -> http://192.168.1.124:46645/ []
+[rosmaster.master][INFO] 2025-06-13 08:27:08,250: publisherUpdate[/tf] -> http://192.168.1.124:40895/ []
+[rosmaster.master][INFO] 2025-06-13 08:27:08,251: -PUB [/rosout] /map_server http://192.168.1.124:45171/
+[rosmaster.master][INFO] 2025-06-13 08:27:08,251: publisherUpdate[/tf] -> http://192.168.1.124:46645/ []: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.master][INFO] 2025-06-13 08:27:08,252: publisherUpdate[/tf] -> http://192.168.1.124:40895/ []: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2025-06-13 08:27:08,252: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2025-06-13 08:27:08,252: publisherUpdate[/rosout] -> http://192.168.1.124:37711/ []
+[rosmaster.master][INFO] 2025-06-13 08:27:08,253: -PUB [/map_metadata] /map_server http://192.168.1.124:45171/
+[rosmaster.master][INFO] 2025-06-13 08:27:08,255: publisherUpdate[/rosout] -> http://192.168.1.124:37711/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-06-13 08:27:08,255: -PUB [/map] /map_server http://192.168.1.124:45171/
+[rosmaster.threadpool][ERROR] 2025-06-13 08:27:08,256: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2025-06-13 08:27:08,258: -SERVICE [/map_server/get_loggers] /map_server rosrpc://192.168.1.124:54693
+[rosmaster.master][INFO] 2025-06-13 08:27:08,262: -SERVICE [/map_server/set_logger_level] /map_server rosrpc://192.168.1.124:54693
+[rosmaster.master][INFO] 2025-06-13 08:27:08,263: -SERVICE [/static_map] /map_server rosrpc://192.168.1.124:54693
+[rosmaster.master][INFO] 2025-06-13 08:27:08,359: +PARAM [/move_base/global_costmap/obstacle_layer/raytrace_range] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,360: -PARAM [/move_base/global_costmap/raytrace_range] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,361: +PARAM [/move_base/global_costmap/obstacle_layer/obstacle_range] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,363: -PARAM [/move_base/global_costmap/obstacle_range] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,366: +PARAM [/move_base/global_costmap/obstacle_layer/laser_scan_sensor] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,367: -PARAM [/move_base/global_costmap/laser_scan_sensor] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,376: +PARAM [/move_base/global_costmap/obstacle_layer/observation_sources] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,376: -PARAM [/move_base/global_costmap/observation_sources] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,380: +PARAM [/move_base/global_costmap/inflation_layer/cost_scaling_factor] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,380: -PARAM [/move_base/global_costmap/cost_scaling_factor] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,381: +PARAM [/move_base/global_costmap/inflation_layer/inflation_radius] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,382: -PARAM [/move_base/global_costmap/inflation_radius] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,382: +PARAM [/move_base/global_costmap/plugins] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,393: +PARAM [/move_base/global_costmap/static_layer/enabled] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,394: +PARAM [/move_base/global_costmap/static_layer/enabled] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,406: +PARAM [/move_base/global_costmap/obstacle_layer/enabled] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,406: +PARAM [/move_base/global_costmap/obstacle_layer/footprint_clearing_enabled] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,406: +PARAM [/move_base/global_costmap/obstacle_layer/max_obstacle_height] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,407: +PARAM [/move_base/global_costmap/obstacle_layer/combination_method] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,407: +PARAM [/move_base/global_costmap/obstacle_layer/enabled] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,410: +PARAM [/move_base/global_costmap/obstacle_layer/footprint_clearing_enabled] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,411: +PARAM [/move_base/global_costmap/obstacle_layer/max_obstacle_height] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,412: +PARAM [/move_base/global_costmap/obstacle_layer/combination_method] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,415: +PARAM [/move_base/global_costmap/inflation_layer/enabled] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,416: +PARAM [/move_base/global_costmap/inflation_layer/cost_scaling_factor] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,417: +PARAM [/move_base/global_costmap/inflation_layer/inflation_radius] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,417: +PARAM [/move_base/global_costmap/inflation_layer/inflate_unknown] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,424: +PARAM [/move_base/global_costmap/inflation_layer/enabled] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,427: +PARAM [/move_base/global_costmap/inflation_layer/cost_scaling_factor] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,428: +PARAM [/move_base/global_costmap/inflation_layer/inflation_radius] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,429: +PARAM [/move_base/global_costmap/inflation_layer/inflate_unknown] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,440: +PARAM [/move_base/global_costmap/robot_radius] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,445: +PARAM [/move_base/global_costmap/transform_tolerance] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,445: +PARAM [/move_base/global_costmap/update_frequency] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,446: +PARAM [/move_base/global_costmap/publish_frequency] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,446: +PARAM [/move_base/global_costmap/width] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,447: +PARAM [/move_base/global_costmap/height] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,447: +PARAM [/move_base/global_costmap/resolution] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,448: +PARAM [/move_base/global_costmap/origin_x] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,448: +PARAM [/move_base/global_costmap/origin_y] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,449: +PARAM [/move_base/global_costmap/footprint] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,449: +PARAM [/move_base/global_costmap/robot_radius] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,450: +PARAM [/move_base/global_costmap/footprint_padding] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,451: +PARAM [/move_base/global_costmap/transform_tolerance] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,451: +PARAM [/move_base/global_costmap/update_frequency] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,452: +PARAM [/move_base/global_costmap/publish_frequency] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,452: +PARAM [/move_base/global_costmap/width] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,453: +PARAM [/move_base/global_costmap/height] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,453: +PARAM [/move_base/global_costmap/resolution] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,454: +PARAM [/move_base/global_costmap/origin_x] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,454: +PARAM [/move_base/global_costmap/origin_y] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,455: +PARAM [/move_base/global_costmap/footprint] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,455: +PARAM [/move_base/global_costmap/robot_radius] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,456: +PARAM [/move_base/global_costmap/footprint_padding] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,473: +PARAM [/move_base/local_costmap/obstacle_layer/raytrace_range] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,473: -PARAM [/move_base/local_costmap/raytrace_range] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,474: +PARAM [/move_base/local_costmap/obstacle_layer/obstacle_range] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,474: -PARAM [/move_base/local_costmap/obstacle_range] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,480: +PARAM [/move_base/local_costmap/obstacle_layer/laser_scan_sensor] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,481: -PARAM [/move_base/local_costmap/laser_scan_sensor] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,482: +PARAM [/move_base/local_costmap/obstacle_layer/observation_sources] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,482: -PARAM [/move_base/local_costmap/observation_sources] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,483: +PARAM [/move_base/local_costmap/inflation_layer/cost_scaling_factor] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,483: -PARAM [/move_base/local_costmap/cost_scaling_factor] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,484: +PARAM [/move_base/local_costmap/inflation_layer/inflation_radius] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,485: -PARAM [/move_base/local_costmap/inflation_radius] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,485: +PARAM [/move_base/local_costmap/plugins] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,495: +PARAM [/move_base/local_costmap/obstacle_layer/enabled] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,495: +PARAM [/move_base/local_costmap/obstacle_layer/footprint_clearing_enabled] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,496: +PARAM [/move_base/local_costmap/obstacle_layer/max_obstacle_height] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,496: +PARAM [/move_base/local_costmap/obstacle_layer/combination_method] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,497: +PARAM [/move_base/local_costmap/obstacle_layer/enabled] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,497: +PARAM [/move_base/local_costmap/obstacle_layer/footprint_clearing_enabled] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,498: +PARAM [/move_base/local_costmap/obstacle_layer/max_obstacle_height] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,498: +PARAM [/move_base/local_costmap/obstacle_layer/combination_method] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,500: +PARAM [/move_base/local_costmap/inflation_layer/enabled] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,501: +PARAM [/move_base/local_costmap/inflation_layer/cost_scaling_factor] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,501: +PARAM [/move_base/local_costmap/inflation_layer/inflation_radius] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,502: +PARAM [/move_base/local_costmap/inflation_layer/inflate_unknown] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,502: +PARAM [/move_base/local_costmap/inflation_layer/enabled] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,503: +PARAM [/move_base/local_costmap/inflation_layer/cost_scaling_factor] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,503: +PARAM [/move_base/local_costmap/inflation_layer/inflation_radius] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,504: +PARAM [/move_base/local_costmap/inflation_layer/inflate_unknown] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,507: +PARAM [/move_base/local_costmap/robot_radius] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,515: +PARAM [/move_base/local_costmap/transform_tolerance] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,516: +PARAM [/move_base/local_costmap/update_frequency] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,516: +PARAM [/move_base/local_costmap/publish_frequency] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,517: +PARAM [/move_base/local_costmap/width] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,518: +PARAM [/move_base/local_costmap/height] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,519: +PARAM [/move_base/local_costmap/resolution] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,522: +PARAM [/move_base/local_costmap/origin_x] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,528: +PARAM [/move_base/local_costmap/origin_y] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,531: +PARAM [/move_base/local_costmap/footprint] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,535: +PARAM [/move_base/local_costmap/robot_radius] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,536: +PARAM [/move_base/local_costmap/footprint_padding] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,539: +PARAM [/move_base/local_costmap/transform_tolerance] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,543: +PARAM [/move_base/local_costmap/update_frequency] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,547: +PARAM [/move_base/local_costmap/publish_frequency] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,547: +PARAM [/move_base/local_costmap/width] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,548: +PARAM [/move_base/local_costmap/height] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,548: +PARAM [/move_base/local_costmap/resolution] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,549: +PARAM [/move_base/local_costmap/origin_x] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,549: +PARAM [/move_base/local_costmap/origin_y] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,550: +PARAM [/move_base/local_costmap/footprint] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,550: +PARAM [/move_base/local_costmap/robot_radius] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,551: +PARAM [/move_base/local_costmap/footprint_padding] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,597: +PARAM [/move_base/TrajectoryPlannerROS/acc_lim_x] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,597: +PARAM [/move_base/TrajectoryPlannerROS/acc_lim_y] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,598: +PARAM [/move_base/TrajectoryPlannerROS/acc_lim_theta] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,598: +PARAM [/move_base/TrajectoryPlannerROS/max_vel_x] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,599: +PARAM [/move_base/TrajectoryPlannerROS/min_vel_x] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,600: +PARAM [/move_base/TrajectoryPlannerROS/max_vel_theta] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,600: +PARAM [/move_base/TrajectoryPlannerROS/min_vel_theta] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,600: +PARAM [/move_base/TrajectoryPlannerROS/min_in_place_vel_theta] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,601: +PARAM [/move_base/TrajectoryPlannerROS/sim_time] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,601: +PARAM [/move_base/TrajectoryPlannerROS/sim_granularity] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,602: +PARAM [/move_base/TrajectoryPlannerROS/angular_sim_granularity] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,602: +PARAM [/move_base/TrajectoryPlannerROS/pdist_scale] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,603: +PARAM [/move_base/TrajectoryPlannerROS/gdist_scale] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,603: +PARAM [/move_base/TrajectoryPlannerROS/occdist_scale] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,604: +PARAM [/move_base/TrajectoryPlannerROS/oscillation_reset_dist] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,604: +PARAM [/move_base/TrajectoryPlannerROS/escape_reset_dist] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,605: +PARAM [/move_base/TrajectoryPlannerROS/escape_reset_theta] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,605: +PARAM [/move_base/TrajectoryPlannerROS/vx_samples] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,606: +PARAM [/move_base/TrajectoryPlannerROS/vtheta_samples] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,606: +PARAM [/move_base/TrajectoryPlannerROS/heading_lookahead] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,607: +PARAM [/move_base/TrajectoryPlannerROS/holonomic_robot] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,607: +PARAM [/move_base/TrajectoryPlannerROS/escape_vel] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,608: +PARAM [/move_base/TrajectoryPlannerROS/dwa] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,608: +PARAM [/move_base/TrajectoryPlannerROS/heading_scoring] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,609: +PARAM [/move_base/TrajectoryPlannerROS/heading_scoring_timestep] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,609: +PARAM [/move_base/TrajectoryPlannerROS/simple_attractor] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,610: +PARAM [/move_base/TrajectoryPlannerROS/y_vels] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,610: +PARAM [/move_base/TrajectoryPlannerROS/restore_defaults] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,611: +PARAM [/move_base/TrajectoryPlannerROS/acc_lim_x] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,611: +PARAM [/move_base/TrajectoryPlannerROS/acc_lim_y] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,612: +PARAM [/move_base/TrajectoryPlannerROS/acc_lim_theta] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,612: +PARAM [/move_base/TrajectoryPlannerROS/max_vel_x] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,613: +PARAM [/move_base/TrajectoryPlannerROS/min_vel_x] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,613: +PARAM [/move_base/TrajectoryPlannerROS/max_vel_theta] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,614: +PARAM [/move_base/TrajectoryPlannerROS/min_vel_theta] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,615: +PARAM [/move_base/TrajectoryPlannerROS/min_in_place_vel_theta] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,615: +PARAM [/move_base/TrajectoryPlannerROS/sim_time] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,618: +PARAM [/move_base/TrajectoryPlannerROS/sim_granularity] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,619: +PARAM [/move_base/TrajectoryPlannerROS/angular_sim_granularity] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,626: +PARAM [/move_base/TrajectoryPlannerROS/pdist_scale] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,626: +PARAM [/move_base/TrajectoryPlannerROS/gdist_scale] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,627: +PARAM [/move_base/TrajectoryPlannerROS/occdist_scale] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,627: +PARAM [/move_base/TrajectoryPlannerROS/oscillation_reset_dist] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,628: +PARAM [/move_base/TrajectoryPlannerROS/escape_reset_dist] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,628: +PARAM [/move_base/TrajectoryPlannerROS/escape_reset_theta] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,629: +PARAM [/move_base/TrajectoryPlannerROS/vx_samples] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,629: +PARAM [/move_base/TrajectoryPlannerROS/vtheta_samples] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,630: +PARAM [/move_base/TrajectoryPlannerROS/heading_lookahead] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,630: +PARAM [/move_base/TrajectoryPlannerROS/holonomic_robot] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,635: +PARAM [/move_base/TrajectoryPlannerROS/escape_vel] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,636: +PARAM [/move_base/TrajectoryPlannerROS/dwa] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,636: +PARAM [/move_base/TrajectoryPlannerROS/heading_scoring] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,637: +PARAM [/move_base/TrajectoryPlannerROS/heading_scoring_timestep] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,637: +PARAM [/move_base/TrajectoryPlannerROS/simple_attractor] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,638: +PARAM [/move_base/TrajectoryPlannerROS/y_vels] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,638: +PARAM [/move_base/TrajectoryPlannerROS/restore_defaults] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,639: +PARAM [/move_base/conservative_reset/reset_distance] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,640: +PARAM [/move_base/aggressive_reset/reset_distance] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,658: +PARAM [/move_base/base_global_planner] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,658: +PARAM [/move_base/base_local_planner] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,659: +PARAM [/move_base/planner_frequency] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,659: +PARAM [/move_base/controller_frequency] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,659: +PARAM [/move_base/planner_patience] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,660: +PARAM [/move_base/controller_patience] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,660: +PARAM [/move_base/max_planning_retries] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,661: +PARAM [/move_base/conservative_reset_dist] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,661: +PARAM [/move_base/recovery_behavior_enabled] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,662: +PARAM [/move_base/clearing_rotation_allowed] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,662: +PARAM [/move_base/shutdown_costmaps] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,663: +PARAM [/move_base/oscillation_timeout] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,663: +PARAM [/move_base/oscillation_distance] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,664: +PARAM [/move_base/restore_defaults] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,664: +PARAM [/move_base/base_global_planner] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,665: +PARAM [/move_base/base_local_planner] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,665: +PARAM [/move_base/planner_frequency] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,666: +PARAM [/move_base/controller_frequency] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,666: +PARAM [/move_base/planner_patience] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,667: +PARAM [/move_base/controller_patience] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,667: +PARAM [/move_base/max_planning_retries] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,668: +PARAM [/move_base/conservative_reset_dist] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,668: +PARAM [/move_base/recovery_behavior_enabled] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,669: +PARAM [/move_base/clearing_rotation_allowed] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,671: +PARAM [/move_base/shutdown_costmaps] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,672: +PARAM [/move_base/oscillation_timeout] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,675: +PARAM [/move_base/oscillation_distance] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,678: +PARAM [/move_base/restore_defaults] by /move_base
+[rosmaster.master][INFO] 2025-06-13 08:27:08,854: -PUB [/rosout_agg] /rosout http://192.168.1.124:37711/
+[rosmaster.master][INFO] 2025-06-13 08:27:08,855: -SUB [/rosout] /rosout http://192.168.1.124:37711/
+[rosmaster.master][INFO] 2025-06-13 08:27:08,855: -SERVICE [/rosout/get_loggers] /rosout rosrpc://192.168.1.124:47905
+[rosmaster.master][INFO] 2025-06-13 08:27:08,855: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://192.168.1.124:47905
+[rosmaster.main][INFO] 2025-06-13 08:27:08,949: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2025-06-13 08:27:08,949: stopping master...
+[rospy.core][INFO] 2025-06-13 08:27:08,949: signal_shutdown [atexit]

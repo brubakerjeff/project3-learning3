@@ -1,0 +1,3 @@
+[0m[ INFO] [1751337703.688609494]: Initializing nodelet with 4 worker threads.[0m
+[0m[ INFO] [1751337703.727759034]: CmdVelMux : (re)configured[0m
+[0m[ INFO] [1751337703.742990227]: Bumper/cliff pointcloud configured at distance 0.240000 and height 0.040000 from base frame[0m

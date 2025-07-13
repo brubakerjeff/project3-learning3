@@ -1,0 +1,6 @@
+[0m[ INFO] [1751248292.902167926]: Loading nodelet /depthimage_to_laserscan of type depthimage_to_laserscan/DepthImageToLaserScanNodelet to manager laserscan_nodelet_manager with the following remappings:[0m
+[0m[ INFO] [1751248292.902203236]: /image -> /camera/depth/image_raw[0m
+[0m[ INFO] [1751248292.902210624]: /scan -> /scan[0m
+[0m[ INFO] [1751248292.913344046]: waitForService: Service [/laserscan_nodelet_manager/load_nodelet] has not been advertised, waiting...[0m
+[0m[ INFO] [1751248292.978522605]: waitForService: Service [/laserscan_nodelet_manager/load_nodelet] is now available.[0m
+[0m[ INFO] [1751248304.721091600, 168855.136000000]: Unloading nodelet /depthimage_to_laserscan from manager laserscan_nodelet_manager[0m

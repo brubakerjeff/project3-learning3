@@ -1,0 +1,10 @@
+[0m[ INFO] [1495481324.760546456]: Loading robot model 'kuka_arm'...[0m
+[0m[ INFO] [1495481325.059094651, 1079.859000000]: Loading robot model 'kuka_arm'...[0m
+[0m[ INFO] [1495481326.811688824, 1081.217000000]: Ready to take commands for planning group arm_group.[0m
+[0m[ INFO] [1495481327.244892512, 1081.599000000]: Ready to take commands for planning group gripper_group.[0m
+[0m[ INFO] [1495481327.248697197, 1081.600000000]: Loading robot model 'kuka_arm'...[0m
+[0m[ INFO] [1495481327.422968290, 1081.736000000]: Loading robot model 'kuka_arm'...[0m
+[0m[ INFO] [1495481327.680053213, 1081.965000000]: Added object list to the world[0m
+[0m[ INFO] [1495481329.123530891, 1082.970000000]: RemoteControl Ready.[0m
+
+[96mWaiting to continue: next step[0m

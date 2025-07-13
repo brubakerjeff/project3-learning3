@@ -1,0 +1,17 @@
+[0m[ INFO] [1751339290.274314474]: Initializing nodelet with 4 worker threads.[0m
+[33m[ WARN] [1751339675.340975144, 209.491000000]: [image_transport] Topics '/camera/depth/image_raw' and '/camera/depth/camera_info' do not appear to be synchronized. In the last 10s:
+	Image messages received:      169
+	CameraInfo messages received: 47
+	Synchronized pairs:           47[0m
+[33m[ WARN] [1751339685.331198440, 5.040000000]: [image_transport] Topics '/camera/depth/image_raw' and '/camera/depth/camera_info' do not appear to be synchronized. In the last 10s:
+	Image messages received:      184
+	CameraInfo messages received: 0
+	Synchronized pairs:           0[0m
+[33m[ WARN] [1751339695.331239607, 14.709000000]: [image_transport] Topics '/camera/depth/image_raw' and '/camera/depth/camera_info' do not appear to be synchronized. In the last 10s:
+	Image messages received:      193
+	CameraInfo messages received: 0
+	Synchronized pairs:           0[0m
+[33m[ WARN] [1751339705.331314263, 24.343000000]: [image_transport] Topics '/camera/depth/image_raw' and '/camera/depth/camera_info' do not appear to be synchronized. In the last 10s:
+	Image messages received:      193
+	CameraInfo messages received: 0
+	Synchronized pairs:           0[0m

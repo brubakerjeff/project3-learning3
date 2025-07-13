@@ -1,0 +1,39 @@
+[rosmaster.main][INFO] 2025-06-02 20:03:23,453: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2025-06-02 20:03:23,453: Starting ROS Master Node
+[xmlrpc][INFO] 2025-06-02 20:03:23,454: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2025-06-02 20:03:23,454: Started XML-RPC server [http://192.168.1.124:11311/]
+[xmlrpc][INFO] 2025-06-02 20:03:23,454: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2025-06-02 20:03:23,454: Master initialized: port[11311], uri[http://192.168.1.124:11311/]
+[rosmaster.master][INFO] 2025-06-02 20:03:23,556: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2025-06-02 20:03:23,557: +PARAM [/roslaunch/uris/host_192_168_1_124__32981] by /roslaunch
+[rosmaster.master][INFO] 2025-06-02 20:03:23,592: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2025-06-02 20:03:23,592: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2025-06-02 20:03:23,615: +SERVICE [/rosout/get_loggers] /rosout http://192.168.1.124:35269/
+[rosmaster.master][INFO] 2025-06-02 20:03:23,616: +SERVICE [/rosout/set_logger_level] /rosout http://192.168.1.124:35269/
+[rosmaster.master][INFO] 2025-06-02 20:03:23,617: +PUB [/rosout_agg] /rosout http://192.168.1.124:35269/
+[rosmaster.master][INFO] 2025-06-02 20:03:23,620: +SUB [/rosout] /rosout http://192.168.1.124:35269/
+[rosmaster.master][INFO] 2025-06-03 06:27:18,564: +PUB [/rosout] /teleop_twist_keyboard http://192.168.1.124:44337/
+[rosmaster.master][INFO] 2025-06-03 06:27:18,565: +SERVICE [/teleop_twist_keyboard/get_loggers] /teleop_twist_keyboard http://192.168.1.124:44337/
+[rosmaster.master][INFO] 2025-06-03 06:27:18,566: +SERVICE [/teleop_twist_keyboard/set_logger_level] /teleop_twist_keyboard http://192.168.1.124:44337/
+[rosmaster.master][INFO] 2025-06-03 06:27:18,572: +PUB [/cmd_vel] /teleop_twist_keyboard http://192.168.1.124:44337/
+[rosmaster.master][INFO] 2025-06-03 06:27:18,628: publisherUpdate[/rosout] -> http://192.168.1.124:35269/ ['http://192.168.1.124:44337/']
+[rosmaster.master][INFO] 2025-06-03 06:27:18,629: publisherUpdate[/rosout] -> http://192.168.1.124:35269/ ['http://192.168.1.124:44337/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-06-03 06:27:23,033: -PUB [/rosout] /teleop_twist_keyboard http://192.168.1.124:44337/
+[rosmaster.master][INFO] 2025-06-03 06:27:23,034: -PUB [/cmd_vel] /teleop_twist_keyboard http://192.168.1.124:44337/
+[rosmaster.master][INFO] 2025-06-03 06:27:23,034: -SERVICE [/teleop_twist_keyboard/set_logger_level] /teleop_twist_keyboard rosrpc://192.168.1.124:33617
+[rosmaster.master][INFO] 2025-06-03 06:27:23,034: -SERVICE [/teleop_twist_keyboard/get_loggers] /teleop_twist_keyboard rosrpc://192.168.1.124:33617
+[rosmaster.master][INFO] 2025-06-03 06:27:23,037: publisherUpdate[/rosout] -> http://192.168.1.124:35269/ []
+[rosmaster.master][INFO] 2025-06-03 06:27:23,037: publisherUpdate[/rosout] -> http://192.168.1.124:35269/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-06-03 18:15:46,938: +PUB [/rosout] /teleop_twist_keyboard http://192.168.1.124:35325/
+[rosmaster.master][INFO] 2025-06-03 18:15:46,940: +SERVICE [/teleop_twist_keyboard/get_loggers] /teleop_twist_keyboard http://192.168.1.124:35325/
+[rosmaster.master][INFO] 2025-06-03 18:15:46,940: +SERVICE [/teleop_twist_keyboard/set_logger_level] /teleop_twist_keyboard http://192.168.1.124:35325/
+[rosmaster.master][INFO] 2025-06-03 18:15:46,946: +PUB [/cmd_vel] /teleop_twist_keyboard http://192.168.1.124:35325/
+[rosmaster.master][INFO] 2025-06-03 18:15:46,970: publisherUpdate[/rosout] -> http://192.168.1.124:35269/ ['http://192.168.1.124:35325/']
+[rosmaster.master][INFO] 2025-06-03 18:15:46,970: publisherUpdate[/rosout] -> http://192.168.1.124:35269/ ['http://192.168.1.124:35325/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-06-03 18:16:02,300: -PUB [/rosout_agg] /rosout http://192.168.1.124:35269/
+[rosmaster.master][INFO] 2025-06-03 18:16:02,300: -SUB [/rosout] /rosout http://192.168.1.124:35269/
+[rosmaster.master][INFO] 2025-06-03 18:16:02,301: -SERVICE [/rosout/get_loggers] /rosout rosrpc://192.168.1.124:56903
+[rosmaster.master][INFO] 2025-06-03 18:16:02,301: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://192.168.1.124:56903
+[rosmaster.main][INFO] 2025-06-03 18:16:02,366: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2025-06-03 18:16:02,366: stopping master...
+[rospy.core][INFO] 2025-06-03 18:16:02,367: signal_shutdown [atexit]

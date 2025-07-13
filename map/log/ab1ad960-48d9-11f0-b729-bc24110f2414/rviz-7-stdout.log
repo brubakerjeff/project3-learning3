@@ -1,0 +1,7 @@
+[0m[ INFO] [1749876017.325687598]: rviz version 1.12.17[0m
+[0m[ INFO] [1749876017.325712673]: compiled against Qt version 5.5.1[0m
+[0m[ INFO] [1749876017.325718650]: compiled against OGRE version 1.9.0 (Ghadamon)[0m
+[0m[ INFO] [1749876017.460254023]: Stereo is NOT SUPPORTED[0m
+[0m[ INFO] [1749876017.460319546]: OpenGl version: 3 (GLSL 1.3).[0m
+[0m[ INFO] [1749876029.411825820, 84886.666000000]: Creating 1 swatches[0m
+[33m[ WARN] [1749962112.220472950, 170442.960000000]: Detected jump back in time of 5.786s. Clearing TF buffer.[0m

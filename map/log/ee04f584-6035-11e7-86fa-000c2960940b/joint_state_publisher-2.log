@@ -1,0 +1,19 @@
+[rospy.client][INFO] 2017-07-03 14:24:02,584: init_node, name[/joint_state_publisher], pid[4582]
+[xmlrpc][INFO] 2017-07-03 14:24:02,585: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-07-03 14:24:02,585: Started XML-RPC server [http://udacity:36317/]
+[rospy.impl.masterslave][INFO] 2017-07-03 14:24:02,585: _ready: http://udacity:36317/
+[rospy.init][INFO] 2017-07-03 14:24:02,586: ROS Slave URI: [http://udacity:36317/]
+[xmlrpc][INFO] 2017-07-03 14:24:02,586: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2017-07-03 14:24:02,586: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2017-07-03 14:24:02,686: registered with master
+[rospy.rosout][INFO] 2017-07-03 14:24:02,687: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-07-03 14:24:02,689: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-07-03 14:24:02,691: initializing /clock core topic
+[rospy.simtime][INFO] 2017-07-03 14:24:02,693: connected to core topic /clock
+[rospy.internal][INFO] 2017-07-03 14:24:02,909: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2017-07-03 14:24:03,925: topic[/clock] adding connection to [http://udacity:37601/], count 0
+[rospy.core][INFO] 2017-07-03 14:28:35,446: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2017-07-03 14:28:35,452: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2017-07-03 14:28:35,452: topic[/clock] removing connection to http://udacity:37601/
+[rospy.impl.masterslave][INFO] 2017-07-03 14:28:35,453: signal-2
+[rospy.core][INFO] 2017-07-03 14:28:35,617: signal_shutdown [atexit]

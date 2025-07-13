@@ -1,0 +1,8 @@
+[0m[ INFO] [1749771982.259730391]: rviz version 1.12.17[0m
+[0m[ INFO] [1749771982.259754792]: compiled against Qt version 5.5.1[0m
+[0m[ INFO] [1749771982.259760961]: compiled against OGRE version 1.9.0 (Ghadamon)[0m
+[0m[ INFO] [1749771982.372494646]: Stereo is NOT SUPPORTED[0m
+[0m[ INFO] [1749771982.372554745]: OpenGl version: 3 (GLSL 1.3).[0m
+[0m[ INFO] [1749772037.437045666, 84929.622000000]: Creating 1 swatches[0m
+[33m[ WARN] [1749827740.358234613, 140318.768000000]: Shutdown request received.[0m
+[33m[ WARN] [1749827740.358253994, 140318.768000000]: Reason given for shutdown: [new node registered with same name][0m

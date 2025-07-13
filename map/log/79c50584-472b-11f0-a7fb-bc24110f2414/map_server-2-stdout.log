@@ -1,0 +1,5 @@
+[0m[ INFO] [1749691250.938839217]: Loading map from image "/home/robond/project3-learning/src/my_robot/maps/map.pgm"[0m
+[0m[ INFO] [1749691251.786186575]: Read a 3000 X 3000 map @ 0.010 m/cell[0m
+[0m[ INFO] [1749691252.045257728]: Sending map[0m
+[33m[ WARN] [1749691254.132665660]: Shutdown request received.[0m
+[33m[ WARN] [1749691254.132691527]: Reason given for shutdown: [new node registered with same name][0m

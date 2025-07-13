@@ -1,0 +1,19 @@
+[0m[ INFO] [1499648543.259987143]: Loading robot model 'kuka_arm'...[0m
+[0m[ INFO] [1499648543.449610472]: Loading robot model 'kuka_arm'...[0m
+[0m[ INFO] [1499648546.453438192, 1082.462000000]: Ready to take commands for planning group arm_group.[0m
+[0m[ INFO] [1499648546.847436278, 1082.831000000]: Ready to take commands for planning group gripper_group.[0m
+[0m[ INFO] [1499648546.854400558, 1082.836000000]: Loading robot model 'kuka_arm'...[0m
+[0m[ INFO] [1499648547.031941552, 1082.991000000]: Loading robot model 'kuka_arm'...[0m
+[0m[ INFO] [1499648547.283916308, 1083.167000000]: Added object list to the world[0m
+[0m[ INFO] [1499648548.413252324, 1084.172000000]: RemoteControl Ready.[0m
+
+[96mWaiting to continue: next step[0m[96m... continuing[0m
+[0m[ INFO] [1499648566.678389474, 1101.518000000]: Visualizing plan to target: SUCCEEDED[0m
+[0m[ INFO] [1499648566.678536281, 1101.518000000]: No planning scene passed into moveit_visual_tools, creating one.[0m
+[0m[ INFO] [1499648566.685330708, 1101.524000000]: Loading robot model 'kuka_arm'...[0m
+[0m[ INFO] [1499648566.846930457, 1101.663000000]: Loading robot model 'kuka_arm'...[0m
+[0m[ INFO] [1499648567.033378798, 1101.820000000]: Publishing maintained planning scene on ''[0m
+
+[96mWaiting to continue: next step[0m[96m... continuing[0m
+
+[96mWaiting to continue: next step[0m

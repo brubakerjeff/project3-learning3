@@ -1,0 +1,27 @@
+[rospy.client][INFO] 2017-07-09 18:34:09,711: init_node, name[/urdf_spawner], pid[8586]
+[xmlrpc][INFO] 2017-07-09 18:34:09,711: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-07-09 18:34:09,711: Started XML-RPC server [http://udacity:43445/]
+[rospy.impl.masterslave][INFO] 2017-07-09 18:34:09,712: _ready: http://udacity:43445/
+[xmlrpc][INFO] 2017-07-09 18:34:09,712: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2017-07-09 18:34:09,713: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2017-07-09 18:34:09,713: ROS Slave URI: [http://udacity:43445/]
+[rospy.init][INFO] 2017-07-09 18:34:09,713: registered with master
+[rospy.rosout][INFO] 2017-07-09 18:34:09,714: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-07-09 18:34:09,722: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-07-09 18:34:09,726: initializing /clock core topic
+[rospy.simtime][INFO] 2017-07-09 18:34:09,732: connected to core topic /clock
+[rosout][INFO] 2017-07-09 18:34:09,738: Loading model XML from ros parameter
+[rosout][INFO] 2017-07-09 18:34:09,741: Waiting for service /gazebo/spawn_urdf_model
+[rospy.internal][INFO] 2017-07-09 18:34:09,969: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2017-07-09 18:34:10,501: topic[/clock] adding connection to [http://udacity:39587/], count 0
+[rosout][INFO] 2017-07-09 18:34:10,648: Calling service /gazebo/spawn_urdf_model
+[rosout][INFO] 2017-07-09 18:34:11,145: Spawn status: SpawnModel: Successfully spawned entity
+[rospy.core][INFO] 2017-07-09 18:34:11,146: signal_shutdown [atexit]
+[rospy.internal][INFO] 2017-07-09 18:34:11,149: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2017-07-09 18:34:11,149: topic[/clock] removing connection to http://udacity:39587/
+[rospy.impl.masterslave][INFO] 2017-07-09 18:34:11,149: atexit
+[rospy.internal][WARNING] 2017-07-09 18:34:11,150: Unknown error initiating TCP/IP socket to udacity:41375 (http://udacity:39587/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+

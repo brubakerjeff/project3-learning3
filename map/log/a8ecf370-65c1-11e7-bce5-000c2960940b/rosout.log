@@ -1,0 +1,5 @@
+
+
+1499726810.251519906  Node Startup
+1499726810.508695661 INFO [/tmp/binarydeb/ros-kinetic-rviz-1.12.10/src/rviz/ogre_helpers/render_system.cpp:211(RenderSystem::detectGlVersion) [topics: /rosout] OpenGl version: 2.1 (GLSL 1.2).
+1499726810.737858057 INFO [joint_state_publisher:374(center) [topics: /joint_states, /rosout] Centering

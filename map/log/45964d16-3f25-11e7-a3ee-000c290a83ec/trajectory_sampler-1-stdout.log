@@ -1,0 +1,32 @@
+[0m[ INFO] [1495481502.787918816]: Loading robot model 'kuka_arm'...[0m
+[0m[ INFO] [1495481503.073472637]: Loading robot model 'kuka_arm'...[0m
+[0m[ INFO] [1495481505.607407035, 1081.834000000]: Ready to take commands for planning group arm_group.[0m
+[0m[ INFO] [1495481506.049664024, 1082.074000000]: Ready to take commands for planning group gripper_group.[0m
+[0m[ INFO] [1495481506.053718743, 1082.074000000]: Loading robot model 'kuka_arm'...[0m
+[0m[ INFO] [1495481506.266847773, 1082.185000000]: Loading robot model 'kuka_arm'...[0m
+[0m[ INFO] [1495481506.527307301, 1082.354000000]: Added object list to the world[0m
+[0m[ INFO] [1495481508.028591246, 1083.356000000]: RemoteControl Ready.[0m
+
+[96mWaiting to continue: next step[0m[96m... continuing[0m
+[0m[ INFO] [1495481515.154716628, 1087.839000000]: Visualizing plan to target: SUCCEEDED[0m
+[0m[ INFO] [1495481515.154878408, 1087.839000000]: No planning scene passed into moveit_visual_tools, creating one.[0m
+[0m[ INFO] [1495481515.161683032, 1087.841000000]: Loading robot model 'kuka_arm'...[0m
+[0m[ INFO] [1495481515.457727537, 1087.975000000]: Loading robot model 'kuka_arm'...[0m
+[0m[ INFO] [1495481515.801254925, 1088.146000000]: Publishing maintained planning scene on ''[0m
+
+[96mWaiting to continue: next step[0m[96m... continuing[0m
+[0m[ INFO] [1495481524.171849066, 1092.594000000]: Moving to pick location: SUCCEEDED[0m
+
+[96mWaiting to continue: next step[0m[96m... continuing[0m
+[0m[ INFO] [1495481529.440056984, 1095.390000000]: Target reach: SUCCEEDED[0m
+
+[96mWaiting to continue: next step[0m[96m... continuing[0m
+[0m[ INFO] [1495481596.559582541, 1135.963000000]: Gripper actuation: Closing SUCCEEDED[0m
+
+[96mWaiting to continue: next step[0m[96m... continuing[0m
+[0m[ INFO] [1495481603.434036420, 1139.731000000]: Target retrieval: SUCCEEDED[0m
+
+[96mWaiting to continue: next step[0m[96m... continuing[0m
+[0m[ INFO] [1495481607.514443204, 1142.014000000]: Visualizing plan to drop location: SUCCEEDED[0m
+
+[96mWaiting to continue: next step[0m[96m... continuing[0m

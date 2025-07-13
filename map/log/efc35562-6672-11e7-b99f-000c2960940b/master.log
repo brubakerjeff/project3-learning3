@@ -1,0 +1,45 @@
+[rosmaster.main][INFO] 2017-07-11 12:55:49,663: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2017-07-11 12:55:49,664: Starting ROS Master Node
+[xmlrpc][INFO] 2017-07-11 12:55:49,665: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2017-07-11 12:55:49,665: Started XML-RPC server [http://172.16.244.111:11311/]
+[xmlrpc][INFO] 2017-07-11 12:55:49,665: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2017-07-11 12:55:49,666: Master initialized: port[11311], uri[http://172.16.244.111:11311/]
+[rosmaster.master][INFO] 2017-07-11 12:55:49,691: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2017-07-11 12:55:49,692: +PARAM [/roslaunch/uris/host_172_16_244_111__45507] by /roslaunch
+[rosmaster.master][INFO] 2017-07-11 12:55:49,735: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2017-07-11 12:55:49,736: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2017-07-11 12:55:49,740: +SERVICE [/rosout/get_loggers] /rosout http://172.16.244.111:36233/
+[rosmaster.master][INFO] 2017-07-11 12:55:49,741: +SERVICE [/rosout/set_logger_level] /rosout http://172.16.244.111:36233/
+[rosmaster.master][INFO] 2017-07-11 12:55:49,743: +PUB [/rosout_agg] /rosout http://172.16.244.111:36233/
+[rosmaster.master][INFO] 2017-07-11 12:55:49,747: +SUB [/rosout] /rosout http://172.16.244.111:36233/
+[rosmaster.master][INFO] 2017-07-11 12:56:04,666: +SERVICE [/rostopic_5812_1499802964524/get_loggers] /rostopic_5812_1499802964524 http://172.16.244.111:39257/
+[rosmaster.master][INFO] 2017-07-11 12:56:04,668: +SERVICE [/rostopic_5812_1499802964524/set_logger_level] /rostopic_5812_1499802964524 http://172.16.244.111:39257/
+[rosmaster.master][INFO] 2017-07-11 12:56:04,670: +PUB [/quad_rotor/cmd_vel] /rostopic_5812_1499802964524 http://172.16.244.111:39257/
+[rosmaster.master][INFO] 2017-07-11 12:56:16,332: -PUB [/quad_rotor/cmd_vel] /rostopic_5812_1499802964524 http://172.16.244.111:39257/
+[rosmaster.master][INFO] 2017-07-11 12:56:16,333: -SERVICE [/rostopic_5812_1499802964524/set_logger_level] /rostopic_5812_1499802964524 rosrpc://172.16.244.111:38985
+[rosmaster.master][INFO] 2017-07-11 12:56:16,333: -SERVICE [/rostopic_5812_1499802964524/get_loggers] /rostopic_5812_1499802964524 rosrpc://172.16.244.111:38985
+[rosmaster.master][INFO] 2017-07-11 12:56:19,623: +SERVICE [/rostopic_5852_1499802979484/get_loggers] /rostopic_5852_1499802979484 http://172.16.244.111:45679/
+[rosmaster.master][INFO] 2017-07-11 12:56:19,625: +SERVICE [/rostopic_5852_1499802979484/set_logger_level] /rostopic_5852_1499802979484 http://172.16.244.111:45679/
+[rosmaster.master][INFO] 2017-07-11 12:56:19,627: +PUB [/quad_rotor/cmd_vel] /rostopic_5852_1499802979484 http://172.16.244.111:45679/
+[rosmaster.master][INFO] 2017-07-11 12:56:22,819: -PUB [/quad_rotor/cmd_vel] /rostopic_5852_1499802979484 http://172.16.244.111:45679/
+[rosmaster.master][INFO] 2017-07-11 12:56:22,819: -SERVICE [/rostopic_5852_1499802979484/set_logger_level] /rostopic_5852_1499802979484 rosrpc://172.16.244.111:35223
+[rosmaster.master][INFO] 2017-07-11 12:56:22,819: -SERVICE [/rostopic_5852_1499802979484/get_loggers] /rostopic_5852_1499802979484 rosrpc://172.16.244.111:35223
+[rosmaster.master][INFO] 2017-07-11 12:56:24,259: +SERVICE [/rostopic_5872_1499802984220/get_loggers] /rostopic_5872_1499802984220 http://172.16.244.111:41303/
+[rosmaster.master][INFO] 2017-07-11 12:56:24,260: +SERVICE [/rostopic_5872_1499802984220/set_logger_level] /rostopic_5872_1499802984220 http://172.16.244.111:41303/
+[rosmaster.master][INFO] 2017-07-11 12:56:24,262: +PUB [/quad_rotor/cmd_vel] /rostopic_5872_1499802984220 http://172.16.244.111:41303/
+[rosmaster.master][INFO] 2017-07-11 12:56:28,516: -PUB [/quad_rotor/cmd_vel] /rostopic_5872_1499802984220 http://172.16.244.111:41303/
+[rosmaster.master][INFO] 2017-07-11 12:56:28,516: -SERVICE [/rostopic_5872_1499802984220/get_loggers] /rostopic_5872_1499802984220 rosrpc://172.16.244.111:33039
+[rosmaster.master][INFO] 2017-07-11 12:56:28,516: -SERVICE [/rostopic_5872_1499802984220/set_logger_level] /rostopic_5872_1499802984220 rosrpc://172.16.244.111:33039
+[rosmaster.master][INFO] 2017-07-11 12:56:50,875: +SERVICE [/rostopic_5998_1499803010829/get_loggers] /rostopic_5998_1499803010829 http://172.16.244.111:45081/
+[rosmaster.master][INFO] 2017-07-11 12:56:50,876: +SERVICE [/rostopic_5998_1499803010829/set_logger_level] /rostopic_5998_1499803010829 http://172.16.244.111:45081/
+[rosmaster.master][INFO] 2017-07-11 12:56:50,878: +PUB [/quad_rotor/cmd_vel] /rostopic_5998_1499803010829 http://172.16.244.111:45081/
+[rosmaster.master][INFO] 2017-07-11 12:57:06,513: -PUB [/quad_rotor/cmd_vel] /rostopic_5998_1499803010829 http://172.16.244.111:45081/
+[rosmaster.master][INFO] 2017-07-11 12:57:06,513: -SERVICE [/rostopic_5998_1499803010829/set_logger_level] /rostopic_5998_1499803010829 rosrpc://172.16.244.111:39039
+[rosmaster.master][INFO] 2017-07-11 12:57:06,513: -SERVICE [/rostopic_5998_1499803010829/get_loggers] /rostopic_5998_1499803010829 rosrpc://172.16.244.111:39039
+[rosmaster.master][INFO] 2017-07-11 12:57:08,163: -PUB [/rosout_agg] /rosout http://172.16.244.111:36233/
+[rosmaster.master][INFO] 2017-07-11 12:57:08,164: -SUB [/rosout] /rosout http://172.16.244.111:36233/
+[rosmaster.master][INFO] 2017-07-11 12:57:08,165: -SERVICE [/rosout/get_loggers] /rosout rosrpc://172.16.244.111:54351
+[rosmaster.master][INFO] 2017-07-11 12:57:08,166: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://172.16.244.111:54351
+[rosmaster.main][INFO] 2017-07-11 12:57:08,220: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2017-07-11 12:57:08,220: stopping master...
+[rospy.core][INFO] 2017-07-11 12:57:08,220: signal_shutdown [atexit]

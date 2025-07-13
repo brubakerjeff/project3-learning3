@@ -1,0 +1,80 @@
+[rospy.client][INFO] 2025-06-09 07:27:36,841: init_node, name[/joint_state_publisher], pid[20477]
+[xmlrpc][INFO] 2025-06-09 07:27:36,842: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2025-06-09 07:27:36,842: ROS Slave URI: [http://192.168.1.124:46185/]
+[xmlrpc][INFO] 2025-06-09 07:27:36,842: Started XML-RPC server [http://192.168.1.124:46185/]
+[rospy.impl.masterslave][INFO] 2025-06-09 07:27:36,842: _ready: http://192.168.1.124:46185/
+[xmlrpc][INFO] 2025-06-09 07:27:36,842: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2025-06-09 07:27:36,843: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2025-06-09 07:27:36,942: registered with master
+[rospy.rosout][INFO] 2025-06-09 07:27:36,942: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-06-09 07:27:36,944: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-06-09 07:27:36,945: initializing /clock core topic
+[rospy.simtime][INFO] 2025-06-09 07:27:36,947: connected to core topic /clock
+[rospy.internal][INFO] 2025-06-09 07:27:37,147: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2025-06-09 07:27:37,247: topic[/joint_states] adding connection to [/robot_state_publisher], count 0
+[rospy.internal][INFO] 2025-06-09 07:27:37,961: topic[/clock] adding connection to [http://192.168.1.124:42327/], count 0
+[rospy.core][INFO] 2025-06-09 20:42:16,453: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2025-06-09 20:42:16,456: topic[/joint_states] removing connection to /robot_state_publisher
+[rospy.internal][INFO] 2025-06-09 20:42:16,456: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2025-06-09 20:42:16,456: topic[/clock] removing connection to http://192.168.1.124:42327/
+[rospy.impl.masterslave][INFO] 2025-06-09 20:42:16,456: signal-2
+[rospy.internal][ERROR] 2025-06-09 20:42:16,461: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 729, in receive_once
+    self.stat_bytes += recv_buff(sock, b, p.buff_size)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 103, in recv_buff
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.core][INFO] 2025-06-09 20:42:16,564: signal_shutdown [atexit]
+[rospy.client][INFO] 2025-06-09 20:42:25,818: init_node, name[/joint_state_publisher], pid[25064]
+[xmlrpc][INFO] 2025-06-09 20:42:25,819: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2025-06-09 20:42:25,819: Started XML-RPC server [http://192.168.1.124:41067/]
+[rospy.impl.masterslave][INFO] 2025-06-09 20:42:25,819: _ready: http://192.168.1.124:41067/
+[rospy.registration][INFO] 2025-06-09 20:42:25,819: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2025-06-09 20:42:25,820: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-06-09 20:42:25,829: ROS Slave URI: [http://192.168.1.124:41067/]
+[rospy.init][INFO] 2025-06-09 20:42:25,829: registered with master
+[rospy.rosout][INFO] 2025-06-09 20:42:25,829: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-06-09 20:42:25,831: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-06-09 20:42:25,832: initializing /clock core topic
+[rospy.simtime][INFO] 2025-06-09 20:42:25,834: connected to core topic /clock
+[rospy.internal][INFO] 2025-06-09 20:42:26,105: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2025-06-09 20:42:26,109: topic[/joint_states] adding connection to [/robot_state_publisher], count 0
+[rospy.internal][INFO] 2025-06-09 20:42:27,056: topic[/clock] adding connection to [http://192.168.1.124:40851/], count 0
+[rospy.internal][INFO] 2025-06-09 20:42:30,327: topic[/joint_states] adding connection to [/robot_state_publisher], count 1
+[rospy.internal][INFO] 2025-06-09 20:42:30,327: topic[/joint_states] removing connection to /robot_state_publisher
+[rospy.client][INFO] 2025-06-09 20:42:30,419: init_node, name[/joint_state_publisher], pid[26543]
+[xmlrpc][INFO] 2025-06-09 20:42:30,419: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2025-06-09 20:42:30,419: Started XML-RPC server [http://192.168.1.124:36185/]
+[rospy.init][INFO] 2025-06-09 20:42:30,419: ROS Slave URI: [http://192.168.1.124:36185/]
+[rospy.impl.masterslave][INFO] 2025-06-09 20:42:30,420: _ready: http://192.168.1.124:36185/
+[rospy.registration][INFO] 2025-06-09 20:42:30,422: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2025-06-09 20:42:30,422: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-06-09 20:42:30,520: registered with master
+[rospy.rosout][INFO] 2025-06-09 20:42:30,521: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-06-09 20:42:30,522: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-06-09 20:42:30,523: initializing /clock core topic
+[rospy.simtime][INFO] 2025-06-09 20:42:30,525: connected to core topic /clock
+[rospy.impl.masterslave][INFO] 2025-06-09 20:42:30,530: external shutdown request from [/master]: new node registered with same name
+[rospy.core][INFO] 2025-06-09 20:42:30,530: signal_shutdown [external shutdown request from [/master]: [new node registered with same name]]
+[rospy.internal][INFO] 2025-06-09 20:42:30,533: topic[/joint_states] removing connection to /robot_state_publisher
+[rospy.internal][INFO] 2025-06-09 20:42:30,533: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2025-06-09 20:42:30,533: topic[/clock] removing connection to http://192.168.1.124:40851/
+[rospy.internal][WARNING] 2025-06-09 20:42:30,534: Unknown error initiating TCP/IP socket to 192.168.1.124:43737 (http://192.168.1.124:40851/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.topics][ERROR] 2025-06-09 20:42:30,534: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 326, in close
+    c.close()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 838, in close
+    self.socket.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+
+[rospy.internal][INFO] 2025-06-09 20:42:30,537: topic[/clock] adding connection to [http://192.168.1.124:40851/], count 0
+[rospy.internal][INFO] 2025-06-09 20:42:30,732: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2025-06-09 20:42:30,832: topic[/joint_states] adding connection to [/robot_state_publisher], count 0
+[rospy.core][INFO] 2025-06-09 20:42:31,033: signal_shutdown [atexit]

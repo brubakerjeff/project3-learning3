@@ -1,0 +1,79 @@
+[rosmaster.main][INFO] 2017-07-09 12:44:29,867: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2017-07-09 12:44:29,867: Starting ROS Master Node
+[xmlrpc][INFO] 2017-07-09 12:44:29,868: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2017-07-09 12:44:29,869: Started XML-RPC server [http://udacity:11311/]
+[rosmaster.master][INFO] 2017-07-09 12:44:29,869: Master initialized: port[11311], uri[http://udacity:11311/]
+[xmlrpc][INFO] 2017-07-09 12:44:29,869: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2017-07-09 12:44:29,913: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 12:44:29,915: +PARAM [/roslaunch/uris/host_udacity__41675] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 12:44:29,970: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 12:44:29,970: +PARAM [/joint_state_publisher/use_gui] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 12:44:29,971: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 12:44:29,971: +PARAM [/robot_description] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 12:44:29,975: +SERVICE [/rosout/get_loggers] /rosout http://udacity:45927/
+[rosmaster.master][INFO] 2017-07-09 12:44:29,979: +SERVICE [/rosout/set_logger_level] /rosout http://udacity:45927/
+[rosmaster.master][INFO] 2017-07-09 12:44:29,998: +PUB [/rosout_agg] /rosout http://udacity:45927/
+[rosmaster.master][INFO] 2017-07-09 12:44:30,009: +PUB [/rosout] /robot_state_publisher http://udacity:43939/
+[rosmaster.master][INFO] 2017-07-09 12:44:30,011: +SERVICE [/robot_state_publisher/get_loggers] /robot_state_publisher http://udacity:43939/
+[rosmaster.master][INFO] 2017-07-09 12:44:30,012: +SERVICE [/robot_state_publisher/set_logger_level] /robot_state_publisher http://udacity:43939/
+[rosmaster.master][INFO] 2017-07-09 12:44:30,018: +PUB [/tf] /robot_state_publisher http://udacity:43939/
+[rosmaster.master][INFO] 2017-07-09 12:44:30,019: +SUB [/rosout] /rosout http://udacity:45927/
+[rosmaster.master][INFO] 2017-07-09 12:44:30,021: +PUB [/tf_static] /robot_state_publisher http://udacity:43939/
+[rosmaster.master][INFO] 2017-07-09 12:44:30,027: +SUB [/joint_states] /robot_state_publisher http://udacity:43939/
+[rosmaster.master][INFO] 2017-07-09 12:44:30,068: +PUB [/rosout] /rviz_udacity_9199_725075202505794365 http://udacity:33567/
+[rosmaster.master][INFO] 2017-07-09 12:44:30,068: publisherUpdate[/rosout] -> http://udacity:45927/ ['http://udacity:43939/', 'http://udacity:33567/']
+[rosmaster.master][INFO] 2017-07-09 12:44:30,071: publisherUpdate[/rosout] -> http://udacity:45927/ ['http://udacity:43939/', 'http://udacity:33567/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 12:44:30,071: +SERVICE [/rviz_udacity_9199_725075202505794365/get_loggers] /rviz_udacity_9199_725075202505794365 http://udacity:33567/
+[rosmaster.master][INFO] 2017-07-09 12:44:30,072: +SERVICE [/rviz_udacity_9199_725075202505794365/set_logger_level] /rviz_udacity_9199_725075202505794365 http://udacity:33567/
+[rosmaster.master][INFO] 2017-07-09 12:44:30,319: +PUB [/rosout] /joint_state_publisher http://udacity:36117/
+[rosmaster.master][INFO] 2017-07-09 12:44:30,322: +SERVICE [/joint_state_publisher/get_loggers] /joint_state_publisher http://udacity:36117/
+[rosmaster.master][INFO] 2017-07-09 12:44:30,324: +SERVICE [/joint_state_publisher/set_logger_level] /joint_state_publisher http://udacity:36117/
+[rosmaster.master][INFO] 2017-07-09 12:44:30,371: publisherUpdate[/rosout] -> http://udacity:45927/ ['http://udacity:43939/', 'http://udacity:33567/', 'http://udacity:36117/']
+[rosmaster.master][INFO] 2017-07-09 12:44:30,372: publisherUpdate[/rosout] -> http://udacity:45927/ ['http://udacity:43939/', 'http://udacity:33567/', 'http://udacity:36117/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 12:44:30,488: +PUB [/joint_states] /joint_state_publisher http://udacity:36117/
+[rosmaster.master][INFO] 2017-07-09 12:44:30,572: publisherUpdate[/joint_states] -> http://udacity:43939/ ['http://udacity:36117/']
+[rosmaster.master][INFO] 2017-07-09 12:44:30,574: publisherUpdate[/joint_states] -> http://udacity:43939/ ['http://udacity:36117/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 12:44:30,688: +SUB [/tf] /rviz_udacity_9199_725075202505794365 http://udacity:33567/
+[rosmaster.master][INFO] 2017-07-09 12:44:30,692: +SUB [/tf_static] /rviz_udacity_9199_725075202505794365 http://udacity:33567/
+[rosmaster.master][INFO] 2017-07-09 12:44:30,824: +PUB [/initialpose] /rviz_udacity_9199_725075202505794365 http://udacity:33567/
+[rosmaster.master][INFO] 2017-07-09 12:44:30,826: +PUB [/goal] /rviz_udacity_9199_725075202505794365 http://udacity:33567/
+[rosmaster.master][INFO] 2017-07-09 12:44:31,432: -PUB [/goal] /rviz_udacity_9199_725075202505794365 http://udacity:33567/
+[rosmaster.master][INFO] 2017-07-09 12:44:31,433: -PUB [/initialpose] /rviz_udacity_9199_725075202505794365 http://udacity:33567/
+[rosmaster.master][INFO] 2017-07-09 12:44:31,438: +PUB [/initialpose] /rviz_udacity_9199_725075202505794365 http://udacity:33567/
+[rosmaster.master][INFO] 2017-07-09 12:44:31,440: +PUB [/goal] /rviz_udacity_9199_725075202505794365 http://udacity:33567/
+[rosmaster.master][INFO] 2017-07-09 12:44:31,441: +PUB [/move_base_simple/goal] /rviz_udacity_9199_725075202505794365 http://udacity:33567/
+[rosmaster.master][INFO] 2017-07-09 12:44:31,442: -PUB [/goal] /rviz_udacity_9199_725075202505794365 http://udacity:33567/
+[rosmaster.master][INFO] 2017-07-09 12:44:31,443: +PUB [/clicked_point] /rviz_udacity_9199_725075202505794365 http://udacity:33567/
+[rosmaster.master][INFO] 2017-07-09 12:44:31,512: +PUB [/rviz_visual_tools_gui] /rviz_udacity_9199_725075202505794365 http://udacity:33567/
+[rosmaster.master][INFO] 2017-07-09 12:44:31,565: +SERVICE [/rviz_udacity_9199_725075202505794365/reload_shaders] /rviz_udacity_9199_725075202505794365 http://udacity:33567/
+[rosmaster.master][INFO] 2017-07-09 12:47:58,482: -PUB [/rosout] /robot_state_publisher http://udacity:43939/
+[rosmaster.master][INFO] 2017-07-09 12:47:58,483: -PUB [/tf] /robot_state_publisher http://udacity:43939/
+[rosmaster.master][INFO] 2017-07-09 12:47:58,484: -PUB [/tf_static] /robot_state_publisher http://udacity:43939/
+[rosmaster.master][INFO] 2017-07-09 12:47:58,485: -SUB [/joint_states] /robot_state_publisher http://udacity:43939/
+[rosmaster.master][INFO] 2017-07-09 12:47:58,485: -SERVICE [/robot_state_publisher/get_loggers] /robot_state_publisher rosrpc://udacity:57293
+[rosmaster.master][INFO] 2017-07-09 12:47:58,486: -SERVICE [/robot_state_publisher/set_logger_level] /robot_state_publisher rosrpc://udacity:57293
+[rosmaster.master][INFO] 2017-07-09 12:47:58,582: publisherUpdate[/rosout] -> http://udacity:45927/ ['http://udacity:33567/', 'http://udacity:36117/']
+[rosmaster.master][INFO] 2017-07-09 12:47:58,582: publisherUpdate[/tf] -> http://udacity:33567/ []
+[rosmaster.master][INFO] 2017-07-09 12:47:58,583: publisherUpdate[/rosout] -> http://udacity:45927/ ['http://udacity:33567/', 'http://udacity:36117/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 12:47:58,584: publisherUpdate[/tf] -> http://udacity:33567/ []: sec=0.00, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2017-07-09 12:47:58,584: publisherUpdate[/tf_static] -> http://udacity:33567/ []
+[rosmaster.master][INFO] 2017-07-09 12:47:58,585: publisherUpdate[/tf_static] -> http://udacity:33567/ []: sec=0.00, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2017-07-09 12:47:58,686: -PUB [/rosout] /rviz_udacity_9199_725075202505794365 http://udacity:33567/
+[rosmaster.master][INFO] 2017-07-09 12:47:58,688: -PUB [/initialpose] /rviz_udacity_9199_725075202505794365 http://udacity:33567/
+[rosmaster.master][INFO] 2017-07-09 12:47:58,689: -PUB [/move_base_simple/goal] /rviz_udacity_9199_725075202505794365 http://udacity:33567/
+[rosmaster.master][INFO] 2017-07-09 12:47:58,690: -PUB [/clicked_point] /rviz_udacity_9199_725075202505794365 http://udacity:33567/
+[rosmaster.master][INFO] 2017-07-09 12:47:58,691: -PUB [/rviz_visual_tools_gui] /rviz_udacity_9199_725075202505794365 http://udacity:33567/
+[rosmaster.master][INFO] 2017-07-09 12:47:58,692: -SUB [/tf] /rviz_udacity_9199_725075202505794365 http://udacity:33567/
+[rosmaster.master][INFO] 2017-07-09 12:47:58,693: -SUB [/tf_static] /rviz_udacity_9199_725075202505794365 http://udacity:33567/
+[rosmaster.master][INFO] 2017-07-09 12:47:58,694: -SERVICE [/rviz_udacity_9199_725075202505794365/get_loggers] /rviz_udacity_9199_725075202505794365 rosrpc://udacity:57285
+[rosmaster.master][INFO] 2017-07-09 12:47:58,695: -SERVICE [/rviz_udacity_9199_725075202505794365/set_logger_level] /rviz_udacity_9199_725075202505794365 rosrpc://udacity:57285
+[rosmaster.master][INFO] 2017-07-09 12:47:58,696: -SERVICE [/rviz_udacity_9199_725075202505794365/reload_shaders] /rviz_udacity_9199_725075202505794365 rosrpc://udacity:57285
+[rosmaster.master][INFO] 2017-07-09 12:47:58,783: publisherUpdate[/rosout] -> http://udacity:45927/ ['http://udacity:36117/']
+[rosmaster.master][INFO] 2017-07-09 12:47:58,784: publisherUpdate[/rosout] -> http://udacity:45927/ ['http://udacity:36117/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 12:47:59,085: -PUB [/rosout_agg] /rosout http://udacity:45927/
+[rosmaster.master][INFO] 2017-07-09 12:47:59,086: -SUB [/rosout] /rosout http://udacity:45927/
+[rosmaster.master][INFO] 2017-07-09 12:47:59,087: -SERVICE [/rosout/get_loggers] /rosout rosrpc://udacity:41127
+[rosmaster.master][INFO] 2017-07-09 12:47:59,088: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://udacity:41127
+[rosmaster.main][INFO] 2017-07-09 12:47:59,137: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2017-07-09 12:47:59,137: stopping master...
+[rospy.core][INFO] 2017-07-09 12:47:59,137: signal_shutdown [atexit]

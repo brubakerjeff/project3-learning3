@@ -1,0 +1,21 @@
+[0m[ INFO] [1499662358.252648911]: Loading robot model 'kuka_arm'...[0m
+[0m[ INFO] [1499662358.451363470]: Loading robot model 'kuka_arm'...[0m
+[0m[ INFO] [1499662360.330255272, 1081.695000000]: Ready to take commands for planning group arm_group.[0m
+[0m[ INFO] [1499662360.622019965, 1081.990000000]: Ready to take commands for planning group gripper_group.[0m
+[0m[ INFO] [1499662360.629145955, 1081.994000000]: Loading robot model 'kuka_arm'...[0m
+[0m[ INFO] [1499662360.777745582, 1082.133000000]: Loading robot model 'kuka_arm'...[0m
+[0m[ INFO] [1499662361.039482356, 1082.398000000]: Added object list to the world[0m
+[0m[ INFO] [1499662362.148290916, 1083.404000000]: RemoteControl Ready.[0m
+
+[96mWaiting to continue: next step[0m[96m... continuing[0m
+[33m[ WARN] [1499662453.442443811, 1166.961000000]: Fail: ABORTED: No motion plan found. No execution attempted.[0m
+[0m[ INFO] [1499662453.442496816, 1166.961000000]: Visualizing plan to target: FAILED[0m
+[0m[ INFO] [1499662453.442613101, 1166.961000000]: No planning scene passed into moveit_visual_tools, creating one.[0m
+[0m[ INFO] [1499662453.447625441, 1166.966000000]: Loading robot model 'kuka_arm'...[0m
+[0m[ INFO] [1499662453.644447198, 1167.116000000]: Loading robot model 'kuka_arm'...[0m
+[0m[ INFO] [1499662453.861807567, 1167.283000000]: Publishing maintained planning scene on ''[0m
+[33m[ WARN] [1499662455.002841810, 1168.284000000]: Skipping path because 0 points passed in.[0m
+
+[96mWaiting to continue: next step[0m[96m... continuing[0m
+
+[96mWaiting to continue: next step[0m

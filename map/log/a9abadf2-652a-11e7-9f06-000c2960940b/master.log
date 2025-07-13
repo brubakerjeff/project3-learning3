@@ -1,0 +1,1421 @@
+[rosmaster.main][INFO] 2017-07-09 21:45:57,312: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2017-07-09 21:45:57,312: Starting ROS Master Node
+[xmlrpc][INFO] 2017-07-09 21:45:57,314: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2017-07-09 21:45:57,315: Started XML-RPC server [http://udacity:11311/]
+[xmlrpc][INFO] 2017-07-09 21:45:57,315: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2017-07-09 21:45:57,315: Master initialized: port[11311], uri[http://udacity:11311/]
+[rosmaster.master][INFO] 2017-07-09 21:45:57,367: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:45:57,368: +PARAM [/roslaunch/uris/host_udacity__45583] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:45:57,418: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:45:57,418: +PARAM [/target_description] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:45:57,418: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:45:57,418: +PARAM [/target_spawn/select_target_spawn] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:45:57,421: +SERVICE [/rosout/get_loggers] /rosout http://udacity:43217/
+[rosmaster.master][INFO] 2017-07-09 21:45:57,421: +SERVICE [/rosout/set_logger_level] /rosout http://udacity:43217/
+[rosmaster.master][INFO] 2017-07-09 21:45:57,424: +PUB [/rosout_agg] /rosout http://udacity:43217/
+[rosmaster.master][INFO] 2017-07-09 21:45:57,431: +SUB [/rosout] /rosout http://udacity:43217/
+[rosmaster.master][INFO] 2017-07-09 21:45:57,590: +PARAM [/target_drop_location] by /unnamed
+[rosmaster.master][INFO] 2017-07-09 21:45:57,592: +PARAM [/target_spawn_location] by /unnamed
+[rosmaster.master][INFO] 2017-07-09 21:45:57,594: +PARAM [/target_description_argument] by /unnamed
+[rosmaster.master][INFO] 2017-07-09 21:45:59,959: +PARAM [/roslaunch/uris/host_udacity__42729] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:45:59,962: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:45:59,962: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,326: +PARAM [/roslaunch/uris/host_udacity__38773] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,354: +PARAM [/kuka_arm/arm_controller/gains/joint_2/d] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,355: +PARAM [/move_group/planner_configs/RRTkConfigDefault/goal_bias] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,355: +PARAM [/kuka_arm/arm_controller/gains/joint_1/i] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,355: +PARAM [/robot_description_semantic] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,355: +PARAM [/use_sim_time] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,355: +PARAM [/move_group/planner_configs/SPARStwokConfigDefault/stretch_factor] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,355: +PARAM [/robot_description_kinematics/arm_group/kinematics_solver_attempts] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,355: +PARAM [/kuka_arm/arm_controller/gains/joint_2/i] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,355: +PARAM [/kuka_arm/joint_state_controller/publish_rate] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,355: +PARAM [/kuka_arm/arm_controller/gains/joint_1/d] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,355: +PARAM [/robot_description_planning/joint_limits/joint_3/max_acceleration] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,356: +PARAM [/kuka_arm/arm_controller/gains/joint_2/p] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,356: +PARAM [/move_group/planner_configs/STRIDEkConfigDefault/max_degree] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,356: +PARAM [/kuka_arm/arm_controller/gains/joint_3/d] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,356: +PARAM [/robot_description_planning/joint_limits/joint_6/max_velocity] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,356: +PARAM [/kuka_arm/arm_controller/gains/joint_1/p] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,356: +PARAM [/move_group/planner_configs/FMTkConfigDefault/radius_multiplier] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,356: +PARAM [/move_group/controller_list] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,356: +PARAM [/robot_description_planning/joint_limits/joint_6/max_acceleration] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,356: +PARAM [/move_group/planner_configs/BFMTkConfigDefault/cache_cc] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,356: +PARAM [/kuka_arm/arm_controller/gains/joint_5/p] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,356: +PARAM [/move_group/max_safe_path_cost] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,357: +PARAM [/move_group/planner_configs/BiTRRTkConfigDefault/temp_change_factor] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,357: +PARAM [/move_group/planner_configs/RRTstarkConfigDefault/delay_collision_checking] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,357: +PARAM [/kuka_arm/arm_controller/gains/joint_4/p] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,357: +PARAM [/kuka_arm/gripper_controller/type] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,357: +PARAM [/kuka_arm/arm_controller/gains/joint_5/d] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,357: +PARAM [/robot_description_planning/joint_limits/right_gripper_finger_joint/max_acceleration] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,357: +PARAM [/move_group/planner_configs/RRTstarkConfigDefault/goal_bias] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,357: +PARAM [/kuka_arm/arm_controller/gains/joint_4/i] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,357: +PARAM [/kuka_arm/arm_controller/gains/joint_4/d] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,357: +PARAM [/move_group/planner_configs/PRMkConfigDefault/type] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,358: +PARAM [/kuka_arm/arm_controller/gains/joint_5/i] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,358: +PARAM [/move_group/planner_configs/ESTkConfigDefault/range] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,358: +PARAM [/move_group/planner_configs/KPIECEkConfigDefault/min_valid_path_fraction] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,358: +PARAM [/kuka_arm/gripper_controller/gains/left_gripper_finger_joint/i] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,358: +PARAM [/move_group/planner_configs/BKPIECEkConfigDefault/border_fraction] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,358: +PARAM [/robot_description_planning/joint_limits/joint_4/max_acceleration] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,358: +PARAM [/kuka_arm/arm_controller/gains/joint_3/p] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,358: +PARAM [/move_group/planner_configs/SPARSkConfigDefault/sparse_delta_fraction] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,358: +PARAM [/move_group/planner_configs/SPARStwokConfigDefault/max_failures] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,358: +PARAM [/move_group/planner_configs/BiTRRTkConfigDefault/frountier_node_ratio] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,358: +PARAM [/move_group/planner_configs/PRMkConfigDefault/max_nearest_neighbors] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,358: +PARAM [/move_group/planner_configs/BiTRRTkConfigDefault/cost_threshold] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,359: +PARAM [/move_group/planner_configs/TRRTkConfigDefault/goal_bias] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,359: +PARAM [/move_group/planning_scene_monitor/publish_state_updates] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,359: +PARAM [/move_group/planner_configs/LBTRRTkConfigDefault/type] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,359: +PARAM [/robot_description_planning/joint_limits/joint_6/has_velocity_limits] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,359: +PARAM [/move_group/planner_configs/BKPIECEkConfigDefault/min_valid_path_fraction] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,359: +PARAM [/move_group/planner_configs/FMTkConfigDefault/type] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,359: +PARAM [/kuka_arm/gripper_controller/gains/left_gripper_finger_joint/d] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,359: +PARAM [/move_group/planner_configs/LBTRRTkConfigDefault/epsilon] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,359: +PARAM [/kuka_arm/arm_controller/state_publish_rate] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,359: +PARAM [/move_group/planner_configs/STRIDEkConfigDefault/min_degree] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,359: +PARAM [/robot_description_planning/joint_limits/joint_1/has_acceleration_limits] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,359: +PARAM [/robot_description_planning/joint_limits/left_gripper_finger_joint/has_velocity_limits] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,360: +PARAM [/kuka_arm/gripper_controller/gains/left_gripper_finger_joint/p] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,360: +PARAM [/kuka_arm/arm_controller/gains/joint_3/i] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,360: +PARAM [/robot_description_planning/joint_limits/joint_3/has_acceleration_limits] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,360: +PARAM [/move_group/planner_configs/BiESTkConfigDefault/range] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,360: +PARAM [/move_group/planner_configs/TRRTkConfigDefault/frountierNodeRatio] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,360: +PARAM [/move_group/planner_configs/ProjESTkConfigDefault/type] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,360: +PARAM [/move_group/planner_configs/BFMTkConfigDefault/type] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,360: +PARAM [/move_group/moveit_controller_manager] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,360: +PARAM [/robot_description_planning/joint_limits/left_gripper_finger_joint/max_velocity] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,360: +PARAM [/move_group/planner_configs/RRTstarkConfigDefault/range] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,360: +PARAM [/move_group/planner_configs/LazyPRMkConfigDefault/type] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,361: +PARAM [/robot_description_planning/joint_limits/joint_5/has_velocity_limits] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,361: +PARAM [/move_group/planning_scene_monitor/publish_geometry_updates] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,361: +PARAM [/robot_description_planning/joint_limits/left_gripper_finger_joint/has_acceleration_limits] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,361: +PARAM [/robot_description_planning/joint_limits/joint_2/max_acceleration] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,361: +PARAM [/move_group/planner_configs/LazyPRMkConfigDefault/range] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,361: +PARAM [/kuka_arm/arm_controller/stop_trajectory_duration] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,361: +PARAM [/move_group/planner_configs/TRRTkConfigDefault/max_states_failed] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,361: +PARAM [/robot_description_planning/joint_limits/right_gripper_finger_joint/has_velocity_limits] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,361: +PARAM [/kuka_arm/arm_controller/constraints/goal_time] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,361: +PARAM [/kuka_arm/gripper_controller/constraints/right_gripper_finger_joint/goal] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,361: +PARAM [/kuka_arm/gripper_controller/gains/right_gripper_finger_joint/i_clamp] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,361: +PARAM [/robot_description_planning/joint_limits/joint_2/has_velocity_limits] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,362: +PARAM [/kuka_arm/gripper_controller/constraints/goal_time] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,362: +PARAM [/robot_description_planning/joint_limits/joint_5/max_velocity] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,362: +PARAM [/move_group/planner_configs/SPARSkConfigDefault/max_failures] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,362: +PARAM [/move_group/planner_configs/BiTRRTkConfigDefault/range] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,362: +PARAM [/move_group/planner_configs/PDSTkConfigDefault/type] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,362: +PARAM [/move_group/trajectory_execution/allowed_goal_duration_margin] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,362: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,362: +PARAM [/move_group/planner_configs/BKPIECEkConfigDefault/failed_expansion_score_factor] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,362: +PARAM [/kuka_arm/arm_controller/gains/joint_6/d] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,362: +PARAM [/move_group/planner_configs/STRIDEkConfigDefault/max_pts_per_leaf] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,363: +PARAM [/kuka_arm/arm_controller/gains/joint_6/i] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,363: +PARAM [/move_group/planner_configs/BFMTkConfigDefault/nearest_k] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,363: +PARAM [/robot_description_planning/joint_limits/right_gripper_finger_joint/max_velocity] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,363: +PARAM [/move_group/planner_configs/LazyPRMstarkConfigDefault/type] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,363: +PARAM [/move_group/planning_scene_monitor/publish_planning_scene] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,363: +PARAM [/kuka_arm/arm_controller/gains/joint_6/p] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,363: +PARAM [/move_group/planner_configs/SBLkConfigDefault/range] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,363: +PARAM [/move_group/planner_configs/PRMstarkConfigDefault/type] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,363: +PARAM [/move_group/planner_configs/RRTkConfigDefault/range] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,363: +PARAM [/move_group/allow_trajectory_execution] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,363: +PARAM [/robot_description_kinematics/arm_group/kinematics_solver] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,363: +PARAM [/move_group/planner_configs/SPARSkConfigDefault/stretch_factor] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,364: +PARAM [/move_group/planner_configs/ESTkConfigDefault/type] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,364: +PARAM [/move_group/start_state_max_bounds_error] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,364: +PARAM [/kuka_arm/gripper_controller/constraints/left_gripper_finger_joint/goal] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,364: +PARAM [/move_group/planner_configs/STRIDEkConfigDefault/goal_bias] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,364: +PARAM [/robot_description_planning/joint_limits/joint_4/max_velocity] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,364: +PARAM [/move_group/planner_configs/RRTstarkConfigDefault/type] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,364: +PARAM [/move_group/planner_configs/STRIDEkConfigDefault/min_valid_path_fraction] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,364: +PARAM [/move_group/planner_configs/BiTRRTkConfigDefault/frountier_threshold] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,364: +PARAM [/move_group/planner_configs/SPARSkConfigDefault/dense_delta_fraction] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,364: +PARAM [/move_group/planner_configs/BKPIECEkConfigDefault/type] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,364: +PARAM [/move_group/trajectory_execution/allowed_execution_duration_scaling] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,365: +PARAM [/move_group/planner_configs/KPIECEkConfigDefault/border_fraction] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,365: +PARAM [/move_group/trajectory_execution/allowed_start_tolerance] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,365: +PARAM [/move_group/moveit_manage_controllers] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,365: +PARAM [/robot_description_planning/joint_limits/joint_3/has_velocity_limits] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,365: +PARAM [/robot_description_planning/joint_limits/joint_4/has_velocity_limits] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,365: +PARAM [/move_group/planner_configs/FMTkConfigDefault/heuristics] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,365: +PARAM [/move_group/planner_configs/BFMTkConfigDefault/optimality] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,365: +PARAM [/move_group/planner_configs/FMTkConfigDefault/nearest_k] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,365: +PARAM [/move_group/planner_configs/ProjESTkConfigDefault/goal_bias] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,365: +PARAM [/move_group/planner_configs/ESTkConfigDefault/goal_bias] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,365: +PARAM [/move_group/planner_configs/BFMTkConfigDefault/radius_multiplier] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,366: +PARAM [/move_group/planner_configs/LBKPIECEkConfigDefault/border_fraction] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,366: +PARAM [/move_group/planner_configs/FMTkConfigDefault/cache_cc] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,366: +PARAM [/move_group/planner_configs/SPARStwokConfigDefault/dense_delta_fraction] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,366: +PARAM [/move_group/planner_configs/BFMTkConfigDefault/num_samples] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,366: +PARAM [/move_group/planner_configs/TRRTkConfigDefault/range] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,366: +PARAM [/kuka_arm/arm_controller/action_monitor_rate] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,366: +PARAM [/robot_description_planning/joint_limits/joint_5/max_acceleration] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,366: +PARAM [/move_group/planner_configs/TRRTkConfigDefault/temp_change_factor] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,366: +PARAM [/robot_description_planning/joint_limits/left_gripper_finger_joint/max_acceleration] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,367: +PARAM [/move_group/planner_configs/BKPIECEkConfigDefault/range] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,367: +PARAM [/move_group/planner_configs/SBLkConfigDefault/type] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,367: +PARAM [/move_group/planner_configs/LBTRRTkConfigDefault/range] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,367: +PARAM [/robot_description] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,367: +PARAM [/move_group/planner_configs/FMTkConfigDefault/extended_fmt] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,367: +PARAM [/move_group/planner_configs/LBKPIECEkConfigDefault/range] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,367: +PARAM [/move_group/planner_configs/STRIDEkConfigDefault/range] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,367: +PARAM [/move_group/planner_configs/BFMTkConfigDefault/balanced] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,367: +PARAM [/robot_description_planning/joint_limits/joint_5/has_acceleration_limits] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,367: +PARAM [/robot_description_planning/joint_limits/right_gripper_finger_joint/has_acceleration_limits] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,367: +PARAM [/move_group/planner_configs/TRRTkConfigDefault/frountier_threshold] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,368: +PARAM [/move_group/planner_configs/BFMTkConfigDefault/heuristics] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,368: +PARAM [/move_group/planner_configs/KPIECEkConfigDefault/range] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,368: +PARAM [/robot_description_planning/joint_limits/joint_2/max_velocity] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,368: +PARAM [/move_group/planning_plugin] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,368: +PARAM [/move_group/gripper_group/planner_configs] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,368: +PARAM [/move_group/planner_configs/TRRTkConfigDefault/init_temperature] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,368: +PARAM [/move_group/arm_group/planner_configs] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,368: +PARAM [/move_group/planner_configs/TRRTkConfigDefault/type] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,368: +PARAM [/move_group/max_range] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,368: +PARAM [/move_group/planner_configs/KPIECEkConfigDefault/goal_bias] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,368: +PARAM [/move_group/planner_configs/RRTConnectkConfigDefault/range] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,368: +PARAM [/move_group/request_adapters] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,369: +PARAM [/move_group/planner_configs/TRRTkConfigDefault/min_temperature] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,369: +PARAM [/kuka_arm/arm_controller/joints] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,369: +PARAM [/robot_description_planning/joint_limits/joint_1/max_acceleration] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,369: +PARAM [/robot_description_planning/joint_limits/joint_4/has_acceleration_limits] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,369: +PARAM [/robot_description_planning/joint_limits/joint_6/has_acceleration_limits] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,369: +PARAM [/robot_description_planning/joint_limits/joint_3/max_velocity] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,369: +PARAM [/move_group/planner_configs/ProjESTkConfigDefault/range] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,369: +PARAM [/move_group/octomap_resolution] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,369: +PARAM [/kuka_arm/arm_controller/type] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,369: +PARAM [/move_group/planner_configs/STRIDEkConfigDefault/degree] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,369: +PARAM [/move_group/planner_configs/KPIECEkConfigDefault/failed_expansion_score_factor] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,370: +PARAM [/move_group/planning_scene_monitor/publish_transforms_updates] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,370: +PARAM [/kuka_arm/gripper_controller/gains/right_gripper_finger_joint/d] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,370: +PARAM [/move_group/jiggle_fraction] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,370: +PARAM [/move_group/planner_configs/SPARSkConfigDefault/type] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,370: +PARAM [/robot_description_planning/joint_limits/joint_2/has_acceleration_limits] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,370: +PARAM [/move_group/planner_configs/STRIDEkConfigDefault/type] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,370: +PARAM [/kuka_arm/gripper_controller/gains/right_gripper_finger_joint/i] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,370: +PARAM [/move_group/planner_configs/SPARStwokConfigDefault/sparse_delta_fraction] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,370: +PARAM [/move_group/planner_configs/KPIECEkConfigDefault/type] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,370: +PARAM [/kuka_arm/gripper_controller/gains/right_gripper_finger_joint/p] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,370: +PARAM [/move_group/planner_configs/BiTRRTkConfigDefault/type] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,370: +PARAM [/move_group/planner_configs/RRTConnectkConfigDefault/type] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,371: +PARAM [/move_group/planner_configs/BiTRRTkConfigDefault/init_temperature] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,371: +PARAM [/robot_description_planning/joint_limits/joint_1/max_velocity] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,371: +PARAM [/kuka_arm/joint_state_controller/type] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,371: +PARAM [/robot_description_kinematics/arm_group/kinematics_solver_timeout] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,371: +PARAM [/move_group/planner_configs/LBTRRTkConfigDefault/goal_bias] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,371: +PARAM [/kuka_arm/gripper_controller/gains/left_gripper_finger_joint/i_clamp] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,371: +PARAM [/move_group/planner_configs/LBKPIECEkConfigDefault/min_valid_path_fraction] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,371: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,371: +PARAM [/move_group/planner_configs/STRIDEkConfigDefault/estimated_dimension] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,371: +PARAM [/move_group/planner_configs/STRIDEkConfigDefault/use_projected_distance] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,371: +PARAM [/robot_description_planning/joint_limits/joint_1/has_velocity_limits] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,371: +PARAM [/move_group/planner_configs/TRRTkConfigDefault/k_constant] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,372: +PARAM [/move_group/planner_configs/FMTkConfigDefault/num_samples] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,372: +PARAM [/kuka_arm/gripper_controller/joints] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,372: +PARAM [/move_group/planner_configs/LBKPIECEkConfigDefault/type] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,372: +PARAM [/move_group/planner_configs/BFMTkConfigDefault/extended_fmt] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,372: +PARAM [/move_group/planner_configs/BiESTkConfigDefault/type] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,372: +PARAM [/move_group/planner_configs/SPARStwokConfigDefault/type] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,372: +PARAM [/move_group/planner_configs/RRTkConfigDefault/type] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,372: +PARAM [/robot_description_kinematics/arm_group/kinematics_solver_search_resolution] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:00,446: +PUB [/rosout] /robot_state_publisher http://udacity:35669/
+[rosmaster.master][INFO] 2017-07-09 21:46:00,447: +PUB [/rosout] /joint_state_relay http://udacity:34721/
+[rosmaster.master][INFO] 2017-07-09 21:46:00,447: +SERVICE [/robot_state_publisher/get_loggers] /robot_state_publisher http://udacity:35669/
+[rosmaster.master][INFO] 2017-07-09 21:46:00,448: +SERVICE [/joint_state_relay/get_loggers] /joint_state_relay http://udacity:34721/
+[rosmaster.master][INFO] 2017-07-09 21:46:00,453: +SERVICE [/robot_state_publisher/set_logger_level] /robot_state_publisher http://udacity:35669/
+[rosmaster.master][INFO] 2017-07-09 21:46:00,454: +PUB [/rosout] /target_spawner http://udacity:37299/
+[rosmaster.master][INFO] 2017-07-09 21:46:00,456: +SERVICE [/joint_state_relay/set_logger_level] /joint_state_relay http://udacity:34721/
+[rosmaster.master][INFO] 2017-07-09 21:46:00,507: +SUB [/clock] /target_spawner http://udacity:37299/
+[rosmaster.master][INFO] 2017-07-09 21:46:00,519: +SUB [/clock] /robot_state_publisher http://udacity:35669/
+[rosmaster.master][INFO] 2017-07-09 21:46:00,525: +SERVICE [/target_spawner/get_loggers] /target_spawner http://udacity:37299/
+[rosmaster.master][INFO] 2017-07-09 21:46:00,533: +PUB [/rosout] /link1_broadcaster http://udacity:46079/
+[rosmaster.master][INFO] 2017-07-09 21:46:00,536: publisherUpdate[/rosout] -> http://udacity:43217/ ['http://udacity:35669/']
+[rosmaster.master][INFO] 2017-07-09 21:46:00,537: +PUB [/rosout] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:00,538: publisherUpdate[/rosout] -> http://udacity:43217/ ['http://udacity:35669/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:46:00,538: publisherUpdate[/rosout] -> http://udacity:43217/ ['http://udacity:35669/', 'http://udacity:34721/']
+[rosmaster.master][INFO] 2017-07-09 21:46:00,539: publisherUpdate[/rosout] -> http://udacity:43217/ ['http://udacity:35669/', 'http://udacity:34721/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:46:00,540: publisherUpdate[/rosout] -> http://udacity:43217/ ['http://udacity:35669/', 'http://udacity:34721/', 'http://udacity:37299/']
+[rosmaster.master][INFO] 2017-07-09 21:46:00,539: +SERVICE [/target_spawner/set_logger_level] /target_spawner http://udacity:37299/
+[rosmaster.master][INFO] 2017-07-09 21:46:00,540: publisherUpdate[/rosout] -> http://udacity:43217/ ['http://udacity:35669/', 'http://udacity:34721/', 'http://udacity:37299/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:46:00,541: publisherUpdate[/rosout] -> http://udacity:43217/ ['http://udacity:35669/', 'http://udacity:34721/', 'http://udacity:37299/', 'http://udacity:46079/']
+[rosmaster.master][INFO] 2017-07-09 21:46:00,542: publisherUpdate[/rosout] -> http://udacity:43217/ ['http://udacity:35669/', 'http://udacity:34721/', 'http://udacity:37299/', 'http://udacity:46079/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:46:00,542: publisherUpdate[/rosout] -> http://udacity:43217/ ['http://udacity:35669/', 'http://udacity:34721/', 'http://udacity:37299/', 'http://udacity:46079/', 'http://udacity:42359/']
+[rosmaster.master][INFO] 2017-07-09 21:46:00,543: publisherUpdate[/rosout] -> http://udacity:43217/ ['http://udacity:35669/', 'http://udacity:34721/', 'http://udacity:37299/', 'http://udacity:46079/', 'http://udacity:42359/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:46:00,545: +SERVICE [/link1_broadcaster/get_loggers] /link1_broadcaster http://udacity:46079/
+[rosmaster.master][INFO] 2017-07-09 21:46:00,549: +SERVICE [/move_group/get_loggers] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:00,557: +SUB [/clock] /joint_state_relay http://udacity:34721/
+[rosmaster.master][INFO] 2017-07-09 21:46:00,573: +SERVICE [/link1_broadcaster/set_logger_level] /link1_broadcaster http://udacity:46079/
+[rosmaster.master][INFO] 2017-07-09 21:46:00,574: +PUB [/tf] /robot_state_publisher http://udacity:35669/
+[rosmaster.master][INFO] 2017-07-09 21:46:00,574: +SERVICE [/move_group/set_logger_level] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:00,576: +PUB [/tf_static] /robot_state_publisher http://udacity:35669/
+[rosmaster.master][INFO] 2017-07-09 21:46:00,622: +SUB [/clock] /link1_broadcaster http://udacity:46079/
+[rosmaster.master][INFO] 2017-07-09 21:46:00,625: +SUB [/kuka_arm/joint_states] /joint_state_relay http://udacity:34721/
+[rosmaster.master][INFO] 2017-07-09 21:46:00,626: +PUB [/tf] /link1_broadcaster http://udacity:46079/
+[rosmaster.master][INFO] 2017-07-09 21:46:00,628: +SUB [/clock] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:00,657: +SUB [/kuka_arm/joint_states] /robot_state_publisher http://udacity:35669/
+[rosmaster.master][INFO] 2017-07-09 21:46:00,670: +PUB [/rosout] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:46:00,673: +SUB [/tf] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:00,675: +SERVICE [/rviz_udacity_15020_7140159858454771578/get_loggers] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:46:00,678: +SERVICE [/rviz_udacity_15020_7140159858454771578/set_logger_level] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:46:00,691: +SUB [/tf_static] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:00,708: +SUB [/clock] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:46:00,738: publisherUpdate[/rosout] -> http://udacity:43217/ ['http://udacity:35669/', 'http://udacity:34721/', 'http://udacity:37299/', 'http://udacity:46079/', 'http://udacity:42359/', 'http://udacity:40135/']
+[rosmaster.master][INFO] 2017-07-09 21:46:00,744: publisherUpdate[/rosout] -> http://udacity:43217/ ['http://udacity:35669/', 'http://udacity:34721/', 'http://udacity:37299/', 'http://udacity:46079/', 'http://udacity:42359/', 'http://udacity:40135/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:46:01,052: +PUB [/rosout] /urdf_spawner http://udacity:44827/
+[rosmaster.master][INFO] 2017-07-09 21:46:01,058: +SERVICE [/move_group/planning_scene_monitor/set_parameters] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:01,059: +SUB [/clock] /urdf_spawner http://udacity:44827/
+[rosmaster.master][INFO] 2017-07-09 21:46:01,059: +PUB [/move_group/planning_scene_monitor/parameter_descriptions] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:01,061: +PUB [/move_group/planning_scene_monitor/parameter_updates] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:01,067: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://udacity:44827/
+[rosmaster.master][INFO] 2017-07-09 21:46:01,073: +PARAM [/move_group/planning_scene_monitor/publish_planning_scene] by /move_group
+[rosmaster.master][INFO] 2017-07-09 21:46:01,074: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://udacity:44827/
+[rosmaster.master][INFO] 2017-07-09 21:46:01,076: +PUB [/rosout] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:46:01,078: +PARAM [/move_group/planning_scene_monitor/publish_planning_scene_hz] by /move_group
+[rosmaster.master][INFO] 2017-07-09 21:46:01,079: +SERVICE [/gazebo/get_loggers] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:46:01,081: +PARAM [/move_group/planning_scene_monitor/publish_geometry_updates] by /move_group
+[rosmaster.master][INFO] 2017-07-09 21:46:01,082: +SERVICE [/gazebo/set_logger_level] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:46:01,084: +PARAM [/move_group/planning_scene_monitor/publish_state_updates] by /move_group
+[rosmaster.master][INFO] 2017-07-09 21:46:01,088: +PARAM [/move_group/planning_scene_monitor/publish_transforms_updates] by /move_group
+[rosmaster.master][INFO] 2017-07-09 21:46:01,090: +PUB [/move_group/monitored_planning_scene] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:01,093: +PARAM [/move_group/planning_scene_monitor/publish_planning_scene] by /move_group
+[rosmaster.master][INFO] 2017-07-09 21:46:01,094: +PARAM [/move_group/planning_scene_monitor/publish_planning_scene_hz] by /move_group
+[rosmaster.master][INFO] 2017-07-09 21:46:01,095: +PARAM [/move_group/planning_scene_monitor/publish_geometry_updates] by /move_group
+[rosmaster.master][INFO] 2017-07-09 21:46:01,096: +PARAM [/move_group/planning_scene_monitor/publish_state_updates] by /move_group
+[rosmaster.master][INFO] 2017-07-09 21:46:01,100: +PARAM [/move_group/planning_scene_monitor/publish_transforms_updates] by /move_group
+[rosmaster.master][INFO] 2017-07-09 21:46:01,109: +SUB [/clock] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:46:01,116: +PUB [/rosout] /kuka_arm/spawner http://udacity:39789/
+[rosmaster.master][INFO] 2017-07-09 21:46:01,116: +SUB [/planning_scene] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:01,124: +SUB [/clock] /kuka_arm/spawner http://udacity:39789/
+[rosmaster.master][INFO] 2017-07-09 21:46:01,133: +SERVICE [/kuka_arm/spawner/get_loggers] /kuka_arm/spawner http://udacity:39789/
+[rosmaster.master][INFO] 2017-07-09 21:46:01,136: +SUB [/collision_object] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:01,137: +SERVICE [/kuka_arm/spawner/set_logger_level] /kuka_arm/spawner http://udacity:39789/
+[rosmaster.master][INFO] 2017-07-09 21:46:01,140: publisherUpdate[/rosout] -> http://udacity:43217/ ['http://udacity:35669/', 'http://udacity:34721/', 'http://udacity:37299/', 'http://udacity:46079/', 'http://udacity:42359/', 'http://udacity:40135/', 'http://udacity:44827/']
+[rosmaster.master][INFO] 2017-07-09 21:46:01,153: publisherUpdate[/rosout] -> http://udacity:43217/ ['http://udacity:35669/', 'http://udacity:34721/', 'http://udacity:37299/', 'http://udacity:46079/', 'http://udacity:42359/', 'http://udacity:40135/', 'http://udacity:44827/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:46:01,153: publisherUpdate[/rosout] -> http://udacity:43217/ ['http://udacity:35669/', 'http://udacity:34721/', 'http://udacity:37299/', 'http://udacity:46079/', 'http://udacity:42359/', 'http://udacity:40135/', 'http://udacity:44827/', 'http://udacity:35185/']
+[rosmaster.master][INFO] 2017-07-09 21:46:01,157: +SUB [/planning_scene_world] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:01,159: publisherUpdate[/rosout] -> http://udacity:43217/ ['http://udacity:35669/', 'http://udacity:34721/', 'http://udacity:37299/', 'http://udacity:46079/', 'http://udacity:42359/', 'http://udacity:40135/', 'http://udacity:44827/', 'http://udacity:35185/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:46:01,161: publisherUpdate[/rosout] -> http://udacity:43217/ ['http://udacity:35669/', 'http://udacity:34721/', 'http://udacity:37299/', 'http://udacity:46079/', 'http://udacity:42359/', 'http://udacity:40135/', 'http://udacity:44827/', 'http://udacity:35185/', 'http://udacity:39789/']
+[rosmaster.master][INFO] 2017-07-09 21:46:01,162: publisherUpdate[/rosout] -> http://udacity:43217/ ['http://udacity:35669/', 'http://udacity:34721/', 'http://udacity:37299/', 'http://udacity:46079/', 'http://udacity:42359/', 'http://udacity:40135/', 'http://udacity:44827/', 'http://udacity:35185/', 'http://udacity:39789/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:46:01,164: +SERVICE [/move_group/save_map] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:01,165: +SERVICE [/move_group/load_map] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:01,173: +SUB [/kuka_arm/joint_states] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:01,177: +SUB [/attached_collision_object] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:01,204: +SUB [/tf] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:46:01,217: +SUB [/tf_static] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:46:01,344: +SERVICE [/move_group/ompl/set_parameters] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:01,345: +PUB [/move_group/ompl/parameter_descriptions] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:01,346: +PUB [/move_group/ompl/parameter_updates] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:01,353: +PARAM [/move_group/ompl/simplify_solutions] by /move_group
+[rosmaster.master][INFO] 2017-07-09 21:46:01,354: +PARAM [/move_group/ompl/minimum_waypoint_count] by /move_group
+[rosmaster.master][INFO] 2017-07-09 21:46:01,355: +PARAM [/move_group/ompl/maximum_waypoint_distance] by /move_group
+[rosmaster.master][INFO] 2017-07-09 21:46:01,356: +PARAM [/move_group/ompl/link_for_exploration_tree] by /move_group
+[rosmaster.master][INFO] 2017-07-09 21:46:01,357: +PARAM [/move_group/ompl/display_random_valid_states] by /move_group
+[rosmaster.master][INFO] 2017-07-09 21:46:01,359: +PARAM [/move_group/ompl/simplify_solutions] by /move_group
+[rosmaster.master][INFO] 2017-07-09 21:46:01,360: +PARAM [/move_group/ompl/minimum_waypoint_count] by /move_group
+[rosmaster.master][INFO] 2017-07-09 21:46:01,361: +PARAM [/move_group/ompl/maximum_waypoint_distance] by /move_group
+[rosmaster.master][INFO] 2017-07-09 21:46:01,363: +PARAM [/move_group/ompl/link_for_exploration_tree] by /move_group
+[rosmaster.master][INFO] 2017-07-09 21:46:01,364: +PARAM [/move_group/ompl/display_random_valid_states] by /move_group
+[rosmaster.master][INFO] 2017-07-09 21:46:01,422: +PUB [/initialpose] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:46:01,425: +PUB [/goal] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:46:01,436: +PUB [/move_group/display_planned_path] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:01,437: +PUB [/move_group/display_contacts] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:01,691: +PUB [/clock] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:46:01,693: +SERVICE [/gazebo/spawn_sdf_model] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:46:01,694: +SERVICE [/gazebo/spawn_urdf_model] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:46:01,696: +SERVICE [/gazebo/delete_model] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:46:01,697: +SERVICE [/gazebo/delete_light] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:46:01,698: +SERVICE [/gazebo/get_model_properties] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:46:01,699: +SERVICE [/gazebo/get_model_state] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:46:01,701: +SERVICE [/gazebo/get_world_properties] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:46:01,702: +SERVICE [/gazebo/get_joint_properties] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:46:01,704: +SERVICE [/gazebo/get_link_properties] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:46:01,705: +SERVICE [/gazebo/get_link_state] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:46:01,708: +SERVICE [/gazebo/get_light_properties] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:46:01,710: +SERVICE [/gazebo/set_light_properties] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:46:01,712: +SERVICE [/gazebo/get_physics_properties] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:46:01,713: +PUB [/gazebo/link_states] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:46:01,714: +PUB [/gazebo/model_states] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:46:01,715: +SERVICE [/gazebo/set_link_properties] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:46:01,717: +SERVICE [/gazebo/set_physics_properties] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:46:01,718: +SERVICE [/gazebo/set_model_state] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:46:01,719: +SERVICE [/gazebo/set_model_configuration] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:46:01,720: +SERVICE [/gazebo/set_joint_properties] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:46:01,722: +SERVICE [/gazebo/set_link_state] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:46:01,727: +SUB [/gazebo/set_link_state] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:46:01,734: +SUB [/gazebo/set_model_state] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:46:01,735: +SERVICE [/gazebo/pause_physics] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:46:01,736: +SERVICE [/gazebo/unpause_physics] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:46:01,738: +SERVICE [/gazebo/apply_body_wrench] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:46:01,739: +SERVICE [/gazebo/apply_joint_effort] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:46:01,740: +SERVICE [/gazebo/clear_joint_forces] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:46:01,741: +SERVICE [/gazebo/clear_body_wrenches] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:46:01,742: +SERVICE [/gazebo/reset_simulation] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:46:01,744: +SERVICE [/gazebo/reset_world] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:46:01,746: +PARAM [/use_sim_time] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:01,755: publisherUpdate[/clock] -> http://udacity:37299/ ['http://udacity:35185/']
+[rosmaster.master][INFO] 2017-07-09 21:46:01,756: publisherUpdate[/clock] -> http://udacity:35669/ ['http://udacity:35185/']
+[rosmaster.master][INFO] 2017-07-09 21:46:01,757: publisherUpdate[/clock] -> http://udacity:35669/ ['http://udacity:35185/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:46:01,757: publisherUpdate[/clock] -> http://udacity:34721/ ['http://udacity:35185/']
+[rosmaster.master][INFO] 2017-07-09 21:46:01,758: publisherUpdate[/clock] -> http://udacity:37299/ ['http://udacity:35185/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:46:01,758: publisherUpdate[/clock] -> http://udacity:46079/ ['http://udacity:35185/']
+[rosmaster.master][INFO] 2017-07-09 21:46:01,761: publisherUpdate[/clock] -> http://udacity:46079/ ['http://udacity:35185/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:46:01,761: publisherUpdate[/clock] -> http://udacity:42359/ ['http://udacity:35185/']
+[rosmaster.master][INFO] 2017-07-09 21:46:01,763: publisherUpdate[/clock] -> http://udacity:42359/ ['http://udacity:35185/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:46:01,763: publisherUpdate[/clock] -> http://udacity:40135/ ['http://udacity:35185/']
+[rosmaster.master][INFO] 2017-07-09 21:46:01,764: -SUB [/clock] /urdf_spawner http://udacity:44827/
+[rosmaster.master][INFO] 2017-07-09 21:46:01,764: -PUB [/rosout] /urdf_spawner http://udacity:44827/
+[rosmaster.master][INFO] 2017-07-09 21:46:01,764: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://udacity:43095
+[rosmaster.master][INFO] 2017-07-09 21:46:01,764: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://udacity:43095
+[rosmaster.master][INFO] 2017-07-09 21:46:01,766: publisherUpdate[/clock] -> http://udacity:40135/ ['http://udacity:35185/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:46:01,766: publisherUpdate[/clock] -> http://udacity:44827/ ['http://udacity:35185/']
+[rosmaster.master][INFO] 2017-07-09 21:46:01,769: publisherUpdate[/clock] -> http://udacity:35185/ ['http://udacity:35185/']
+[rosmaster.master][INFO] 2017-07-09 21:46:01,773: publisherUpdate[/clock] -> http://udacity:35185/ ['http://udacity:35185/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:46:01,773: publisherUpdate[/clock] -> http://udacity:39789/ ['http://udacity:35185/']
+[rosmaster.master][INFO] 2017-07-09 21:46:01,774: publisherUpdate[/clock] -> http://udacity:34721/ ['http://udacity:35185/']: sec=0.02, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:46:01,774: publisherUpdate[/rosout] -> http://udacity:43217/ ['http://udacity:35669/', 'http://udacity:34721/', 'http://udacity:37299/', 'http://udacity:46079/', 'http://udacity:42359/', 'http://udacity:40135/', 'http://udacity:35185/', 'http://udacity:39789/']
+[rosmaster.master][INFO] 2017-07-09 21:46:01,775: publisherUpdate[/rosout] -> http://udacity:43217/ ['http://udacity:35669/', 'http://udacity:34721/', 'http://udacity:37299/', 'http://udacity:46079/', 'http://udacity:42359/', 'http://udacity:40135/', 'http://udacity:35185/', 'http://udacity:39789/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:46:01,782: publisherUpdate[/clock] -> http://udacity:39789/ ['http://udacity:35185/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:46:01,796: +PARAM [/roslaunch/uris/host_udacity__44519] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:01,798: +SERVICE [/gazebo/set_parameters] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:46:01,801: +PUB [/gazebo/parameter_descriptions] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:46:01,805: +PUB [/gazebo/parameter_updates] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:46:01,808: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:01,809: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:01,809: +PARAM [/trajectory_sampler/demo] by /roslaunch
+[rosmaster.master][INFO] 2017-07-09 21:46:01,837: +PUB [/planning_scene] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:46:01,846: +PARAM [/gazebo/time_step] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:01,847: +PARAM [/gazebo/max_update_rate] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:01,848: +PARAM [/gazebo/gravity_x] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:01,849: +PARAM [/gazebo/gravity_y] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:01,850: +PARAM [/gazebo/gravity_z] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:01,853: +PARAM [/gazebo/auto_disable_bodies] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:01,854: +PUB [/planning_scene_world] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:46:01,856: +PARAM [/gazebo/sor_pgs_precon_iters] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:01,858: +PARAM [/gazebo/sor_pgs_iters] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:01,859: +PARAM [/gazebo/sor_pgs_w] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:01,860: +PARAM [/gazebo/sor_pgs_rms_error_tol] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:01,861: +PARAM [/gazebo/cfm] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:01,862: +PARAM [/gazebo/erp] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:01,863: +PARAM [/gazebo/contact_surface_layer] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:01,864: +PARAM [/gazebo/contact_max_correcting_vel] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:01,865: +PARAM [/gazebo/max_contacts] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:01,875: publisherUpdate[/planning_scene] -> http://udacity:42359/ ['http://udacity:40135/']
+[rosmaster.master][INFO] 2017-07-09 21:46:01,877: publisherUpdate[/planning_scene] -> http://udacity:42359/ ['http://udacity:40135/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:46:01,877: publisherUpdate[/planning_scene_world] -> http://udacity:42359/ ['http://udacity:40135/']
+[rosmaster.master][INFO] 2017-07-09 21:46:01,878: publisherUpdate[/planning_scene_world] -> http://udacity:42359/ ['http://udacity:40135/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:46:01,937: publisherUpdate[/clock] -> http://udacity:44827/ ['http://udacity:35185/']: sec=0.17, exception=[Errno 111] Connection refused
+[rosmaster.threadpool][ERROR] 2017-07-09 21:46:01,939: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1053, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 897, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 859, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 836, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+
+[rosmaster.master][INFO] 2017-07-09 21:46:02,011: +PUB [/rosout] /trajectory_sampler http://udacity:39969/
+[rosmaster.master][INFO] 2017-07-09 21:46:02,012: +SERVICE [/trajectory_sampler/get_loggers] /trajectory_sampler http://udacity:39969/
+[rosmaster.master][INFO] 2017-07-09 21:46:02,014: +SERVICE [/trajectory_sampler/set_logger_level] /trajectory_sampler http://udacity:39969/
+[rosmaster.master][INFO] 2017-07-09 21:46:02,021: +SUB [/clock] /trajectory_sampler http://udacity:39969/
+[rosmaster.master][INFO] 2017-07-09 21:46:02,028: +SUB [/tf] /trajectory_sampler http://udacity:39969/
+[rosmaster.master][INFO] 2017-07-09 21:46:02,032: +SUB [/tf_static] /trajectory_sampler http://udacity:39969/
+[rosmaster.master][INFO] 2017-07-09 21:46:02,040: publisherUpdate[/rosout] -> http://udacity:43217/ ['http://udacity:35669/', 'http://udacity:34721/', 'http://udacity:37299/', 'http://udacity:46079/', 'http://udacity:42359/', 'http://udacity:40135/', 'http://udacity:35185/', 'http://udacity:39789/', 'http://udacity:39969/']
+[rosmaster.master][INFO] 2017-07-09 21:46:02,041: publisherUpdate[/rosout] -> http://udacity:43217/ ['http://udacity:35669/', 'http://udacity:34721/', 'http://udacity:37299/', 'http://udacity:46079/', 'http://udacity:42359/', 'http://udacity:40135/', 'http://udacity:35185/', 'http://udacity:39789/', 'http://udacity:39969/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:46:02,249: +PUB [/trajectory_execution_event] /trajectory_sampler http://udacity:39969/
+[rosmaster.master][INFO] 2017-07-09 21:46:02,250: +PUB [/attached_collision_object] /trajectory_sampler http://udacity:39969/
+[rosmaster.master][INFO] 2017-07-09 21:46:02,279: publisherUpdate[/attached_collision_object] -> http://udacity:42359/ ['http://udacity:39969/']
+[rosmaster.master][INFO] 2017-07-09 21:46:02,280: publisherUpdate[/attached_collision_object] -> http://udacity:42359/ ['http://udacity:39969/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:46:02,360: +SERVICE [/kuka_arm/controller_manager/list_controllers] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:46:02,362: +SERVICE [/kuka_arm/controller_manager/list_controller_types] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:46:02,363: +SERVICE [/kuka_arm/controller_manager/load_controller] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:46:02,364: +SERVICE [/kuka_arm/controller_manager/unload_controller] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:46:02,365: +SERVICE [/kuka_arm/controller_manager/switch_controller] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:46:02,366: +SERVICE [/kuka_arm/controller_manager/reload_controller_libraries] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:46:02,382: +PARAM [/gazebo/time_step] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:02,384: -SUB [/clock] /target_spawner http://udacity:37299/
+[rosmaster.master][INFO] 2017-07-09 21:46:02,384: -PUB [/rosout] /target_spawner http://udacity:37299/
+[rosmaster.master][INFO] 2017-07-09 21:46:02,384: -SERVICE [/target_spawner/get_loggers] /target_spawner rosrpc://udacity:37513
+[rosmaster.master][INFO] 2017-07-09 21:46:02,384: -SERVICE [/target_spawner/set_logger_level] /target_spawner rosrpc://udacity:37513
+[rosmaster.master][INFO] 2017-07-09 21:46:02,385: +PARAM [/gazebo/max_update_rate] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:02,386: +PARAM [/gazebo/gravity_x] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:02,387: +PARAM [/gazebo/gravity_y] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:02,389: +PARAM [/gazebo/gravity_z] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:02,391: +PARAM [/gazebo/auto_disable_bodies] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:02,395: +PARAM [/gazebo/sor_pgs_precon_iters] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:02,400: +PARAM [/gazebo/sor_pgs_iters] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:02,403: +PARAM [/gazebo/sor_pgs_w] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:02,406: +PARAM [/gazebo/sor_pgs_rms_error_tol] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:02,410: +PARAM [/gazebo/cfm] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:02,414: +PARAM [/gazebo/erp] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:02,416: +SUB [/recognize_objects/status] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:46:02,420: +PARAM [/gazebo/contact_surface_layer] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:02,426: +SUB [/kuka_arm/arm_controller/follow_joint_trajectory/status] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:02,428: +PARAM [/gazebo/contact_max_correcting_vel] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:02,430: +SUB [/move_group/status] /trajectory_sampler http://udacity:39969/
+[rosmaster.master][INFO] 2017-07-09 21:46:02,433: +PARAM [/gazebo/max_contacts] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:02,442: publisherUpdate[/rosout] -> http://udacity:43217/ ['http://udacity:35669/', 'http://udacity:34721/', 'http://udacity:46079/', 'http://udacity:42359/', 'http://udacity:40135/', 'http://udacity:35185/', 'http://udacity:39789/', 'http://udacity:39969/']
+[rosmaster.master][INFO] 2017-07-09 21:46:02,445: publisherUpdate[/rosout] -> http://udacity:43217/ ['http://udacity:35669/', 'http://udacity:34721/', 'http://udacity:46079/', 'http://udacity:42359/', 'http://udacity:40135/', 'http://udacity:35185/', 'http://udacity:39789/', 'http://udacity:39969/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:46:02,447: +SUB [/recognize_objects/feedback] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:46:02,452: +SUB [/kuka_arm/arm_controller/follow_joint_trajectory/feedback] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:02,453: +SUB [/move_group/feedback] /trajectory_sampler http://udacity:39969/
+[rosmaster.master][INFO] 2017-07-09 21:46:02,471: +SUB [/recognize_objects/result] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:46:02,474: +SUB [/kuka_arm/arm_controller/follow_joint_trajectory/result] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:02,475: +PUB [/recognize_objects/goal] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:46:02,477: +SUB [/move_group/result] /trajectory_sampler http://udacity:39969/
+[rosmaster.master][INFO] 2017-07-09 21:46:02,479: +PUB [/recognize_objects/cancel] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:46:02,480: +PUB [/kuka_arm/arm_controller/follow_joint_trajectory/goal] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:02,482: +PUB [/move_group/goal] /trajectory_sampler http://udacity:39969/
+[rosmaster.master][INFO] 2017-07-09 21:46:02,484: +PUB [/kuka_arm/arm_controller/follow_joint_trajectory/cancel] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:02,485: +PUB [/move_group/cancel] /trajectory_sampler http://udacity:39969/
+[rosmaster.master][INFO] 2017-07-09 21:46:02,491: +SUB [/recognized_object_array] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:46:02,777: +PUB [/kuka_arm/joint_states] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:46:02,782: publisherUpdate[/kuka_arm/joint_states] -> http://udacity:34721/ ['http://udacity:35185/']
+[rosmaster.master][INFO] 2017-07-09 21:46:02,783: publisherUpdate[/kuka_arm/joint_states] -> http://udacity:34721/ ['http://udacity:35185/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:46:02,783: publisherUpdate[/kuka_arm/joint_states] -> http://udacity:35669/ ['http://udacity:35185/']
+[rosmaster.master][INFO] 2017-07-09 21:46:02,784: publisherUpdate[/kuka_arm/joint_states] -> http://udacity:35669/ ['http://udacity:35185/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:46:02,784: publisherUpdate[/kuka_arm/joint_states] -> http://udacity:42359/ ['http://udacity:35185/']
+[rosmaster.master][INFO] 2017-07-09 21:46:02,784: publisherUpdate[/kuka_arm/joint_states] -> http://udacity:42359/ ['http://udacity:35185/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:46:02,961: +SUB [/kuka_arm/arm_controller/command] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:46:02,963: +PUB [/kuka_arm/arm_controller/state] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:46:02,968: +PUB [/kuka_arm/arm_controller/follow_joint_trajectory/result] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:46:02,972: +PUB [/kuka_arm/arm_controller/follow_joint_trajectory/feedback] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:46:02,979: +PUB [/kuka_arm/arm_controller/follow_joint_trajectory/status] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:46:02,985: publisherUpdate[/kuka_arm/arm_controller/follow_joint_trajectory/result] -> http://udacity:42359/ ['http://udacity:35185/']
+[rosmaster.master][INFO] 2017-07-09 21:46:02,986: publisherUpdate[/kuka_arm/arm_controller/follow_joint_trajectory/result] -> http://udacity:42359/ ['http://udacity:35185/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:46:02,986: publisherUpdate[/kuka_arm/arm_controller/follow_joint_trajectory/feedback] -> http://udacity:42359/ ['http://udacity:35185/']
+[rosmaster.master][INFO] 2017-07-09 21:46:02,987: publisherUpdate[/kuka_arm/arm_controller/follow_joint_trajectory/feedback] -> http://udacity:42359/ ['http://udacity:35185/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:46:02,987: publisherUpdate[/kuka_arm/arm_controller/follow_joint_trajectory/status] -> http://udacity:42359/ ['http://udacity:35185/']
+[rosmaster.master][INFO] 2017-07-09 21:46:02,987: publisherUpdate[/kuka_arm/arm_controller/follow_joint_trajectory/status] -> http://udacity:42359/ ['http://udacity:35185/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:46:03,008: +SUB [/kuka_arm/arm_controller/follow_joint_trajectory/goal] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:46:03,016: +SUB [/kuka_arm/arm_controller/follow_joint_trajectory/cancel] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:46:03,018: +SERVICE [/kuka_arm/arm_controller/query_state] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:46:03,056: +SERVICE [/kuka_arm/gripper_controller/gains/right_gripper_finger_joint/set_parameters] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:46:03,057: +PUB [/kuka_arm/gripper_controller/gains/right_gripper_finger_joint/parameter_descriptions] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:46:03,058: +PUB [/kuka_arm/gripper_controller/gains/right_gripper_finger_joint/parameter_updates] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:46:03,065: +PARAM [/kuka_arm/gripper_controller/gains/right_gripper_finger_joint/p] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:03,066: +PARAM [/kuka_arm/gripper_controller/gains/right_gripper_finger_joint/i] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:03,067: +PARAM [/kuka_arm/gripper_controller/gains/right_gripper_finger_joint/d] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:03,068: +PARAM [/kuka_arm/gripper_controller/gains/right_gripper_finger_joint/i_clamp_min] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:03,069: +PARAM [/kuka_arm/gripper_controller/gains/right_gripper_finger_joint/i_clamp_max] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:03,070: +PARAM [/kuka_arm/gripper_controller/gains/right_gripper_finger_joint/antiwindup] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:03,071: +PARAM [/kuka_arm/gripper_controller/gains/right_gripper_finger_joint/p] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:03,072: +PARAM [/kuka_arm/gripper_controller/gains/right_gripper_finger_joint/i] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:03,073: +PARAM [/kuka_arm/gripper_controller/gains/right_gripper_finger_joint/d] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:03,074: +PARAM [/kuka_arm/gripper_controller/gains/right_gripper_finger_joint/i_clamp_min] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:03,076: +PARAM [/kuka_arm/gripper_controller/gains/right_gripper_finger_joint/i_clamp_max] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:03,077: +PARAM [/kuka_arm/gripper_controller/gains/right_gripper_finger_joint/antiwindup] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:03,079: +PARAM [/kuka_arm/gripper_controller/gains/right_gripper_finger_joint/p] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:03,080: +PARAM [/kuka_arm/gripper_controller/gains/right_gripper_finger_joint/i] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:03,082: +PARAM [/kuka_arm/gripper_controller/gains/right_gripper_finger_joint/d] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:03,083: +PARAM [/kuka_arm/gripper_controller/gains/right_gripper_finger_joint/i_clamp_min] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:03,085: +PARAM [/kuka_arm/gripper_controller/gains/right_gripper_finger_joint/i_clamp_max] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:03,086: +PARAM [/kuka_arm/gripper_controller/gains/right_gripper_finger_joint/antiwindup] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:03,087: +PARAM [/kuka_arm/gripper_controller/gains/right_gripper_finger_joint/p] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:03,088: +PARAM [/kuka_arm/gripper_controller/gains/right_gripper_finger_joint/i] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:03,089: +PARAM [/kuka_arm/gripper_controller/gains/right_gripper_finger_joint/d] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:03,090: +PARAM [/kuka_arm/gripper_controller/gains/right_gripper_finger_joint/i_clamp_min] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:03,092: +PARAM [/kuka_arm/gripper_controller/gains/right_gripper_finger_joint/i_clamp_max] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:03,093: +PARAM [/kuka_arm/gripper_controller/gains/right_gripper_finger_joint/antiwindup] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:03,107: +SERVICE [/kuka_arm/gripper_controller/gains/left_gripper_finger_joint/set_parameters] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:46:03,108: +PUB [/kuka_arm/gripper_controller/gains/left_gripper_finger_joint/parameter_descriptions] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:46:03,109: +PUB [/kuka_arm/gripper_controller/gains/left_gripper_finger_joint/parameter_updates] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:46:03,117: +PARAM [/kuka_arm/gripper_controller/gains/left_gripper_finger_joint/p] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:03,119: +PARAM [/kuka_arm/gripper_controller/gains/left_gripper_finger_joint/i] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:03,120: +PARAM [/kuka_arm/gripper_controller/gains/left_gripper_finger_joint/d] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:03,122: +PARAM [/kuka_arm/gripper_controller/gains/left_gripper_finger_joint/i_clamp_min] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:03,122: +PARAM [/kuka_arm/gripper_controller/gains/left_gripper_finger_joint/i_clamp_max] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:03,124: +PARAM [/kuka_arm/gripper_controller/gains/left_gripper_finger_joint/antiwindup] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:03,125: +PARAM [/kuka_arm/gripper_controller/gains/left_gripper_finger_joint/p] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:03,126: +PARAM [/kuka_arm/gripper_controller/gains/left_gripper_finger_joint/i] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:03,127: +PARAM [/kuka_arm/gripper_controller/gains/left_gripper_finger_joint/d] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:03,129: +PARAM [/kuka_arm/gripper_controller/gains/left_gripper_finger_joint/i_clamp_min] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:03,130: +PARAM [/kuka_arm/gripper_controller/gains/left_gripper_finger_joint/i_clamp_max] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:03,131: +PARAM [/kuka_arm/gripper_controller/gains/left_gripper_finger_joint/antiwindup] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:03,132: +PARAM [/kuka_arm/gripper_controller/gains/left_gripper_finger_joint/p] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:03,134: +PARAM [/kuka_arm/gripper_controller/gains/left_gripper_finger_joint/i] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:03,135: +PARAM [/kuka_arm/gripper_controller/gains/left_gripper_finger_joint/d] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:03,136: +PARAM [/kuka_arm/gripper_controller/gains/left_gripper_finger_joint/i_clamp_min] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:03,137: +PARAM [/kuka_arm/gripper_controller/gains/left_gripper_finger_joint/i_clamp_max] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:03,138: +PARAM [/kuka_arm/gripper_controller/gains/left_gripper_finger_joint/antiwindup] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:03,139: +PARAM [/kuka_arm/gripper_controller/gains/left_gripper_finger_joint/p] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:03,140: +PARAM [/kuka_arm/gripper_controller/gains/left_gripper_finger_joint/i] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:03,141: +PARAM [/kuka_arm/gripper_controller/gains/left_gripper_finger_joint/d] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:03,142: +PARAM [/kuka_arm/gripper_controller/gains/left_gripper_finger_joint/i_clamp_min] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:03,143: +PARAM [/kuka_arm/gripper_controller/gains/left_gripper_finger_joint/i_clamp_max] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:03,143: +PARAM [/kuka_arm/gripper_controller/gains/left_gripper_finger_joint/antiwindup] by /gazebo
+[rosmaster.master][INFO] 2017-07-09 21:46:03,151: +SUB [/kuka_arm/gripper_controller/command] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:46:03,153: +PUB [/kuka_arm/gripper_controller/state] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:46:03,157: +PUB [/kuka_arm/gripper_controller/follow_joint_trajectory/result] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:46:03,159: +PUB [/kuka_arm/gripper_controller/follow_joint_trajectory/feedback] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:46:03,160: +PUB [/kuka_arm/gripper_controller/follow_joint_trajectory/status] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:46:03,169: +SUB [/kuka_arm/gripper_controller/follow_joint_trajectory/goal] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:46:03,174: +SUB [/kuka_arm/gripper_controller/follow_joint_trajectory/cancel] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:46:03,176: +SERVICE [/kuka_arm/gripper_controller/query_state] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:46:03,198: +SUB [/kuka_arm/gripper_controller/follow_joint_trajectory/status] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:03,207: +PUB [/joint_states] /joint_state_relay http://udacity:34721/
+[rosmaster.master][INFO] 2017-07-09 21:46:03,210: +SUB [/kuka_arm/gripper_controller/follow_joint_trajectory/feedback] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:03,217: +SUB [/kuka_arm/gripper_controller/follow_joint_trajectory/result] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:03,218: +PUB [/kuka_arm/gripper_controller/follow_joint_trajectory/goal] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:03,219: +PUB [/kuka_arm/gripper_controller/follow_joint_trajectory/cancel] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:03,247: publisherUpdate[/kuka_arm/gripper_controller/follow_joint_trajectory/goal] -> http://udacity:35185/ ['http://udacity:42359/']
+[rosmaster.master][INFO] 2017-07-09 21:46:03,247: publisherUpdate[/kuka_arm/gripper_controller/follow_joint_trajectory/goal] -> http://udacity:35185/ ['http://udacity:42359/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:46:03,248: publisherUpdate[/kuka_arm/gripper_controller/follow_joint_trajectory/cancel] -> http://udacity:35185/ ['http://udacity:42359/']
+[rosmaster.master][INFO] 2017-07-09 21:46:03,248: publisherUpdate[/kuka_arm/gripper_controller/follow_joint_trajectory/cancel] -> http://udacity:35185/ ['http://udacity:42359/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:46:03,455: +SUB [/trajectory_execution_event] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:03,456: +SERVICE [/move_group/trajectory_execution/set_parameters] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:03,457: +PUB [/move_group/trajectory_execution/parameter_descriptions] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:03,458: +PUB [/move_group/trajectory_execution/parameter_updates] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:03,464: +PARAM [/move_group/trajectory_execution/execution_duration_monitoring] by /move_group
+[rosmaster.master][INFO] 2017-07-09 21:46:03,465: +PARAM [/move_group/trajectory_execution/allowed_execution_duration_scaling] by /move_group
+[rosmaster.master][INFO] 2017-07-09 21:46:03,469: +PARAM [/move_group/trajectory_execution/allowed_goal_duration_margin] by /move_group
+[rosmaster.master][INFO] 2017-07-09 21:46:03,471: +PARAM [/move_group/trajectory_execution/execution_velocity_scaling] by /move_group
+[rosmaster.master][INFO] 2017-07-09 21:46:03,471: +PARAM [/move_group/trajectory_execution/allowed_start_tolerance] by /move_group
+[rosmaster.master][INFO] 2017-07-09 21:46:03,472: +PARAM [/move_group/trajectory_execution/execution_duration_monitoring] by /move_group
+[rosmaster.master][INFO] 2017-07-09 21:46:03,474: +PARAM [/move_group/trajectory_execution/allowed_execution_duration_scaling] by /move_group
+[rosmaster.master][INFO] 2017-07-09 21:46:03,475: +PARAM [/move_group/trajectory_execution/allowed_goal_duration_margin] by /move_group
+[rosmaster.master][INFO] 2017-07-09 21:46:03,476: +PARAM [/move_group/trajectory_execution/execution_velocity_scaling] by /move_group
+[rosmaster.master][INFO] 2017-07-09 21:46:03,477: +PARAM [/move_group/trajectory_execution/allowed_start_tolerance] by /move_group
+[rosmaster.master][INFO] 2017-07-09 21:46:03,478: +SERVICE [/move_group/plan_execution/set_parameters] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:03,479: +PUB [/move_group/plan_execution/parameter_descriptions] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:03,481: +PUB [/move_group/plan_execution/parameter_updates] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:03,484: +PARAM [/move_group/plan_execution/max_replan_attempts] by /move_group
+[rosmaster.master][INFO] 2017-07-09 21:46:03,485: +PARAM [/move_group/plan_execution/record_trajectory_state_frequency] by /move_group
+[rosmaster.master][INFO] 2017-07-09 21:46:03,486: +PARAM [/move_group/plan_execution/max_replan_attempts] by /move_group
+[rosmaster.master][INFO] 2017-07-09 21:46:03,487: +PARAM [/move_group/plan_execution/record_trajectory_state_frequency] by /move_group
+[rosmaster.master][INFO] 2017-07-09 21:46:03,490: +SERVICE [/move_group/sense_for_plan/set_parameters] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:03,491: +PUB [/move_group/sense_for_plan/parameter_descriptions] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:03,492: +PUB [/move_group/sense_for_plan/parameter_updates] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:03,496: +PARAM [/move_group/sense_for_plan/max_safe_path_cost] by /move_group
+[rosmaster.master][INFO] 2017-07-09 21:46:03,497: +PARAM [/move_group/sense_for_plan/max_look_attempts] by /move_group
+[rosmaster.master][INFO] 2017-07-09 21:46:03,498: +PARAM [/move_group/sense_for_plan/max_cost_sources] by /move_group
+[rosmaster.master][INFO] 2017-07-09 21:46:03,499: +PARAM [/move_group/sense_for_plan/discard_overlapping_cost_sources] by /move_group
+[rosmaster.master][INFO] 2017-07-09 21:46:03,501: +PARAM [/move_group/sense_for_plan/max_safe_path_cost] by /move_group
+[rosmaster.master][INFO] 2017-07-09 21:46:03,503: +PARAM [/move_group/sense_for_plan/max_look_attempts] by /move_group
+[rosmaster.master][INFO] 2017-07-09 21:46:03,504: +PARAM [/move_group/sense_for_plan/max_cost_sources] by /move_group
+[rosmaster.master][INFO] 2017-07-09 21:46:03,506: +PARAM [/move_group/sense_for_plan/discard_overlapping_cost_sources] by /move_group
+[rosmaster.master][INFO] 2017-07-09 21:46:03,598: +SERVICE [/apply_planning_scene] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:03,599: +SERVICE [/clear_octomap] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:03,601: +SERVICE [/compute_cartesian_path] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:03,605: +PUB [/execute_trajectory/result] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:03,605: +PUB [/execute_trajectory/feedback] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:03,606: +PUB [/execute_trajectory/status] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:03,615: +SUB [/execute_trajectory/goal] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:03,620: +SUB [/execute_trajectory/cancel] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:03,621: +SERVICE [/get_planning_scene] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:03,623: +SERVICE [/compute_fk] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:03,624: +SERVICE [/compute_ik] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:03,627: +PUB [/move_group/result] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:03,628: +PUB [/move_group/feedback] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:03,629: +PUB [/move_group/status] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:03,638: +SUB [/move_group/goal] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:03,644: +SUB [/move_group/cancel] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:03,650: publisherUpdate[/move_group/result] -> http://udacity:39969/ ['http://udacity:42359/']
+[rosmaster.master][INFO] 2017-07-09 21:46:03,651: publisherUpdate[/move_group/result] -> http://udacity:39969/ ['http://udacity:42359/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:46:03,652: publisherUpdate[/move_group/feedback] -> http://udacity:39969/ ['http://udacity:42359/']
+[rosmaster.master][INFO] 2017-07-09 21:46:03,652: publisherUpdate[/move_group/feedback] -> http://udacity:39969/ ['http://udacity:42359/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:46:03,652: publisherUpdate[/move_group/status] -> http://udacity:39969/ ['http://udacity:42359/']
+[rosmaster.master][INFO] 2017-07-09 21:46:03,653: publisherUpdate[/move_group/status] -> http://udacity:39969/ ['http://udacity:42359/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:46:03,719: +PUB [/pickup/result] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:03,720: +PUB [/pickup/feedback] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:03,721: +PUB [/pickup/status] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:03,728: +SUB [/pickup/goal] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:03,733: +SUB [/pickup/cancel] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:03,735: +PUB [/place/result] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:03,736: +PUB [/place/feedback] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:03,737: +PUB [/place/status] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:03,744: +SUB [/place/goal] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:03,749: +SUB [/place/cancel] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:03,750: +SERVICE [/plan_kinematic_path] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:03,751: +SERVICE [/query_planner_interface] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:03,752: +SERVICE [/get_planner_params] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:03,753: +SERVICE [/set_planner_params] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:03,755: +SERVICE [/check_state_validity] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:46:03,862: +SUB [/pickup/status] /trajectory_sampler http://udacity:39969/
+[rosmaster.master][INFO] 2017-07-09 21:46:03,867: +SUB [/pickup/feedback] /trajectory_sampler http://udacity:39969/
+[rosmaster.master][INFO] 2017-07-09 21:46:03,876: +SUB [/pickup/result] /trajectory_sampler http://udacity:39969/
+[rosmaster.master][INFO] 2017-07-09 21:46:03,877: +PUB [/pickup/goal] /trajectory_sampler http://udacity:39969/
+[rosmaster.master][INFO] 2017-07-09 21:46:03,879: +PUB [/pickup/cancel] /trajectory_sampler http://udacity:39969/
+[rosmaster.master][INFO] 2017-07-09 21:46:03,888: publisherUpdate[/pickup/goal] -> http://udacity:42359/ ['http://udacity:39969/']
+[rosmaster.master][INFO] 2017-07-09 21:46:03,890: publisherUpdate[/pickup/goal] -> http://udacity:42359/ ['http://udacity:39969/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:46:03,891: publisherUpdate[/pickup/cancel] -> http://udacity:42359/ ['http://udacity:39969/']
+[rosmaster.master][INFO] 2017-07-09 21:46:03,892: publisherUpdate[/pickup/cancel] -> http://udacity:42359/ ['http://udacity:39969/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:46:04,101: +SUB [/place/status] /trajectory_sampler http://udacity:39969/
+[rosmaster.master][INFO] 2017-07-09 21:46:04,107: +SUB [/place/feedback] /trajectory_sampler http://udacity:39969/
+[rosmaster.master][INFO] 2017-07-09 21:46:04,113: +SUB [/place/result] /trajectory_sampler http://udacity:39969/
+[rosmaster.master][INFO] 2017-07-09 21:46:04,114: +PUB [/place/goal] /trajectory_sampler http://udacity:39969/
+[rosmaster.master][INFO] 2017-07-09 21:46:04,115: +PUB [/place/cancel] /trajectory_sampler http://udacity:39969/
+[rosmaster.master][INFO] 2017-07-09 21:46:04,155: publisherUpdate[/place/goal] -> http://udacity:42359/ ['http://udacity:39969/']
+[rosmaster.master][INFO] 2017-07-09 21:46:04,156: publisherUpdate[/place/goal] -> http://udacity:42359/ ['http://udacity:39969/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:46:04,156: publisherUpdate[/place/cancel] -> http://udacity:42359/ ['http://udacity:39969/']
+[rosmaster.master][INFO] 2017-07-09 21:46:04,157: publisherUpdate[/place/cancel] -> http://udacity:42359/ ['http://udacity:39969/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:46:04,366: +SUB [/execute_trajectory/status] /trajectory_sampler http://udacity:39969/
+[rosmaster.master][INFO] 2017-07-09 21:46:04,373: +SUB [/execute_trajectory/feedback] /trajectory_sampler http://udacity:39969/
+[rosmaster.master][INFO] 2017-07-09 21:46:04,378: +SUB [/execute_trajectory/result] /trajectory_sampler http://udacity:39969/
+[rosmaster.master][INFO] 2017-07-09 21:46:04,380: +PUB [/execute_trajectory/goal] /trajectory_sampler http://udacity:39969/
+[rosmaster.master][INFO] 2017-07-09 21:46:04,381: +PUB [/execute_trajectory/cancel] /trajectory_sampler http://udacity:39969/
+[rosmaster.master][INFO] 2017-07-09 21:46:04,393: publisherUpdate[/execute_trajectory/goal] -> http://udacity:42359/ ['http://udacity:39969/']
+[rosmaster.master][INFO] 2017-07-09 21:46:04,395: publisherUpdate[/execute_trajectory/goal] -> http://udacity:42359/ ['http://udacity:39969/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:46:04,396: publisherUpdate[/execute_trajectory/cancel] -> http://udacity:42359/ ['http://udacity:39969/']
+[rosmaster.master][INFO] 2017-07-09 21:46:04,397: publisherUpdate[/execute_trajectory/cancel] -> http://udacity:42359/ ['http://udacity:39969/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:46:05,104: +PUB [/planning_scene] /trajectory_sampler http://udacity:39969/
+[rosmaster.master][INFO] 2017-07-09 21:46:05,160: publisherUpdate[/planning_scene] -> http://udacity:42359/ ['http://udacity:40135/', 'http://udacity:39969/']
+[rosmaster.master][INFO] 2017-07-09 21:46:05,162: publisherUpdate[/planning_scene] -> http://udacity:42359/ ['http://udacity:40135/', 'http://udacity:39969/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:46:05,383: +SUB [/joint_states] /trajectory_sampler http://udacity:39969/
+[rosmaster.master][INFO] 2017-07-09 21:46:05,518: -SUB [/recognize_objects/status] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:46:05,519: -PUB [/recognize_objects/cancel] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:46:05,520: -PUB [/recognize_objects/goal] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:46:05,521: -SUB [/recognize_objects/feedback] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:46:05,522: -SUB [/recognize_objects/result] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:46:05,541: +SUB [/move_group/display_planned_path] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:46:05,543: +PUB [/feedback] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:46:05,545: -PUB [/feedback] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:46:05,546: +PUB [/feedback] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:46:06,235: +SUB [/visualization_marker_array] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:46:06,238: -SUB [/visualization_marker_array] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:46:06,247: +SUB [/rviz_visual_tools] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:46:06,249: -PUB [/goal] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:46:06,251: -PUB [/initialpose] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:46:06,259: +PUB [/initialpose] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:46:06,261: +PUB [/goal] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:46:06,262: +PUB [/move_base_simple/goal] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:46:06,264: -PUB [/goal] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:46:06,266: +PUB [/clicked_point] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:46:06,433: +PUB [/rviz_visual_tools_gui] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:46:06,514: +SERVICE [/rviz_udacity_15020_7140159858454771578/reload_shaders] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:46:06,735: +SERVICE [/rviz_udacity_15020_7140159858454771578/motionplanning_planning_scene_monitor/set_parameters] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:46:06,736: +PUB [/rviz_udacity_15020_7140159858454771578/motionplanning_planning_scene_monitor/parameter_descriptions] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:46:06,737: +PUB [/rviz_udacity_15020_7140159858454771578/motionplanning_planning_scene_monitor/parameter_updates] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:46:06,744: +PARAM [/rviz_udacity_15020_7140159858454771578/motionplanning_planning_scene_monitor/publish_planning_scene] by /rviz_udacity_15020_7140159858454771578
+[rosmaster.master][INFO] 2017-07-09 21:46:06,746: +PARAM [/rviz_udacity_15020_7140159858454771578/motionplanning_planning_scene_monitor/publish_planning_scene_hz] by /rviz_udacity_15020_7140159858454771578
+[rosmaster.master][INFO] 2017-07-09 21:46:06,748: +PARAM [/rviz_udacity_15020_7140159858454771578/motionplanning_planning_scene_monitor/publish_geometry_updates] by /rviz_udacity_15020_7140159858454771578
+[rosmaster.master][INFO] 2017-07-09 21:46:06,749: +PARAM [/rviz_udacity_15020_7140159858454771578/motionplanning_planning_scene_monitor/publish_state_updates] by /rviz_udacity_15020_7140159858454771578
+[rosmaster.master][INFO] 2017-07-09 21:46:06,751: +PARAM [/rviz_udacity_15020_7140159858454771578/motionplanning_planning_scene_monitor/publish_transforms_updates] by /rviz_udacity_15020_7140159858454771578
+[rosmaster.master][INFO] 2017-07-09 21:46:06,752: +PARAM [/rviz_udacity_15020_7140159858454771578/motionplanning_planning_scene_monitor/publish_planning_scene] by /rviz_udacity_15020_7140159858454771578
+[rosmaster.master][INFO] 2017-07-09 21:46:06,753: +PARAM [/rviz_udacity_15020_7140159858454771578/motionplanning_planning_scene_monitor/publish_planning_scene_hz] by /rviz_udacity_15020_7140159858454771578
+[rosmaster.master][INFO] 2017-07-09 21:46:06,754: +PARAM [/rviz_udacity_15020_7140159858454771578/motionplanning_planning_scene_monitor/publish_geometry_updates] by /rviz_udacity_15020_7140159858454771578
+[rosmaster.master][INFO] 2017-07-09 21:46:06,755: +PARAM [/rviz_udacity_15020_7140159858454771578/motionplanning_planning_scene_monitor/publish_state_updates] by /rviz_udacity_15020_7140159858454771578
+[rosmaster.master][INFO] 2017-07-09 21:46:06,756: +PARAM [/rviz_udacity_15020_7140159858454771578/motionplanning_planning_scene_monitor/publish_transforms_updates] by /rviz_udacity_15020_7140159858454771578
+[rosmaster.master][INFO] 2017-07-09 21:46:06,774: +SUB [/rviz_visual_tools_gui] /trajectory_sampler http://udacity:39969/
+[rosmaster.master][INFO] 2017-07-09 21:46:06,776: +PUB [/rviz_visual_tools] /trajectory_sampler http://udacity:39969/
+[rosmaster.master][INFO] 2017-07-09 21:46:06,783: publisherUpdate[/rviz_visual_tools] -> http://udacity:40135/ ['http://udacity:39969/']
+[rosmaster.master][INFO] 2017-07-09 21:46:06,784: publisherUpdate[/rviz_visual_tools] -> http://udacity:40135/ ['http://udacity:39969/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:46:07,234: +SUB [/move_group/monitored_planning_scene] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:46:07,285: +PUB [/rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic/update_full] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:46:07,287: +PUB [/rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic/update] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:46:07,294: +SUB [/rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic/feedback] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:46:07,295: -PUB [/feedback] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:46:07,301: +SUB [/rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic/update] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:46:07,308: +SUB [/rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic/update_full] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:46:07,310: +PUB [/rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic/feedback] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:46:07,357: +PUB [/trajectory_execution_event] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:46:07,359: +PUB [/attached_collision_object] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:46:07,366: +SUB [/move_group/status] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:46:07,374: +SUB [/move_group/feedback] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:46:07,387: publisherUpdate[/rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic/feedback] -> http://udacity:40135/ ['http://udacity:40135/']
+[rosmaster.master][INFO] 2017-07-09 21:46:07,388: +SUB [/move_group/result] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:46:07,389: publisherUpdate[/rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic/feedback] -> http://udacity:40135/ ['http://udacity:40135/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:46:07,389: publisherUpdate[/trajectory_execution_event] -> http://udacity:42359/ ['http://udacity:39969/', 'http://udacity:40135/']
+[rosmaster.master][INFO] 2017-07-09 21:46:07,391: publisherUpdate[/trajectory_execution_event] -> http://udacity:42359/ ['http://udacity:39969/', 'http://udacity:40135/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:46:07,391: publisherUpdate[/attached_collision_object] -> http://udacity:42359/ ['http://udacity:39969/', 'http://udacity:40135/']
+[rosmaster.master][INFO] 2017-07-09 21:46:07,392: +PUB [/move_group/goal] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:46:07,394: publisherUpdate[/attached_collision_object] -> http://udacity:42359/ ['http://udacity:39969/', 'http://udacity:40135/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:46:07,394: publisherUpdate[/move_group/goal] -> http://udacity:42359/ ['http://udacity:39969/', 'http://udacity:40135/']
+[rosmaster.master][INFO] 2017-07-09 21:46:07,394: publisherUpdate[/move_group/goal] -> http://udacity:42359/ ['http://udacity:39969/', 'http://udacity:40135/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:46:07,397: publisherUpdate[/move_group/cancel] -> http://udacity:42359/ ['http://udacity:39969/', 'http://udacity:40135/']
+[rosmaster.master][INFO] 2017-07-09 21:46:07,397: +PUB [/move_group/cancel] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:46:07,399: publisherUpdate[/move_group/cancel] -> http://udacity:42359/ ['http://udacity:39969/', 'http://udacity:40135/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:46:07,610: +SUB [/pickup/status] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:46:07,616: +SUB [/pickup/feedback] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:46:07,622: +SUB [/pickup/result] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:46:07,624: +PUB [/pickup/goal] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:46:07,625: +PUB [/pickup/cancel] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:46:07,700: publisherUpdate[/pickup/goal] -> http://udacity:42359/ ['http://udacity:39969/', 'http://udacity:40135/']
+[rosmaster.master][INFO] 2017-07-09 21:46:07,701: publisherUpdate[/pickup/goal] -> http://udacity:42359/ ['http://udacity:39969/', 'http://udacity:40135/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:46:07,701: publisherUpdate[/pickup/cancel] -> http://udacity:42359/ ['http://udacity:39969/', 'http://udacity:40135/']
+[rosmaster.master][INFO] 2017-07-09 21:46:07,702: publisherUpdate[/pickup/cancel] -> http://udacity:42359/ ['http://udacity:39969/', 'http://udacity:40135/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:46:07,853: -SUB [/rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic/update_full] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:46:07,911: +SUB [/place/status] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:46:07,918: +SUB [/place/feedback] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:46:07,928: +SUB [/place/result] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:46:07,929: +PUB [/place/goal] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:46:07,930: +PUB [/place/cancel] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:46:08,001: publisherUpdate[/place/goal] -> http://udacity:42359/ ['http://udacity:39969/', 'http://udacity:40135/']
+[rosmaster.master][INFO] 2017-07-09 21:46:08,002: publisherUpdate[/place/goal] -> http://udacity:42359/ ['http://udacity:39969/', 'http://udacity:40135/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:46:08,002: publisherUpdate[/place/cancel] -> http://udacity:42359/ ['http://udacity:39969/', 'http://udacity:40135/']
+[rosmaster.master][INFO] 2017-07-09 21:46:08,002: publisherUpdate[/place/cancel] -> http://udacity:42359/ ['http://udacity:39969/', 'http://udacity:40135/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:46:08,211: +SUB [/execute_trajectory/status] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:46:08,217: +SUB [/execute_trajectory/feedback] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:46:08,222: +SUB [/execute_trajectory/result] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:46:08,223: +PUB [/execute_trajectory/goal] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:46:08,224: +PUB [/execute_trajectory/cancel] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:46:08,303: publisherUpdate[/execute_trajectory/goal] -> http://udacity:42359/ ['http://udacity:39969/', 'http://udacity:40135/']
+[rosmaster.master][INFO] 2017-07-09 21:46:08,306: publisherUpdate[/execute_trajectory/goal] -> http://udacity:42359/ ['http://udacity:39969/', 'http://udacity:40135/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:46:08,306: publisherUpdate[/execute_trajectory/cancel] -> http://udacity:42359/ ['http://udacity:39969/', 'http://udacity:40135/']
+[rosmaster.master][INFO] 2017-07-09 21:46:08,307: publisherUpdate[/execute_trajectory/cancel] -> http://udacity:42359/ ['http://udacity:39969/', 'http://udacity:40135/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:47:08,955: +PUB [/rosout] /IK_server http://udacity:43355/
+[rosmaster.master][INFO] 2017-07-09 21:47:08,960: +SUB [/clock] /IK_server http://udacity:43355/
+[rosmaster.master][INFO] 2017-07-09 21:47:08,964: +SERVICE [/IK_server/get_loggers] /IK_server http://udacity:43355/
+[rosmaster.master][INFO] 2017-07-09 21:47:08,966: +SERVICE [/IK_server/set_logger_level] /IK_server http://udacity:43355/
+[rosmaster.master][INFO] 2017-07-09 21:47:08,968: +SERVICE [/calculate_ik] /IK_server http://udacity:43355/
+[rosmaster.master][INFO] 2017-07-09 21:47:09,001: publisherUpdate[/rosout] -> http://udacity:43217/ ['http://udacity:35669/', 'http://udacity:34721/', 'http://udacity:46079/', 'http://udacity:42359/', 'http://udacity:40135/', 'http://udacity:35185/', 'http://udacity:39789/', 'http://udacity:39969/', 'http://udacity:43355/']
+[rosmaster.master][INFO] 2017-07-09 21:47:09,002: publisherUpdate[/rosout] -> http://udacity:43217/ ['http://udacity:35669/', 'http://udacity:34721/', 'http://udacity:46079/', 'http://udacity:42359/', 'http://udacity:40135/', 'http://udacity:35185/', 'http://udacity:39789/', 'http://udacity:39969/', 'http://udacity:43355/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:47:29,872: +SERVICE [/trajectory_sampler/visual_tools_scene/set_parameters] /trajectory_sampler http://udacity:39969/
+[rosmaster.master][INFO] 2017-07-09 21:47:29,874: +PUB [/trajectory_sampler/visual_tools_scene/parameter_descriptions] /trajectory_sampler http://udacity:39969/
+[rosmaster.master][INFO] 2017-07-09 21:47:29,875: +PUB [/trajectory_sampler/visual_tools_scene/parameter_updates] /trajectory_sampler http://udacity:39969/
+[rosmaster.master][INFO] 2017-07-09 21:47:29,882: +PARAM [/trajectory_sampler/visual_tools_scene/publish_planning_scene] by /trajectory_sampler
+[rosmaster.master][INFO] 2017-07-09 21:47:29,884: +PARAM [/trajectory_sampler/visual_tools_scene/publish_planning_scene_hz] by /trajectory_sampler
+[rosmaster.master][INFO] 2017-07-09 21:47:29,885: +PARAM [/trajectory_sampler/visual_tools_scene/publish_geometry_updates] by /trajectory_sampler
+[rosmaster.master][INFO] 2017-07-09 21:47:29,886: +PARAM [/trajectory_sampler/visual_tools_scene/publish_state_updates] by /trajectory_sampler
+[rosmaster.master][INFO] 2017-07-09 21:47:29,886: +PARAM [/trajectory_sampler/visual_tools_scene/publish_transforms_updates] by /trajectory_sampler
+[rosmaster.master][INFO] 2017-07-09 21:47:29,887: +PARAM [/trajectory_sampler/visual_tools_scene/publish_planning_scene] by /trajectory_sampler
+[rosmaster.master][INFO] 2017-07-09 21:47:29,889: +PARAM [/trajectory_sampler/visual_tools_scene/publish_planning_scene_hz] by /trajectory_sampler
+[rosmaster.master][INFO] 2017-07-09 21:47:29,891: +PARAM [/trajectory_sampler/visual_tools_scene/publish_geometry_updates] by /trajectory_sampler
+[rosmaster.master][INFO] 2017-07-09 21:47:29,893: +PARAM [/trajectory_sampler/visual_tools_scene/publish_state_updates] by /trajectory_sampler
+[rosmaster.master][INFO] 2017-07-09 21:47:29,894: +PARAM [/trajectory_sampler/visual_tools_scene/publish_transforms_updates] by /trajectory_sampler
+[rosmaster.master][INFO] 2017-07-09 21:47:30,005: +PUB [/trajectory_sampler] /trajectory_sampler http://udacity:39969/
+[rosmaster.master][INFO] 2017-07-09 21:52:04,393: -SUB [/clock] /IK_server http://udacity:43355/
+[rosmaster.master][INFO] 2017-07-09 21:52:04,394: -PUB [/rosout] /IK_server http://udacity:43355/
+[rosmaster.master][INFO] 2017-07-09 21:52:04,394: -SERVICE [/IK_server/set_logger_level] /IK_server rosrpc://udacity:36273
+[rosmaster.master][INFO] 2017-07-09 21:52:04,394: -SERVICE [/calculate_ik] /IK_server rosrpc://udacity:36273
+[rosmaster.master][INFO] 2017-07-09 21:52:04,394: -SERVICE [/IK_server/get_loggers] /IK_server rosrpc://udacity:36273
+[rosmaster.master][INFO] 2017-07-09 21:52:04,421: publisherUpdate[/rosout] -> http://udacity:43217/ ['http://udacity:35669/', 'http://udacity:34721/', 'http://udacity:46079/', 'http://udacity:42359/', 'http://udacity:40135/', 'http://udacity:35185/', 'http://udacity:39789/', 'http://udacity:39969/']
+[rosmaster.master][INFO] 2017-07-09 21:52:04,421: publisherUpdate[/rosout] -> http://udacity:43217/ ['http://udacity:35669/', 'http://udacity:34721/', 'http://udacity:46079/', 'http://udacity:42359/', 'http://udacity:40135/', 'http://udacity:35185/', 'http://udacity:39789/', 'http://udacity:39969/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:52:05,834: -PUB [/rosout] /link1_broadcaster http://udacity:46079/
+[rosmaster.master][INFO] 2017-07-09 21:52:05,835: -PUB [/tf] /link1_broadcaster http://udacity:46079/
+[rosmaster.master][INFO] 2017-07-09 21:52:05,836: -SUB [/clock] /link1_broadcaster http://udacity:46079/
+[rosmaster.master][INFO] 2017-07-09 21:52:05,837: -SERVICE [/link1_broadcaster/get_loggers] /link1_broadcaster rosrpc://udacity:49295
+[rosmaster.master][INFO] 2017-07-09 21:52:05,838: -SERVICE [/link1_broadcaster/set_logger_level] /link1_broadcaster rosrpc://udacity:49295
+[rosmaster.master][INFO] 2017-07-09 21:52:05,842: -PUB [/rosout] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:52:05,844: -PUB [/planning_scene] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:52:05,846: -PUB [/planning_scene_world] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:52:05,847: -PUB [/initialpose] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:52:05,849: -PUB [/move_base_simple/goal] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:52:05,849: publisherUpdate[/rosout] -> http://udacity:43217/ ['http://udacity:35669/', 'http://udacity:34721/', 'http://udacity:42359/', 'http://udacity:40135/', 'http://udacity:35185/', 'http://udacity:39789/', 'http://udacity:39969/']
+[rosmaster.master][INFO] 2017-07-09 21:52:05,850: -PUB [/clicked_point] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:52:05,851: publisherUpdate[/rosout] -> http://udacity:43217/ ['http://udacity:35669/', 'http://udacity:34721/', 'http://udacity:42359/', 'http://udacity:40135/', 'http://udacity:35185/', 'http://udacity:39789/', 'http://udacity:39969/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:52:05,852: publisherUpdate[/tf] -> http://udacity:42359/ ['http://udacity:35669/']
+[rosmaster.master][INFO] 2017-07-09 21:52:05,853: -PUB [/rviz_visual_tools_gui] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:52:05,854: publisherUpdate[/tf] -> http://udacity:42359/ ['http://udacity:35669/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:52:05,855: publisherUpdate[/tf] -> http://udacity:40135/ ['http://udacity:35669/']
+[rosmaster.master][INFO] 2017-07-09 21:52:05,855: -PUB [/rviz_udacity_15020_7140159858454771578/motionplanning_planning_scene_monitor/parameter_descriptions] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:52:05,856: publisherUpdate[/tf] -> http://udacity:39969/ ['http://udacity:35669/']
+[rosmaster.master][INFO] 2017-07-09 21:52:05,858: publisherUpdate[/tf] -> http://udacity:39969/ ['http://udacity:35669/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:52:05,857: -PUB [/rviz_udacity_15020_7140159858454771578/motionplanning_planning_scene_monitor/parameter_updates] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:52:05,858: publisherUpdate[/rosout] -> http://udacity:43217/ ['http://udacity:35669/', 'http://udacity:34721/', 'http://udacity:42359/', 'http://udacity:35185/', 'http://udacity:39789/', 'http://udacity:39969/']
+[rosmaster.master][INFO] 2017-07-09 21:52:05,860: publisherUpdate[/rosout] -> http://udacity:43217/ ['http://udacity:35669/', 'http://udacity:34721/', 'http://udacity:42359/', 'http://udacity:35185/', 'http://udacity:39789/', 'http://udacity:39969/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:52:05,860: publisherUpdate[/planning_scene] -> http://udacity:42359/ ['http://udacity:39969/']
+[rosmaster.master][INFO] 2017-07-09 21:52:05,860: publisherUpdate[/tf] -> http://udacity:40135/ ['http://udacity:35669/']: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.master][INFO] 2017-07-09 21:52:05,860: publisherUpdate[/planning_scene] -> http://udacity:42359/ ['http://udacity:39969/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:52:05,861: publisherUpdate[/planning_scene_world] -> http://udacity:42359/ []
+[rosmaster.master][INFO] 2017-07-09 21:52:05,861: publisherUpdate[/planning_scene_world] -> http://udacity:42359/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:52:05,861: publisherUpdate[/rviz_visual_tools_gui] -> http://udacity:39969/ []
+[rosmaster.master][INFO] 2017-07-09 21:52:05,862: publisherUpdate[/rviz_visual_tools_gui] -> http://udacity:39969/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.threadpool][ERROR] 2017-07-09 21:52:05,862: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2017-07-09 21:52:05,863: -PUB [/rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic/update_full] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:52:05,865: -PUB [/rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic/update] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:52:05,865: -PUB [/rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic/feedback] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:52:05,866: -PUB [/trajectory_execution_event] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:52:05,868: -PUB [/attached_collision_object] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:52:05,868: -PUB [/move_group/goal] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:52:05,869: -PUB [/move_group/cancel] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:52:05,870: -PUB [/pickup/goal] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:52:05,872: -PUB [/pickup/cancel] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:52:05,873: -PUB [/place/goal] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:52:05,875: -PUB [/place/cancel] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:52:05,876: -PUB [/execute_trajectory/goal] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:52:05,877: -PUB [/execute_trajectory/cancel] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:52:05,879: -SUB [/clock] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:52:05,880: -SUB [/tf] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:52:05,881: -SUB [/tf_static] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:52:05,882: -SUB [/recognized_object_array] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:52:05,883: -SUB [/move_group/display_planned_path] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:52:05,884: -SUB [/rviz_visual_tools] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:52:05,891: -SUB [/move_group/monitored_planning_scene] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:52:05,899: -SUB [/rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic/feedback] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:52:05,901: -SUB [/rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic/update] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:52:05,902: -SUB [/move_group/status] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:52:05,903: -SUB [/move_group/feedback] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:52:05,905: -SUB [/move_group/result] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:52:05,906: -SUB [/pickup/status] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:52:05,908: -SUB [/pickup/feedback] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:52:05,909: -SUB [/pickup/result] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:52:05,910: -SUB [/place/status] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:52:05,911: -SUB [/place/feedback] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:52:05,912: -SUB [/place/result] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:52:05,913: -SUB [/execute_trajectory/status] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:52:05,914: -SUB [/execute_trajectory/feedback] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:52:05,916: -SUB [/execute_trajectory/result] /rviz_udacity_15020_7140159858454771578 http://udacity:40135/
+[rosmaster.master][INFO] 2017-07-09 21:52:05,917: -SERVICE [/rviz_udacity_15020_7140159858454771578/get_loggers] /rviz_udacity_15020_7140159858454771578 rosrpc://udacity:60369
+[rosmaster.master][INFO] 2017-07-09 21:52:05,918: -SERVICE [/rviz_udacity_15020_7140159858454771578/set_logger_level] /rviz_udacity_15020_7140159858454771578 rosrpc://udacity:60369
+[rosmaster.master][INFO] 2017-07-09 21:52:05,919: -SERVICE [/rviz_udacity_15020_7140159858454771578/reload_shaders] /rviz_udacity_15020_7140159858454771578 rosrpc://udacity:60369
+[rosmaster.master][INFO] 2017-07-09 21:52:05,920: -SERVICE [/rviz_udacity_15020_7140159858454771578/motionplanning_planning_scene_monitor/set_parameters] /rviz_udacity_15020_7140159858454771578 rosrpc://udacity:60369
+[rosmaster.master][INFO] 2017-07-09 21:52:05,931: publisherUpdate[/rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic/update] -> http://udacity:40135/ []
+[rosmaster.master][INFO] 2017-07-09 21:52:05,934: publisherUpdate[/rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic/update] -> http://udacity:40135/ []: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2017-07-09 21:52:05,935: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2017-07-09 21:52:05,935: publisherUpdate[/rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic/feedback] -> http://udacity:40135/ []
+[rosmaster.master][INFO] 2017-07-09 21:52:05,936: publisherUpdate[/rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic/feedback] -> http://udacity:40135/ []: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2017-07-09 21:52:05,937: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2017-07-09 21:52:05,937: publisherUpdate[/trajectory_execution_event] -> http://udacity:42359/ ['http://udacity:39969/']
+[rosmaster.master][INFO] 2017-07-09 21:52:05,938: publisherUpdate[/trajectory_execution_event] -> http://udacity:42359/ ['http://udacity:39969/']: sec=0.00, result=[0, 'Found empty JointState message', 0]
+[rosmaster.master][INFO] 2017-07-09 21:52:05,939: publisherUpdate[/attached_collision_object] -> http://udacity:42359/ ['http://udacity:39969/']
+[rosmaster.master][INFO] 2017-07-09 21:52:05,939: -PUB [/rosout] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:52:05,940: -PUB [/move_group/planning_scene_monitor/parameter_descriptions] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:52:05,941: -PUB [/move_group/planning_scene_monitor/parameter_updates] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:52:05,942: -PUB [/move_group/monitored_planning_scene] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:52:05,943: -PUB [/move_group/ompl/parameter_descriptions] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:52:05,944: -PUB [/move_group/ompl/parameter_updates] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:52:05,945: -PUB [/move_group/display_planned_path] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:52:05,946: -PUB [/move_group/display_contacts] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:52:05,947: -PUB [/kuka_arm/arm_controller/follow_joint_trajectory/goal] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:52:05,948: publisherUpdate[/attached_collision_object] -> http://udacity:42359/ ['http://udacity:39969/']: sec=0.01, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2017-07-09 21:52:05,948: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2017-07-09 21:52:05,949: publisherUpdate[/move_group/goal] -> http://udacity:42359/ ['http://udacity:39969/']
+[rosmaster.master][INFO] 2017-07-09 21:52:05,949: publisherUpdate[/move_group/goal] -> http://udacity:42359/ ['http://udacity:39969/']: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2017-07-09 21:52:05,949: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2017-07-09 21:52:05,949: publisherUpdate[/move_group/cancel] -> http://udacity:42359/ ['http://udacity:39969/']
+[rosmaster.master][INFO] 2017-07-09 21:52:05,950: publisherUpdate[/move_group/cancel] -> http://udacity:42359/ ['http://udacity:39969/']: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2017-07-09 21:52:05,950: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2017-07-09 21:52:05,950: publisherUpdate[/pickup/goal] -> http://udacity:42359/ ['http://udacity:39969/']
+[rosmaster.master][INFO] 2017-07-09 21:52:05,951: publisherUpdate[/pickup/goal] -> http://udacity:42359/ ['http://udacity:39969/']: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2017-07-09 21:52:05,951: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2017-07-09 21:52:05,951: publisherUpdate[/pickup/cancel] -> http://udacity:42359/ ['http://udacity:39969/']
+[rosmaster.master][INFO] 2017-07-09 21:52:05,951: publisherUpdate[/pickup/cancel] -> http://udacity:42359/ ['http://udacity:39969/']: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2017-07-09 21:52:05,952: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2017-07-09 21:52:05,952: publisherUpdate[/place/goal] -> http://udacity:42359/ ['http://udacity:39969/']
+[rosmaster.master][INFO] 2017-07-09 21:52:05,952: publisherUpdate[/place/goal] -> http://udacity:42359/ ['http://udacity:39969/']: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2017-07-09 21:52:05,952: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2017-07-09 21:52:05,953: publisherUpdate[/place/cancel] -> http://udacity:42359/ ['http://udacity:39969/']
+[rosmaster.master][INFO] 2017-07-09 21:52:05,953: publisherUpdate[/place/cancel] -> http://udacity:42359/ ['http://udacity:39969/']: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2017-07-09 21:52:05,953: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2017-07-09 21:52:05,953: publisherUpdate[/execute_trajectory/goal] -> http://udacity:42359/ ['http://udacity:39969/']
+[rosmaster.master][INFO] 2017-07-09 21:52:05,954: publisherUpdate[/execute_trajectory/goal] -> http://udacity:42359/ ['http://udacity:39969/']: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2017-07-09 21:52:05,954: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2017-07-09 21:52:05,954: publisherUpdate[/execute_trajectory/cancel] -> http://udacity:42359/ ['http://udacity:39969/']
+[rosmaster.master][INFO] 2017-07-09 21:52:05,955: publisherUpdate[/execute_trajectory/cancel] -> http://udacity:42359/ ['http://udacity:39969/']: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2017-07-09 21:52:05,955: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2017-07-09 21:52:05,955: publisherUpdate[/rosout] -> http://udacity:43217/ ['http://udacity:35669/', 'http://udacity:34721/', 'http://udacity:35185/', 'http://udacity:39789/', 'http://udacity:39969/']
+[rosmaster.master][INFO] 2017-07-09 21:52:05,965: publisherUpdate[/rosout] -> http://udacity:43217/ ['http://udacity:35669/', 'http://udacity:34721/', 'http://udacity:35185/', 'http://udacity:39789/', 'http://udacity:39969/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:52:05,965: publisherUpdate[/kuka_arm/arm_controller/follow_joint_trajectory/goal] -> http://udacity:35185/ []
+[rosmaster.master][INFO] 2017-07-09 21:52:05,966: -PUB [/rosout] /robot_state_publisher http://udacity:35669/
+[rosmaster.master][INFO] 2017-07-09 21:52:05,968: -SUB [/gazebo/set_link_state] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:52:05,969: publisherUpdate[/kuka_arm/arm_controller/follow_joint_trajectory/goal] -> http://udacity:35185/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:52:05,970: publisherUpdate[/rosout] -> http://udacity:43217/ ['http://udacity:34721/', 'http://udacity:35185/', 'http://udacity:39789/', 'http://udacity:39969/']
+[rosmaster.master][INFO] 2017-07-09 21:52:05,970: -PUB [/kuka_arm/arm_controller/follow_joint_trajectory/cancel] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:52:05,971: publisherUpdate[/rosout] -> http://udacity:43217/ ['http://udacity:34721/', 'http://udacity:35185/', 'http://udacity:39789/', 'http://udacity:39969/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:52:05,972: -PUB [/tf] /robot_state_publisher http://udacity:35669/
+[rosmaster.master][INFO] 2017-07-09 21:52:05,973: publisherUpdate[/kuka_arm/arm_controller/follow_joint_trajectory/cancel] -> http://udacity:35185/ []
+[rosmaster.master][INFO] 2017-07-09 21:52:05,974: -PUB [/kuka_arm/gripper_controller/follow_joint_trajectory/goal] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:52:05,975: -PUB [/tf_static] /robot_state_publisher http://udacity:35669/
+[rosmaster.master][INFO] 2017-07-09 21:52:05,976: -SUB [/gazebo/set_model_state] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:52:05,977: -PUB [/kuka_arm/gripper_controller/follow_joint_trajectory/cancel] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:52:05,978: -SUB [/clock] /robot_state_publisher http://udacity:35669/
+[rosmaster.master][INFO] 2017-07-09 21:52:05,979: -PUB [/move_group/trajectory_execution/parameter_descriptions] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:52:05,981: publisherUpdate[/kuka_arm/arm_controller/follow_joint_trajectory/cancel] -> http://udacity:35185/ []: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:52:05,981: publisherUpdate[/tf] -> http://udacity:42359/ []
+[rosmaster.master][INFO] 2017-07-09 21:52:05,982: -SUB [/kuka_arm/joint_states] /robot_state_publisher http://udacity:35669/
+[rosmaster.master][INFO] 2017-07-09 21:52:05,983: -PUB [/clock] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:52:05,984: publisherUpdate[/tf] -> http://udacity:42359/ []: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2017-07-09 21:52:05,984: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2017-07-09 21:52:05,984: publisherUpdate[/tf] -> http://udacity:39969/ []
+[rosmaster.master][INFO] 2017-07-09 21:52:05,985: -PUB [/move_group/trajectory_execution/parameter_updates] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:52:05,987: -SERVICE [/robot_state_publisher/get_loggers] /robot_state_publisher rosrpc://udacity:42007
+[rosmaster.master][INFO] 2017-07-09 21:52:05,987: publisherUpdate[/tf] -> http://udacity:39969/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:52:05,989: publisherUpdate[/kuka_arm/gripper_controller/follow_joint_trajectory/goal] -> http://udacity:35185/ []
+[rosmaster.master][INFO] 2017-07-09 21:52:05,990: publisherUpdate[/kuka_arm/gripper_controller/follow_joint_trajectory/goal] -> http://udacity:35185/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:52:05,990: publisherUpdate[/tf_static] -> http://udacity:42359/ []
+[rosmaster.master][INFO] 2017-07-09 21:52:05,998: -PUB [/gazebo/link_states] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,000: -PUB [/move_group/plan_execution/parameter_descriptions] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,003: -SERVICE [/robot_state_publisher/set_logger_level] /robot_state_publisher rosrpc://udacity:42007
+[rosmaster.master][INFO] 2017-07-09 21:52:06,003: -PUB [/rosout] /joint_state_relay http://udacity:34721/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,004: -PUB [/gazebo/model_states] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,005: -PUB [/move_group/plan_execution/parameter_updates] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,007: -PUB [/joint_states] /joint_state_relay http://udacity:34721/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,008: publisherUpdate[/tf_static] -> http://udacity:42359/ []: sec=0.02, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2017-07-09 21:52:06,008: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2017-07-09 21:52:06,008: publisherUpdate[/tf_static] -> http://udacity:39969/ []
+[rosmaster.master][INFO] 2017-07-09 21:52:06,009: publisherUpdate[/tf_static] -> http://udacity:39969/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:52:06,009: publisherUpdate[/kuka_arm/gripper_controller/follow_joint_trajectory/cancel] -> http://udacity:35185/ []
+[rosmaster.master][INFO] 2017-07-09 21:52:06,010: -SERVICE [/gazebo/spawn_sdf_model] /gazebo rosrpc://udacity:35811
+[rosmaster.master][INFO] 2017-07-09 21:52:06,011: -PUB [/move_group/sense_for_plan/parameter_descriptions] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,012: -SUB [/clock] /joint_state_relay http://udacity:34721/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,014: -SERVICE [/gazebo/spawn_urdf_model] /gazebo rosrpc://udacity:35811
+[rosmaster.master][INFO] 2017-07-09 21:52:06,015: -PUB [/move_group/sense_for_plan/parameter_updates] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,016: -SUB [/kuka_arm/joint_states] /joint_state_relay http://udacity:34721/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,017: -SERVICE [/gazebo/delete_model] /gazebo rosrpc://udacity:35811
+[rosmaster.master][INFO] 2017-07-09 21:52:06,018: -PUB [/execute_trajectory/result] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,019: publisherUpdate[/kuka_arm/gripper_controller/follow_joint_trajectory/cancel] -> http://udacity:35185/ []: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:52:06,019: publisherUpdate[/clock] -> http://udacity:34721/ []
+[rosmaster.master][INFO] 2017-07-09 21:52:06,029: -SERVICE [/joint_state_relay/get_loggers] /joint_state_relay rosrpc://udacity:51887
+[rosmaster.master][INFO] 2017-07-09 21:52:06,032: -SERVICE [/gazebo/delete_light] /gazebo rosrpc://udacity:35811
+[rosmaster.master][INFO] 2017-07-09 21:52:06,033: -PUB [/execute_trajectory/feedback] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,031: publisherUpdate[/clock] -> http://udacity:34721/ []: sec=0.01, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.master][INFO] 2017-07-09 21:52:06,034: -SERVICE [/joint_state_relay/set_logger_level] /joint_state_relay rosrpc://udacity:51887
+[rosmaster.master][INFO] 2017-07-09 21:52:06,036: -SERVICE [/gazebo/get_model_properties] /gazebo rosrpc://udacity:35811
+[rosmaster.master][INFO] 2017-07-09 21:52:06,040: -PUB [/execute_trajectory/status] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,040: -SERVICE [/gazebo/get_model_state] /gazebo rosrpc://udacity:35811
+[rosmaster.master][INFO] 2017-07-09 21:52:06,042: -PUB [/move_group/result] /move_group http://udacity:42359/
+[rosmaster.threadpool][ERROR] 2017-07-09 21:52:06,042: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2017-07-09 21:52:06,042: publisherUpdate[/clock] -> http://udacity:42359/ []
+[rosmaster.master][INFO] 2017-07-09 21:52:06,043: -SERVICE [/gazebo/get_world_properties] /gazebo rosrpc://udacity:35811
+[rosmaster.master][INFO] 2017-07-09 21:52:06,044: -PUB [/move_group/feedback] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,045: -SERVICE [/gazebo/get_joint_properties] /gazebo rosrpc://udacity:35811
+[rosmaster.master][INFO] 2017-07-09 21:52:06,047: -PUB [/move_group/status] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,048: publisherUpdate[/clock] -> http://udacity:42359/ []: sec=0.01, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2017-07-09 21:52:06,048: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2017-07-09 21:52:06,049: -SERVICE [/gazebo/get_link_properties] /gazebo rosrpc://udacity:35811
+[rosmaster.master][INFO] 2017-07-09 21:52:06,050: -PUB [/pickup/result] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,050: publisherUpdate[/clock] -> http://udacity:35185/ []
+[rosmaster.master][INFO] 2017-07-09 21:52:06,061: -SERVICE [/gazebo/get_link_state] /gazebo rosrpc://udacity:35811
+[rosmaster.master][INFO] 2017-07-09 21:52:06,063: -PUB [/pickup/feedback] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,064: -SERVICE [/gazebo/get_light_properties] /gazebo rosrpc://udacity:35811
+[rosmaster.master][INFO] 2017-07-09 21:52:06,065: -PUB [/pickup/status] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,066: -SERVICE [/gazebo/set_light_properties] /gazebo rosrpc://udacity:35811
+[rosmaster.master][INFO] 2017-07-09 21:52:06,066: publisherUpdate[/clock] -> http://udacity:39789/ []
+[rosmaster.master][INFO] 2017-07-09 21:52:06,067: publisherUpdate[/clock] -> http://udacity:39969/ []
+[rosmaster.master][INFO] 2017-07-09 21:52:06,068: publisherUpdate[/clock] -> http://udacity:39969/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:52:06,069: publisherUpdate[/rosout] -> http://udacity:43217/ ['http://udacity:35185/', 'http://udacity:39789/', 'http://udacity:39969/']
+[rosmaster.master][INFO] 2017-07-09 21:52:06,071: publisherUpdate[/rosout] -> http://udacity:43217/ ['http://udacity:35185/', 'http://udacity:39789/', 'http://udacity:39969/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:52:06,071: publisherUpdate[/joint_states] -> http://udacity:39969/ []
+[rosmaster.master][INFO] 2017-07-09 21:52:06,070: -PUB [/place/result] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,073: publisherUpdate[/joint_states] -> http://udacity:39969/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:52:06,074: -SERVICE [/gazebo/get_physics_properties] /gazebo rosrpc://udacity:35811
+[rosmaster.master][INFO] 2017-07-09 21:52:06,075: publisherUpdate[/execute_trajectory/result] -> http://udacity:39969/ []
+[rosmaster.master][INFO] 2017-07-09 21:52:06,073: publisherUpdate[/clock] -> http://udacity:39789/ []: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:52:06,076: -PUB [/place/feedback] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,078: publisherUpdate[/execute_trajectory/result] -> http://udacity:39969/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:52:06,078: publisherUpdate[/execute_trajectory/feedback] -> http://udacity:39969/ []
+[rosmaster.master][INFO] 2017-07-09 21:52:06,079: -SERVICE [/gazebo/set_link_properties] /gazebo rosrpc://udacity:35811
+[rosmaster.master][INFO] 2017-07-09 21:52:06,080: publisherUpdate[/execute_trajectory/feedback] -> http://udacity:39969/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:52:06,080: publisherUpdate[/execute_trajectory/status] -> http://udacity:39969/ []
+[rosmaster.master][INFO] 2017-07-09 21:52:06,072: publisherUpdate[/clock] -> http://udacity:35185/ []: sec=0.02, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:52:06,082: -SERVICE [/gazebo/set_physics_properties] /gazebo rosrpc://udacity:35811
+[rosmaster.master][INFO] 2017-07-09 21:52:06,083: publisherUpdate[/execute_trajectory/status] -> http://udacity:39969/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:52:06,083: publisherUpdate[/move_group/result] -> http://udacity:39969/ []
+[rosmaster.master][INFO] 2017-07-09 21:52:06,084: publisherUpdate[/move_group/result] -> http://udacity:39969/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:52:06,084: publisherUpdate[/move_group/feedback] -> http://udacity:39969/ []
+[rosmaster.master][INFO] 2017-07-09 21:52:06,085: publisherUpdate[/move_group/feedback] -> http://udacity:39969/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:52:06,085: publisherUpdate[/move_group/status] -> http://udacity:39969/ []
+[rosmaster.master][INFO] 2017-07-09 21:52:06,086: -SERVICE [/gazebo/set_model_state] /gazebo rosrpc://udacity:35811
+[rosmaster.master][INFO] 2017-07-09 21:52:06,087: publisherUpdate[/move_group/status] -> http://udacity:39969/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:52:06,087: publisherUpdate[/pickup/result] -> http://udacity:39969/ []
+[rosmaster.master][INFO] 2017-07-09 21:52:06,088: publisherUpdate[/pickup/result] -> http://udacity:39969/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:52:06,088: publisherUpdate[/pickup/feedback] -> http://udacity:39969/ []
+[rosmaster.master][INFO] 2017-07-09 21:52:06,089: -PUB [/place/status] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,090: -SERVICE [/gazebo/set_model_configuration] /gazebo rosrpc://udacity:35811
+[rosmaster.master][INFO] 2017-07-09 21:52:06,091: -SUB [/clock] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,093: -SERVICE [/gazebo/set_joint_properties] /gazebo rosrpc://udacity:35811
+[rosmaster.master][INFO] 2017-07-09 21:52:06,094: -SUB [/tf] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,095: -SERVICE [/gazebo/set_link_state] /gazebo rosrpc://udacity:35811
+[rosmaster.master][INFO] 2017-07-09 21:52:06,096: -SUB [/tf_static] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,097: publisherUpdate[/pickup/feedback] -> http://udacity:39969/ []: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:52:06,099: -SERVICE [/gazebo/pause_physics] /gazebo rosrpc://udacity:35811
+[rosmaster.master][INFO] 2017-07-09 21:52:06,101: -SUB [/planning_scene] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,100: publisherUpdate[/pickup/status] -> http://udacity:39969/ []
+[rosmaster.master][INFO] 2017-07-09 21:52:06,102: -SERVICE [/gazebo/unpause_physics] /gazebo rosrpc://udacity:35811
+[rosmaster.master][INFO] 2017-07-09 21:52:06,103: -SUB [/collision_object] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,104: -SERVICE [/gazebo/apply_body_wrench] /gazebo rosrpc://udacity:35811
+[rosmaster.master][INFO] 2017-07-09 21:52:06,106: -SUB [/planning_scene_world] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,105: publisherUpdate[/pickup/status] -> http://udacity:39969/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:52:06,107: -SERVICE [/gazebo/apply_joint_effort] /gazebo rosrpc://udacity:35811
+[rosmaster.master][INFO] 2017-07-09 21:52:06,107: publisherUpdate[/place/result] -> http://udacity:39969/ []
+[rosmaster.master][INFO] 2017-07-09 21:52:06,108: -SUB [/kuka_arm/joint_states] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,110: publisherUpdate[/place/result] -> http://udacity:39969/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:52:06,110: -SERVICE [/gazebo/clear_joint_forces] /gazebo rosrpc://udacity:35811
+[rosmaster.master][INFO] 2017-07-09 21:52:06,112: publisherUpdate[/place/feedback] -> http://udacity:39969/ []
+[rosmaster.master][INFO] 2017-07-09 21:52:06,112: -SUB [/attached_collision_object] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,114: -SERVICE [/gazebo/clear_body_wrenches] /gazebo rosrpc://udacity:35811
+[rosmaster.master][INFO] 2017-07-09 21:52:06,115: -SUB [/kuka_arm/arm_controller/follow_joint_trajectory/status] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,117: -SERVICE [/gazebo/reset_simulation] /gazebo rosrpc://udacity:35811
+[rosmaster.master][INFO] 2017-07-09 21:52:06,118: -SUB [/kuka_arm/arm_controller/follow_joint_trajectory/feedback] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,119: -SERVICE [/gazebo/reset_world] /gazebo rosrpc://udacity:35811
+[rosmaster.master][INFO] 2017-07-09 21:52:06,119: -SUB [/kuka_arm/arm_controller/follow_joint_trajectory/result] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,120: publisherUpdate[/place/feedback] -> http://udacity:39969/ []: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:52:06,121: -SUB [/kuka_arm/gripper_controller/follow_joint_trajectory/status] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,121: publisherUpdate[/place/status] -> http://udacity:39969/ []
+[rosmaster.master][INFO] 2017-07-09 21:52:06,123: publisherUpdate[/place/status] -> http://udacity:39969/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:52:06,123: -PUB [/gazebo/parameter_descriptions] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,124: -SUB [/kuka_arm/gripper_controller/follow_joint_trajectory/feedback] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,131: -SUB [/kuka_arm/gripper_controller/follow_joint_trajectory/result] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,132: -PUB [/gazebo/parameter_updates] /gazebo http://udacity:35185/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,134: -SUB [/trajectory_execution_event] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,135: -SERVICE [/gazebo/set_parameters] /gazebo rosrpc://udacity:35811
+[rosmaster.master][INFO] 2017-07-09 21:52:06,136: -SUB [/execute_trajectory/goal] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,138: -SUB [/execute_trajectory/cancel] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,139: -SUB [/move_group/goal] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,141: -SUB [/move_group/cancel] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,142: -SUB [/pickup/goal] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,144: -SUB [/pickup/cancel] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,145: -SUB [/place/goal] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,146: -SUB [/place/cancel] /move_group http://udacity:42359/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,147: -SERVICE [/move_group/get_loggers] /move_group rosrpc://udacity:52547
+[rosmaster.master][INFO] 2017-07-09 21:52:06,148: -SERVICE [/move_group/set_logger_level] /move_group rosrpc://udacity:52547
+[rosmaster.master][INFO] 2017-07-09 21:52:06,150: -SERVICE [/move_group/planning_scene_monitor/set_parameters] /move_group rosrpc://udacity:52547
+[rosmaster.master][INFO] 2017-07-09 21:52:06,152: -SERVICE [/move_group/save_map] /move_group rosrpc://udacity:52547
+[rosmaster.master][INFO] 2017-07-09 21:52:06,153: -SERVICE [/move_group/load_map] /move_group rosrpc://udacity:52547
+[rosmaster.master][INFO] 2017-07-09 21:52:06,154: -SERVICE [/move_group/ompl/set_parameters] /move_group rosrpc://udacity:52547
+[rosmaster.master][INFO] 2017-07-09 21:52:06,155: -SERVICE [/move_group/trajectory_execution/set_parameters] /move_group rosrpc://udacity:52547
+[rosmaster.master][INFO] 2017-07-09 21:52:06,157: -SERVICE [/move_group/plan_execution/set_parameters] /move_group rosrpc://udacity:52547
+[rosmaster.master][INFO] 2017-07-09 21:52:06,158: -SERVICE [/move_group/sense_for_plan/set_parameters] /move_group rosrpc://udacity:52547
+[rosmaster.master][INFO] 2017-07-09 21:52:06,159: -SERVICE [/apply_planning_scene] /move_group rosrpc://udacity:52547
+[rosmaster.master][INFO] 2017-07-09 21:52:06,161: -SERVICE [/clear_octomap] /move_group rosrpc://udacity:52547
+[rosmaster.master][INFO] 2017-07-09 21:52:06,162: -SERVICE [/compute_cartesian_path] /move_group rosrpc://udacity:52547
+[rosmaster.master][INFO] 2017-07-09 21:52:06,163: -SERVICE [/get_planning_scene] /move_group rosrpc://udacity:52547
+[rosmaster.master][INFO] 2017-07-09 21:52:06,164: -SERVICE [/compute_fk] /move_group rosrpc://udacity:52547
+[rosmaster.master][INFO] 2017-07-09 21:52:06,165: -SERVICE [/compute_ik] /move_group rosrpc://udacity:52547
+[rosmaster.master][INFO] 2017-07-09 21:52:06,166: -SERVICE [/plan_kinematic_path] /move_group rosrpc://udacity:52547
+[rosmaster.master][INFO] 2017-07-09 21:52:06,167: -SERVICE [/query_planner_interface] /move_group rosrpc://udacity:52547
+[rosmaster.master][INFO] 2017-07-09 21:52:06,168: -SERVICE [/get_planner_params] /move_group rosrpc://udacity:52547
+[rosmaster.master][INFO] 2017-07-09 21:52:06,169: -SERVICE [/set_planner_params] /move_group rosrpc://udacity:52547
+[rosmaster.master][INFO] 2017-07-09 21:52:06,170: -SERVICE [/check_state_validity] /move_group rosrpc://udacity:52547
+[rosmaster.master][INFO] 2017-07-09 21:52:06,726: -PUB [/rosout] /trajectory_sampler http://udacity:39969/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,727: -PUB [/trajectory_execution_event] /trajectory_sampler http://udacity:39969/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,727: -PUB [/attached_collision_object] /trajectory_sampler http://udacity:39969/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,728: -PUB [/move_group/goal] /trajectory_sampler http://udacity:39969/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,729: -PUB [/move_group/cancel] /trajectory_sampler http://udacity:39969/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,730: -PUB [/pickup/goal] /trajectory_sampler http://udacity:39969/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,731: -PUB [/pickup/cancel] /trajectory_sampler http://udacity:39969/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,732: -PUB [/place/goal] /trajectory_sampler http://udacity:39969/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,734: -PUB [/place/cancel] /trajectory_sampler http://udacity:39969/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,741: -PUB [/execute_trajectory/goal] /trajectory_sampler http://udacity:39969/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,742: -PUB [/execute_trajectory/cancel] /trajectory_sampler http://udacity:39969/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,742: -PUB [/planning_scene] /trajectory_sampler http://udacity:39969/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,743: -PUB [/rviz_visual_tools] /trajectory_sampler http://udacity:39969/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,744: -PUB [/trajectory_sampler/visual_tools_scene/parameter_descriptions] /trajectory_sampler http://udacity:39969/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,745: -PUB [/trajectory_sampler/visual_tools_scene/parameter_updates] /trajectory_sampler http://udacity:39969/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,746: -PUB [/trajectory_sampler] /trajectory_sampler http://udacity:39969/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,746: -SUB [/clock] /trajectory_sampler http://udacity:39969/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,747: -SUB [/tf] /trajectory_sampler http://udacity:39969/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,748: -SUB [/tf_static] /trajectory_sampler http://udacity:39969/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,749: -SUB [/move_group/status] /trajectory_sampler http://udacity:39969/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,749: -SUB [/move_group/feedback] /trajectory_sampler http://udacity:39969/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,750: -SUB [/move_group/result] /trajectory_sampler http://udacity:39969/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,751: -SUB [/pickup/status] /trajectory_sampler http://udacity:39969/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,752: -SUB [/pickup/feedback] /trajectory_sampler http://udacity:39969/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,753: -SUB [/pickup/result] /trajectory_sampler http://udacity:39969/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,754: -SUB [/place/status] /trajectory_sampler http://udacity:39969/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,754: -SUB [/place/feedback] /trajectory_sampler http://udacity:39969/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,755: -SUB [/place/result] /trajectory_sampler http://udacity:39969/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,756: -SUB [/execute_trajectory/status] /trajectory_sampler http://udacity:39969/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,756: -SUB [/execute_trajectory/feedback] /trajectory_sampler http://udacity:39969/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,757: -SUB [/execute_trajectory/result] /trajectory_sampler http://udacity:39969/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,758: -SUB [/joint_states] /trajectory_sampler http://udacity:39969/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,759: -SUB [/rviz_visual_tools_gui] /trajectory_sampler http://udacity:39969/
+[rosmaster.master][INFO] 2017-07-09 21:52:06,760: -SERVICE [/trajectory_sampler/get_loggers] /trajectory_sampler rosrpc://udacity:38557
+[rosmaster.master][INFO] 2017-07-09 21:52:06,760: -SERVICE [/trajectory_sampler/set_logger_level] /trajectory_sampler rosrpc://udacity:38557
+[rosmaster.master][INFO] 2017-07-09 21:52:06,761: -SERVICE [/trajectory_sampler/visual_tools_scene/set_parameters] /trajectory_sampler rosrpc://udacity:38557
+[rosmaster.master][INFO] 2017-07-09 21:52:06,779: publisherUpdate[/rosout] -> http://udacity:43217/ ['http://udacity:35185/', 'http://udacity:39789/']
+[rosmaster.master][INFO] 2017-07-09 21:52:06,780: publisherUpdate[/rosout] -> http://udacity:43217/ ['http://udacity:35185/', 'http://udacity:39789/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-09 21:52:09,393: -PUB [/rosout_agg] /rosout http://udacity:43217/
+[rosmaster.master][INFO] 2017-07-09 21:52:09,394: -SUB [/rosout] /rosout http://udacity:43217/
+[rosmaster.master][INFO] 2017-07-09 21:52:09,394: -SERVICE [/rosout/get_loggers] /rosout rosrpc://udacity:43069
+[rosmaster.master][INFO] 2017-07-09 21:52:09,395: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://udacity:43069
+[rosmaster.main][INFO] 2017-07-09 21:52:09,485: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2017-07-09 21:52:09,486: stopping master...
+[rospy.core][INFO] 2017-07-09 21:52:09,486: signal_shutdown [atexit]

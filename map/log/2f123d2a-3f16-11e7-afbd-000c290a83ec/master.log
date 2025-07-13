@@ -1,0 +1,21 @@
+[rosmaster.main][INFO] 2017-05-22 10:43:37,234: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2017-05-22 10:43:37,234: Starting ROS Master Node
+[xmlrpc][INFO] 2017-05-22 10:43:37,235: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2017-05-22 10:43:37,235: Started XML-RPC server [http://udacity:11311/]
+[xmlrpc][INFO] 2017-05-22 10:43:37,235: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2017-05-22 10:43:37,235: Master initialized: port[11311], uri[http://udacity:11311/]
+[rosmaster.master][INFO] 2017-05-22 10:43:37,312: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2017-05-22 10:43:37,316: +PARAM [/roslaunch/uris/host_udacity__41173] by /roslaunch
+[rosmaster.master][INFO] 2017-05-22 10:43:37,369: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2017-05-22 10:43:37,370: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2017-05-22 10:43:37,373: +SERVICE [/rosout/get_loggers] /rosout http://udacity:46493/
+[rosmaster.master][INFO] 2017-05-22 10:43:37,374: +SERVICE [/rosout/set_logger_level] /rosout http://udacity:46493/
+[rosmaster.master][INFO] 2017-05-22 10:43:37,376: +PUB [/rosout_agg] /rosout http://udacity:46493/
+[rosmaster.master][INFO] 2017-05-22 10:43:37,379: +SUB [/rosout] /rosout http://udacity:46493/
+[rosmaster.master][INFO] 2017-05-22 10:46:17,719: -PUB [/rosout_agg] /rosout http://udacity:46493/
+[rosmaster.master][INFO] 2017-05-22 10:46:17,720: -SUB [/rosout] /rosout http://udacity:46493/
+[rosmaster.master][INFO] 2017-05-22 10:46:17,721: -SERVICE [/rosout/get_loggers] /rosout rosrpc://udacity:42573
+[rosmaster.master][INFO] 2017-05-22 10:46:17,722: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://udacity:42573
+[rosmaster.main][INFO] 2017-05-22 10:46:17,822: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2017-05-22 10:46:17,823: stopping master...
+[rospy.core][INFO] 2017-05-22 10:46:17,823: signal_shutdown [atexit]

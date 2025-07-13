@@ -1,0 +1,29 @@
+[rospy.client][INFO] 2017-07-09 17:52:50,443: init_node, name[/urdf_spawner], pid[17642]
+[xmlrpc][INFO] 2017-07-09 17:52:50,452: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-07-09 17:52:50,452: Started XML-RPC server [http://udacity:36311/]
+[rospy.init][INFO] 2017-07-09 17:52:50,453: ROS Slave URI: [http://udacity:36311/]
+[rospy.impl.masterslave][INFO] 2017-07-09 17:52:50,453: _ready: http://udacity:36311/
+[rospy.registration][INFO] 2017-07-09 17:52:50,454: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2017-07-09 17:52:50,455: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2017-07-09 17:52:50,553: registered with master
+[rospy.rosout][INFO] 2017-07-09 17:52:50,554: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-07-09 17:52:50,569: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-07-09 17:52:50,570: initializing /clock core topic
+[rospy.simtime][INFO] 2017-07-09 17:52:50,573: connected to core topic /clock
+[rosout][INFO] 2017-07-09 17:52:50,578: Loading model XML from ros parameter
+[rosout][INFO] 2017-07-09 17:52:50,581: Waiting for service /gazebo/spawn_urdf_model
+[rospy.internal][INFO] 2017-07-09 17:52:50,916: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2017-07-09 17:52:51,491: Calling service /gazebo/spawn_urdf_model
+[rospy.internal][INFO] 2017-07-09 17:52:51,535: topic[/clock] adding connection to [http://udacity:35931/], count 0
+[rosout][INFO] 2017-07-09 17:52:51,545: Spawn status: SpawnModel: Entity pushed to spawn queue, but spawn service timed out waiting for entity to appear in simulation under the name kr210
+[rospy.core][INFO] 2017-07-09 17:52:51,546: signal_shutdown [atexit]
+[rospy.internal][INFO] 2017-07-09 17:52:51,560: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2017-07-09 17:52:51,561: topic[/clock] removing connection to http://udacity:35931/
+[rospy.impl.masterslave][INFO] 2017-07-09 17:52:51,561: atexit
+[rospy.internal][ERROR] 2017-07-09 17:52:51,561: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 729, in receive_once
+    self.stat_bytes += recv_buff(sock, b, p.buff_size)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 103, in recv_buff
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+

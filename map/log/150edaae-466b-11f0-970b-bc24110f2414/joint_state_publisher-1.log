@@ -1,0 +1,27 @@
+[rospy.client][INFO] 2025-06-10 19:23:40,796: init_node, name[/joint_state_publisher], pid[8296]
+[xmlrpc][INFO] 2025-06-10 19:23:40,796: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2025-06-10 19:23:40,796: Started XML-RPC server [http://192.168.1.124:44461/]
+[rospy.impl.masterslave][INFO] 2025-06-10 19:23:40,796: _ready: http://192.168.1.124:44461/
+[rospy.init][INFO] 2025-06-10 19:23:40,796: ROS Slave URI: [http://192.168.1.124:44461/]
+[xmlrpc][INFO] 2025-06-10 19:23:40,797: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2025-06-10 19:23:40,797: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2025-06-10 19:23:40,897: registered with master
+[rospy.rosout][INFO] 2025-06-10 19:23:40,897: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-06-10 19:23:40,899: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-06-10 19:23:40,900: initializing /clock core topic
+[rospy.simtime][INFO] 2025-06-10 19:23:40,901: connected to core topic /clock
+[rospy.internal][INFO] 2025-06-10 19:23:41,147: topic[/joint_states] adding connection to [/robot_state_publisher], count 0
+[rospy.internal][INFO] 2025-06-10 19:23:41,147: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2025-06-10 19:23:41,175: topic[/clock] adding connection to [http://192.168.1.124:33621/], count 0
+[rospy.internal][INFO] 2025-06-11 04:13:25,885: topic[/rosout] removing connection to /rosout
+[rospy.core][INFO] 2025-06-11 04:13:26,091: signal_shutdown [signal-2]
+[rospy.registration][WARNING] 2025-06-11 04:13:26,091: cannot unregister with master due to network issues
+[rospy.internal][INFO] 2025-06-11 04:13:26,091: topic[/joint_states] removing connection to /robot_state_publisher
+[rospy.internal][INFO] 2025-06-11 04:13:26,091: topic[/clock] removing connection to http://192.168.1.124:33621/
+[rospy.impl.masterslave][INFO] 2025-06-11 04:13:26,092: signal-2
+[rospy.internal][WARNING] 2025-06-11 04:13:26,092: Unknown error initiating TCP/IP socket to 192.168.1.124:55447 (http://192.168.1.124:33621/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 559, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.core][INFO] 2025-06-11 04:13:26,207: signal_shutdown [atexit]

@@ -1,0 +1,30 @@
+[rospy.client][INFO] 2017-07-09 12:44:30,215: init_node, name[/joint_state_publisher], pid[9233]
+[xmlrpc][INFO] 2017-07-09 12:44:30,216: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-07-09 12:44:30,216: Started XML-RPC server [http://udacity:36117/]
+[rospy.init][INFO] 2017-07-09 12:44:30,216: ROS Slave URI: [http://udacity:36117/]
+[rospy.impl.masterslave][INFO] 2017-07-09 12:44:30,216: _ready: http://udacity:36117/
+[xmlrpc][INFO] 2017-07-09 12:44:30,217: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2017-07-09 12:44:30,218: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2017-07-09 12:44:30,317: registered with master
+[rospy.rosout][INFO] 2017-07-09 12:44:30,317: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-07-09 12:44:30,320: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-07-09 12:44:30,321: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2017-07-09 12:44:30,456: Centering
+[rospy.internal][INFO] 2017-07-09 12:44:30,484: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2017-07-09 12:44:30,874: topic[/joint_states] adding connection to [/robot_state_publisher], count 0
+[rosout][INFO] 2017-07-09 12:47:36,156: Randomizing
+[rosout][INFO] 2017-07-09 12:47:37,060: Randomizing
+[rosout][INFO] 2017-07-09 12:47:44,732: Randomizing
+[rosout][INFO] 2017-07-09 12:47:45,403: Randomizing
+[rosout][INFO] 2017-07-09 12:47:46,011: Randomizing
+[rosout][INFO] 2017-07-09 12:47:46,566: Randomizing
+[rosout][INFO] 2017-07-09 12:47:47,070: Randomizing
+[rosout][INFO] 2017-07-09 12:47:47,501: Randomizing
+[rosout][INFO] 2017-07-09 12:47:47,661: Randomizing
+[rosout][INFO] 2017-07-09 12:47:47,837: Randomizing
+[rosout][INFO] 2017-07-09 12:47:48,030: Randomizing
+[rosout][INFO] 2017-07-09 12:47:48,213: Randomizing
+[rosout][INFO] 2017-07-09 12:47:48,437: Randomizing
+[rosout][INFO] 2017-07-09 12:47:48,669: Randomizing
+[rosout][INFO] 2017-07-09 12:47:48,950: Randomizing
+[rosout][INFO] 2017-07-09 12:47:49,797: Centering

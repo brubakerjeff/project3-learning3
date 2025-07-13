@@ -1,0 +1,43 @@
+[rosmaster.main][INFO] 2017-07-10 16:15:33,670: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2017-07-10 16:15:33,670: Starting ROS Master Node
+[xmlrpc][INFO] 2017-07-10 16:15:33,671: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2017-07-10 16:15:33,671: Started XML-RPC server [http://172.16.244.111:11311/]
+[xmlrpc][INFO] 2017-07-10 16:15:33,672: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2017-07-10 16:15:33,672: Master initialized: port[11311], uri[http://172.16.244.111:11311/]
+[rosmaster.master][INFO] 2017-07-10 16:15:33,701: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2017-07-10 16:15:33,702: +PARAM [/roslaunch/uris/host_172_16_244_111__34039] by /roslaunch
+[rosmaster.master][INFO] 2017-07-10 16:15:33,750: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2017-07-10 16:15:33,751: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2017-07-10 16:15:33,753: +SERVICE [/rosout/get_loggers] /rosout http://172.16.244.111:43447/
+[rosmaster.master][INFO] 2017-07-10 16:15:33,754: +SERVICE [/rosout/set_logger_level] /rosout http://172.16.244.111:43447/
+[rosmaster.master][INFO] 2017-07-10 16:15:33,756: +PUB [/rosout_agg] /rosout http://172.16.244.111:43447/
+[rosmaster.master][INFO] 2017-07-10 16:15:33,762: +SUB [/rosout] /rosout http://172.16.244.111:43447/
+[rosmaster.master][INFO] 2017-07-10 16:17:51,129: +PUB [/rosout] /rostopic_5834_1499728670989 http://172.16.244.111:38725/
+[rosmaster.master][INFO] 2017-07-10 16:17:51,133: +SERVICE [/rostopic_5834_1499728670989/get_loggers] /rostopic_5834_1499728670989 http://172.16.244.111:38725/
+[rosmaster.master][INFO] 2017-07-10 16:17:51,134: +SERVICE [/rostopic_5834_1499728670989/set_logger_level] /rostopic_5834_1499728670989 http://172.16.244.111:38725/
+[rosmaster.master][INFO] 2017-07-10 16:17:51,138: publisherUpdate[/rosout] -> http://172.16.244.111:43447/ ['http://172.16.244.111:38725/']
+[rosmaster.master][INFO] 2017-07-10 16:17:51,140: publisherUpdate[/rosout] -> http://172.16.244.111:43447/ ['http://172.16.244.111:38725/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-10 16:18:23,764: -PUB [/rosout] /rostopic_5834_1499728670989 http://172.16.244.111:38725/
+[rosmaster.master][INFO] 2017-07-10 16:18:23,765: -SERVICE [/rostopic_5834_1499728670989/set_logger_level] /rostopic_5834_1499728670989 rosrpc://172.16.244.111:43101
+[rosmaster.master][INFO] 2017-07-10 16:18:23,765: -SERVICE [/rostopic_5834_1499728670989/get_loggers] /rostopic_5834_1499728670989 rosrpc://172.16.244.111:43101
+[rosmaster.master][INFO] 2017-07-10 16:18:23,847: publisherUpdate[/rosout] -> http://172.16.244.111:43447/ []
+[rosmaster.master][INFO] 2017-07-10 16:18:23,848: publisherUpdate[/rosout] -> http://172.16.244.111:43447/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-10 16:21:34,834: +PUB [/rosout] /rostopic_6377_1499728894694 http://172.16.244.111:43975/
+[rosmaster.master][INFO] 2017-07-10 16:21:34,838: +SERVICE [/rostopic_6377_1499728894694/get_loggers] /rostopic_6377_1499728894694 http://172.16.244.111:43975/
+[rosmaster.master][INFO] 2017-07-10 16:21:34,840: +SERVICE [/rostopic_6377_1499728894694/set_logger_level] /rostopic_6377_1499728894694 http://172.16.244.111:43975/
+[rosmaster.master][INFO] 2017-07-10 16:21:34,873: publisherUpdate[/rosout] -> http://172.16.244.111:43447/ ['http://172.16.244.111:43975/']
+[rosmaster.master][INFO] 2017-07-10 16:21:34,875: publisherUpdate[/rosout] -> http://172.16.244.111:43447/ ['http://172.16.244.111:43975/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-10 16:22:32,944: -PUB [/rosout] /rostopic_6377_1499728894694 http://172.16.244.111:43975/
+[rosmaster.master][INFO] 2017-07-10 16:22:32,944: -SERVICE [/rostopic_6377_1499728894694/set_logger_level] /rostopic_6377_1499728894694 rosrpc://172.16.244.111:34575
+[rosmaster.master][INFO] 2017-07-10 16:22:32,945: -SERVICE [/rostopic_6377_1499728894694/get_loggers] /rostopic_6377_1499728894694 rosrpc://172.16.244.111:34575
+[rosmaster.master][INFO] 2017-07-10 16:22:33,027: publisherUpdate[/rosout] -> http://172.16.244.111:43447/ []
+[rosmaster.master][INFO] 2017-07-10 16:22:33,029: publisherUpdate[/rosout] -> http://172.16.244.111:43447/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-10 16:25:37,625: -PUB [/rosout] / http://Kyles-MacBook-Pro.local:51287/
+[rosmaster.master][INFO] 2017-07-10 16:25:37,630: -SUB [/clock] / http://Kyles-MacBook-Pro.local:51287/
+[rosmaster.master][INFO] 2017-07-10 16:46:21,224: -PUB [/rosout_agg] /rosout http://172.16.244.111:43447/
+[rosmaster.master][INFO] 2017-07-10 16:46:21,226: -SUB [/rosout] /rosout http://172.16.244.111:43447/
+[rosmaster.master][INFO] 2017-07-10 16:46:21,227: -SERVICE [/rosout/get_loggers] /rosout rosrpc://172.16.244.111:39335
+[rosmaster.master][INFO] 2017-07-10 16:46:21,228: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://172.16.244.111:39335
+[rosmaster.main][INFO] 2017-07-10 16:46:21,306: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2017-07-10 16:46:21,306: stopping master...
+[rospy.core][INFO] 2017-07-10 16:46:21,306: signal_shutdown [atexit]

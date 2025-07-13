@@ -1,0 +1,27 @@
+[rospy.client][INFO] 2025-06-10 19:04:00,513: init_node, name[/urdf_spawner], pid[3703]
+[xmlrpc][INFO] 2025-06-10 19:04:00,514: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2025-06-10 19:04:00,514: Started XML-RPC server [http://192.168.1.124:38817/]
+[rospy.init][INFO] 2025-06-10 19:04:00,514: ROS Slave URI: [http://192.168.1.124:38817/]
+[rospy.impl.masterslave][INFO] 2025-06-10 19:04:00,514: _ready: http://192.168.1.124:38817/
+[xmlrpc][INFO] 2025-06-10 19:04:00,515: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2025-06-10 19:04:00,515: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2025-06-10 19:04:00,614: registered with master
+[rospy.rosout][INFO] 2025-06-10 19:04:00,615: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-06-10 19:04:00,616: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-06-10 19:04:00,617: initializing /clock core topic
+[rospy.simtime][INFO] 2025-06-10 19:04:00,620: connected to core topic /clock
+[rosout][INFO] 2025-06-10 19:04:00,623: Loading model XML from ros parameter
+[rosout][INFO] 2025-06-10 19:04:00,625: Waiting for service /gazebo/spawn_urdf_model
+[rosout][INFO] 2025-06-10 19:04:00,626: Calling service /gazebo/spawn_urdf_model
+[rospy.internal][INFO] 2025-06-10 19:04:00,630: topic[/clock] adding connection to [http://192.168.1.124:41761/], count 0
+[rosout][INFO] 2025-06-10 19:04:00,654: Spawn status: SpawnModel: Entity pushed to spawn queue, but spawn service timed out waiting for entity to appear in simulation under the name my_robot
+[rospy.core][INFO] 2025-06-10 19:04:00,654: signal_shutdown [atexit]
+[rospy.internal][INFO] 2025-06-10 19:04:00,657: topic[/clock] removing connection to http://192.168.1.124:41761/
+[rospy.impl.masterslave][INFO] 2025-06-10 19:04:00,657: atexit
+[rospy.internal][ERROR] 2025-06-10 19:04:00,657: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 730, in receive_once
+    self.stat_bytes += recv_buff(sock, b, p.buff_size)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 103, in recv_buff
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+

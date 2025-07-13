@@ -1,0 +1,20 @@
+[rospy.client][INFO] 2017-07-09 17:55:45,504: init_node, name[/urdf_spawner], pid[20770]
+[xmlrpc][INFO] 2017-07-09 17:55:45,504: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-07-09 17:55:45,504: Started XML-RPC server [http://udacity:45089/]
+[rospy.impl.masterslave][INFO] 2017-07-09 17:55:45,504: _ready: http://udacity:45089/
+[xmlrpc][INFO] 2017-07-09 17:55:45,505: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2017-07-09 17:55:45,505: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2017-07-09 17:55:45,505: ROS Slave URI: [http://udacity:45089/]
+[rospy.init][INFO] 2017-07-09 17:55:45,506: registered with master
+[rospy.rosout][INFO] 2017-07-09 17:55:45,506: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-07-09 17:55:45,512: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-07-09 17:55:45,518: initializing /clock core topic
+[rospy.simtime][INFO] 2017-07-09 17:55:45,541: connected to core topic /clock
+[rosout][INFO] 2017-07-09 17:55:45,553: Loading model XML from ros parameter
+[rosout][INFO] 2017-07-09 17:55:45,567: Waiting for service /gazebo/spawn_urdf_model
+[rospy.internal][INFO] 2017-07-09 17:55:45,647: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2017-07-09 17:55:46,495: Calling service /gazebo/spawn_urdf_model
+[rosout][INFO] 2017-07-09 17:55:46,520: Spawn status: SpawnModel: Entity pushed to spawn queue, but spawn service timed out waiting for entity to appear in simulation under the name kr210
+[rospy.core][INFO] 2017-07-09 17:55:46,520: signal_shutdown [atexit]
+[rospy.internal][INFO] 2017-07-09 17:55:46,530: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2017-07-09 17:55:46,531: atexit

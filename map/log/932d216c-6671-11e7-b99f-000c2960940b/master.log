@@ -1,0 +1,149 @@
+[rosmaster.main][INFO] 2017-07-11 12:46:04,851: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2017-07-11 12:46:04,851: Starting ROS Master Node
+[xmlrpc][INFO] 2017-07-11 12:46:04,853: XML-RPC server binding to 0.0.0.0:11311
+[rosmaster.master][INFO] 2017-07-11 12:46:04,854: Master initialized: port[11311], uri[http://172.16.244.111:11311/]
+[xmlrpc][INFO] 2017-07-11 12:46:04,854: Started XML-RPC server [http://172.16.244.111:11311/]
+[xmlrpc][INFO] 2017-07-11 12:46:04,854: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2017-07-11 12:46:04,951: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2017-07-11 12:46:04,954: +PARAM [/roslaunch/uris/host_172_16_244_111__35399] by /roslaunch
+[rosmaster.master][INFO] 2017-07-11 12:46:05,001: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2017-07-11 12:46:05,001: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2017-07-11 12:46:05,005: +SERVICE [/rosout/get_loggers] /rosout http://172.16.244.111:33465/
+[rosmaster.master][INFO] 2017-07-11 12:46:05,006: +SERVICE [/rosout/set_logger_level] /rosout http://172.16.244.111:33465/
+[rosmaster.master][INFO] 2017-07-11 12:46:05,007: +PUB [/rosout_agg] /rosout http://172.16.244.111:33465/
+[rosmaster.master][INFO] 2017-07-11 12:46:05,014: +SUB [/rosout] /rosout http://172.16.244.111:33465/
+[rosmaster.master][INFO] 2017-07-11 12:46:24,949: +PUB [/rosout] / http://Kyles-MacBook-Pro.local:50494/
+[rosmaster.master][INFO] 2017-07-11 12:46:24,987: +SUB [/clock] / http://Kyles-MacBook-Pro.local:50494/
+[rosmaster.master][INFO] 2017-07-11 12:46:25,021: publisherUpdate[/rosout] -> http://172.16.244.111:33465/ ['http://Kyles-MacBook-Pro.local:50494/']
+[rosmaster.master][INFO] 2017-07-11 12:46:25,513: publisherUpdate[/rosout] -> http://172.16.244.111:33465/ ['http://Kyles-MacBook-Pro.local:50494/']: sec=0.49, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-11 12:46:26,698: +PUB [/quad_rotor/cmd_force] / http://Kyles-MacBook-Pro.local:50494/
+[rosmaster.master][INFO] 2017-07-11 12:46:26,706: +SUB [/quad_rotor/pose] / http://Kyles-MacBook-Pro.local:50494/
+[rosmaster.master][INFO] 2017-07-11 12:46:26,714: +SUB [/quad_rotor/imu] / http://Kyles-MacBook-Pro.local:50494/
+[rosmaster.master][INFO] 2017-07-11 12:46:26,717: +PUB [/quad_rotor/cmd_vel] / http://Kyles-MacBook-Pro.local:50494/
+[rosmaster.master][INFO] 2017-07-11 12:46:26,759: +SERVICE [/quad_rotor/camera_pose_type] / http://Kyles-MacBook-Pro.local:50494/
+[rosmaster.master][INFO] 2017-07-11 12:46:26,760: +SERVICE [/quad_rotor/get_plan] / http://Kyles-MacBook-Pro.local:50494/
+[rosmaster.master][INFO] 2017-07-11 12:46:26,762: +SERVICE [/quad_rotor/camera_distance] / http://Kyles-MacBook-Pro.local:50494/
+[rosmaster.master][INFO] 2017-07-11 12:46:26,764: +PARAM [/control_mode] by /
+[rosmaster.master][INFO] 2017-07-11 12:46:26,766: +SUB [/quad_rotor/cmd_vel] / http://Kyles-MacBook-Pro.local:50494/
+[rosmaster.master][INFO] 2017-07-11 12:46:26,771: +SUB [/quad_rotor/cmd_force] / http://Kyles-MacBook-Pro.local:50494/
+[rosmaster.master][INFO] 2017-07-11 12:46:26,773: +PUB [/quad_rotor/pose] / http://Kyles-MacBook-Pro.local:50494/
+[rosmaster.master][INFO] 2017-07-11 12:46:26,776: +PUB [/quad_rotor/imu] / http://Kyles-MacBook-Pro.local:50494/
+[rosmaster.master][INFO] 2017-07-11 12:46:26,777: +PUB [/quad_rotor/image] / http://Kyles-MacBook-Pro.local:50494/
+[rosmaster.master][INFO] 2017-07-11 12:46:26,780: +SERVICE [/quad_rotor/gravity] / http://Kyles-MacBook-Pro.local:50494/
+[rosmaster.master][INFO] 2017-07-11 12:46:26,783: +SERVICE [/quad_rotor/x_force_constrained] / http://Kyles-MacBook-Pro.local:50494/
+[rosmaster.master][INFO] 2017-07-11 12:46:26,785: +SERVICE [/quad_rotor/y_force_constrained] / http://Kyles-MacBook-Pro.local:50494/
+[rosmaster.master][INFO] 2017-07-11 12:46:26,787: +SERVICE [/quad_rotor/z_force_constrained] / http://Kyles-MacBook-Pro.local:50494/
+[rosmaster.master][INFO] 2017-07-11 12:46:26,790: +SERVICE [/quad_rotor/x_torque_constrained] / http://Kyles-MacBook-Pro.local:50494/
+[rosmaster.master][INFO] 2017-07-11 12:46:26,793: +SERVICE [/quad_rotor/y_torque_constrained] / http://Kyles-MacBook-Pro.local:50494/
+[rosmaster.master][INFO] 2017-07-11 12:46:26,795: +SERVICE [/quad_rotor/z_torque_constrained] / http://Kyles-MacBook-Pro.local:50494/
+[rosmaster.master][INFO] 2017-07-11 12:46:26,799: +SERVICE [/quad_rotor/reset_orientation] / http://Kyles-MacBook-Pro.local:50494/
+[rosmaster.master][INFO] 2017-07-11 12:46:26,803: +SERVICE [/quad_rotor/set_pose] / http://Kyles-MacBook-Pro.local:50494/
+[rosmaster.master][INFO] 2017-07-11 12:46:26,820: publisherUpdate[/quad_rotor/pose] -> http://Kyles-MacBook-Pro.local:50494/ ['http://Kyles-MacBook-Pro.local:50494/']
+[rosmaster.master][INFO] 2017-07-11 12:46:26,852: publisherUpdate[/quad_rotor/pose] -> http://Kyles-MacBook-Pro.local:50494/ ['http://Kyles-MacBook-Pro.local:50494/']: sec=0.03, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-11 12:46:26,852: publisherUpdate[/quad_rotor/imu] -> http://Kyles-MacBook-Pro.local:50494/ ['http://Kyles-MacBook-Pro.local:50494/']
+[rosmaster.master][INFO] 2017-07-11 12:46:26,854: publisherUpdate[/quad_rotor/imu] -> http://Kyles-MacBook-Pro.local:50494/ ['http://Kyles-MacBook-Pro.local:50494/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-11 12:47:02,011: -PUB [/rosout] / http://Kyles-MacBook-Pro.local:50494/
+[rosmaster.master][INFO] 2017-07-11 12:47:02,016: -SUB [/clock] / http://Kyles-MacBook-Pro.local:50494/
+[rosmaster.master][INFO] 2017-07-11 12:47:02,018: -SUB [/quad_rotor/pose] / http://Kyles-MacBook-Pro.local:50494/
+[rosmaster.master][INFO] 2017-07-11 12:47:02,020: -SUB [/quad_rotor/imu] / http://Kyles-MacBook-Pro.local:50494/
+[rosmaster.master][INFO] 2017-07-11 12:47:02,023: -SUB [/quad_rotor/cmd_vel] / http://Kyles-MacBook-Pro.local:50494/
+[rosmaster.master][INFO] 2017-07-11 12:47:02,025: -SUB [/quad_rotor/cmd_force] / http://Kyles-MacBook-Pro.local:50494/
+[rosmaster.master][INFO] 2017-07-11 12:47:02,027: -PUB [/quad_rotor/cmd_force] / http://Kyles-MacBook-Pro.local:50494/
+[rosmaster.master][INFO] 2017-07-11 12:47:02,030: -PUB [/quad_rotor/cmd_vel] / http://Kyles-MacBook-Pro.local:50494/
+[rosmaster.master][INFO] 2017-07-11 12:47:02,034: -PUB [/quad_rotor/pose] / http://Kyles-MacBook-Pro.local:50494/
+[rosmaster.master][INFO] 2017-07-11 12:47:02,037: -PUB [/quad_rotor/imu] / http://Kyles-MacBook-Pro.local:50494/
+[rosmaster.master][INFO] 2017-07-11 12:47:02,041: -SERVICE [/quad_rotor/camera_pose_type] / rosrpc://Kyles-MacBook-Pro.local:50492
+[rosmaster.master][INFO] 2017-07-11 12:47:02,043: -SERVICE [/quad_rotor/get_plan] / rosrpc://Kyles-MacBook-Pro.local:50492
+[rosmaster.master][INFO] 2017-07-11 12:47:02,044: -SERVICE [/quad_rotor/camera_distance] / rosrpc://Kyles-MacBook-Pro.local:50492
+[rosmaster.master][INFO] 2017-07-11 12:47:02,046: -SERVICE [/quad_rotor/gravity] / rosrpc://Kyles-MacBook-Pro.local:50492
+[rosmaster.master][INFO] 2017-07-11 12:47:02,048: -SERVICE [/quad_rotor/x_force_constrained] / rosrpc://Kyles-MacBook-Pro.local:50492
+[rosmaster.master][INFO] 2017-07-11 12:47:02,049: -SERVICE [/quad_rotor/y_force_constrained] / rosrpc://Kyles-MacBook-Pro.local:50492
+[rosmaster.master][INFO] 2017-07-11 12:47:02,052: -SERVICE [/quad_rotor/z_force_constrained] / rosrpc://Kyles-MacBook-Pro.local:50492
+[rosmaster.master][INFO] 2017-07-11 12:47:02,054: -SERVICE [/quad_rotor/x_torque_constrained] / rosrpc://Kyles-MacBook-Pro.local:50492
+[rosmaster.master][INFO] 2017-07-11 12:47:02,055: -SERVICE [/quad_rotor/y_torque_constrained] / rosrpc://Kyles-MacBook-Pro.local:50492
+[rosmaster.master][INFO] 2017-07-11 12:47:02,057: -SERVICE [/quad_rotor/z_torque_constrained] / rosrpc://Kyles-MacBook-Pro.local:50492
+[rosmaster.master][INFO] 2017-07-11 12:47:02,058: -SERVICE [/quad_rotor/reset_orientation] / rosrpc://Kyles-MacBook-Pro.local:50492
+[rosmaster.master][INFO] 2017-07-11 12:47:02,060: -SERVICE [/quad_rotor/set_pose] / rosrpc://Kyles-MacBook-Pro.local:50492
+[rosmaster.master][INFO] 2017-07-11 12:47:02,075: publisherUpdate[/rosout] -> http://172.16.244.111:33465/ []
+[rosmaster.master][INFO] 2017-07-11 12:47:02,076: publisherUpdate[/rosout] -> http://172.16.244.111:33465/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-11 12:47:08,223: +PUB [/rosout] / http://Kyles-MacBook-Pro.local:50623/
+[rosmaster.master][INFO] 2017-07-11 12:47:08,267: +SUB [/clock] / http://Kyles-MacBook-Pro.local:50623/
+[rosmaster.master][INFO] 2017-07-11 12:47:08,323: publisherUpdate[/rosout] -> http://172.16.244.111:33465/ ['http://Kyles-MacBook-Pro.local:50623/']
+[rosmaster.master][INFO] 2017-07-11 12:47:08,347: publisherUpdate[/rosout] -> http://172.16.244.111:33465/ ['http://Kyles-MacBook-Pro.local:50623/']: sec=0.02, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-11 12:47:09,671: +PUB [/quad_rotor/cmd_force] / http://Kyles-MacBook-Pro.local:50623/
+[rosmaster.master][INFO] 2017-07-11 12:47:09,678: +SUB [/quad_rotor/pose] / http://Kyles-MacBook-Pro.local:50623/
+[rosmaster.master][INFO] 2017-07-11 12:47:09,689: +SUB [/quad_rotor/imu] / http://Kyles-MacBook-Pro.local:50623/
+[rosmaster.master][INFO] 2017-07-11 12:47:09,692: +PUB [/quad_rotor/cmd_vel] / http://Kyles-MacBook-Pro.local:50623/
+[rosmaster.master][INFO] 2017-07-11 12:47:09,730: +SERVICE [/quad_rotor/camera_pose_type] / http://Kyles-MacBook-Pro.local:50623/
+[rosmaster.master][INFO] 2017-07-11 12:47:09,731: +SERVICE [/quad_rotor/get_plan] / http://Kyles-MacBook-Pro.local:50623/
+[rosmaster.master][INFO] 2017-07-11 12:47:09,735: +SERVICE [/quad_rotor/camera_distance] / http://Kyles-MacBook-Pro.local:50623/
+[rosmaster.master][INFO] 2017-07-11 12:47:09,735: +PARAM [/control_mode] by /
+[rosmaster.master][INFO] 2017-07-11 12:47:09,740: +SUB [/quad_rotor/cmd_vel] / http://Kyles-MacBook-Pro.local:50623/
+[rosmaster.master][INFO] 2017-07-11 12:47:09,743: +SUB [/quad_rotor/cmd_force] / http://Kyles-MacBook-Pro.local:50623/
+[rosmaster.master][INFO] 2017-07-11 12:47:09,745: +PUB [/quad_rotor/pose] / http://Kyles-MacBook-Pro.local:50623/
+[rosmaster.master][INFO] 2017-07-11 12:47:09,748: +PUB [/quad_rotor/imu] / http://Kyles-MacBook-Pro.local:50623/
+[rosmaster.master][INFO] 2017-07-11 12:47:09,750: +PUB [/quad_rotor/image] / http://Kyles-MacBook-Pro.local:50623/
+[rosmaster.master][INFO] 2017-07-11 12:47:09,755: +SERVICE [/quad_rotor/gravity] / http://Kyles-MacBook-Pro.local:50623/
+[rosmaster.master][INFO] 2017-07-11 12:47:09,755: publisherUpdate[/quad_rotor/pose] -> http://Kyles-MacBook-Pro.local:50623/ ['http://Kyles-MacBook-Pro.local:50623/']
+[rosmaster.master][INFO] 2017-07-11 12:47:09,757: +SERVICE [/quad_rotor/x_force_constrained] / http://Kyles-MacBook-Pro.local:50623/
+[rosmaster.master][INFO] 2017-07-11 12:47:09,758: +SERVICE [/quad_rotor/y_force_constrained] / http://Kyles-MacBook-Pro.local:50623/
+[rosmaster.master][INFO] 2017-07-11 12:47:09,760: +SERVICE [/quad_rotor/z_force_constrained] / http://Kyles-MacBook-Pro.local:50623/
+[rosmaster.master][INFO] 2017-07-11 12:47:09,762: +SERVICE [/quad_rotor/x_torque_constrained] / http://Kyles-MacBook-Pro.local:50623/
+[rosmaster.master][INFO] 2017-07-11 12:47:09,765: +SERVICE [/quad_rotor/y_torque_constrained] / http://Kyles-MacBook-Pro.local:50623/
+[rosmaster.master][INFO] 2017-07-11 12:47:09,768: +SERVICE [/quad_rotor/z_torque_constrained] / http://Kyles-MacBook-Pro.local:50623/
+[rosmaster.master][INFO] 2017-07-11 12:47:09,770: +SERVICE [/quad_rotor/reset_orientation] / http://Kyles-MacBook-Pro.local:50623/
+[rosmaster.master][INFO] 2017-07-11 12:47:09,773: +SERVICE [/quad_rotor/set_pose] / http://Kyles-MacBook-Pro.local:50623/
+[rosmaster.master][INFO] 2017-07-11 12:47:09,780: publisherUpdate[/quad_rotor/pose] -> http://Kyles-MacBook-Pro.local:50623/ ['http://Kyles-MacBook-Pro.local:50623/']: sec=0.02, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-11 12:47:09,780: publisherUpdate[/quad_rotor/imu] -> http://Kyles-MacBook-Pro.local:50623/ ['http://Kyles-MacBook-Pro.local:50623/']
+[rosmaster.master][INFO] 2017-07-11 12:47:09,781: publisherUpdate[/quad_rotor/imu] -> http://Kyles-MacBook-Pro.local:50623/ ['http://Kyles-MacBook-Pro.local:50623/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-11 12:47:44,664: +PUB [/rosout] /rostopic_4761_1499802464519 http://172.16.244.111:34105/
+[rosmaster.master][INFO] 2017-07-11 12:47:44,671: +SERVICE [/rostopic_4761_1499802464519/get_loggers] /rostopic_4761_1499802464519 http://172.16.244.111:34105/
+[rosmaster.master][INFO] 2017-07-11 12:47:44,672: +SERVICE [/rostopic_4761_1499802464519/set_logger_level] /rostopic_4761_1499802464519 http://172.16.244.111:34105/
+[rosmaster.master][INFO] 2017-07-11 12:47:44,711: publisherUpdate[/rosout] -> http://172.16.244.111:33465/ ['http://Kyles-MacBook-Pro.local:50623/', 'http://172.16.244.111:34105/']
+[rosmaster.master][INFO] 2017-07-11 12:47:44,713: publisherUpdate[/rosout] -> http://172.16.244.111:33465/ ['http://Kyles-MacBook-Pro.local:50623/', 'http://172.16.244.111:34105/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-11 12:47:44,729: +SUB [/quad_rotor/pose] /rostopic_4761_1499802464519 http://172.16.244.111:34105/
+[rosmaster.master][INFO] 2017-07-11 12:47:51,405: -SUB [/quad_rotor/pose] /rostopic_4761_1499802464519 http://172.16.244.111:34105/
+[rosmaster.master][INFO] 2017-07-11 12:47:51,406: -PUB [/rosout] /rostopic_4761_1499802464519 http://172.16.244.111:34105/
+[rosmaster.master][INFO] 2017-07-11 12:47:51,406: -SERVICE [/rostopic_4761_1499802464519/set_logger_level] /rostopic_4761_1499802464519 rosrpc://172.16.244.111:42447
+[rosmaster.master][INFO] 2017-07-11 12:47:51,406: -SERVICE [/rostopic_4761_1499802464519/get_loggers] /rostopic_4761_1499802464519 rosrpc://172.16.244.111:42447
+[rosmaster.master][INFO] 2017-07-11 12:47:51,465: publisherUpdate[/rosout] -> http://172.16.244.111:33465/ ['http://Kyles-MacBook-Pro.local:50623/']
+[rosmaster.master][INFO] 2017-07-11 12:47:51,466: publisherUpdate[/rosout] -> http://172.16.244.111:33465/ ['http://Kyles-MacBook-Pro.local:50623/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-11 12:49:26,605: +SERVICE [/rostopic_5042_1499802566467/get_loggers] /rostopic_5042_1499802566467 http://172.16.244.111:38431/
+[rosmaster.master][INFO] 2017-07-11 12:49:26,607: +SERVICE [/rostopic_5042_1499802566467/set_logger_level] /rostopic_5042_1499802566467 http://172.16.244.111:38431/
+[rosmaster.master][INFO] 2017-07-11 12:49:26,609: +PUB [/quad_rotor/cmd_vel] /rostopic_5042_1499802566467 http://172.16.244.111:38431/
+[rosmaster.master][INFO] 2017-07-11 12:49:26,623: publisherUpdate[/quad_rotor/cmd_vel] -> http://Kyles-MacBook-Pro.local:50623/ ['http://Kyles-MacBook-Pro.local:50623/', 'http://172.16.244.111:38431/']
+[rosmaster.master][INFO] 2017-07-11 12:49:26,626: publisherUpdate[/quad_rotor/cmd_vel] -> http://Kyles-MacBook-Pro.local:50623/ ['http://Kyles-MacBook-Pro.local:50623/', 'http://172.16.244.111:38431/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-11 12:49:39,327: -PUB [/quad_rotor/cmd_vel] /rostopic_5042_1499802566467 http://172.16.244.111:38431/
+[rosmaster.master][INFO] 2017-07-11 12:49:39,328: -SERVICE [/rostopic_5042_1499802566467/set_logger_level] /rostopic_5042_1499802566467 rosrpc://172.16.244.111:37199
+[rosmaster.master][INFO] 2017-07-11 12:49:39,328: -SERVICE [/rostopic_5042_1499802566467/get_loggers] /rostopic_5042_1499802566467 rosrpc://172.16.244.111:37199
+[rosmaster.master][INFO] 2017-07-11 12:49:39,410: publisherUpdate[/quad_rotor/cmd_vel] -> http://Kyles-MacBook-Pro.local:50623/ ['http://Kyles-MacBook-Pro.local:50623/']
+[rosmaster.master][INFO] 2017-07-11 12:49:39,414: publisherUpdate[/quad_rotor/cmd_vel] -> http://Kyles-MacBook-Pro.local:50623/ ['http://Kyles-MacBook-Pro.local:50623/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-11 12:49:57,083: +SERVICE [/rostopic_5122_1499802596944/get_loggers] /rostopic_5122_1499802596944 http://172.16.244.111:38717/
+[rosmaster.master][INFO] 2017-07-11 12:49:57,086: +SERVICE [/rostopic_5122_1499802596944/set_logger_level] /rostopic_5122_1499802596944 http://172.16.244.111:38717/
+[rosmaster.master][INFO] 2017-07-11 12:49:57,088: +PUB [/quad_rotor/cmd_vel] /rostopic_5122_1499802596944 http://172.16.244.111:38717/
+[rosmaster.master][INFO] 2017-07-11 12:49:57,135: publisherUpdate[/quad_rotor/cmd_vel] -> http://Kyles-MacBook-Pro.local:50623/ ['http://Kyles-MacBook-Pro.local:50623/', 'http://172.16.244.111:38717/']
+[rosmaster.master][INFO] 2017-07-11 12:49:57,137: publisherUpdate[/quad_rotor/cmd_vel] -> http://Kyles-MacBook-Pro.local:50623/ ['http://Kyles-MacBook-Pro.local:50623/', 'http://172.16.244.111:38717/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-11 12:50:20,758: +PUB [/rosout] /rqt_gui_py_node_5183 http://172.16.244.111:35851/
+[rosmaster.master][INFO] 2017-07-11 12:50:20,762: +SERVICE [/rqt_gui_py_node_5183/get_loggers] /rqt_gui_py_node_5183 http://172.16.244.111:35851/
+[rosmaster.master][INFO] 2017-07-11 12:50:20,763: +SERVICE [/rqt_gui_py_node_5183/set_logger_level] /rqt_gui_py_node_5183 http://172.16.244.111:35851/
+[rosmaster.master][INFO] 2017-07-11 12:50:20,797: publisherUpdate[/rosout] -> http://172.16.244.111:33465/ ['http://Kyles-MacBook-Pro.local:50623/', 'http://172.16.244.111:35851/']
+[rosmaster.master][INFO] 2017-07-11 12:50:20,798: publisherUpdate[/rosout] -> http://172.16.244.111:33465/ ['http://Kyles-MacBook-Pro.local:50623/', 'http://172.16.244.111:35851/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-11 12:50:21,108: +SUB [/quad_rotor/pose] /rqt_gui_py_node_5183 http://172.16.244.111:35851/
+[rosmaster.master][INFO] 2017-07-11 12:50:26,484: -SUB [/quad_rotor/pose] /rqt_gui_py_node_5183 http://172.16.244.111:35851/
+[rosmaster.master][INFO] 2017-07-11 12:50:26,520: -PUB [/rosout] /rqt_gui_py_node_5183 http://172.16.244.111:35851/
+[rosmaster.master][INFO] 2017-07-11 12:50:26,521: -SERVICE [/rqt_gui_py_node_5183/set_logger_level] /rqt_gui_py_node_5183 rosrpc://172.16.244.111:34319
+[rosmaster.master][INFO] 2017-07-11 12:50:26,521: -SERVICE [/rqt_gui_py_node_5183/get_loggers] /rqt_gui_py_node_5183 rosrpc://172.16.244.111:34319
+[rosmaster.master][INFO] 2017-07-11 12:50:26,531: publisherUpdate[/rosout] -> http://172.16.244.111:33465/ ['http://Kyles-MacBook-Pro.local:50623/']
+[rosmaster.master][INFO] 2017-07-11 12:50:26,532: publisherUpdate[/rosout] -> http://172.16.244.111:33465/ ['http://Kyles-MacBook-Pro.local:50623/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-11 12:50:28,752: -PUB [/quad_rotor/cmd_vel] /rostopic_5122_1499802596944 http://172.16.244.111:38717/
+[rosmaster.master][INFO] 2017-07-11 12:50:28,752: -SERVICE [/rostopic_5122_1499802596944/set_logger_level] /rostopic_5122_1499802596944 rosrpc://172.16.244.111:41127
+[rosmaster.master][INFO] 2017-07-11 12:50:28,752: -SERVICE [/rostopic_5122_1499802596944/get_loggers] /rostopic_5122_1499802596944 rosrpc://172.16.244.111:41127
+[rosmaster.master][INFO] 2017-07-11 12:50:28,764: publisherUpdate[/quad_rotor/cmd_vel] -> http://Kyles-MacBook-Pro.local:50623/ ['http://Kyles-MacBook-Pro.local:50623/']
+[rosmaster.master][INFO] 2017-07-11 12:50:28,766: publisherUpdate[/quad_rotor/cmd_vel] -> http://Kyles-MacBook-Pro.local:50623/ ['http://Kyles-MacBook-Pro.local:50623/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-07-11 12:50:31,666: -PUB [/rosout_agg] /rosout http://172.16.244.111:33465/
+[rosmaster.master][INFO] 2017-07-11 12:50:31,667: -SUB [/rosout] /rosout http://172.16.244.111:33465/
+[rosmaster.master][INFO] 2017-07-11 12:50:31,669: -SERVICE [/rosout/get_loggers] /rosout rosrpc://172.16.244.111:53695
+[rosmaster.master][INFO] 2017-07-11 12:50:31,670: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://172.16.244.111:53695
+[rosmaster.main][INFO] 2017-07-11 12:50:31,759: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2017-07-11 12:50:31,759: stopping master...
+[rospy.core][INFO] 2017-07-11 12:50:31,759: signal_shutdown [atexit]

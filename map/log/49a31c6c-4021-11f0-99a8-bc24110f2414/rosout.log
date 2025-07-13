@@ -1,0 +1,5 @@
+
+
+1748917216.578972000  Node Startup
+0.000000000 INFO [/tmp/binarydeb/ros-kinetic-rviz-1.12.10/src/rviz/ogre_helpers/render_system.cpp:430(RenderWindow* rviz::RenderSystem::makeRenderWindow) [topics: /rosout] Stereo is NOT SUPPORTED
+0.000000000 INFO [gazebo_interface.py:27(spawn_urdf_model_client) [topics: /clock, /rosout] Waiting for service /gazebo/spawn_urdf_model

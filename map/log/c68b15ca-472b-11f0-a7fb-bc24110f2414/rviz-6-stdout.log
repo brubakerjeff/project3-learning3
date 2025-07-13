@@ -1,0 +1,34 @@
+[0m[ INFO] [1749691379.872922874]: rviz version 1.12.17[0m
+[0m[ INFO] [1749691379.872948314]: compiled against Qt version 5.5.1[0m
+[0m[ INFO] [1749691379.872954145]: compiled against OGRE version 1.9.0 (Ghadamon)[0m
+[0m[ INFO] [1749691379.980021021]: Stereo is NOT SUPPORTED[0m
+[0m[ INFO] [1749691379.980119237]: OpenGl version: 3 (GLSL 1.3).[0m
+[0m[ INFO] [1749691385.488997295, 84880.289000000]: Creating 1 swatches[0m
+[0m[ INFO] [1749691467.648011991, 84962.097000000]: Setting goal: Frame:odom, Position(-1.804, -4.758, 0.000), Orientation(0.000, 0.000, 0.000, 1.000) = Angle: 0.000
+[0m
+[0m[ INFO] [1749691472.872971102, 84967.301000000]: Setting goal: Frame:odom, Position(-1.157, -5.074, 0.000), Orientation(0.000, 0.000, 0.000, 1.000) = Angle: 0.000
+[0m
+[0m[ INFO] [1749691475.761904524, 84970.183000000]: Setting goal: Frame:odom, Position(-2.893, -5.970, 0.000), Orientation(0.000, 0.000, 0.000, 1.000) = Angle: 0.000
+[0m
+[0m[ INFO] [1749691478.454092633, 84972.871000000]: Setting goal: Frame:odom, Position(-2.604, -5.163, 0.000), Orientation(0.000, 0.000, 0.000, 1.000) = Angle: 0.000
+[0m
+[0m[ INFO] [1749691482.689071724, 84977.094000000]: Setting goal: Frame:odom, Position(0.669, -2.233, 0.000), Orientation(0.000, 0.000, 0.962, -0.273) = Angle: -2.588
+[0m
+[0m[ INFO] [1749691490.051032518, 84984.441000000]: Setting goal: Frame:odom, Position(-1.791, -3.781, 0.000), Orientation(0.000, 0.000, 0.961, -0.276) = Angle: -2.583
+[0m
+[0m[ INFO] [1749691628.177882280, 85121.576000000]: Setting goal: Frame:odom, Position(0.830, 1.253, 0.000), Orientation(0.000, 0.000, 0.000, 1.000) = Angle: 0.000
+[0m
+[0m[ INFO] [1749691632.881014899, 85126.244000000]: Setting goal: Frame:odom, Position(2.126, 1.194, 0.000), Orientation(0.000, 0.000, 0.964, 0.266) = Angle: 2.604
+[0m
+[0m[ INFO] [1749691642.690990063, 85135.986000000]: Setting goal: Frame:odom, Position(-0.566, 1.297, 0.000), Orientation(0.000, 0.000, 0.983, 0.185) = Angle: 2.769
+[0m
+[0m[ INFO] [1749691753.316206815, 85245.861000000]: Setting goal: Frame:odom, Position(8.390, 3.726, 0.000), Orientation(0.000, 0.000, 0.956, -0.294) = Angle: -2.544
+[0m
+[0m[ INFO] [1749691759.300433515, 85251.815000000]: Setting goal: Frame:odom, Position(4.964, -0.635, 0.000), Orientation(0.000, 0.000, 0.000, 1.000) = Angle: 0.000
+[0m
+[0m[ INFO] [1749691765.717603780, 85258.186000000]: Setting goal: Frame:odom, Position(7.100, 0.646, 0.000), Orientation(0.000, 0.000, 0.409, 0.913) = Angle: 0.843
+[0m
+[0m[ INFO] [1749691778.932465876, 85271.327000000]: Setting goal: Frame:odom, Position(5.434, 0.153, 0.000), Orientation(0.000, 0.000, 0.388, 0.922) = Angle: 0.797
+[0m
+[33m[ WARN] [1749692929.642313037, 86414.952000000]: Shutdown request received.[0m
+[33m[ WARN] [1749692929.642332122, 86414.952000000]: Reason given for shutdown: [new node registered with same name][0m

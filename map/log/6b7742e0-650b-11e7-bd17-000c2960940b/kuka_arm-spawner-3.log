@@ -1,0 +1,24 @@
+[rospy.client][INFO] 2017-07-09 18:02:22,384: init_node, name[/kuka_arm/spawner], pid[27081]
+[xmlrpc][INFO] 2017-07-09 18:02:22,385: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-07-09 18:02:22,386: Started XML-RPC server [http://udacity:37961/]
+[rospy.impl.masterslave][INFO] 2017-07-09 18:02:22,387: _ready: http://udacity:37961/
+[rospy.init][INFO] 2017-07-09 18:02:22,387: ROS Slave URI: [http://udacity:37961/]
+[rospy.registration][INFO] 2017-07-09 18:02:22,388: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2017-07-09 18:02:22,391: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2017-07-09 18:02:22,488: registered with master
+[rospy.rosout][INFO] 2017-07-09 18:02:22,488: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-07-09 18:02:22,490: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-07-09 18:02:22,491: initializing /clock core topic
+[rospy.simtime][INFO] 2017-07-09 18:02:22,494: connected to core topic /clock
+[rosout][INFO] 2017-07-09 18:02:22,497: Controller Spawner: Waiting for service controller_manager/load_controller
+[rospy.internal][INFO] 2017-07-09 18:02:22,608: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2017-07-09 18:02:23,036: topic[/clock] adding connection to [http://udacity:38325/], count 0
+[rosout][INFO] 2017-07-09 18:02:24,008: Controller Spawner: Waiting for service controller_manager/switch_controller
+[rosout][INFO] 2017-07-09 18:02:24,012: Controller Spawner: Waiting for service controller_manager/unload_controller
+[rosout][INFO] 2017-07-09 18:02:24,015: Loading controller: joint_state_controller
+[rosout][INFO] 2017-07-09 18:02:24,090: Loading controller: arm_controller
+[rosout][INFO] 2017-07-09 18:02:24,225: Loading controller: gripper_controller
+[rosout][INFO] 2017-07-09 18:02:24,387: Controller Spawner: Loaded controllers: joint_state_controller, arm_controller, gripper_controller
+[rosout][INFO] 2017-07-09 18:02:24,393: Started controllers: joint_state_controller, arm_controller, gripper_controller
+[rospy.core][INFO] 2017-07-09 18:04:21,775: signal_shutdown [signal-2]
+[rospy.core][INFO] 2017-07-09 18:04:21,776: signal_shutdown [atexit]

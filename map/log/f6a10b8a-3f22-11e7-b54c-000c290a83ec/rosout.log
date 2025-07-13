@@ -1,0 +1,6 @@
+
+
+1495480506.408535441  Node Startup
+1495480506.841489049 INFO [/tmp/binarydeb/ros-kinetic-rviz-1.12.4/src/rviz/ogre_helpers/render_system.cpp:431(RenderWindow* rviz::RenderSystem::makeRenderWindow) [topics: /rosout] Stereo is NOT SUPPORTED
+1495480506.841633149 INFO [/tmp/binarydeb/ros-kinetic-rviz-1.12.4/src/rviz/ogre_helpers/render_system.cpp:209(RenderSystem::detectGlVersion) [topics: /rosout] OpenGl version: 2.1 (GLSL 1.2).
+1495480506.872098922 INFO [joint_state_publisher:374(center) [topics: /joint_states, /rosout] Centering

@@ -1,0 +1,13 @@
+
+
+0.000000000  Node Startup
+0.000000000 ERROR [/build/urdfdom-UJ3kd6/urdfdom-0.4.1/urdf_parser/src/model.cpp:226() [topics: /rosout, /initialpose, /goal] Failed to build tree: parent link [camera_link] of joint [camera_optical_joint] not found.  This is not valid according to the URDF spec. Every link you refer to from a joint needs to be explicitly defined in the robot description. To fix this problem you can either remove this joint [camera_optical_joint] from your urdf file, or add "<link name="camera_link" />" to your urdf file.
+0.000000000 INFO [/tmp/binarydeb/ros-kinetic-roscpp-1.12.17/src/libros/service.cpp:80(service::exists) [topics: /rosout] waitForService: Service [/gazebo/set_physics_properties] has not been advertised, waiting...
+0.000000000 INFO [/tmp/binarydeb/ros-kinetic-roscpp-1.12.17/src/libros/service.cpp:80(service::exists) [topics: /rosout] waitForService: Service [/gazebo/set_physics_properties] has not been advertised, waiting...
+0.000000000 INFO [/tmp/binarydeb/ros-kinetic-roscpp-1.12.17/src/libros/service.cpp:123(service::waitForService) [topics: /rosout, /clock, /gazebo/link_states, /gazebo/model_states] waitForService: Service [/gazebo/set_physics_properties] is now available.
+0.000000000 INFO [/tmp/binarydeb/ros-kinetic-roscpp-1.12.17/src/libros/service.cpp:123(service::waitForService) [topics: /rosout] waitForService: Service [/gazebo/set_physics_properties] is now available.
+84875.534000000 INFO [/tmp/binarydeb/ros-kinetic-gazebo-ros-2.5.21/src/gazebo_ros_api_plugin.cpp:2367(GazeboRosApiPlugin::physicsReconfigureThread) [topics: /rosout, /clock, /gazebo/link_states, /gazebo/model_states, /gazebo/parameter_descriptions, /gazebo/parameter_updates] Physics dynamic reconfigure ready.
+0.000000000 INFO [/tmp/binarydeb/ros-kinetic-gazebo-ros-2.5.21/src/gazebo_ros_api_plugin.cpp:2367(GazeboRosApiPlugin::physicsReconfigureThread) [topics: /rosout, /gazebo_gui/parameter_descriptions, /gazebo_gui/parameter_updates] Physics dynamic reconfigure ready.
+0.000000000 INFO [gazebo_interface.py:27(spawn_urdf_model_client) [topics: /clock, /rosout] Waiting for service /gazebo/spawn_urdf_model
+84875.748000000 INFO [gazebo_interface.py:31(spawn_urdf_model_client) [topics: /clock, /rosout] Calling service /gazebo/spawn_urdf_model
+84885.753000000 INFO [gazebo_interface.py:33(spawn_urdf_model_client) [topics: /clock, /rosout] Spawn status: SpawnModel: Entity pushed to spawn queue, but spawn service timed out waiting for entity to appear in simulation under the name my_robot

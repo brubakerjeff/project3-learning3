@@ -1,0 +1,34 @@
+[0m[ INFO] [1499650149.474751013]: Loading robot model 'kuka_arm'...[0m
+[0m[ INFO] [1499650149.828880830, 1079.925000000]: Loading robot model 'kuka_arm'...[0m
+[0m[ INFO] [1499650152.604802992, 1082.007000000]: Ready to take commands for planning group arm_group.[0m
+[0m[ INFO] [1499650153.006200678, 1082.390000000]: Ready to take commands for planning group gripper_group.[0m
+[0m[ INFO] [1499650153.018825951, 1082.396000000]: Loading robot model 'kuka_arm'...[0m
+[0m[ INFO] [1499650153.223499888, 1082.564000000]: Loading robot model 'kuka_arm'...[0m
+[0m[ INFO] [1499650153.432428183, 1082.759000000]: Added object list to the world[0m
+[0m[ INFO] [1499650154.594126725, 1083.762000000]: RemoteControl Ready.[0m
+
+[96mWaiting to continue: next step[0m[96m... continuing[0m
+[0m[ INFO] [1499650191.721556848, 1118.942000000]: Visualizing plan to target: SUCCEEDED[0m
+[0m[ INFO] [1499650191.721996572, 1118.943000000]: No planning scene passed into moveit_visual_tools, creating one.[0m
+[0m[ INFO] [1499650191.727390122, 1118.948000000]: Loading robot model 'kuka_arm'...[0m
+[0m[ INFO] [1499650191.927033454, 1119.121000000]: Loading robot model 'kuka_arm'...[0m
+[0m[ INFO] [1499650192.134844858, 1119.275000000]: Publishing maintained planning scene on ''[0m
+
+[96mWaiting to continue: next step[0m[96m... continuing[0m
+
+[96mWaiting to continue: next step[0m[96m... continuing[0m
+[0m[ INFO] [1499650295.293952609, 1205.003000000]: Target reach: SUCCEEDED[0m
+
+[96mWaiting to continue: next step[0m[96m... continuing[0m
+[0m[ INFO] [1499650304.985470273, 1213.101000000]: Gripper actuation: Closing SUCCEEDED[0m
+
+[96mWaiting to continue: next step[0m[96m... continuing[0m
+[0m[ INFO] [1499650319.538717478, 1225.083000000]: Target retrieval: SUCCEEDED[0m
+
+[96mWaiting to continue: next step[0m[96m... continuing[0m
+[0m[ INFO] [1499650319.871913582, 1225.350000000]: Visualizing plan to drop location: SUCCEEDED[0m
+
+[96mWaiting to continue: next step[0m[96m... continuing[0m
+[0m[ INFO] [1499650388.830085802, 1270.599000000]: Moving to drop location: SUCCEEDED[0m
+
+[96mWaiting to continue: next step[0m

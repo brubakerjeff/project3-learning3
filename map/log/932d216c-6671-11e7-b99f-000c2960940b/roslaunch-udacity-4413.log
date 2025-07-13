@@ -1,0 +1,84 @@
+[roslaunch][INFO] 2017-07-11 12:46:04,504: Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+[roslaunch][INFO] 2017-07-11 12:46:04,509: Done checking log file disk usage. Usage is <1GB.
+[roslaunch][INFO] 2017-07-11 12:46:04,510: roslaunch starting with args ['roscore', '--core']
+[roslaunch][INFO] 2017-07-11 12:46:04,510: roslaunch env is {'_': '/opt/ros/kinetic/bin/roscore', 'MANDATORY_PATH': '/usr/share/gconf/Lubuntu.mandatory.path', 'ROS_DISTRO': 'kinetic', '_LXSESSION_PID': '1312', 'ROS_LOG_FILENAME': '/home/robond/.ros/log/932d216c-6671-11e7-b99f-000c2960940b/roslaunch-udacity-4413.log', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/robond', 'PKG_CONFIG_PATH': '/opt/ros/kinetic/lib/pkgconfig:/opt/ros/kinetic/lib/x86_64-linux-gnu/pkgconfig', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'XDG_SESSION_TYPE': 'x11', 'ROSLISP_PACKAGE_DIRECTORIES': '', 'LOGNAME': 'robond', 'USER': 'robond', 'QT_PLATFORM_PLUGIN': 'lxqt', 'XDG_VTNR': '7', 'PATH': '/opt/ros/kinetic/bin:/home/robond/bin:/home/robond/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games', 'CMAKE_PREFIX_PATH': '/opt/ros/kinetic', 'LD_LIBRARY_PATH': '/opt/ros/kinetic/lib:/opt/ros/kinetic/lib/x86_64-linux-gnu', 'SSH_AGENT_PID': '1386', 'LANG': 'en_US.UTF-8', 'TERM': 'xterm', 'SHELL': '/bin/bash', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XAUTHORITY': '/home/robond/.Xauthority', 'LANGUAGE': 'en_US', 'SHLVL': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_QPA_PLATFORMTHEME': 'lxqt', 'TERMINATOR_UUID': 'urn:uuid:24c26b2d-eb28-46a6-bd64-aabadf6dfa9f', 'DISPLAY': ':0.0', 'WINDOWID': '29360131', 'EDITOR': 'nano -w', 'SVGA_VGPU10': '0', 'ROS_ETC_DIR': '/opt/ros/kinetic/etc/ros', 'HOME': '/home/robond', 'XDG_CONFIG_HOME': '/home/robond/.config', 'SAL_USE_VCLPLUGIN': 'gtk', 'XDG_RUNTIME_DIR': '/run/user/1000', 'PYTHONPATH': '/opt/ros/kinetic/lib/python2.7/dist-packages', 'ROS_IP': '172.16.244.111', 'SSH_AUTH_SOCK': '/tmp/ssh-zRG7qP3LQS5y/agent.1312', 'ROS_ROOT': '/opt/ros/kinetic/share/ros', 'GDMSESSION': 'Lubuntu', 'IBUS_DISABLE_SNOOPER': '1', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'ROS_PACKAGE_PATH': '/opt/ros/kinetic/share', 'XDG_CURRENT_DESKTOP': 'LXDE', 'XDG_SESSION_ID': 'c1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:abstract=/tmp/dbus-V0pXXkuHzY,guid=88bf7a78301744680aa89ab559651885', 'ORBIT_SOCKETDIR': '/tmp/orbit-robond', 'DESKTOP_SESSION': 'Lubuntu', 'XDG_CONFIG_DIRS': '/etc/xdg/lubuntu:/etc/xdg/xdg-Lubuntu:/etc/xdg', 'DEFAULTS_PATH': '/usr/share/gconf/Lubuntu.default.path', 'GDM_LANG': 'en_US', 'XDG_DATA_DIRS': '/etc/xdg/lubuntu:/usr/local/share:/usr/share:/usr/share/gdm:/var/lib/menu-xdg:/usr/share/Lubuntu:/usr/local/share/:/usr/share/', 'PWD': '/home/robond', 'ROS_MASTER_URI': 'http://localhost:11311', 'COLORTERM': 'gnome-terminal', 'XDG_MENU_PREFIX': 'lxde-', 'XDG_SESSION_DESKTOP': 'Lubuntu', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'XDG_SEAT': 'seat0'}
+[roslaunch][INFO] 2017-07-11 12:46:04,510: starting in server mode
+[roslaunch.parent][INFO] 2017-07-11 12:46:04,510: starting roslaunch parent run
+[roslaunch][INFO] 2017-07-11 12:46:04,510: loading roscore config file /opt/ros/kinetic/etc/ros/roscore.xml
+[roslaunch][INFO] 2017-07-11 12:46:04,621: Added core node of type [rosout/rosout] in namespace [/]
+[roslaunch.pmon][INFO] 2017-07-11 12:46:04,621: start_process_monitor: creating ProcessMonitor
+[roslaunch.pmon][INFO] 2017-07-11 12:46:04,621: created process monitor <ProcessMonitor(ProcessMonitor-1, initial daemon)>
+[roslaunch.pmon][INFO] 2017-07-11 12:46:04,621: start_process_monitor: ProcessMonitor started
+[roslaunch.parent][INFO] 2017-07-11 12:46:04,622: starting parent XML-RPC server
+[roslaunch.server][INFO] 2017-07-11 12:46:04,622: starting roslaunch XML-RPC server
+[roslaunch.server][INFO] 2017-07-11 12:46:04,622: waiting for roslaunch XML-RPC server to initialize
+[xmlrpc][INFO] 2017-07-11 12:46:04,622: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-07-11 12:46:04,622: Started XML-RPC server [http://172.16.244.111:35399/]
+[xmlrpc][INFO] 2017-07-11 12:46:04,622: xml rpc node: starting XML-RPC server
+[roslaunch][INFO] 2017-07-11 12:46:04,634: started roslaunch server http://172.16.244.111:35399/
+[roslaunch.parent][INFO] 2017-07-11 12:46:04,635: ... parent XML-RPC server started
+[roslaunch][INFO] 2017-07-11 12:46:04,635: master.is_running[http://172.16.244.111:11311/]
+[roslaunch][INFO] 2017-07-11 12:46:04,636: auto-starting new master
+[roslaunch][INFO] 2017-07-11 12:46:04,636: create_master_process: rosmaster, /opt/ros/kinetic/share/ros, 11311, 3, None
+[roslaunch][INFO] 2017-07-11 12:46:04,636: process[master]: launching with args [['rosmaster', '--core', '-p', '11311', '-w', '3']]
+[roslaunch.pmon][INFO] 2017-07-11 12:46:04,636: ProcessMonitor.register[master]
+[roslaunch.pmon][INFO] 2017-07-11 12:46:04,636: ProcessMonitor.register[master] complete
+[roslaunch][INFO] 2017-07-11 12:46:04,636: process[master]: starting os process
+[roslaunch][INFO] 2017-07-11 12:46:04,636: process[master]: start w/ args [['rosmaster', '--core', '-p', '11311', '-w', '3', '__log:=/home/robond/.ros/log/932d216c-6671-11e7-b99f-000c2960940b/master.log']]
+[roslaunch][INFO] 2017-07-11 12:46:04,636: process[master]: cwd will be [/home/robond/.ros]
+[roslaunch][INFO] 2017-07-11 12:46:04,640: process[master]: started with pid [4424]
+[roslaunch][INFO] 2017-07-11 12:46:04,640: master.is_running[http://172.16.244.111:11311/]
+[roslaunch][INFO] 2017-07-11 12:46:04,741: master.is_running[http://172.16.244.111:11311/]
+[roslaunch][INFO] 2017-07-11 12:46:04,842: master.is_running[http://172.16.244.111:11311/]
+[roslaunch][INFO] 2017-07-11 12:46:04,943: master.is_running[http://172.16.244.111:11311/]
+[roslaunch][INFO] 2017-07-11 12:46:04,947: master.is_running[http://172.16.244.111:11311/]
+[roslaunch][INFO] 2017-07-11 12:46:04,948: ROS_MASTER_URI=http://172.16.244.111:11311/
+[roslaunch][INFO] 2017-07-11 12:46:04,950: setting /run_id to 932d216c-6671-11e7-b99f-000c2960940b
+[roslaunch][INFO] 2017-07-11 12:46:04,952: setting /roslaunch/uris/host_172_16_244_111__35399' to http://172.16.244.111:35399/
+[roslaunch][INFO] 2017-07-11 12:46:04,956: ... preparing to launch node of type [rosout/rosout]
+[roslaunch][INFO] 2017-07-11 12:46:04,956: create_node_process: package[rosout] type[rosout] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://172.16.244.111:11311/]
+[roslaunch][INFO] 2017-07-11 12:46:04,956: process[rosout-1]: env[{'GDM_LANG': 'en_US', 'QT_QPA_PLATFORMTHEME': 'lxqt', 'ROS_DISTRO': 'kinetic', '_LXSESSION_PID': '1312', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/robond', 'ORBIT_SOCKETDIR': '/tmp/orbit-robond', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'XDG_SESSION_TYPE': 'x11', 'ROSLISP_PACKAGE_DIRECTORIES': '', 'LOGNAME': 'robond', 'USER': 'robond', 'QT_PLATFORM_PLUGIN': 'lxqt', 'XDG_VTNR': '7', 'PATH': '/opt/ros/kinetic/bin:/home/robond/bin:/home/robond/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games', 'CMAKE_PREFIX_PATH': '/opt/ros/kinetic', 'LD_LIBRARY_PATH': '/opt/ros/kinetic/lib:/opt/ros/kinetic/lib/x86_64-linux-gnu', 'SSH_AGENT_PID': '1386', 'LANG': 'en_US.UTF-8', 'TERM': 'xterm', 'SHELL': '/bin/bash', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XAUTHORITY': '/home/robond/.Xauthority', 'LANGUAGE': 'en_US', 'SHLVL': '1', 'XDG_SESSION_ID': 'c1', 'MANDATORY_PATH': '/usr/share/gconf/Lubuntu.mandatory.path', 'TERMINATOR_UUID': 'urn:uuid:24c26b2d-eb28-46a6-bd64-aabadf6dfa9f', 'ROS_LOG_FILENAME': '/home/robond/.ros/log/932d216c-6671-11e7-b99f-000c2960940b/roslaunch-udacity-4413.log', 'WINDOWID': '29360131', 'EDITOR': 'nano -w', 'SVGA_VGPU10': '0', 'ROS_MASTER_URI': 'http://172.16.244.111:11311/', 'HOME': '/home/robond', 'XDG_CONFIG_HOME': '/home/robond/.config', 'SAL_USE_VCLPLUGIN': 'gtk', 'XDG_RUNTIME_DIR': '/run/user/1000', 'PYTHONPATH': '/opt/ros/kinetic/lib/python2.7/dist-packages', 'SSH_AUTH_SOCK': '/tmp/ssh-zRG7qP3LQS5y/agent.1312', 'ROS_ROOT': '/opt/ros/kinetic/share/ros', 'GDMSESSION': 'Lubuntu', 'IBUS_DISABLE_SNOOPER': '1', 'PKG_CONFIG_PATH': '/opt/ros/kinetic/lib/pkgconfig:/opt/ros/kinetic/lib/x86_64-linux-gnu/pkgconfig', 'ROS_PACKAGE_PATH': '/opt/ros/kinetic/share', 'XDG_CURRENT_DESKTOP': 'LXDE', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'DBUS_SESSION_BUS_ADDRESS': 'unix:abstract=/tmp/dbus-V0pXXkuHzY,guid=88bf7a78301744680aa89ab559651885', '_': '/opt/ros/kinetic/bin/roscore', 'DEFAULTS_PATH': '/usr/share/gconf/Lubuntu.default.path', 'DESKTOP_SESSION': 'Lubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XDG_CONFIG_DIRS': '/etc/xdg/lubuntu:/etc/xdg/xdg-Lubuntu:/etc/xdg', 'ROS_IP': '172.16.244.111', 'XDG_DATA_DIRS': '/etc/xdg/lubuntu:/usr/local/share:/usr/share:/usr/share/gdm:/var/lib/menu-xdg:/usr/share/Lubuntu:/usr/local/share/:/usr/share/', 'PWD': '/home/robond', 'ROS_ETC_DIR': '/opt/ros/kinetic/etc/ros', 'COLORTERM': 'gnome-terminal', 'DISPLAY': ':0.0', 'XDG_MENU_PREFIX': 'lxde-', 'XDG_SESSION_DESKTOP': 'Lubuntu', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'XDG_SEAT': 'seat0'}]
+[roslaunch][INFO] 2017-07-11 12:46:04,992: process[rosout-1]: args[[u'/opt/ros/kinetic/lib/rosout/rosout', u'__name:=rosout']]
+[roslaunch][INFO] 2017-07-11 12:46:04,993: ... created process [rosout-1]
+[roslaunch.pmon][INFO] 2017-07-11 12:46:04,993: ProcessMonitor.register[rosout-1]
+[roslaunch.pmon][INFO] 2017-07-11 12:46:04,993: ProcessMonitor.register[rosout-1] complete
+[roslaunch][INFO] 2017-07-11 12:46:04,993: ... registered process [rosout-1]
+[roslaunch][INFO] 2017-07-11 12:46:04,993: process[rosout-1]: starting os process
+[roslaunch][INFO] 2017-07-11 12:46:04,993: process[rosout-1]: start w/ args [[u'/opt/ros/kinetic/lib/rosout/rosout', u'__name:=rosout', u'__log:=/home/robond/.ros/log/932d216c-6671-11e7-b99f-000c2960940b/rosout-1.log']]
+[roslaunch][INFO] 2017-07-11 12:46:04,993: process[rosout-1]: cwd will be [/home/robond/.ros]
+[roslaunch][INFO] 2017-07-11 12:46:04,998: process[rosout-1]: started with pid [4437]
+[roslaunch][INFO] 2017-07-11 12:46:04,998: ... successfully launched [rosout-1]
+[roslaunch][INFO] 2017-07-11 12:46:04,998: load_parameters starting ...
+[roslaunch][INFO] 2017-07-11 12:46:05,002: ... load_parameters complete
+[roslaunch][INFO] 2017-07-11 12:46:05,002: launch_nodes: launching local nodes ...
+[roslaunch][INFO] 2017-07-11 12:46:05,002: ... launch_nodes complete
+[roslaunch.pmon][INFO] 2017-07-11 12:46:05,002: registrations completed <ProcessMonitor(ProcessMonitor-1, started daemon 140327563425536)>
+[roslaunch.parent][INFO] 2017-07-11 12:46:05,003: ... roslaunch parent running, waiting for process exit
+[roslaunch][INFO] 2017-07-11 12:46:05,003: spin
+[roslaunch.pmon][INFO] 2017-07-11 12:50:31,397: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, started daemon 140327563425536)>
+[roslaunch.pmon][INFO] 2017-07-11 12:50:31,455: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 140327563425536)>
+[roslaunch.pmon][INFO] 2017-07-11 12:50:31,455: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 140327563425536)>: remaining procs are [<roslaunch.nodeprocess.LocalProcess object at 0x7fa08f33ab50>, <roslaunch.nodeprocess.LocalProcess object at 0x7fa08f33afd0>]
+[roslaunch.pmon][INFO] 2017-07-11 12:50:31,457: ProcessMonitor exit: killing rosout-1
+[roslaunch][INFO] 2017-07-11 12:50:31,457: [rosout-1] killing on exit
+[roslaunch][INFO] 2017-07-11 12:50:31,457: process[rosout-1]: killing os process with pid[4437] pgid[4437]
+[roslaunch][INFO] 2017-07-11 12:50:31,457: [rosout-1] sending SIGINT to pgid [4437]
+[roslaunch][INFO] 2017-07-11 12:50:31,458: [rosout-1] sent SIGINT to pgid [4437]
+[roslaunch][INFO] 2017-07-11 12:50:31,758: process[rosout-1]: SIGINT killed with return value 0
+[roslaunch.pmon][INFO] 2017-07-11 12:50:31,759: ProcessMonitor exit: killing master
+[roslaunch][INFO] 2017-07-11 12:50:31,759: [master] killing on exit
+[roslaunch][INFO] 2017-07-11 12:50:31,759: process[master]: killing os process with pid[4424] pgid[4424]
+[roslaunch][INFO] 2017-07-11 12:50:31,759: [master] sending SIGINT to pgid [4424]
+[roslaunch][INFO] 2017-07-11 12:50:31,759: [master] sent SIGINT to pgid [4424]
+[roslaunch][INFO] 2017-07-11 12:50:31,961: process[master]: SIGINT killed with return value 0
+[roslaunch.pmon][INFO] 2017-07-11 12:50:31,962: ProcessMonitor exit: cleaning up data structures and signals
+[roslaunch.pmon][INFO] 2017-07-11 12:50:31,962: ProcessMonitor exit: pmon has shutdown
+[roslaunch][INFO] 2017-07-11 12:50:31,970: process monitor is done spinning, initiating full shutdown
+[roslaunch][INFO] 2017-07-11 12:50:31,970: runner.stop()
+[roslaunch][INFO] 2017-07-11 12:50:31,970: shutting down processing monitor...
+[roslaunch][INFO] 2017-07-11 12:50:31,971: shutting down processing monitor <ProcessMonitor(ProcessMonitor-1, stopped daemon 140327563425536)>
+[roslaunch.pmon][INFO] 2017-07-11 12:50:31,971: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, stopped daemon 140327563425536)>
+[roslaunch][INFO] 2017-07-11 12:50:31,971: ... shutting down processing monitor complete
+[roslaunch][INFO] 2017-07-11 12:50:31,971: done
+[roslaunch.pmon][INFO] 2017-07-11 12:50:31,971: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, stopped daemon 140327563425536)>
+[rospy.core][INFO] 2017-07-11 12:50:31,971: signal_shutdown [atexit]
